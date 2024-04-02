@@ -75,7 +75,7 @@ class CatalogController < ApplicationController
     config.show.document_component = Arclight::DocumentComponent
     config.show.sidebar_component = Arclight::SidebarComponent
     config.show.breadcrumb_component = Arclight::BreadcrumbsHierarchyComponent
-    config.show.embed_component = Arclight::EmbedComponent
+    config.show.embed_component = UniversalViewer
     config.show.access_component = Arclight::AccessComponent
     config.show.online_status_component = Arclight::OnlineStatusIndicatorComponent
     config.show.display_type_field = 'level_ssm'
