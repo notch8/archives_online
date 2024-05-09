@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"><eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511"><eadid countrycode="US" mainagencycode="US-InU">InU-Li-VAD1572</eadid><filedesc><titlestmt><titleproper type="filing">Bradbury mss., 1959</titleproper><titleproper>Bradbury mss., 1959 <num>LMC 1120</num></titleproper><subtitle>Papers of Ray Douglas Bradbury, 1959, at the Lilly Library, Indiana University</subtitle><author>Mary McSparran</author></titlestmt><publicationstmt><publisher>Lilly Library</publisher><p id="logostmt"><extref xlink:actuate="onLoad" xlink:href="http://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/lilly.png" xlink:show="embed" xlink:type="simple"/></p><p><date>12/12/2020</date></p><address><addressline>1200 E. Seventh St.</addressline><addressline>Bloomington, Indiana 47405-5500</addressline><addressline>Business Number: 812-855-2452</addressline><addressline>liblilly@indiana.edu</addressline><addressline>URL: <extptr xlink:href="https://libraries.indiana.edu/lilly-library" xlink:show="new" xlink:title="https://libraries.indiana.edu/lilly-library" xlink:type="simple"/></addressline></address></publicationstmt></filedesc><profiledesc><creation>This finding aid was produced using ArchivesSpace on <date>2024-03-24 21:57:28 -0400</date>.</creation><langusage>Description is written in: <language langcode="eng" scriptcode="Latn">English, Latin script</language>.</langusage></profiledesc><revisiondesc><change audience="internal"><date>January 22, 2014</date><item>Encoded finding aid started.</item></change><change><date>February 25, 2014</date><item>Encoded finding aid completed.</item></change><change audience="internal"><date>November 29, 2017</date><item>Batch update to change subject links.</item></change></revisiondesc></eadheader><archdesc level="collection">
+  <did>
+    <repository>
+      <corpname>Lilly Library</corpname>
+    </repository>
+    <unittitle>Bradbury mss.</unittitle>
+    <origination audience="internal" label="Creator">
+      <persname>Bradbury, Ray, 1920-2012</persname>
+    </origination>
+    <unitid>LMC 1120</unitid>
+    <physdesc altrender="whole">
+      <extent altrender="materialtype spaceoccupied">1 folio</extent>
+    </physdesc>
+    <unitdate datechar="creation" normal="1959/1959" type="inclusive">1959</unitdate>
+    <abstract id="aspace_d619e4bf3ed28d645bf3daefbff5b766">The Bradbury mss., 1959, consists of the correspondence of science fiction writer Ray Douglas Bradbury, 1920-2012.</abstract>
+    <physloc audience="internal" id="aspace_27fbcd090be23a4beecfd082a0046e55">Lilly - Folio</physloc>
+    <langmaterial>
+      <language langcode="eng" scriptcode="Latn">English</language>
+.    </langmaterial>
+  </did>
+  <accessrestrict id="aspace_f1bc8d25aa041219a50c52caf2fa3d5f">
+    <head>Conditions Governing Access</head>
+<p>This collection is open for research.</p><p>Many collections are housed offsite; retrieval requires advance notice. Please <extref xlink:href="https://libraries.indiana.edu/lilly-library/ask">make an appointment</extref> a minimum of one week in advance of your visit.</p>  </accessrestrict>
+  <userestrict id="aspace_680adb68bbb6d3f51774c02effec04b6">
+    <head>Conditions Governing Use</head>
+<p>Photography and digitization may be restricted for some collections. Copyright restrictions may apply. Before publishing, researchers are responsible for securing permission from all applicable rights holders, then filling out the <extref xlink:href="https://libraries.indiana.edu/lilly-library/permission-to-publish" xlink:show="new" xlink:actuate="onrequest">Permission to Publish form.</extref></p>  </userestrict>
+  <acqinfo id="aspace_05f380e6c7ae83270cecf466be21657d">
+    <head>Immediate Source of Acquisition</head>
+<p>Acquired: 1971</p>  </acqinfo>
+  <bioghist id="aspace_7b9478e9c7f1c7635053f4be2b30f253">
+    <head>Biographical Note</head>
+<p>Ray Douglas Bradbury was born on August 22, 1920, in Waukegan, IL, to Leonard Spaulding Bradbury and Esther Marie Moberg; in the mid-1930s, he moved with his family to Los Angeles, CA. At the age of sixteen, Bradbury began his literary career by publishing the poem "In Memory of Will Rogers" in the Waukegan <emph>News-Sun</emph>. After saving up lunch money for a typewriter and graduating high school in 1938, Bradbury sold newspapers to support his burgeoning career as a professional writer. He published numerous short stories in fan magazines and made a big break in 1941 with the selling of "Pendulum," a story he co-authored with Henry Hasse, to Super Science Stories. By 1942, he made enough sales to support himself as a writer. On September 27, 1947, Bradbury married Marguerite Susan McClure, and they raised four daughters together. Bradbury's distinguished and prolific eight-decade literary career, which was most notable for its contribution to science fiction but also ventured into fantasy, horror, and mystery, included such seminal works as <emph>Dark Carnival</emph> (1947), <emph>The Martian Chronicles</emph> (1950), <emph>The Illustrated Man</emph> (1951), <emph>Fahrenheit 451</emph> (1953), and <emph>Something Wicked This Way Comes</emph> (1962). In the early 1950s, he did some work with director John Huston, who had an interest in making a film adaptation of <emph>The Martian Chronicles</emph>, but the project was never realized; Bradbury wrote the screenplay for Huston's <emph>Moby Dick</emph> (1956) instead during a six-month stay in Ireland. Bradbury had a television series,  <emph>The Ray Bradbury Theatre</emph> (1985-1992), for which he wrote many of the episodes. His achievements were recognized with awards from the National Book Foundation, the Pulitzer Prize Board, the PEN Center USA, the National Endowment for the Arts, and the Science Fiction and Fantasy Writers of America. In his obituary, <emph>The New York Times</emph> wrote of Bradbury: "By many estimations, Mr. Bradbury was the writer most responsible for bringing modern science fiction into the literary mainstream." He passed away on June 5, 2012, in Los Angeles, at the age of 91.</p>  </bioghist>
+  <scopecontent id="aspace_0429b106d0631767c2338b222c418112">
+    <head>Scope and Contents</head>
+<p>Collection consists of Ray Bradbury's letters to writer-producer Sidney Carroll, in which Bradbury expresses his wish to be on <emph>The Jack Paar Show</emph> and mentions <emph>The Martian Chronicles</emph> and <emph>Rocket Summer</emph>. Included are a holograph letter and a Christmas card.</p>  </scopecontent>
+  <arrangement audience="internal" id="aspace_d7a91106014654c1b07d0e6d59d0fffe">
+    <head>Arrangement</head>
+<p>This collection is arranged following original order.</p>  </arrangement>
+  <processinfo id="aspace_67a6e21c5cf232f830d66a666659061b">
+    <head>Processing Information</head>
+<p>Processed by Staff. Completed in 2013.</p>  </processinfo>
+  <prefercite id="aspace_89c17ae8f398955110397f409c6af590">
+    <head>Preferred Citation</head>
+<p>[Item], Bradbury mss., Lilly Library, Indiana University, Bloomington, Indiana.</p>  </prefercite>
+  <relatedmaterial id="aspace_40d7be5ab06c2035fbf2b59c5ab58366">
+    <head>Related Materials</head>
+<p>Bradbury mss. II and Bradbury mss. III, also located at the Lilly Library, Indiana University, Bloomington, Indiana.</p>  </relatedmaterial>
+  <controlaccess>
+    <subject source="lcsh">Science fiction, American.</subject>
+    <persname source="lcnaf">Bradbury, Ray, 1920-2012 --Correspondence.</persname>
+    <persname source="lcnaf">Carroll, Sidney --Correspondence.</persname>
+    <corpname source="lcnaf">Jack Paar Show (Television program).</corpname>
+  </controlaccess>
+  <dsc><c01 id="aspace_VAD1572-00001" level="item"><did><unittitle>Letter to Sid Carroll</unittitle><unitdate datechar="creation" normal="1959-07-05/1959-07-05">5 July 1959</unitdate><container id="aspace_3f07df476562a8c66ea38018b9e737a4" label="Mixed Materials" type="foliobox">2</container></did></c01><c01 id="aspace_VAD1572-00002" level="item"><did><unittitle>Letter to Sid Carroll</unittitle><unitdate datechar="creation" normal="1959-09-25/1959-09-25">25 Sept 1959</unitdate><container id="aspace_b29339605a9937a3dac3314888de8a0d" label="Mixed Materials" type="foliobox">2</container></did></c01><c01 id="aspace_VAD1572-00003" level="item"><did><unittitle>Letter to Sid Carroll</unittitle><unitdate datechar="creation" normal="1959-10-14/1959-10-14">14 Oct 1959</unitdate><container id="aspace_05e08721987a05b9f9aba1bb6598358f" label="Mixed Materials" type="foliobox">2</container></did></c01><c01 id="aspace_VAD1572-00004" level="item"><did><unittitle>Holograph letter to Sid Carroll</unittitle><unitdate datechar="creation" normal="1959/1959">1959</unitdate><container id="aspace_bb3f6d7b2af1ee3fe55b00078b58c6c2" label="Mixed Materials" type="foliobox">2</container></did></c01><c01 id="aspace_VAD1572-00005" level="item"><did><unittitle>Christmas card, signed<emph render="doublequote">Ray &amp; Maggie Bradbury &amp; the girls</emph></unittitle><unitdate datechar="creation" normal="1959/1959">undated</unitdate><container id="aspace_2ee67002e3fe3fd0158e19e4f5be2fc3" label="Mixed Materials" type="foliobox">2</container></did></c01></dsc>
+</archdesc>
+</ead>
