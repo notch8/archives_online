@@ -1,0 +1,104 @@
+x-app: &app
+  build:
+    context: .
+    target: base
+    args:
+      BUILDKIT_INLINE_CACHE: 1
+    cache_from:
+      - ghcr.io/scientist-softserv/archives_online/base:latest
+      - ghcr.io/scientist-softserv/archives_online:latest
+  image: ghcr.io/scientist-softserv/archives_online:${TAG:-latest}
+  env_file:
+    - .env
+  volumes:
+    - .:/home/app/webapp
+    - node_modules:/home/app/webapp/node_modules
+    - tmp:/home/app/webapp/tmp
+    - public:/app/samvera/hyrax-webapp/public
+  networks:
+    internal:
+
+volumes:
+  mysql:
+  node_modules:
+  public:
+  solr:
+  tmp:
+
+networks:
+  internal:
+
+services:
+  base:
+    <<: *app
+    image: ghcr.io/scientist-softserv/archives_online/base:${TAG:-latest}
+    build:
+      context: .
+      target: base
+      cache_from:
+        - ghcr.io/scientist-softserv/archives_online/base:latest
+      args:
+        BUILDKIT_INLINE_CACHE: 1
+
+  web:
+    <<: *app
+    build:
+      context: .
+      target: web
+    expose:
+      - 3000
+    environment:
+      - VIRTUAL_HOST=indiana-arclight.test
+      - VIRTUAL_PORT=80
+    depends_on:
+      - mysql
+      - solr
+
+  mysql:
+    platform: "linux/amd64"
+    image: mysql:5.7
+    env_file:
+      - .env
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: indiana_arclight
+      MYSQL_USER: indiana_arclight
+      MYSQL_PASSWORD: DatabaseFTW
+    expose:
+      - 3306
+    volumes:
+      - mysql:/var/lib/mysql
+    networks:
+      - internal
+
+  mailhog:
+    image: mailhog/mailhog
+    environment:
+      - VIRTUAL_PORT=8025
+      - VIRTUAL_HOST=mailhog.indiana-arclight.test
+    ports:
+      - "8025:8025"
+    networks:
+      - internal
+
+  solr:
+    image: solr:8.3
+    env_file:
+      - .env
+    environment:
+      - SOLR_CORE=indiana-arclight
+      - VIRTUAL_PORT=8983
+      - VIRTUAL_HOST=solr.indiana-arclight.test
+    expose:
+      - 8983
+    volumes:
+      - './solr/conf:/opt/solr/conf'
+    entrypoint:
+      - docker-entrypoint.sh
+      - solr-precreate
+      - blacklight-core
+      - /opt/solr/conf
+      - "-Xms256m"
+      - "-Xmx512m"
+    networks:
+      - internal
