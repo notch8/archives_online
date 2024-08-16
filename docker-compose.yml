@@ -86,7 +86,7 @@ services:
     env_file:
       - .env
     environment:
-      - SOLR_CORE=indiana-arclight
+      - SOLR_CORE=blacklight-core
       - VIRTUAL_PORT=8983
       - VIRTUAL_HOST=solr.indiana-arclight.test
     expose:
