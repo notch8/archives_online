@@ -132,10 +132,9 @@ mysql:
     tag: 8.4.2-debian-12-r2
   architecture: standalone
   auth:
-    rootPassword: $MYSQL_ROOT_PASSWORD
     database: indiana_arclight
     username: archives-online
-    password: $DATABASE_PASSWORD
+    existingSecret: "mysql-secret"
     persistence:
       enabled: true
       size: 8Gi
