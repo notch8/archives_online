@@ -1,5 +1,4 @@
 apiVersion: v2
-name: chart
 description: Archives Online, an application supporting discovery of archival materials, based on ArcLight
 type: application
 version: 0.1.0
