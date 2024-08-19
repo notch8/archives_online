@@ -28,6 +28,11 @@ imagePullSecrets:
 nameOverride: ""
 fullnameOverride: ""
 
+shared:
+  storage:
+    size: 1Gi
+    className: nfs
+
 ingress:
   enabled: true
   hosts:
@@ -65,7 +70,7 @@ env:
     - name: DATABASE_ADAPTER
       value: mysql2
     - name: DATABASE_HOST
-      value: mysql.archives-online-staging.svc.cluster.local
+      value: archives-online-staging-mysql
     - name: DATABASE_USER
       value: archives-online
     - name: DATABASE_NAME
