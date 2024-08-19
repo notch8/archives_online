@@ -81,3 +81,4 @@ gem "sassc-rails", "~> 2.1"
 gem "devise"
 gem "devise-guests", "~> 0.8"
 gem "blacklight-locale_picker"
+gem 'rubocop', '>= 1.0', group: %i[development test]
