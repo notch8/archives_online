@@ -22,130 +22,6 @@ imagePullSecrets:
 nameOverride: ""
 fullnameOverride: ""
 
-serviceAccount:
-  # Specifies whether a service account should be created
-  create: true
-  # Automatically mount a ServiceAccount's API credentials?
-  automount: true
-  # Annotations to add to the service account
-  annotations: {}
-  # The name of the service account to use.
-  # If not set and create is true, a name is generated using the fullname template
-  name: ""
-
-podAnnotations: {}
-podLabels: {}
-
-podSecurityContext: {}
-  # fsGroup: 2000
-
-securityContext: {}
-  # capabilities:
-  #   drop:
-  #   - ALL
-  # readOnlyRootFilesystem: true
-  # runAsNonRoot: true
-  # runAsUser: 1000
-
-service:
-  type: ClusterIP
-  port: 80
-
-ingress:
-  enabled: false
-  className: ""
-  annotations: {}
-    # kubernetes.io/ingress.class: nginx
-    # kubernetes.io/tls-acme: "true"
-  hosts:
-    - host: chart-example.local
-      paths:
-        - path: /
-          pathType: ImplementationSpecific
-  tls: []
-  #  - secretName: chart-example-tls
-  #    hosts:
-  #      - chart-example.local
-
-resources: {}
-  # We usually recommend not to specify default resources and to leave this as a conscious
-  # choice for the user. This also increases chances charts run on environments with little
-  # resources, such as Minikube. If you do want to specify resources, uncomment the following
-  # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
-  # limits:
-  #   cpu: 100m
-  #   memory: 128Mi
-  # requests:
-  #   cpu: 100m
-  #   memory: 128Mi
-
-autoscaling:
-  enabled: false
-  minReplicas: 1
-  maxReplicas: 100
-  targetCPUUtilizationPercentage: 80
-  # targetMemoryUtilizationPercentage: 80
-
-# Additional volumes on the output Deployment definition.
-volumes: []
-# - name: foo
-#   secret:
-#     secretName: mysecret
-#     optional: false
-
-# Additional volumeMounts on the output Deployment definition.
-volumeMounts: []
-# - name: foo
-#   mountPath: "/etc/foo"
-#   readOnly: true
-
-nodeSelector: {}
-
-tolerations: []
-
-affinity: {}
-
-
-
-
-#####
-replicaCount: 1
-
-livenessProbe:
-  enabled: false
-readinessProbe:
-  enabled: false
-
-# brandingVolume:
-#   storageClass: aws-efs
-# derivativesVolume:
-#   storageClass: aws-efs
-# uploadsVolume:
-#   storageClass: aws-efs
-#   size: 200Gi
-
-
-
-extraVolumeMounts: &volMounts
-  - name: uploads
-    mountPath: /app/samvera/hyrax-webapp/tmp/imports
-    subPath: imports
-  - name: uploads
-    mountPath: /app/samvera/hyrax-webapp/tmp/exports
-    subPath: exports
-  - name: uploads
-    mountPath: /app/samvera/hyrax-webapp/public/system
-    subPath: public-system
-  - name: uploads
-    mountPath: /app/samvera/hyrax-webapp/public/uploads
-    subPath: public-uploads
-  - name: uploads
-    mountPath: /app/samvera/hyrax-webapp/tmp/network_files
-    subPath: network-files
-  - name: uploads
-    mountPath: /app/samvera/hyrax-webapp/storage/files
-    subPath: storage-files
-
 ingress:
   enabled: true
   hosts:
@@ -163,13 +39,61 @@ ingress:
         - indiana-arclight.notch8.cloud
       secretName: indiana-arclight-tls
 
+# Additional volumes on the output Deployment definition.
+volumes: []
+# - name: foo
+#   secret:
+#     secretName: mysecret
+#     optional: false
+
+# Additional volumeMounts on the output Deployment definition.
+volumeMounts: []
+# - name: foo
+#   mountPath: "/etc/foo"
+#   readOnly: true
+
+# livenessProbe:
+#   enabled: false
+# readinessProbe:
+#   enabled: false
+
+# brandingVolume:
+#   storageClass: aws-efs
+# derivativesVolume:
+#   storageClass: aws-efs
+# uploadsVolume:
+#   storageClass: aws-efs
+#   size: 200Gi
+
+# extraVolumeMounts: &volMounts
+#   - name: uploads
+#     mountPath: /app/samvera/hyrax-webapp/tmp/imports
+#     subPath: imports
+#   - name: uploads
+#     mountPath: /app/samvera/hyrax-webapp/tmp/exports
+#     subPath: exports
+#   - name: uploads
+#     mountPath: /app/samvera/hyrax-webapp/public/system
+#     subPath: public-system
+#   - name: uploads
+#     mountPath: /app/samvera/hyrax-webapp/public/uploads
+#     subPath: public-uploads
+#   - name: uploads
+#     mountPath: /app/samvera/hyrax-webapp/tmp/network_files
+#     subPath: network-files
+#   - name: uploads
+#     mountPath: /app/samvera/hyrax-webapp/storage/files
+#     subPath: storage-files
+
+
+
 extraEnvVars: &envVars
   - name: CONFDIR
     value: "/home/app/webapp/solr/conf"
   - name: DATABASE_ADAPTER
     value: mysql2
   - name: DATABASE_HOST
-    value:
+    value: mysql.indiana-arclight-staging.svc.cluster.local
   - name: DATABASE_USER
     value: indiana-arclight
   - name: DATABASE_PASSWORD
@@ -186,6 +110,8 @@ extraEnvVars: &envVars
     value: indiana-arclight
   - name: SOLR_CONFIGSET_NAME
     value: indiana-arclight
+  - name: SOLR_CORE
+    value: indiana-arclight
   - name: SOLR_HOST
     value: solr.staging-solr
   - name: SOLR_PORT
@@ -200,12 +126,16 @@ extraEnvVars: &envVars
   #   value: $SENTRY_ENVIRONMENT
 
 mysql:
+  image:
+    registry: docker.io
+    repository: bitnami/mysql
+    tag: 8.4.2-debian-12-r2
+  architecture: standalone
   auth:
     rootPassword: $MYSQL_ROOT_PASSWORD
+    database: indiana_arclight
     username: indiana-arclight
     password: $DATABASE_PASSWORD
-    database: indiana_arclight
-  primary:
     persistence:
       enabled: true
       size: 8Gi
