@@ -55,8 +55,8 @@ services:
       - solr
 
   mysql:
-    platform: "linux/amd64"
-    image: mysql:5.7
+    platform: linux/amd64
+    image: mysql:8.4.2
     env_file:
       - .env
     environment:
@@ -86,7 +86,6 @@ services:
     env_file:
       - .env
     environment:
-      - SOLR_CORE=blacklight-core
       - VIRTUAL_PORT=8983
       - VIRTUAL_HOST=solr.indiana-arclight.test
     expose:
@@ -96,7 +95,7 @@ services:
     entrypoint:
       - docker-entrypoint.sh
       - solr-precreate
-      - blacklight-core
+      - ${SOLR_CORE}
       - /opt/solr/conf
       - "-Xms256m"
       - "-Xmx512m"
