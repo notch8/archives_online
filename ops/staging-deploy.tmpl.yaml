@@ -36,7 +36,7 @@ shared:
 ingress:
   enabled: true
   hosts:
-    - host: archives-online.notch8.cloud
+    - host: archives-online-staging.notch8.cloud
       paths:
         - path: /
           pathType: ImplementationSpecific
@@ -47,28 +47,15 @@ ingress:
   }
   tls:
     - hosts:
-        - archives-online.notch8.cloud
+        - archives-online-staging.notch8.cloud
       secretName: archives-online-tls
-
-# Additional volumes on the output Deployment definition.
-volumes: []
-# - name: foo
-#   secret:
-#     secretName: mysecret
-#     optional: false
-
-# Additional volumeMounts on the output Deployment definition.
-volumeMounts: []
-# - name: foo
-#   mountPath: "/etc/foo"
-#   readOnly: true
 
 env:
   configmap:
     CONFDIR: /home/app/webapp/solr/conf
     DATABASE_ADAPTER: mysql2
     DATABASE_HOST: archives-online-staging-mysql
-    DATABASE_NAME: indiana_arclight
+    DATABASE_NAME: archives_online
     DATABASE_PASSWORD: $DATABASE_PASSWORD
     DATABASE_USER: archives-online
     MYSQL_ROOT_PASSWORD: $MYSQL_ROOT_PASSWORD
@@ -90,7 +77,7 @@ mysql:
     tag: 8.4.2-debian-12-r2
   architecture: standalone
   auth:
-    database: indiana_arclight
+    database: archives_online
     username: archives-online
     existingSecret: "mysql-secret"
     persistence:

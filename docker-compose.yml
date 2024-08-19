@@ -61,8 +61,8 @@ services:
       - .env
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: indiana_arclight
-      MYSQL_USER: indiana_arclight
+      MYSQL_DATABASE: archives-online
+      MYSQL_USER: archives-online
       MYSQL_PASSWORD: DatabaseFTW
     expose:
       - 3306

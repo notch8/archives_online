@@ -1,9 +1,9 @@
 default: &default
   adapter: <%= ENV['DATABASE_ADAPTER'] || 'mysql2' %>
   host: <%= ENV['DATABASE_HOST'] || 'localhost' %>
-  username: <%= ENV['DATABASE_USER'] || 'indiana_arclight' %>
+  username: <%= ENV['DATABASE_USER'] || 'archives-online' %>
   password: <%= ENV['DATABASE_PASSWORD'] %>
-  database: <%= ENV['DATABASE_NAME'] || 'indiana_arclight' %>
+  database: <%= ENV['DATABASE_NAME'] || 'archives_online' %>
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
@@ -12,7 +12,7 @@ development:
 
 test:
   <<: *default
-  database: <%= ENV['TEST_DB'] || 'indiana_arclight_test' %>
+  database: <%= ENV['TEST_DB'] || 'archives_online_test' %>
 
 staging:
   <<: *default
