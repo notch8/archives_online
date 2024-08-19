@@ -57,7 +57,7 @@ docker compose up
 
 It will take some time for the application to start up, and a bit longer if it's the first startup. When you see `Passenger core running in multi-application mode.` or `Listening on tcp://0.0.0.0:3000` in the logs, the application is ready.
 
-If you used Dory, the application will be available from the browser at `http://indiana-arclight.test`.
+If you used Dory, the application will be available from the browser at `http://archives-online.test`.
 
 **You are now ready to start using archives_online!**
 

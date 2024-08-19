@@ -48,7 +48,7 @@ services:
     expose:
       - 3000
     environment:
-      - VIRTUAL_HOST=indiana-arclight.test
+      - VIRTUAL_HOST=archives-online.test
       - VIRTUAL_PORT=80
     depends_on:
       - mysql
@@ -75,7 +75,7 @@ services:
     image: mailhog/mailhog
     environment:
       - VIRTUAL_PORT=8025
-      - VIRTUAL_HOST=mailhog.indiana-arclight.test
+      - VIRTUAL_HOST=mailhog.archives-online.test
     ports:
       - "8025:8025"
     networks:
@@ -87,7 +87,7 @@ services:
       - .env
     environment:
       - VIRTUAL_PORT=8983
-      - VIRTUAL_HOST=solr.indiana-arclight.test
+      - VIRTUAL_HOST=solr.archives-online.test
     expose:
       - 8983
     volumes:

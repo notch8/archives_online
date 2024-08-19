@@ -25,7 +25,7 @@ fullnameOverride: ""
 ingress:
   enabled: true
   hosts:
-    - host: indiana-arclight.notch8.cloud
+    - host: archives-online.notch8.cloud
       paths:
         - path: /
           pathType: ImplementationSpecific
@@ -36,8 +36,8 @@ ingress:
   }
   tls:
     - hosts:
-        - indiana-arclight.notch8.cloud
-      secretName: indiana-arclight-tls
+        - archives-online.notch8.cloud
+      secretName: archives-online-tls
 
 # Additional volumes on the output Deployment definition.
 volumes: []
@@ -93,9 +93,9 @@ extraEnvVars: &envVars
   - name: DATABASE_ADAPTER
     value: mysql2
   - name: DATABASE_HOST
-    value: mysql.indiana-arclight-staging.svc.cluster.local
+    value: mysql.archives-online-staging.svc.cluster.local
   - name: DATABASE_USER
-    value: indiana-arclight
+    value: archives-online
   - name: DATABASE_PASSWORD
     value: $DATABASE_PASSWORD
   - name: DATABASE_NAME
@@ -107,11 +107,11 @@ extraEnvVars: &envVars
   - name: SOLR_ADMIN_PASSWORD
     value: $SOLR_ADMIN_PASSWORD
   - name: SOLR_COLLECTION_NAME
-    value: indiana-arclight
+    value: archives-online
   - name: SOLR_CONFIGSET_NAME
-    value: indiana-arclight
+    value: archives-online
   - name: SOLR_CORE
-    value: indiana-arclight
+    value: archives-online
   - name: SOLR_HOST
     value: solr.staging-solr
   - name: SOLR_PORT
@@ -134,7 +134,7 @@ mysql:
   auth:
     rootPassword: $MYSQL_ROOT_PASSWORD
     database: indiana_arclight
-    username: indiana-arclight
+    username: archives-online
     password: $DATABASE_PASSWORD
     persistence:
       enabled: true
@@ -142,7 +142,7 @@ mysql:
 
 externalSolrHost: solr.staging-solr.svc.cluster.local
 externalSolrUser: admin
-externalSolrCollection: "indiana-arclight"
+externalSolrCollection: "archives-online"
 externalSolrPassword: $SOLR_ADMIN_PASSWORD
 
 nginx:

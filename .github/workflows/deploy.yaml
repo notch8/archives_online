@@ -20,3 +20,6 @@ jobs:
   deploy:
     uses: scientist-softserv/actions/.github/workflows/deploy.yaml@v0.0.22
     secrets: inherit
+    with:
+      k8s-release-name: archives-online-staging
+      k8s-namespace: archives-online-staging
