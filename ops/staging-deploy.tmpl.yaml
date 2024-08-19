@@ -2,11 +2,17 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
+## Need to set these environment variables,
+## we set them through github environment secrets:
 # SOLR_ADMIN_PASSWORD
 # MYSQL_ROOT_PASSWORD
 # SECRET_KEY_BASE
 # DATABASE_PASSWORD
-# DATABASE_HOST=
+
+## If you are using our heml_deploy script,
+## you can set these environment variables,
+## you have to base64 encode the values:
+# KUBECONFIG_FILE
 
 replicaCount: 1
 
@@ -52,78 +58,46 @@ volumeMounts: []
 #   mountPath: "/etc/foo"
 #   readOnly: true
 
-# livenessProbe:
-#   enabled: false
-# readinessProbe:
-#   enabled: false
-
-# brandingVolume:
-#   storageClass: aws-efs
-# derivativesVolume:
-#   storageClass: aws-efs
-# uploadsVolume:
-#   storageClass: aws-efs
-#   size: 200Gi
-
-# extraVolumeMounts: &volMounts
-#   - name: uploads
-#     mountPath: /app/samvera/hyrax-webapp/tmp/imports
-#     subPath: imports
-#   - name: uploads
-#     mountPath: /app/samvera/hyrax-webapp/tmp/exports
-#     subPath: exports
-#   - name: uploads
-#     mountPath: /app/samvera/hyrax-webapp/public/system
-#     subPath: public-system
-#   - name: uploads
-#     mountPath: /app/samvera/hyrax-webapp/public/uploads
-#     subPath: public-uploads
-#   - name: uploads
-#     mountPath: /app/samvera/hyrax-webapp/tmp/network_files
-#     subPath: network-files
-#   - name: uploads
-#     mountPath: /app/samvera/hyrax-webapp/storage/files
-#     subPath: storage-files
-
-
-
-extraEnvVars: &envVars
-  - name: CONFDIR
-    value: "/home/app/webapp/solr/conf"
-  - name: DATABASE_ADAPTER
-    value: mysql2
-  - name: DATABASE_HOST
-    value: mysql.archives-online-staging.svc.cluster.local
-  - name: DATABASE_USER
-    value: archives-online
-  - name: DATABASE_PASSWORD
-    value: $DATABASE_PASSWORD
-  - name: DATABASE_NAME
-    value: indiana_arclight
-  - name: PASSENGER_APP_ENV
-    value: production
-  - name: SOLR_ADMIN_USER
-    value: admin
-  - name: SOLR_ADMIN_PASSWORD
-    value: $SOLR_ADMIN_PASSWORD
-  - name: SOLR_COLLECTION_NAME
-    value: archives-online
-  - name: SOLR_CONFIGSET_NAME
-    value: archives-online
-  - name: SOLR_CORE
-    value: archives-online
-  - name: SOLR_HOST
-    value: solr.staging-solr
-  - name: SOLR_PORT
-    value: "8983"
-  - name: SOLR_URL
-    value: http://admin:$SOLR_ADMIN_PASSWORD@solr.staging-solr:8983/solr/
-  - name: SECRET_KEY_BASE
-    value: $SECRET_KEY_BASE
-  # - name: SENTRY_DSN
-  #   value: $SENTRY_DSN
-  # - name: SENTRY_ENVIRONMENT
-  #   value: $SENTRY_ENVIRONMENT
+env:
+  configmap:
+    - name: CONFDIR
+      value: "/home/app/webapp/solr/conf"
+    - name: DATABASE_ADAPTER
+      value: mysql2
+    - name: DATABASE_HOST
+      value: mysql.archives-online-staging.svc.cluster.local
+    - name: DATABASE_USER
+      value: archives-online
+    - name: DATABASE_NAME
+      value: indiana_arclight
+    - name: DATABASE_PASSWORD
+      value: $DATABASE_PASSWORD
+    - name: MYSQL_ROOT_PASSWORD
+      value: $MYSQL_ROOT_PASSWORD
+    - name: PASSENGER_APP_ENV
+      value: production
+    - name: SECRET_KEY
+      value: $SECRET_KEY_BASE
+    - name: SOLR_ADMIN_PASSWORD
+      value: $SOLR_ADMIN_PASSWORD
+    - name: SOLR_ADMIN_USER
+      value: admin
+    - name: SOLR_COLLECTION_NAME
+      value: archives-online
+    - name: SOLR_CONFIGSET_NAME
+      value: archives-online
+    - name: SOLR_CORE
+      value: archives-online
+    - name: SOLR_HOST
+      value: solr.staging-solr
+    - name: SOLR_PORT
+      value: "8983"
+    - name: SOLR_URL
+      value: http://admin:$SOLR_ADMIN_PASSWORD@solr.staging-solr:8983/solr/
+    # - name: SENTRY_DSN
+    #   value: $SENTRY_DSN
+    # - name: SENTRY_ENVIRONMENT
+    #   value: $SENTRY_ENVIRONMENT
 
 mysql:
   image:
