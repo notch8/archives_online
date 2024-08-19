@@ -1,0 +1,10 @@
+# This is a sample config file that points to a solr server for each environment
+development:
+  adapter: solr
+  url: <%= ENV['SOLR_URL'] || "http://127.0.0.1:8983/solr/blacklight-core" %>
+test: &test
+  adapter: solr
+  url: <%= ENV['SOLR_URL'] || "http://127.0.0.1:8983/solr/blacklight-core" %>
+production:
+  adapter: solr
+  url: <%= ENV['SOLR_URL'] || "http://#{ENV.fetch('SOLR_ADMIN_USER', 'admin')}:#{ENV.fetch('SOLR_ADMIN_PASSWORD', 'admin')}@#{ENV.fetch('SOLR_HOST', 'solr')}:#{ENV.fetch('SOLR_PORT', '8983')}/solr/" %>
