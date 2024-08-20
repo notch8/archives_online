@@ -15,6 +15,7 @@ spec:
     metadata:
       {{- with .Values.podAnnotations }}
       annotations:
+        checksum/configmap-env: {{ include (print $.Template.BasePath "/configmap-env.yaml") . | sha256sum }}
         {{- toYaml . | nindent 8 }}
       {{- end }}
       labels:
@@ -30,6 +31,13 @@ spec:
       serviceAccountName: {{ include "chart.serviceAccountName" . }}
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
+      {{- with .Values.volumes }}
+      volumes:
+        {{- toYaml . | nindent 8 }}
+        - name: shared
+          persistentVolumeClaim:
+            claimName: {{ template "chart.fullname" . }}-shared
+      {{- end }}
       containers:
         - name: {{ .Chart.Name }}
           securityContext:
@@ -53,6 +61,7 @@ spec:
           {{- with .Values.volumeMounts }}
           volumeMounts:
             {{- toYaml . | nindent 12 }}
+          {{- end }}
             - mountPath: /home/app/webapp/public/assets-new
               name: shared
               subPath: assets
@@ -62,17 +71,19 @@ spec:
             - mountPath: /home/app/webapp/public/system
               name: shared
               subPath: system
-          {{- end }}
+          readinessProbe:
+            tcpSocket:
+              port: 80
+            initialDelaySeconds: 30
+            periodSeconds: 10
+          livenessProbe:
+            tcpSocket:
+              port: 80
+            initialDelaySeconds: 60
+            periodSeconds: 120
           envFrom:
             - configMapRef:
                 name: {{ template "chart.fullname" . }}-env
-      {{- with .Values.volumes }}
-      volumes:
-        {{- toYaml . | nindent 8 }}
-        - name: shared
-          persistentVolumeClaim:
-            claimName: {{ template "chart.fullname" . }}-shared
-      {{- end }}
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
