@@ -10,6 +10,7 @@ RUN echo 'Downloading Packages' && \
       libsasl2-dev \
       nodejs \
       pv \
+      rsync \
       tzdata \
       mysql-client && \
     apt-get clean && \
