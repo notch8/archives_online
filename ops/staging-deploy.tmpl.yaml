@@ -22,19 +22,6 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
-readinessProbe:
-  enabled: true
-  tcpSocket:
-    port: 80
-  initialDelaySeconds: 30
-  periodSeconds: 10
-livenessProbe:
-  enabled: true
-  tcpSocket:
-    port: 80
-  initialDelaySeconds: 60
-  periodSeconds: 120
-
 imagePullSecrets:
  - name: github
 
