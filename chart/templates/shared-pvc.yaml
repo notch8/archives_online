@@ -1,0 +1,19 @@
+---
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: {{ template "chart.name" . }}-shared
+  labels:
+    app: {{ template "chart.name" . }}
+    chart: {{ template "chart.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: {{ .Values.shared.storage.size }}
+  {{- if .Values.shared.storage.className }}
+  storageClassName: "{{ .Values.shared.storage.className }}"
+  {{- end }}

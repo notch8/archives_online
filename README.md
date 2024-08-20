@@ -57,7 +57,7 @@ docker compose up
 
 It will take some time for the application to start up, and a bit longer if it's the first startup. When you see `Passenger core running in multi-application mode.` or `Listening on tcp://0.0.0.0:3000` in the logs, the application is ready.
 
-If you used Dory, the application will be available from the browser at `http://indiana-arclight.test`.
+If you used Dory, the application will be available from the browser at `http://archives-online.test`.
 
 **You are now ready to start using archives_online!**
 
@@ -110,12 +110,12 @@ archives_online relies on helm charts for deployment to kubernetes containers. W
 There are 2 files pre-loaded and in order to run them you need to be inside the web container:
 ```
 docker compose exec web bash
-bundle exec traject -u http://solr:8983/solr/blacklight-core -i xml -c lib/arclight/traject/ead2_config.rb data/VAD8042.xml
-bundle exec traject -u http://solr:8983/solr/blacklight-core -i xml -c lib/arclight/traject/ead2_config.rb data/InU-Li-VAD1572.xml
+bundle exec traject -u http://solr:8983/solr/${SOLR_CORE} -i xml -c lib/arclight/traject/ead2_config.rb data/VAD8042.xml
+bundle exec traject -u http://solr:8983/solr/${SOLR_CORE} -i xml -c lib/arclight/traject/ead2_config.rb data/InU-Li-VAD1572.xml
 ```
 
 #### Without Docker
 ```
-bundle exec traject -u http://solr:8983/solr/blacklight-core -i xml -c lib/arclight/traject/ead2_config.rb data/VAD8042.xml
-bundle exec traject -u http://solr:8983/solr/blacklight-core -i xml -c lib/arclight/traject/ead2_config.rb data/InU-Li-VAD1572.xml
+bundle exec traject -u http://solr:8983/solr/${SOLR_CORE} -i xml -c lib/arclight/traject/ead2_config.rb data/VAD8042.xml
+bundle exec traject -u http://solr:8983/solr/${SOLR_CORE} -i xml -c lib/arclight/traject/ead2_config.rb data/InU-Li-VAD1572.xml
 ```

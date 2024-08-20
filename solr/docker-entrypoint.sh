@@ -21,7 +21,7 @@ else
 
     if [ ! -f $blacklight_created ]; then
         echo "Creating blacklight core(s)"
-        /opt/solr/bin/solr create -c "blacklight-core" -d "$SOLR_CONFIG_DIR/blacklight_config"
+        /opt/solr/bin/solr create -c "$SOLR_CORE" -d "$SOLR_CONFIG_DIR/blacklight_config"
         touch $blacklight_created
     fi
 
