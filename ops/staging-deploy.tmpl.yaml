@@ -66,9 +66,9 @@ env:
     SOLR_COLLECTION_NAME: archives-online
     SOLR_CONFIGSET_NAME: archives-online
     SOLR_CORE: archives-online
-    SOLR_HOST: staging-solr
+    SOLR_HOST: solr.staging-solr
     SOLR_PORT: '8983'
-    SOLR_URL: http://admin:$SOLR_ADMIN_PASSWORD@solr.staging-solr:8983/solr/
+    SOLR_URL: http://admin:$SOLR_ADMIN_PASSWORD@solr.staging-solr:8983/solr/archives-online
 
 mysql:
   image:
