@@ -1,0 +1,13 @@
+{
+  "modules":
+  {
+    "footerPanel":
+    {
+      "options":
+      {
+        "shareEnabled": true,
+        "downloadEnabled": false
+      }
+    }
+  }
+}
