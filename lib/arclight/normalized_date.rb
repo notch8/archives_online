@@ -9,7 +9,7 @@ module Arclight
     # @param [String | Array<String>] `inclusive` from the `unitdate`
     # @param [Array<String>] `bulk` from the `unitdate`
     # @param [Array<String>] `other` from the `unitdate` when type is not specified
-    def initialize(inclusive, bulk = [], other = [])
+    def initialize(inclusive, bulk = [], other = []) # rubocop:disable Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity
       @inclusive = (inclusive || []).map do |inclusive_text|
         if inclusive_text.is_a? Array # of YYYY-YYYY for ranges
           # NOTE: This code is not routable AFAICT in actual indexing.

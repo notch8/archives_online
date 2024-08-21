@@ -1,6 +1,6 @@
 # frozen_string_literal: true
-class UniversalViewer < ViewComponent::Base
 
+class UniversalViewer < ViewComponent::Base
   def initialize(document:, presenter:, **kwargs)
     super
 
