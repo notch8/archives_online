@@ -50,6 +50,8 @@ services:
     environment:
       - VIRTUAL_HOST=archives-online.test
       - VIRTUAL_PORT=80
+    volumes:
+      - ./generate-init.sh:/home/app/webapp/generate-init.sh
     depends_on:
       - mysql
       - solr
@@ -59,15 +61,11 @@ services:
     image: mysql:8.4.2
     env_file:
       - .env
-    environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: archives-online
-      MYSQL_USER: archives-online
-      MYSQL_PASSWORD: DatabaseFTW
     expose:
       - 3306
     volumes:
       - mysql:/var/lib/mysql
+      # - ./generate-init.sh:/docker-entrypoint-initdb.d/generate-init.sh
     networks:
       - internal
 
