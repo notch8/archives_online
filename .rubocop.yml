@@ -1,0 +1,12 @@
+Layout/IndentationWidth:
+  Width: 2
+
+AllCops:
+  NewCops: disable
+  TargetRubyVersion: 3
+  DisplayCopNames: true
+  SuggestExtensions: false
+  Exclude:
+    - 'db/**/*'
+    - 'vendor/**/*'
+    - 'bin/**/*'
