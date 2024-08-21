@@ -7,6 +7,7 @@ RUN echo 'Downloading Packages' && \
     apt-get update -qq && \
     apt-get install -y \
       build-essential \
+      gettext \
       libsasl2-dev \
       nodejs \
       pv \
@@ -45,6 +46,7 @@ RUN rm -f /etc/service/nginx/down
 
 RUN gem install bundler -v 2.4.22
 COPY --chown=app:app Gemfile* $APP_HOME/
+RUN /sbin/setuser app bash -l -c "bundle check || bundle install"
 
 COPY --chown=app:app . $APP_HOME
 RUN /sbin/setuser app bash -l -c " \
