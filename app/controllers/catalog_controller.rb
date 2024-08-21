@@ -39,12 +39,12 @@ class CatalogController < ApplicationController
     ## parameters included in the Blacklight-jetty document requestHandler.
     #
     config.default_document_solr_params = {
-     qt: 'document',
-     fl: '*,collection:[subquery]',
-     'collection.q': '{!terms f=id v=$row._root_}',
-     'collection.defType': 'lucene',
-     'collection.fl': '*',
-     'collection.rows': 1
+      qt: 'document',
+      fl: '*,collection:[subquery]',
+      'collection.q': '{!terms f=id v=$row._root_}',
+      'collection.defType': 'lucene',
+      'collection.fl': '*',
+      'collection.rows': 1
     }
 
     config.header_component = Arclight::HeaderComponent
@@ -160,8 +160,11 @@ class CatalogController < ApplicationController
       last_word_connector: '<br/>'
     }, compact: true, component: Arclight::IndexMetadataFieldComponent
     config.add_index_field 'creator', accessor: true, component: Arclight::IndexMetadataFieldComponent
-    config.add_index_field 'abstract_or_scope', accessor: true, truncate: true, repository_context: true, helper_method: :render_html_tags, component: Arclight::IndexMetadataFieldComponent
-    config.add_index_field 'breadcrumbs', accessor: :itself, component: Arclight::SearchResultBreadcrumbsComponent, compact: { count: 2 }
+    config.add_index_field 'abstract_or_scope', accessor: true, truncate: true, repository_context: true,
+                                                helper_method: :render_html_tags,
+                                                component: Arclight::IndexMetadataFieldComponent
+    config.add_index_field 'breadcrumbs', accessor: :itself, component: Arclight::SearchResultBreadcrumbsComponent,
+                                          compact: { count: 2 }
 
     config.add_facet_field 'access', query: {
       online: { label: 'Online access', fq: 'has_online_content_ssim:true' }
@@ -206,43 +209,43 @@ class CatalogController < ApplicationController
     config.add_search_field 'name', label: 'Name' do |field|
       field.qt = 'search'
       field.solr_parameters = {
-        qf:  '${qf_name}',
-        pf:  '${pf_name}'
+        qf: '${qf_name}',
+        pf: '${pf_name}'
       }
     end
     config.add_search_field 'place', label: 'Place' do |field|
       field.qt = 'search'
       field.solr_parameters = {
-        qf:  '${qf_place}',
-        pf:  '${pf_place}'
+        qf: '${qf_place}',
+        pf: '${pf_place}'
       }
     end
     config.add_search_field 'subject', label: 'Subject' do |field|
       field.qt = 'search'
       field.solr_parameters = {
-        qf:  '${qf_subject}',
-        pf:  '${pf_subject}'
+        qf: '${qf_subject}',
+        pf: '${pf_subject}'
       }
     end
     config.add_search_field 'title', label: 'Title' do |field|
       field.qt = 'search'
       field.solr_parameters = {
-        qf:  '${qf_title}',
-        pf:  '${pf_title}'
+        qf: '${qf_title}',
+        pf: '${pf_title}'
       }
     end
     config.add_search_field 'container', label: 'Container' do |field|
       field.qt = 'search'
       field.solr_parameters = {
-        qf:  '${qf_container}',
-        pf:  '${pf_container}'
+        qf: '${qf_container}',
+        pf: '${pf_container}'
       }
     end
     config.add_search_field 'identifier', label: 'Identifier' do |field|
       field.qt = 'search'
       field.solr_parameters = {
-        qf:  '${qf_identifier}',
-        pf:  '${pf_identifier}'
+        qf: '${qf_identifier}',
+        pf: '${pf_identifier}'
       }
     end
 
@@ -269,7 +272,6 @@ class CatalogController < ApplicationController
     # Configuration for autocomplete suggestor
     config.autocomplete_enabled = true
     config.autocomplete_path = 'suggest'
-
 
     # ===========================
     # COLLECTION SHOW PAGE FIELDS
@@ -310,11 +312,13 @@ class CatalogController < ApplicationController
     config.add_related_field 'odd', field: 'odd_html_tesm', helper_method: :render_html_tags
 
     # Collection Show Page - Indexed Terms Section
-    config.add_indexed_terms_field 'access_subjects', field: 'access_subjects_ssim', link_to_facet: true, separator_options: {
-      words_connector: '<br/>',
-      two_words_connector: '<br/>',
-      last_word_connector: '<br/>'
-    }
+    config.add_indexed_terms_field 'access_subjects', field: 'access_subjects_ssim',
+                                                      link_to_facet: true,
+                                                      separator_options: {
+                                                        words_connector: '<br/>',
+                                                        two_words_connector: '<br/>',
+                                                        last_word_connector: '<br/>'
+                                                      }
 
     config.add_indexed_terms_field 'names_coll', field: 'names_coll_ssim', separator_options: {
       words_connector: '<br/>',
@@ -366,16 +370,19 @@ class CatalogController < ApplicationController
     config.add_component_field 'otherfindaid', field: 'otherfindaid_html_tesm', helper_method: :render_html_tags
     config.add_component_field 'odd', field: 'odd_html_tesm', helper_method: :render_html_tags
     config.add_component_field 'relatedmaterial', field: 'relatedmaterial_html_tesm', helper_method: :render_html_tags
-    config.add_component_field 'separatedmaterial', field: 'separatedmaterial_html_tesm', helper_method: :render_html_tags
+    config.add_component_field 'separatedmaterial', field: 'separatedmaterial_html_tesm',
+                                                    helper_method: :render_html_tags
     config.add_component_field 'originalsloc', field: 'originalsloc_html_tesm', helper_method: :render_html_tags
     config.add_component_field 'note', field: 'note_html_tesm', helper_method: :render_html_tags
 
     # Component Show Page - Indexed Terms Section
-    config.add_component_indexed_terms_field 'access_subjects', field: 'access_subjects_ssim', link_to_facet: true, separator_options: {
-      words_connector: '<br/>',
-      two_words_connector: '<br/>',
-      last_word_connector: '<br/>'
-    }
+    config.add_component_indexed_terms_field 'access_subjects', field: 'access_subjects_ssim',
+                                                                link_to_facet: true,
+                                                                separator_options: {
+                                                                  words_connector: '<br/>',
+                                                                  two_words_connector: '<br/>',
+                                                                  last_word_connector: '<br/>'
+                                                                }
 
     config.add_component_indexed_terms_field 'names', field: 'names_ssim', separator_options: {
       words_connector: '<br/>',
@@ -390,7 +397,7 @@ class CatalogController < ApplicationController
     }
 
     config.add_component_indexed_terms_field 'indexes', field: 'indexes_html_tesm',
-                                              helper_method: :render_html_tags
+                                                        helper_method: :render_html_tags
 
     # =================
     # ACCESS TAB FIELDS
@@ -403,11 +410,14 @@ class CatalogController < ApplicationController
     # Component Show Page Access Tab - Terms and Condition Section
     config.add_component_terms_field 'restrictions', field: 'accessrestrict_html_tesm', helper_method: :render_html_tags
     config.add_component_terms_field 'terms', field: 'userestrict_html_tesm', helper_method: :render_html_tags
-    config.add_component_terms_field 'parent_restrictions', field: 'parent_access_restrict_tesm', helper_method: :render_html_tags
+    config.add_component_terms_field 'parent_restrictions', field: 'parent_access_restrict_tesm',
+                                                            helper_method: :render_html_tags
     config.add_component_terms_field 'parent_terms', field: 'parent_access_terms_tesm', helper_method: :render_html_tags
 
     # Collection and Component Show Page Access Tab - In Person Section
-    config.add_in_person_field 'repository_location', values: ->(_, document, _) { document.repository_config }, component: Arclight::RepositoryLocationComponent
+    config.add_in_person_field 'repository_location', values: lambda { |_, document, _|
+                                                                document.repository_config
+                                                              }, component: Arclight::RepositoryLocationComponent
     config.add_in_person_field 'before_you_visit', values: ->(_, document, _) { document.repository_config&.visit_note }
 
     # Collection and Component Show Page Access Tab - How to Cite Section

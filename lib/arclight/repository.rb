@@ -33,7 +33,6 @@ module Arclight
       attributes.include?(field) || super
     end
 
-    # rubocop:disable Rails/OutputSafety
     def contact
       contact_html.html_safe
     end
@@ -41,7 +40,6 @@ module Arclight
     def location
       location_html.html_safe
     end
-    # rubocop:enable Rails/OutputSafety
 
     def request_config_present?
       request_configs = request_types.values || []
