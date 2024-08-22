@@ -1,0 +1,1933 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="edited-full-draft"
+    langencoding="iso639-2b" repositoryencoding="iso15511">
+    <eadid countrycode="US" mainagencycode="US-InU">ohrc001</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>American Foundations Oral History Project<date calendar="gregorian"
+            normal="1989/1993" era="ce" type="inclusive">1989-1993</date>
+          <num>ohrc001</num></titleproper>
+        <subtitle>A Guide to the Collection of Oral History Interviews at Indiana University
+          Bloomington</subtitle>
+        <author>Finding aid prepared by the staff of the Center for the Study of History and Memory
+          with a grant from the National Endowment for the Humanities Division of Preservation and
+          Access, 2000-2002</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Center for Documentary Research and Practice</publisher>
+        <p id="logostmt"><extref xlink:actuate="onLoad"
+            xlink:href="http://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/cshm.jpg"
+            xlink:show="embed" xlink:type="simple"/></p>
+        <p><date>2000</date></p>
+        <address>
+          <addressline>Franklin Hall 0030B</addressline>
+          <addressline>601 E. Kirkwood Avenue</addressline>
+          <addressline>Bloomington, Indiana 47405</addressline>
+          <addressline>Business Number: 812-855-2856</addressline>
+          <addressline>ohrc@indiana.edu</addressline>
+          <addressline>URL: <extptr xlink:href="https://cdrp.mediaschool.indiana.edu/"
+              xlink:show="new" xlink:title="https://cdrp.mediaschool.indiana.edu/"
+              xlink:type="simple"/></addressline>
+        </address>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p><date normal="2000">ÂŠ 2000</date> Trustees of Indiana University. All rights
+            reserved.</p>
+        </note>
+      </notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>This finding aid was produced using ArchivesSpace on <date>2024-08-22 16:47:21
+          -0400</date>.</creation>
+      <langusage>Description is in English.</langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change audience="internal">
+        <date>September 09, 2004</date>
+        <item>Finding aid revised by JLR.</item>
+      </change>
+      <change audience="internal">
+        <date>Fall, 2006</date>
+        <item>Finding aid revised Fall, 2006 by JLR with EAD Working Group.</item>
+      </change>
+      <change audience="internal">
+        <date>Spring/Summer, 2007</date>
+        <item>Finding aid revised Spring/Summer, 2007 by JLR with EAD Working Group.</item>
+      </change>
+      <change audience="internal">
+        <date>April 1, 2009</date>
+        <item>Added repository code to ead/archdesc/did/repository/@id by JLR.</item>
+      </change>
+      <change audience="internal">
+        <date>June, 2009</date>
+        <item>Restructured significantly by Valerie Higgins and Stacey Miller.</item>
+      </change>
+      <change audience="internal">
+        <date>March, 2010</date>
+        <item>Edited order by Hannah Caproon</item>
+      </change>
+      <change audience="internal">
+        <date>August, 2010</date>
+        <item>Validated and reordered access terms by Amanda Hunt</item>
+      </change>
+      <change>
+        <date>June 7, 2013</date>
+        <item>Revised by Allison Haack</item>
+      </change>
+      <change audience="internal">
+        <date>November 27, 2018</date>
+        <item>Updated CDRP name changes and repository information by Amy Doster.</item>
+      </change>
+      <change audience="internal">
+        <date>March 20, 2019</date>
+        <item>Updated CDRP website by Amy Doster.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <repository>
+        <corpname>Center for Documentary Research and Practice</corpname>
+      </repository>
+      <unittitle>American Foundations Oral History Project</unittitle>
+      <origination label="Creator">
+        <corpname source="lcnaf">Indiana University Center for Documentary Research and
+          Practice</corpname>
+      </origination>
+      <unitid>ohrc001</unitid>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">42 Interviews</extent>
+        <physfacet>Audio files, transcripts, and collateral materials</physfacet>
+      </physdesc>
+      <unitdate calendar="gregorian" datechar="creation" era="ce" normal="1989/1993"
+        type="inclusive">1989-1993</unitdate>
+      <physloc id="aspace_cfd9fa6b8d361a6fbd5d74156cc88484">Interviews are housed in Franklin Hall,
+        Room 0030A. Contact ohrc@indiana.edu for more information. Copies of interview transcripts
+        are also held by the IU Libraries University Archives. For other locations housing the
+        interviews from this project, please contact the Center for Documentary Research and
+        Practice office.</physloc>
+      <abstract id="aspace_3ffc85cd2a6b5533a9f8b5de39aedac8">The American Foundations Oral History
+        Project consists of a series of interviews with prominent American philanthropists, each of
+        whom relates their background, the development of their values, and their philosophies of
+        philanthropy. The purpose and state of American philanthropy, including those family
+        foundations and corporate foundations, form a central topic, as do the recent trend of
+        increasing diversity and opinions on grant evaluation and philanthropic assessment. In
+        addition, many interviewees comment on the role of government in philanthropy and the system
+        of ethics at play in American philanthropy.</abstract>
+      <langmaterial id="aspace_901fbbb6707752b1d26e4dcc65e1e309">Materials are in <language
+          langcode="eng">English</language></langmaterial>
+    </did>
+    <scopecontent id="aspace_9f266510c25a9351c0c72492ce4546a2">
+      <head>Scope and Content Note</head>
+      <p>This collection consists of forty-two interviews collected over the course of two years.
+        Interviews range from fifty to one hundred-fity minutes. All interviews consist of
+        audiotapes and typed transcripts.</p>
+    </scopecontent>
+    <acqinfo id="aspace_4a47a96fdb7b5b0aa7ae3b7d26eebe50">
+      <head>Acquisition Information</head>
+      <p>Oral history interviews conducted by the Indiana University Center for the Study of History
+        and Memory from 1968 to the present, with particular focus on the history of
+        twentieth-century America and the Midwest.</p>
+    </acqinfo>
+    <userestrict id="aspace_d094d7287e404440cdde586027ca2b61">
+      <head>Usage Restrictions</head>
+      <p>The archive of the Center for Documentary Research and Practice at Indiana University is
+        open to the use of researchers. Copies of transcript pages are available only when such
+        copies are permitted by the deed of gift. Scholars must honor any restrictions the
+        interviewee placed on the use of the interview. Since some of our earlier (pre-computer)
+        transcripts do not exist in final form, any editing marks in a transcript (deletions,
+        additions, corrections) are to be quoted as marked. Audio files may not be copied for
+        patrons unless the deed of gift permits it, and a transcript is unavailable for that
+        interview. The same rules of use that apply to a transcript apply to the audio interview.
+        Interviews may not be reproduced in full for any public use, but excerpted quotes may be
+        used as long as researchers fully cite the data in their research, including accession
+        number, interview date, interviewee's and interviewer's name, and page(s).</p>
+    </userestrict>
+    <prefercite id="aspace_1fb4eec3b37c553286706e9a86ab4ceb">
+      <head>Preferred Citation</head>
+      <p>[interviewee first name last name] interview, by [interviewer first name last name],
+        [interview date(s)], [call number], [project name], Center for Documentary Research and
+        Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no
+        transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+    </prefercite>
+    <dsc>
+      <c01 id="aspace_ohrc001-00001" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Aramony, William;</unittitle>
+          <unitid>90-028</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">April 30, 1991</unitdate>
+          <physdesc id="aspace_90dcdc4191b7580ff19eb474c24259f9" label="Physical Description">21
+            pages; 1 tape, 1 7/8 ips, 58 minutes; index; United Way of America annual report and
+            fact sheet, biographical sketch of interviewee</physdesc>
+        </did>
+        <accessrestrict id="aspace_80e36a8e8180647bc4f299101ec8f443">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_a2469eb4d5c084fd1c33425eca87dabe">
+          <head>Scope and Content Note</head>
+          <p>In this interview, William Aramony discusses his career in philanthropy and social work
+            which has culminated in his ascension to the position of president of the United Way of
+            America. Aramony speaks about the organization and mission of the United Way, the
+            changes it has undergone, some of its main functions and beneficiaries, and the central
+            issue of fundraising, especially in the context of the growing number of
+            government-supported not-for-profit organizations increasing competition for a limited
+            amount of available funds.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">philanthropist</occupation>
+          <subject source="ingest">Education</subject>
+          <subject source="ingest">philanthropy</subject>
+          <subject source="ingest">values</subject>
+          <corpname source="ingest">United Way of America</corpname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00002" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Bernstein, Philip</unittitle>
+          <unitid>90-008</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">April 19, 1990</unitdate>
+          <physdesc id="aspace_e493a035d45764e8914a843aa063b6ea" label="Physical Description">41
+            pages; 3 tapes, 1 7/8 ips, 108 minutes; index; photo of interviewee, group photo with
+            interviewee</physdesc>
+        </did>
+        <scopecontent id="aspace_a3606610c5695ce6e5054fe22f070918">
+          <head>Scope and Content Note</head>
+          <p>Philip Bernstein discusses the beginning of his interest in philanthropy and traces his
+            career at the Jewish Community Federation in this interview. He discusses Jewish and
+            non-Jewish philanthropy, values, and social welfare, and he speaks of the ease and
+            importance of cooperation between these groups. In addition, Bernstein speaks of the
+            impact of the rise of Hitler and Nazism on Jewish philanthropy, of philanthropic
+            involvement with the Independent Sector, and the impact of the Great Depression and
+            World War II on social ideals and social welfare.</p>
+        </scopecontent>
+        <accessrestrict id="aspace_cd5fc5a9e3e7dd2a5625bb6277084347">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <controlaccess>
+          <geogname source="ingest">Cleveland, Ohio</geogname>
+          <occupation source="ingest">social worker</occupation>
+          <subject source="ingest">charity work</subject>
+          <subject source="ingest">community chest</subject>
+          <subject source="ingest">Great Depression</subject>
+          <subject source="ingest">Jews</subject>
+          <subject source="ingest">Nazism</subject>
+          <subject source="ingest">racism</subject>
+          <subject source="ingest">social welfare</subject>
+          <subject source="ingest">World War II</subject>
+          <corpname source="ingest">Case Western Reserve University</corpname>
+          <corpname source="ingest">Council of Jewish Federations</corpname>
+          <corpname source="ingest">Feiler Commission</corpname>
+          <corpname source="ingest">Jewish Agency</corpname>
+          <corpname source="ingest">Jewish Community Federation</corpname>
+          <corpname source="ingest">National Jewish Community Relations Advisory Council</corpname>
+          <persname source="ingest">Hitler, Adolf</persname>
+          <persname source="ingest">Lurie, Harry</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00003" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Bolling, Landrum</unittitle>
+          <unitid>90-029</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">April 30, 1991</unitdate>
+          <physdesc id="aspace_95bd03f5eaee8a62881b6a33a2abf04e" label="Physical Description">17
+            pages 1 tape, 1 7/8 ips, 58 minutes; index</physdesc>
+        </did>
+        <accessrestrict id="aspace_e8b1261f7ce8e0ecfe6030f594c19ec1">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_6e28b7abbfe098ad713a91996ceaa3b1">
+          <head>Scope and Content Note</head>
+          <p>In this interview, Landrum Bolling discusses his past, including his childhood, his
+            religious and moral upbringing with Quaker and Baptist influences, his education and
+            career, and his eventual work in philanthropy. He speaks of his intimate association
+            with the Lilly Endowment, and its focus on the importance of education in the state of
+            Indiana and throughout the world. Bolling also comments on his personal philosophy on
+            philanthropy, and describes some of the places and events which influenced this
+            philosophy.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="ingest">philanthropy</subject>
+          <subject source="ingest">Quakerism</subject>
+          <corpname source="ingest">Earlham College</corpname>
+          <corpname source="ingest">Lilly Endowment</corpname>
+          <corpname source="ingest">Tennessee Valley Authority</corpname>
+          <persname source="ingest">Lynn, Robert</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00004" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Brennan, Leo J., Jr.</unittitle>
+          <unitid>90-027</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">April 8, 1991</unitdate>
+          <physdesc id="aspace_78265d1bc32cc1fc6305b4fb01b8064b" label="Physical Description">24
+            pages 2 tapes, 1 7/8 ips, 76 minutes; index</physdesc>
+        </did>
+        <accessrestrict id="aspace_d5b0560271a62a66f35e6969a60a3110">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_d9a7b56ae902fa0bf0e36762e634084f">
+          <head>Scope and Content Note</head>
+          <p>Leo J. Brennan, Jr., who deals with decisions and dispersals of grant monies and
+            philanthropic awards of the Ford Fund, discusses his career history and philosophy of
+            philanthropy in this interview. He speaks of corporate philanthropy and the major goal
+            of the Ford Fund of supporting education. In addition, Brennan describes his work, the
+            types of grant requests he receives, and the type of applicants involved.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">philanthropist</occupation>
+          <subject source="ingest">corporate philanthropy</subject>
+          <subject source="ingest">education funding</subject>
+          <subject source="ingest">grant requests</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">Ford Fund</corpname>
+          <corpname source="ingest">Ford Motor Company</corpname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00005" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Buchanan, Peter</unittitle>
+          <unitid>90-030</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">May 1, 1991</unitdate>
+          <physdesc id="aspace_2de1be239a3e832bf0b34a719704d207" label="Physical Description">23
+            pages 2 tapes, 1 7/8 ips, 80 minutes; index; photo of interviewee</physdesc>
+        </did>
+        <accessrestrict id="aspace_ccc8fd4c8c4c5df93a1c31e701fd8be1">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_0998263f2663a3b0a18e338dd684c9d8">
+          <head>Scope and Content Note</head>
+          <p>Peter Buchanan, president of CASE, or Council for Advancement and Support of Education,
+            discusses his background, education, and career, and how each of these have influenced
+            his philosophy of, and practical implications about, philanthropy. He emphasizes his
+            years as a student and administrator at Columbia University in the late nineteen sixties
+            and early seventies as a time when his values and perspective were significantly shaped
+            and cemented. Buchanan stresses the need for philanthropic gifts for education, the
+            importance of fundraising for education, the crisis in education, and his fears for the
+            future of corporate philanthropy.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">philanthropist</occupation>
+          <subject source="ingest">diversity</subject>
+          <subject source="ingest">Ethics</subject>
+          <subject source="ingest">fundraising</subject>
+          <subject source="ingest">nonprofit sector</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">Columbia University</corpname>
+          <corpname source="ingest">Council for Advancement and Support of Education</corpname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00006" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Carson, Emmett D.</unittitle>
+          <unitid>90-037</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">October 8, 1991</unitdate>
+          <physdesc id="aspace_31396392a11230d0dd4bd77c410b7954" label="Physical Description">38
+            pages 3 tapes, 1 7/8 ips, 140 minutes; index</physdesc>
+        </did>
+        <accessrestrict id="aspace_bd00ce0a9aba6c8ab74283554c15e3f0">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_1402000cb9e12a1843f44f6e8d3bd4bb">
+          <head>Scope and Content Note</head>
+          <p>Emmett D. Carson discusses in this interview his childhood, parents, and educational
+            background, and describes the impact of each of these on his philosophy of philanthropy.
+            He goes on to speak of African Americans and philanthropy, the relationship between
+            percentage of minorities in philanthropy and the need for the understanding of
+            minorities in philanthropy. Carson also emphasizes foundations and diversity, the role
+            of government in philanthropy, and the conjectured relationship between drug dealing and
+            other illegal activities and philanthropic funding.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">philanthropist</occupation>
+          <subject source="ingest">African Americans</subject>
+          <subject source="ingest">civil rights</subject>
+          <subject source="ingest">drugs</subject>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">government philanthropic role</subject>
+          <subject source="ingest">grant making</subject>
+          <subject source="ingest">mentors</subject>
+          <subject source="ingest">minority groups</subject>
+          <subject source="ingest">philanthropy</subject>
+          <subject source="ingest">volunteerism</subject>
+          <corpname source="ingest">Ford Foundation</corpname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00007" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Collins, Dennis A.</unittitle>
+          <unitid>90-043</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">December 6, 1991</unitdate>
+          <physdesc id="aspace_108fc38cf7456981f04c679a2b178d28" label="Physical Description">27
+            pages 2 tapes, 1 7/8 ips, 85 minutes; index; photo of interviewee</physdesc>
+        </did>
+        <accessrestrict id="aspace_27960714871681c1a9a22b6f413ae2f4">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_0d16d5d75e37d4854ecde1ed71c71cf2">
+          <head>Scope and Content Note</head>
+          <p>Dennis A. Collins, president of the James Irvine Foundation, discusses his childhood,
+            familial influences, and education and how each of these made an impact on his
+            philosophy of philanthropy. Specifically, Collins emphasizes the differences between
+            east coast and west coast philanthropy, and speaks of the unique characteristics of
+            California and its population as factors that foundations must recognize and respond to
+            accordingly. He stresses the importance of diversity in this context and also the need
+            for and difficulties involved in foundation assessment or evaluation.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">philanthropist</occupation>
+          <geogname source="ingest">California</geogname>
+          <geogname source="ingest">San Francisco, California</geogname>
+          <subject source="ingest">diversity</subject>
+          <subject source="ingest">Education</subject>
+          <subject source="ingest">feminism</subject>
+          <subject source="ingest">foundation assessment</subject>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">Jews</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">Children NOW</corpname>
+          <corpname source="ingest">Council on Foundations</corpname>
+          <corpname source="ingest">James Irvine Foundation</corpname>
+          <corpname source="ingest">A Thousand Points of Light Foundation</corpname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00008" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Crabbs, Raymond</unittitle>
+          <unitid>90-015</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">September 12, 1990</unitdate>
+          <physdesc id="aspace_f6baa9ff942962314f4a7ea08a4b8f35" label="Physical Description">30
+            pages 2 tapes, 1 7/8 ips, 91 minutes; index; photo of interviewee</physdesc>
+        </did>
+        <accessrestrict id="aspace_87d8522dc661b9f698ca73769c948266">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_6a4ac1067e95e03d614b18c6059b3e25">
+          <head>Scope and Content Note</head>
+          <p>Raymond Crabbs, the former president of the National Society of Fund Raising
+            Executives, or NSFRE, discusses his career history, the values he has developed
+            throughout the course of his life, and his philosophy of philanthropy in this interview.
+            Crabbs speaks of his tenure at NSFRE and emphasizes the differences between corporate
+            and foundation philanthropy, mentioning some major players in each realm. In addition,
+            he discusses the under-representation of minorities in the professional field of
+            philanthropy, internal politics within organizations, and the political leanings of
+            philanthropic organizations either toward liberal or conservative agendas.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="ingest">corporate philanthropy</subject>
+          <subject source="ingest">Education</subject>
+          <subject source="ingest">foundation philanthropy</subject>
+          <subject source="ingest">fundraising</subject>
+          <subject source="ingest">minority philanthropists</subject>
+          <corpname source="ingest">4-H</corpname>
+          <corpname source="ingest">National Society of Fund Raising Executives</corpname>
+          <corpname source="ingest">United Way of America</corpname>
+          <corpname source="ingest">Washington State 4-H Foundation</corpname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00009" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Cruickshank, Joseph</unittitle>
+          <unitid>90-019</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">November 13, 1990</unitdate>
+          <physdesc id="aspace_3d18697611198431e742ed9942b1632b" label="Physical Description">18
+            pages 1 tape, 1 7/8 ips, 55 minutes; index</physdesc>
+        </did>
+        <accessrestrict id="aspace_63fbed8f01671fcff2e8c1ec5c54ac87">
+          <head>Access Status</head>
+          <p>Restricted: tapes permanently closed, need interviewee's permission to read or quote
+            from transcript of interview</p>
+        </accessrestrict>
+        <scopecontent id="aspace_f80ab46fe9b5ffb14be736142720ff3a">
+          <head>Scope and Content Note</head>
+          <p>Joseph Cruickshank discusses his background and the development of his values and
+            philosophy of philanthropy in this interview. He speaks of the priorities of foundations
+            and possible negative impacts of philanthropic foundation abuse. In addition,
+            Cruickshank discusses the philanthropic role of the United States government, the
+            influence of the nineteen sixties on philanthropy and volunteerism, and grants.</p>
+        </scopecontent>
+        <controlaccess>
+          <geogname source="ingest">New York, New York</geogname>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">government philanthropic role</subject>
+          <subject source="ingest">grants</subject>
+          <subject source="ingest">philanthropic abuses</subject>
+          <subject source="ingest">philanthropy</subject>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00010" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Engelhardt, Sara</unittitle>
+          <unitid>90-011</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">July 6, 1990</unitdate>
+          <physdesc id="aspace_226869adcbce0b4ac8abc11e497a75b5" label="Physical Description">44
+            pages 3 tapes, 1 7/8 ips, 106 minutes; index; photo of interviewee and business
+            meeting</physdesc>
+        </did>
+        <accessrestrict id="aspace_6771a420fe5879d3a6451789550db4cb">
+          <head>Access Status</head>
+          <p>Closed until July 1, 2010</p>
+        </accessrestrict>
+        <scopecontent id="aspace_c766b5101531e6b6c71e95e5a33c240b">
+          <head>Scope and Content Note</head>
+          <p>Sara Engelhardt discusses her childhood, family background, education, values, and
+            career at the Carnegie Foundation in this interview. She speaks of her philosophy of
+            philanthropy and the ethics involved in this field. In addition, she discusses the
+            purpose of the Foundation Library Center, her vision for the future, the impact of the
+            1969 Tax Reform Act on philanthropy, philanthropic abuse, and the importance of
+            diversity in philanthropy.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">corporate secretary</occupation>
+          <occupation source="ingest">grants manager</occupation>
+          <subject source="ingest">1969 Tax Reform Act</subject>
+          <subject source="ingest">diversity</subject>
+          <subject source="ingest">Ethics</subject>
+          <subject source="ingest">foundation leadership</subject>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">media</subject>
+          <subject source="ingest">minority groups</subject>
+          <subject source="ingest">philanthropic abuses</subject>
+          <subject source="ingest">values</subject>
+          <corpname source="ingest">American Association of Fund Raising Council Trust</corpname>
+          <corpname source="ingest">Carnegie Foundation</corpname>
+          <corpname source="ingest">Foundation Center</corpname>
+          <corpname source="ingest">Sarah Lawrence College</corpname>
+          <persname source="ingest">Anderson, Florence</persname>
+          <persname source="ingest">Buckman, Tom</persname>
+          <persname source="ingest">Hamburg, David</persname>
+          <persname source="ingest">Pifer, Alan</persname>
+          <persname source="ingest">Sullivan, Dick</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00011" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Finberg, Barbara</unittitle>
+          <unitid>90-009</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">April 18, 1990</unitdate>
+          <physdesc id="aspace_c231affc9b489525ad2c061a051c180f" label="Physical Description">35
+            pages 2 tapes, 1 7/8 ips, 106 minutes; index; photo of interviewee</physdesc>
+        </did>
+        <accessrestrict id="aspace_12e5412524e8b5124c50622c223d90ef">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_e056118ba7254c0957464cec183e151b">
+          <head>Scope and Content Note</head>
+          <p>Barbara Finberg, formerly the executive vice president of the Carnegie Corporation,
+            discusses her philosophy of philanthropy, her values, and occupational background in
+            this interview. Finberg spoke of her career at the Carnegie Corporation, the
+            philanthropic goals of this institution, and the changes it experienced over the years.
+            She also discusses diversity and minorities with regard to philanthropy, and her own
+            experiences as a woman in a formerly male-dominated field. In addition, Finberg speaks
+            of the ethics of the field of philanthropy and the role of foundations in society.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="ingest">1969 Tax Reform Act</subject>
+          <subject source="ingest">diversity</subject>
+          <subject source="ingest">Education</subject>
+          <subject source="ingest">Ethics</subject>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">grant evaluation</subject>
+          <subject source="ingest">minority groups</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">Carnegie Corporation</corpname>
+          <famname source="ingest">Carnegie</famname>
+          <persname source="ingest">Carnegie, Andrew</persname>
+          <persname source="ingest">Hamburg, David</persname>
+          <persname source="ingest">Pifer, Alan</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00012" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Furnari, Ellen</unittitle>
+          <unitid>90-035</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">August 27, 1991</unitdate>
+          <physdesc id="aspace_3ec1c35f0b391ca1d96ef6e46ace8c76" label="Physical Description">29
+            pages 2 tapes, 1 7/8 ips, 68 minutes; index</physdesc>
+        </did>
+        <accessrestrict id="aspace_7b75b7d724b6e9c99321f289908b08c0">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_709c5a3f49bc23c6a6babbdeed78c9db">
+          <head>Scope and Content Note</head>
+          <p>Ellen Furnari, the foundation coordinator of Ben and Jerry's Foundation, discusses the
+            structure of this foundation, the manner in which she ascended to her position, and the
+            goal or mission statement of this foundation. She describes objectives of the
+            foundation, and how these are achieved through the making of grants aimed at instigating
+            social changes. In addition, Furnari discusses what foundations can accomplish in
+            society, the difference between Ben and Jerry's Foundation and other corporate
+            institutions of philanthropy, and the issue of diversity and minorities with regard to
+            philanthropy.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">foundation coordinator</occupation>
+          <subject source="ingest">employee involvement</subject>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">grant making</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">Ben and Jerry's Foundation</corpname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00013" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Garcetti, Sukey</unittitle>
+          <unitid>90-045</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">December 2, 1991</unitdate>
+          <physdesc id="aspace_2e4272f726a4984800c9dc4fdf2162fa" label="Physical Description">29
+            pages 2 tapes, 1 7/8 ips, 92 minutes; index</physdesc>
+        </did>
+        <accessrestrict id="aspace_44bdfbd93b02430aa9fd4c563df93da0">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_6a2342272d0e2de3b61cae9fe99681e4">
+          <head>Scope and Content Note</head>
+          <p>Sukey Garcetti, sole administrator of her family's foundation, the Roth Family
+            Foundation, discusses her family's history, the background of the foundation, and the
+            grant making philosophy she applies at the foundation. She discusses family and private
+            philanthropy and contrasts them with other philanthropic institutions in terms of scope,
+            capacity, goals, and organization. Garcetti speaks of generational issues, and possible
+            differences in values as a major topic in family philanthropy.</p>
+        </scopecontent>
+        <controlaccess>
+          <geogname source="ingest">California</geogname>
+          <geogname source="ingest">Los Angeles, California</geogname>
+          <subject authfilenumber="http://id.loc.gov/authorities/subjects/sh2004005489.html"
+            source="lcsh">family foundations</subject>
+          <subject source="ingest">government philanthropic role</subject>
+          <subject source="ingest">grant evaluation</subject>
+          <subject source="ingest">grantmaker associations</subject>
+          <subject source="ingest">Jewish family philanthropy</subject>
+          <subject source="ingest">philanthropy</subject>
+          <subject source="ingest">private foundations</subject>
+          <corpname source="ingest">Roth Family Foundation</corpname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00014" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Gardner, John</unittitle>
+          <unitid>90-016</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">September 13, 1990</unitdate>
+          <physdesc id="aspace_119ea40f10393746bd4cb80e291cc2f5" label="Physical Description">18
+            pages 2 tapes, 1 7/8 ips, 63 minutes; 2 VHS videotapes; index; photo of interviewee with
+            President Jimmy Carter, photo of interviewee, photo and quotes of interviewee in banquet
+            program, advertising pamphlet for video of interviewee, 2 volume set of VHS tapes:John
+            W. Gardner "The Release of Human Possibilities" Volume 1 and John W. Gardner "Task of
+            Motivating" Volume Two</physdesc>
+        </did>
+        <accessrestrict id="aspace_f54d6e580536e0907c10e43dbb9c0d2d">
+          <head>Access Status</head>
+          <p>Restricted (audio and VHS tapes closed; edited transcript open)</p>
+        </accessrestrict>
+        <scopecontent id="aspace_1e9bee4a2d1405283b460b71768e47e5">
+          <head>Scope and Content Note</head>
+          <p>John Gardner, a successful philanthropist who spent the majority of his career at the
+            Carnegie Corporation, discusses his background, career development, philosophy of
+            philanthropy, and tenure at the Carnegie Corporation. He speaks of the importance of
+            preventive philanthropy and he emphasizes educational grants in this context. In
+            addition, Gardner discusses grant evaluation, the Independent Sector, and the guiding
+            principles he uses with regard to the application of foundation monies in the form of
+            grants.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="ingest">1969 Tax Reform Act</subject>
+          <subject source="ingest">diversity</subject>
+          <subject source="ingest">Education</subject>
+          <subject source="ingest">environmentalism</subject>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">grant evaluation</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">Carnegie Corporation</corpname>
+          <corpname source="ingest">Independent Sector</corpname>
+          <persname source="ingest">Englehart, Sara</persname>
+          <persname source="ingest">Finberg, Barbara</persname>
+          <persname source="ingest">Hodgkinson, Virginia</persname>
+          <persname source="ingest">Mahoney, Margaret</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00015" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Haas, Walter A., Jr.</unittitle>
+          <unitid>90-041</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">December 5, 1991</unitdate>
+          <physdesc id="aspace_b2b7c95b74299c0b04b8d44e7b212d1b" label="Physical Description">23
+            pages; 2 tapes, 1 7/8 ips, 70 minutes; index; lengthy interview with Haas family members
+            regarding family history and involvement</physdesc>
+        </did>
+        <accessrestrict id="aspace_48eaee52e289c9c0b8c2b1a00b036936">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_e94faeaa81fac8aae91a29c3856b9f23">
+          <head>Scope and Content Note</head>
+          <p>Walter A. Haas, Jr., founder of the Evelyn and Walter Haas, Jr. Foundation, discusses
+            the history of his family's company, the tradition of family philanthropy, and his
+            philosophy of philanthropy. He discusses the need for volunteerism in society and the
+            importance of philanthropy, especially as applied in the San Francisco, California area
+            by his foundation. Haas speaks of grant making, grant evaluation, and the areas favored
+            by his foundation. In addition, generational and family issues in philanthropy are
+            discussed, as is the philanthropic role of the government.</p>
+        </scopecontent>
+        <controlaccess>
+          <geogname source="ingest">Bay Area, California</geogname>
+          <geogname source="ingest">San Francisco, California</geogname>
+          <subject source="ingest">corporate philanthropy</subject>
+          <subject source="ingest">diversity</subject>
+          <subject authfilenumber="http://id.loc.gov/authorities/subjects/sh2004005489.html"
+            source="lcsh">family foundations</subject>
+          <subject source="ingest">government philanthropic role</subject>
+          <subject source="ingest">grant making</subject>
+          <subject source="ingest">grant evaluation</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">Evelyn and Walter Haas, Jr. Foundation</corpname>
+          <corpname source="ingest">Levi Strauss and Company</corpname>
+          <corpname source="ingest">Oakland A's</corpname>
+          <corpname source="ingest">Season of Sharing Fund</corpname>
+          <persname source="ingest">Hirschfield, Ira</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00016" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Hamburg, David</unittitle>
+          <unitid>00-000 (accession number)</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">November 13, 1990</unitdate>
+          <physdesc id="aspace_d3a8ac362402e2507b0583d743cb27bc" label="Physical Description">26
+            pages 2 tapes, 1 7/8 ips, 96 minutes; no index</physdesc>
+        </did>
+        <accessrestrict id="aspace_283ee07ae48c309e963da67b97655a55">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_c6325bcf4456fa04d8a60bddc781eba4">
+          <head>Scope and Content Note</head>
+          <p>David Hamburg, president of the Carnegie Corporation, discusses the mission behind his
+            foundation. He talks about his educational background, his previous experience with
+            philanthropic organizations, describes some of Carnegie Corporation's current projects
+            and its influential projects of the past. He compares Carnegie to other large
+            foundations in the United States and also places foundations in the political and social
+            structure of America.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="ingest">Cold War</subject>
+          <subject authfilenumber="sh85148216" source="lcsh">World politics</subject>
+          <subject source="ingest">Judaism</subject>
+          <subject source="ingest">nuclear weapons</subject>
+          <subject source="ingest">religious beliefs</subject>
+          <subject source="ingest">philanthropic foundations</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">Carnegie Corporation</corpname>
+          <persname source="ingest">Carnegie, Andrew</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00017" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Hilton, Steven M.</unittitle>
+          <unitid>90-044</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">December 2, 1991</unitdate>
+          <physdesc id="aspace_def7a696e6064e899102c55de18aeda6" label="Physical Description">25
+            pages; 2 tapes, 1 7/8 ips, 89 minutes; index; photo of interviewee, photo of foundation
+            board</physdesc>
+        </did>
+        <accessrestrict id="aspace_0b12e7f4d2bc537a26bee45aca760310">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_dece121fc87810791b6ed3b4c9087b8c">
+          <head>Scope and Content Note</head>
+          <p>Steven M. Hilton, a director of the Hilton Foundation, discusses the mission and vision
+            of his grandfather, Conrad Hilton, the founder of this philanthropic institution. He
+            speaks of the impact of Catholicism on the development of his own values and philosophy
+            of philanthropy and also on the grants funded by the Hilton Foundation. Hilton also
+            discusses the influence of the nineteen sixties on himself personally and on
+            philanthropy in general. He comments on the nature of family foundations and his
+            association with them. In addition, Hilton speaks of the Hilton Foundation's national
+            and international focus, its commitment to early childhood development, grant making,
+            and grant evaluation.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">philanthropist</occupation>
+          <subject source="ingest">Catholic schools</subject>
+          <subject source="ingest">Catholicism</subject>
+          <subject source="ingest">early childhood development</subject>
+          <subject authfilenumber="http://id.loc.gov/authorities/subjects/sh2004005489.html"
+            source="lcsh">family foundations</subject>
+          <subject source="ingest">grant evaluation</subject>
+          <subject source="ingest">grant making</subject>
+          <subject source="ingest">nineteen sixties</subject>
+          <subject source="ingest">Perkins Grant</subject>
+          <subject source="ingest">philanthropy</subject>
+          <subject source="ingest">World Vision Grant</subject>
+          <corpname source="ingest">Catholic Sisters</corpname>
+          <corpname source="ingest">Conrad Hilton Fund for Sisters</corpname>
+          <corpname source="ingest">Head Start</corpname>
+          <corpname source="ingest">Hilton Foundation</corpname>
+          <corpname source="ingest">Hilton Hotels Corporation</corpname>
+          <famname source="ingest">Hilton</famname>
+          <persname source="ingest">Hilton, Conrad</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00018" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Hirsch, Bruce A.</unittitle>
+          <unitid>90-042</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">December 5, 1991</unitdate>
+          <physdesc id="aspace_af1fc0ae3715639c23ad59fc54303b18" label="Physical Description">25
+            pages; 2 tapes, 1 7/8 ips, 76 minutes; index</physdesc>
+        </did>
+        <accessrestrict id="aspace_9472d4b8c77ce4a377a6902b6c2c61ca">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_20d9e811ce1f3dadb6b01272aac50ca4">
+          <head>Scope and Content Note</head>
+          <p>Dr. Bruce A. Hirsch, executive director of the Clarence Heller Foundation, discusses
+            his education, background, and philosophy of philanthropy. He speaks of grant making at
+            the Heller Foundation and of the main areas in which this institution issues grants,
+            which include health and the environment, environmental preservation, chamber and
+            symphonic orchestra music, and curriculum development for underprivileged students.
+            Hirsch discusses family foundations, the impact of the nineteen sixties, grant making,
+            grant evaluation, and environmental grant making.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">philanthropist</occupation>
+          <geogname source="ingest">California</geogname>
+          <geogname source="ingest">San Francisco, California</geogname>
+          <subject source="ingest">diversity</subject>
+          <subject source="ingest">environmental philanthropy</subject>
+          <subject authfilenumber="http://id.loc.gov/authorities/subjects/sh2004005489.html"
+            source="lcsh">family foundations</subject>
+          <subject source="ingest">government philanthropic role</subject>
+          <subject source="ingest">grant evaluation</subject>
+          <subject source="ingest">grant making</subject>
+          <subject source="ingest">nineteen sixties</subject>
+          <subject source="ingest">philanthropic ethics</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">Clarence Heller Foundation</corpname>
+          <corpname source="ingest">Council on Foundations</corpname>
+          <corpname source="ingest">Haas Fund</corpname>
+          <corpname source="ingest">Resource Renewal Institute</corpname>
+          <persname source="ingest">Heller, Clarence</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00019" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Jacobson, Sibyl</unittitle>
+          <unitid>90-012</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">June 29, 1990</unitdate>
+          <physdesc id="aspace_3109c923a828a6f82d5cb49aab83455e" label="Physical Description">24
+            pages; 2 tapes, 1 7/8 ips, 75 minutes; index</physdesc>
+        </did>
+        <accessrestrict id="aspace_0b7d7be323c42c761a6fbad673034522">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_6eb57649f6e92d7bc541f1f0b6511c03">
+          <head>Scope and Content Note</head>
+          <p>Sibyl Jacobson, a philanthropist at the Metropolitan Life Foundation, discusses her
+            educational background as it is related to her career in philanthropy. Much of her
+            discussion revolves around corporate philanthropy and corporate foundations and ethics
+            involved in the practice of this line of work. Jacobson discusses the priorities of the
+            Metropolitan Life Foundation, its grant making policies, and the role of diversity in
+            philanthropy.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="ingest">corporate foundations</subject>
+          <subject source="ingest">diversity</subject>
+          <subject source="ingest">grant making</subject>
+          <subject source="ingest">Louis Harris surveys</subject>
+          <subject source="ingest">nineteen sixties</subject>
+          <subject source="ingest">philanthropy</subject>
+          <subject source="ingest">program related investments</subject>
+          <corpname source="ingest">Metropolitan Life Foundation</corpname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00020" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Johnson, Charles A.</unittitle>
+          <unitid>90-006</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">March 14, 1990</unitdate>
+          <physdesc id="aspace_b5adc37937e7ed2a1ebe32c49d21d433" label="Physical Description">37
+            pages; 2 tapes, 1 7/8 ips, 102 minutes; index; 2 photos of interviewee</physdesc>
+        </did>
+        <accessrestrict id="aspace_e2db7dd98ecc3dc20fa27e5a5e6ff0d9">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_1c8023482799287af90aebc3206847de">
+          <head>Scope and Content Note</head>
+          <p>Charles A. Johnson, a foundation officer of the Lilly Endowment and former fundraiser,
+            discusses the influences of his background, religion, and education on his values and
+            philosophy of philanthropy. He speaks of the Lilly family, their commitment to
+            philanthropy, and the three main areas of emphasis in the Lilly Endowment: religion,
+            education, and community development. Johnson discusses the Endowment's grant making
+            process in these areas, in addition to commenting on philanthropic ethics, the causes
+            and effects of the 1969 Tax Reform Act, and the Endowment's traditional emphasis on
+            making grants in Indianapolis.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">foundation officer</occupation>
+          <occupation source="ingest">fundraiser</occupation>
+          <geogname source="ingest">Indiana</geogname>
+          <geogname source="ingest">Indianapolis, Indiana</geogname>
+          <subject source="ingest">1969 Tax Reform Act</subject>
+          <subject source="ingest">grant making</subject>
+          <subject source="ingest">philanthropic ethics</subject>
+          <subject source="ingest">philanthropy</subject>
+          <subject source="ingest">Quakerism</subject>
+          <corpname source="ingest">American City Bureau</corpname>
+          <corpname source="ingest">Earlham College</corpname>
+          <corpname source="ingest">Lilly Endowment</corpname>
+          <famname source="ingest">Lilly</famname>
+          <persname source="ingest">Nielsen, Waldemar</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00021" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Joseph, James A.</unittitle>
+          <unitid>90-021</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" type="bulk">February 28,
+            1991</unitdate>
+          <unitdate datechar="creation" normal="1991-04-23/1991-04-23">April 23, 1991</unitdate>
+          <physdesc id="aspace_9533e8829878332fc4e883961d2139e1" label="Physical Description">31
+            pages; 2 tapes, 1 7/8 ips, 113 minutes; index; photo of interviewee, photo of
+            interviewee in meeting, fact sheet on Council on Foundations</physdesc>
+        </did>
+        <accessrestrict id="aspace_c4d0c917b84eca61b1dfe023beff70a6">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_262babd8bf9f3f8ebbae0ba43821e5cd">
+          <head>Scope and Content Note</head>
+          <p>James A. Joseph, the president and chief executive officer of the Council on
+            Foundations, discusses his values, education, career, and philosophy of philanthropy. He
+            speaks of international philanthropy, especially in the context of his book, <emph
+              render="underline">The Charitable Impulse</emph>. In addition, Joseph comments on
+            foundation assessment, philanthropic ethics, diversity and minority groups in
+            philanthropy, and the necessity of leadership. He also reveals his beliefs as to the
+            place of philanthropy in United States society and he speaks of the fewness of jobs and
+            lack of specific training for jobs in the philanthropic world.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">philanthropist</occupation>
+          <subject source="ingest">1991 Persian Gulf War</subject>
+          <subject source="ingest"><emph render="underline">The Charitable Impulse</emph></subject>
+          <subject source="ingest">diversity</subject>
+          <subject authfilenumber="http://id.loc.gov/authorities/subjects/sh2004005489.html"
+            source="lcsh">family foundations</subject>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">government philanthropic role</subject>
+          <subject source="ingest">grant evaluation</subject>
+          <subject source="ingest">international philanthropy</subject>
+          <subject source="ingest">minority groups</subject>
+          <subject source="ingest">philanthropic ethics</subject>
+          <subject source="ingest">philanthropic leaders</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">Council on Foundations</corpname>
+          <corpname source="ingest">Cummins Foundation</corpname>
+          <corpname source="ingest">Erwin Sweeney Miller Foundation</corpname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00022" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Kreidler, Robert N.</unittitle>
+          <unitid>90-002</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">February 13, 1990</unitdate>
+          <physdesc id="aspace_3806bf7798e35e6d413461ecdf79137c" label="Physical Description">49
+            pages 3 tapes, 1 7/8 ips, 138 minutes; index</physdesc>
+        </did>
+        <accessrestrict id="aspace_2b0800a65888657afbb175974e5da9ad">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_720088cdd520f0f9c5112978eb77d554">
+          <head>Scope and Content Note</head>
+          <p>Robert N. Kreidler, born in 1929, describes his work in United States foundations,
+            particularly at the Sloan and Dana foundations. He describes the formation and
+            management of foundations, their boards and employees, including women and minorities.
+            Further, he describes the grant making process, successes and failures, and public
+            opinion of foundations.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">foundation executive</occupation>
+          <subject source="ingest">diversity</subject>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">grant making</subject>
+          <corpname source="ingest">Alfred T. Sloan Foundation</corpname>
+          <corpname source="ingest">Carnegie Corporation</corpname>
+          <corpname source="ingest">Carnegie Foundation</corpname>
+          <corpname source="ingest">Connecticut Public Expenditure Council</corpname>
+          <corpname source="ingest">Council for Atomic Age Studies</corpname>
+          <corpname source="ingest">Dartmouth College</corpname>
+          <corpname source="ingest">Ford Foundation</corpname>
+          <corpname source="ingest">Harvard Graduate School</corpname>
+          <corpname source="ingest">John Cotton Dana Foundation</corpname>
+          <corpname source="ingest">Massachusetts Institute of Technology</corpname>
+          <corpname source="ingest">New York Stock Exchange</corpname>
+          <corpname source="ingest">Robert Wood Johnson Foundation</corpname>
+          <corpname source="ingest">Rockefeller Foundation</corpname>
+          <corpname source="ingest">United States Marine Corps</corpname>
+          <persname source="ingest">Case, Everett</persname>
+          <persname source="ingest">Hewlett, Bill</persname>
+          <persname source="ingest">Kennedy, John Fitzgerald</persname>
+          <persname source="ingest">Killian, James</persname>
+          <persname source="ingest">Mahoney, Margaret</persname>
+          <persname source="ingest">Morrisett, Lloyd</persname>
+          <persname source="ingest">Rees, Albert</persname>
+          <persname source="ingest">Rockefeller, John D.</persname>
+          <persname source="ingest">Simmons, Adele</persname>
+          <persname source="ingest">Sloan, Alfred T.</persname>
+          <persname source="ingest">Weaver, Warren</persname>
+          <persname source="ingest">Wessel, Nils</persname>
+          <persname source="ingest">Wiesner, Jerome</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00023" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Kunstadter, John; Kunstadter, Geraldine</unittitle>
+          <unitid>90-022</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">February 26, 1991</unitdate>
+          <physdesc id="aspace_93eff5c8cce33252e8c19d18bb219807" label="Physical Description">49
+            pages; 3 tapes, 1 7/8 ips, 152 minutes; index</physdesc>
+        </did>
+        <accessrestrict id="aspace_4bea8fd4cd97c57085ca93d7b435adb9">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_86ac9a6ecb804975bd0dede0198edb01">
+          <head>Scope and Content Note</head>
+          <p>John and Geraldine Kunstadter run their family foundation, the Albert Kunstadter Family
+            Foundation. They discuss their respective backgrounds, educations, and the development
+            of their values. Also discussed is the history of their family foundation, family
+            foundations in general, and their process of grant making. Their foundation tends to
+            emphasize international philanthropy. The Kunstadters speak of their beliefs about the
+            role of organized philanthropy, diversity in foundations, the importance of annual
+            reports, and the set of priorities they use in grant making decisions.</p>
+        </scopecontent>
+        <controlaccess>
+          <geogname source="ingest">Chicago, Illinois</geogname>
+          <geogname source="ingest">Middle East</geogname>
+          <geogname source="ingest">New York, New York</geogname>
+          <subject source="ingest">diversity</subject>
+          <subject authfilenumber="http://id.loc.gov/authorities/subjects/sh2004005489.html"
+            source="lcsh">family foundations</subject>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">grant making</subject>
+          <subject source="ingest">international philanthropy</subject>
+          <subject source="ingest">philanthropy</subject>
+          <subject source="ingest">physics</subject>
+          <corpname source="ingest">Albert Kunstadter Family Foundation</corpname>
+          <corpname source="ingest">Massachusetts Institute of Technology</corpname>
+          <corpname source="ingest">New York Regional Association of Grantmakers</corpname>
+          <famname source="ingest">Kunstadter</famname>
+          <persname source="ingest">Bradley, Bill</persname>
+          <persname source="ingest">McKnight, John</persname>
+          <persname source="ingest">Portee, Barbara</persname>
+          <persname source="ingest">Ylvisaker, Paul</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00024" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Lenkowsky, Leslie</unittitle>
+          <unitid>90-048</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">December 13, 1991</unitdate>
+          <physdesc id="aspace_5c3424e930361d190ff5e3e91425fe5c" label="Physical Description">30
+            pages; 2 tapes, 1 7/8 ips, 103 minutes; index; photo of interviewee, photo of
+            interviewee with President Reagan</physdesc>
+        </did>
+        <accessrestrict id="aspace_30040accfa0d608a05e7021ea7fbf55b">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_4be25c5c8e31ae87402d9d7187d07530">
+          <head>Scope and Content Note</head>
+          <p>Leslie Lenkowsky, the president of the Hudson Institute, discusses his background and
+            education, the neo-conservative movement, Judaism, and the strengths and weaknesses of
+            American foundations in this interview. He speaks of the impacts of the nineteen
+            sixties, including increased attention to social welfare. In addition, Lenkowsky
+            comments on foundation assessment, the problems with family foundations, the
+            philanthropic role of the government, the relationship between Judaism and
+            neo-conservatism, and many of his fellow philanthropists and the institutions they
+            represent.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">philanthropist</occupation>
+          <geogname source="ingest">Baltic Region</geogname>
+          <geogname source="ingest">Indianapolis, Indiana</geogname>
+          <geogname source="ingest">Soviet Union</geogname>
+          <subject source="ingest">diversity</subject>
+          <subject authfilenumber="http://id.loc.gov/authorities/subjects/sh2004005489.html"
+            source="lcsh">family foundations</subject>
+          <subject source="ingest">foundation leaders</subject>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">George Bush administration</subject>
+          <subject source="ingest">government philanthropic role</subject>
+          <subject source="ingest">grant evaluation</subject>
+          <subject source="ingest">grant making</subject>
+          <subject source="ingest">Judaism</subject>
+          <subject source="ingest">neo-conservatism</subject>
+          <subject source="ingest">nineteen sixties</subject>
+          <subject source="ingest">philanthropy</subject>
+          <subject source="ingest">Reagan administration</subject>
+          <subject source="ingest">social welfare</subject>
+          <subject source="ingest">volunteerism</subject>
+          <corpname source="ingest">Council on Foundations</corpname>
+          <corpname source="ingest">Ford Foundation</corpname>
+          <corpname source="ingest">Hudson Institute</corpname>
+          <corpname source="ingest">Institute for Educational Affairs</corpname>
+          <corpname source="ingest">Philanthropic Roundtable</corpname>
+          <corpname source="ingest">A Thousand Points of Light Foundation</corpname>
+          <corpname source="ingest">United States Congress</corpname>
+          <persname source="ingest">Carnegie, Andrew</persname>
+          <persname source="ingest">Kahn, Herman</persname>
+          <persname source="ingest">Kristol, Irving</persname>
+          <persname source="ingest">Odendahl, Theresa</persname>
+          <persname source="ingest">Rooney, Pat</persname>
+          <persname source="ingest">Rosenwald, Julius</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00025" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Lyman, Elizabeth J. "Jing"</unittitle>
+          <unitid>90-046</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">December 4, 1991</unitdate>
+          <physdesc id="aspace_e65f2291eaaeefc544052e438b64692a" label="Physical Description">38
+            pages; 3 tapes, 1 7/8 ips, 135 minutes; index; photo of interviewee, photo of
+            interviewee with children</physdesc>
+        </did>
+        <accessrestrict id="aspace_5f7cebf2ccf7496997702b78f156ac0c">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_666cfb5202268ad6d12c165cd50f597a">
+          <head>Scope and Content Note</head>
+          <p>Elizabeth J. "Jing" Lyman, active in volunteerism, social welfare, and philanthropy for
+            decades, discusses the profound influence of her upbringing, family, education, and
+            background on the development of her values, career path, and philosophy of
+            philanthropy. In this interview, she emphasizes women and philanthropy, grant seeking
+            and grant making, especially with regard to diversity issues. In addition, Lyman speaks
+            of the importance and effectiveness of grassroots organizing, and the making of activist
+            grants.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="ingest">community service</subject>
+          <subject source="ingest">corporate philanthropy</subject>
+          <subject source="ingest">diversity</subject>
+          <subject source="ingest">foundation organization</subject>
+          <subject source="ingest">grant making</subject>
+          <subject source="ingest">philanthropy</subject>
+          <subject source="ingest">recession</subject>
+          <subject source="ingest">women's rights</subject>
+          <subject source="ingest">World War II</subject>
+          <corpname source="ingest">American Enterprise Institute</corpname>
+          <corpname source="ingest">Putney School</corpname>
+          <corpname source="ingest">Rockefeller Foundation</corpname>
+          <corpname source="ingest">Rosenberg Foundation</corpname>
+          <corpname source="ingest">Swarthmore College</corpname>
+          <persname source="ingest">Rouse, Jim</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00026" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Lyman, Richard</unittitle>
+          <unitid>90-034</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">August 21, 1991</unitdate>
+          <physdesc id="aspace_c99620d66cd27c6fa9f4db8c9c0d27e0" label="Physical Description">31
+            pages; 2 tapes, 1 7/8 ips, 86 minutes; index; photo of interviewee, photo of interviewee
+            at meeting</physdesc>
+        </did>
+        <accessrestrict id="aspace_9a62cae4edb241635f6ce89767f1c519">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_1056a041ceacc9b114ada09485b94719">
+          <head>Scope and Content Note</head>
+          <p>Richard Lyman, president of Stanford University and president of the Rockefeller
+            Foundation, discusses his background, education, and career, and his views on
+            philanthropy. Specifically, he speaks extensively about the Rockefeller Foundation, the
+            ideal characteristics of foundation leaders, diversity, philanthropic ethics, and both
+            the positive and negative aspects of grant evaluation. Lyman also speaks of foundations
+            in general and the health of American foundations.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">philanthropist</occupation>
+          <occupation source="ingest">professor</occupation>
+          <subject source="ingest">diversity</subject>
+          <subject source="ingest">foundation leaders</subject>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">government philanthropic role</subject>
+          <subject source="ingest">grant evaluation</subject>
+          <subject source="ingest">philanthropic ethics</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">Council on Foundations</corpname>
+          <corpname source="ingest">Independent Sector</corpname>
+          <corpname source="ingest">Rockefeller Foundation</corpname>
+          <corpname source="ingest">Swarthmore College</corpname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00027" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Magat, Richard A.</unittitle>
+          <unitid>90-003</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" type="bulk">February 12,
+            1990</unitdate>
+          <unitdate datechar="creation" normal="1990-04-20/1990-04-20">April 20, 1990</unitdate>
+          <physdesc id="aspace_39f0000b239f3dcb750282a0e251f461" label="Physical Description">43
+            pages; 3 tapes, 1 7/8 ips, 119 minutes; index; photo of interviewee, booklet written by
+            interviewee</physdesc>
+        </did>
+        <accessrestrict id="aspace_f89c6f637705102dec9572f55b681ba9">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_edbe8d6e0d719e2f3d80a978f67352e2">
+          <head>Scope and Content Note</head>
+          <p>Richard A. Magat, a philanthropist employed in public relations at the Ford Foundation
+            and former president of the Edward W. Hazen Foundation, discusses his background,
+            education, and philosophy of philanthropy. He comments extensively on foundations, the
+            nature of foundations, international philanthropy, possible criticisms of foundations,
+            and the internal politics often present in foundation administration. In addition, Magat
+            speaks of the 1969 Tax Reform Act, what initiated this Congressional act, and some of
+            the results in the philanthropic world.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">philanthropist</occupation>
+          <subject source="ingest">1969 Tax Reform Act</subject>
+          <subject source="ingest">diversity</subject>
+          <subject source="ingest">foundation politics</subject>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">international philanthropy</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">Edward W. Hazen Foundation</corpname>
+          <corpname source="ingest">Ford Foundation</corpname>
+          <persname source="ingest">Odendahl, Theresa</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00028" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Mawby, Russell G.</unittitle>
+          <unitid>90-007</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">April 3, 1990</unitdate>
+          <physdesc id="aspace_714b7a0824be94c9976ccc4ca2550394" label="Physical Description">45
+            pages; 3 tapes, 1 7/8 ips, 114 minutes; index; photo of interviewee, photo of
+            interviewee in group shot, curriculum vitae</physdesc>
+        </did>
+        <accessrestrict id="aspace_86fef095e8caa85a8fe8b503c6eae363">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_fb763bed5fbcaf63f73fbffb7e9cf92d">
+          <head>Scope and Content Note</head>
+          <p>Russell G. Mawby, chief executive officer and chairman of the board of the W.K Kellogg
+            Foundation, discusses his family and childhood on a fruit farm in rural Michigan, the
+            development of his values, and the importance placed on education and agriculture as he
+            grew up. He speaks of his entrance into the field of philanthropy, and his broad
+            definition of philanthropy, foundations, and philanthropic ethics. Mawby outlines some
+            of the main grant making goals of the W.K. Kellogg Foundation, including urban and rural
+            education and development, nutritional health on an international scale, and ground
+            water education. In addition, he discusses foundations in American society and what he
+            sees in the future for philanthropy.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">philanthropist</occupation>
+          <geogname source="ingest">Michigan</geogname>
+          <subject source="ingest">agriculture</subject>
+          <subject source="ingest">American education</subject>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">fruit farming</subject>
+          <subject source="ingest">ground water education</subject>
+          <subject source="ingest">international philanthropy</subject>
+          <subject source="ingest">nutritional health</subject>
+          <subject source="ingest">philanthropic ethics</subject>
+          <subject source="ingest">philanthropy</subject>
+          <subject source="ingest">rural America</subject>
+          <subject source="ingest">urban areas</subject>
+          <corpname source="ingest">4-H Club</corpname>
+          <corpname source="ingest">Council on Foundations</corpname>
+          <corpname source="ingest">Kellogg Youth Initiative</corpname>
+          <corpname source="ingest">Michigan Cooperative Extension Service</corpname>
+          <corpname source="ingest">Michigan State University</corpname>
+          <corpname source="ingest">W.K. Kellogg Foundation</corpname>
+          <persname source="ingest">Bowser, Shirley</persname>
+          <persname source="ingest">Moore, Wenda</persname>
+          <persname source="ingest">Raun, Rob</persname>
+          <persname source="ingest">Williams, Martha</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00029" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>McCormack, Elizabeth</unittitle>
+          <unitid>90-033</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">October 1, 1991</unitdate>
+          <physdesc id="aspace_02e564f85f226f19169d754952147acd" label="Physical Description">18
+            pages; 1 tape, 1 7/8 ips, 54 minutes; index; photo of interviewee</physdesc>
+        </did>
+        <accessrestrict id="aspace_fcf2caae879c49b1957ddff16b58684f">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_399e09b7581da3091196c2044af86b80">
+          <head>Scope and Content Note</head>
+          <p>Elizabeth McCormack, a nun and philanthropist who has worked at the Rockefeller
+            Brothers Fund and the MacArthur Foundation, discusses her career, values, and favorite
+            grants. She speaks of the history of philanthropy and her views on the future of
+            philanthropy. McCormack discusses grant making and grant evaluation, as well as the role
+            she believes the government should take in regard to philanthropy. In addition, she
+            comments on diversity in philanthropic boards and foundations.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">nun</occupation>
+          <occupation source="ingest">philanthropist</occupation>
+          <subject source="ingest">diversity</subject>
+          <subject authfilenumber="http://id.loc.gov/authorities/subjects/sh2004005489.html"
+            source="lcsh">family foundations</subject>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">government philanthropic role</subject>
+          <subject source="ingest">grant evaluation</subject>
+          <subject source="ingest">individual philanthropy</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">MacArthur Foundation</corpname>
+          <corpname source="ingest">Rockefeller Brothers Fund</corpname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00030" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>McGinly, William</unittitle>
+          <unitid>90-023</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">February 28, 1991</unitdate>
+          <physdesc id="aspace_9ee13ffd2b5a1a62f25886a776ef75be" label="Physical Description">31
+            pages; 2 tapes, 1 7/8 ips, 93 minutes; index</physdesc>
+        </did>
+        <accessrestrict id="aspace_3af06b5f8e5d674526123d53058b9744">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_57407f29e7e951ddd76fa7a85ff87fc0">
+          <head>Scope and Content Note</head>
+          <p>William McGinly, chief executive officer and president of the Association for Health
+            Philanthropy, discusses his background, his family, the development of his values, and
+            his entrance into the field of philanthropy. McGinly emphasizes the profound personal
+            importance of education and health care, as well as its importance to the organization
+            which he leads. He discusses some characteristics and experiences that he believes make
+            a good philanthropist. In addition, McGinly comments on the Give to Life Program,
+            philanthropic ethics, diversity in philanthropy, and possible effects of the first
+            Persian Gulf War on American philanthropy.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">philanthropist</occupation>
+          <subject source="ingest">1991 Persian Gulf War</subject>
+          <subject source="ingest">Education</subject>
+          <subject source="ingest">diversity</subject>
+          <subject source="ingest">health care</subject>
+          <subject source="ingest">philanthropic ethics</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">Association for Health Philanthropy</corpname>
+          <corpname source="ingest">Give to Life Program</corpname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00031" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Nielsen, Waldemar</unittitle>
+          <unitid>90-004</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">February 15, 1990</unitdate>
+          <physdesc id="aspace_51dca82e4250419e0e717949ca4efb72" label="Physical Description">37
+            pages; 3 tapes, 1 7/8 ips, 148 minutes; index; photo of interviewee, photo &amp; xeroxed
+            photo of interviewee in meeting, article about interviewee</physdesc>
+        </did>
+        <accessrestrict id="aspace_0835094a8c9c57cdb5a6115f559feac8">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_91e51ea881ec15acfca73148721c2909">
+          <head>Scope and Content Note</head>
+          <p>Waldemar Nielsen, whose career centered on philanthropy at the Ford Foundation,
+            discusses his background, early career, and thoughts on American philanthropy. Nielsen
+            speaks of his views on the role of foundations in United States society and the
+            weaknesses of foundations, including the lack of diversity within and among foundations.
+            He discusses the impact of McCarthyism on the Ford Foundation and the role the
+            government should play, and has played, in philanthropy.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="ingest">1969 Tax Reform Act</subject>
+          <subject source="ingest">diversity</subject>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">government philanthropic role</subject>
+          <subject source="ingest">Marshall Plan</subject>
+          <subject source="ingest">McCarthyism</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">Ford Foundation</corpname>
+          <corpname source="ingest">Lilly Foundation</corpname>
+          <corpname source="ingest">Rockefeller Foundation</corpname>
+          <persname source="ingest">Barzun, Jacques</persname>
+          <persname source="ingest">Gardner, John</persname>
+          <persname source="ingest">Hoffman, Paul G.</persname>
+          <persname source="ingest">Patman, Wright</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00032" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>O'Connell, Brian</unittitle>
+          <unitid>90-031</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">May 2, 1991</unitdate>
+          <physdesc id="aspace_abd52c75a8998155c0eb0294826c7a04" label="Physical Description">31
+            pages; 3 tapes, 1 7/8 ips, 128 minutes; index</physdesc>
+        </did>
+        <accessrestrict id="aspace_657603259b0c157bdbb28130c18659a8">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_b84da2f6c80d1f80ef97d2ffc5bef915">
+          <head>Scope and Content Note</head>
+          <p>Brian O'Connell, a philanthropist at the Independent Sector, discusses his background,
+            education, and career at the Independent Sector. He speaks of diversity and the
+            interplay between government and philanthropy. O'Connell comments on foundations in
+            United States' society, his thoughts on the future on American philanthropy, and, more
+            specifically, the agenda and description of the Independent Sector.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">philanthropist</occupation>
+          <subject source="ingest">Civil Rights Movement</subject>
+          <subject source="ingest">diversity</subject>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">government philanthropic role</subject>
+          <subject source="ingest">grant evaluation</subject>
+          <subject source="ingest">mentors</subject>
+          <subject source="ingest">nonprofit sector</subject>
+          <subject source="ingest">Peterson Commission</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">American Heart Association</corpname>
+          <corpname source="ingest">Filer Commission</corpname>
+          <corpname source="ingest">Independent Sector</corpname>
+          <corpname source="ingest">Maxwell School of Citizenship and Public
+            Administration</corpname>
+          <corpname source="ingest">Mental Health Association</corpname>
+          <persname source="ingest">Joseph, Geri</persname>
+          <persname source="ingest">Rockefeller, John D., III</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00033" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Payton, Robert L.</unittitle>
+          <unitid>90-047</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">December 9, 1991</unitdate>
+          <physdesc id="aspace_88d70b63da29e6be43b553f2dc40dad6" label="Physical Description">21
+            pages; 2 tapes, 1 7/8 ips, 85 minutes; index</physdesc>
+        </did>
+        <accessrestrict id="aspace_bbfc2a6a881ff88eea2ede584b2035c2">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_4c231bea514f13d454cfe917c4f5dcad">
+          <head>Scope and Content Note</head>
+          <p>Robert L. Payton, a professor of philanthropic studies who was intensely involved with
+            the Indiana University Center on Philanthropy, discusses his family and childhood, and
+            their contribution to his moral development, and eventual career and beliefs about
+            philanthropy. He speaks of the so-called robber barons and the foundations created from
+            their accumulated wealth, and the reasons or purposes of the wealthy who set up
+            foundations. In addition, Payton discusses changes philanthropy and foundations have
+            undergone, especially since World War II, and the role the government plays in
+            philanthropy.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">government philanthropic role</subject>
+          <subject source="ingest">Herman B Wells Scholars Program</subject>
+          <subject source="ingest">intercollegiate athletics</subject>
+          <subject source="ingest">philanthropy</subject>
+          <subject source="ingest">World War II</subject>
+          <corpname source="ingest">C.W. Post College</corpname>
+          <corpname source="ingest">Indiana University Center on Philanthropy</corpname>
+          <persname source="ingest">Carnegie, Andrew</persname>
+          <persname source="ingest">Rockefeller, John D.</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00034" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Pifer, Alan</unittitle>
+          <unitid>90-005</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">February 14, 1990</unitdate>
+          <physdesc id="aspace_0e03e914fa9993fb80e24ac7c8ac065f" label="Physical Description">26
+            pages; 2 tapes, 1 7/8 ips, 82 minutes; index; photo of interviewee</physdesc>
+        </did>
+        <accessrestrict id="aspace_693cd0a52f7f01aeb17de27906750546">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_8dfdde9a3131c220764220211e950f23">
+          <head>Scope and Content Note</head>
+          <p>Alan Pifer, who served for seventeen years as the president of the Carnegie
+            Corporation, discusses his family, education, service in World War II, and the
+            development of his values and beliefs in this interview. He speaks of the personal
+            requirements of a career in philanthropy in terms of personality, character, and
+            education. Pifer comments on his career history, foundations, the interaction of
+            philanthropic organizations and government, the various philanthropic causes with which
+            he has worked, and his efforts for education in Africa. In addition, he discusses the
+            impact of the Civil Rights Movement on the diversity of the boards of philanthropic
+            organizations.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">philanthropist</occupation>
+          <geogname source="ingest">Africa</geogname>
+          <geogname source="ingest">South Africa</geogname>
+          <subject source="ingest">Civil Rights Movement</subject>
+          <subject source="ingest">diversity</subject>
+          <subject source="ingest">Education</subject>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">philanthropy</subject>
+          <subject source="ingest">population aging</subject>
+          <subject source="ingest">World War II</subject>
+          <corpname source="ingest">Carnegie Corporation</corpname>
+          <corpname source="ingest">Carnegie Foundation</corpname>
+          <corpname source="ingest">Consortium for the Advancement of Private Higher
+            Education</corpname>
+          <corpname source="ingest">Ford Foundation</corpname>
+          <corpname source="ingest">Fulbright Commission</corpname>
+          <corpname source="ingest">Groton School</corpname>
+          <corpname authfilenumber="n78096930" rules="rda" source="lcnaf">Harvard
+            University</corpname>
+          <corpname source="ingest">Rockefeller Foundation</corpname>
+          <corpname source="ingest">University of Capetown</corpname>
+          <persname source="ingest">Bundy, McGeorge</persname>
+          <persname source="ingest">Gardner, John</persname>
+          <persname source="ingest">Killian, James</persname>
+          <persname source="ingest">Stackpole, Stephen</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00035" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Price, Hugh B.</unittitle>
+          <unitid>90-038</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">October 8, 1991</unitdate>
+          <physdesc id="aspace_8f5821150837a827524df45048fbdcc2" label="Physical Description">27
+            pages 2 cassettes, 1 7/8 ips., 75 minutes; black and white photograph and
+            negative</physdesc>
+        </did>
+        <accessrestrict id="aspace_b381c7d7a782782a73a7ffb942409a87">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_955fd303b8df4743b34f1c79f6d99199">
+          <head>Scope and Content Note</head>
+          <p>Hugh B. Price, born in 1941, describes his career in foundation work, particularly with
+            the Rockefeller Foundation, where he managed their funds for school reform and equal
+            opportunity. Price also describes his early career and his philosophy of
+            grant-making.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">attorney</occupation>
+          <occupation source="ingest">foundation officer</occupation>
+          <occupation source="ingest">homemaker</occupation>
+          <occupation source="ingest">urologist</occupation>
+          <geogname source="ingest">New Haven, Connecticut</geogname>
+          <geogname source="ingest">New York, New York</geogname>
+          <geogname source="ingest">Washington, DC</geogname>
+          <subject source="ingest">birth control</subject>
+          <subject source="ingest">Cold War</subject>
+          <subject source="ingest">community development</subject>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">Norplant</subject>
+          <subject source="ingest">overpopulation</subject>
+          <subject source="ingest">philosophy</subject>
+          <subject source="ingest">public television</subject>
+          <subject source="ingest">racism</subject>
+          <corpname source="ingest">American Civil Liberties Union</corpname>
+          <corpname source="ingest">Amherst College</corpname>
+          <corpname source="ingest">B.K. Bruce School</corpname>
+          <corpname source="ingest">Black Coalition of New Haven</corpname>
+          <corpname source="ingest">Cogen Holt and Associates</corpname>
+          <corpname source="ingest">Connecticut Conference of Municipalities</corpname>
+          <corpname source="ingest">Coolidge High School</corpname>
+          <corpname source="ingest">Council on Foundations</corpname>
+          <corpname source="ingest"><emph render="underline">The Crow</emph></corpname>
+          <corpname source="ingest">Ford Foundation</corpname>
+          <corpname source="ingest">Georgetown Day School</corpname>
+          <corpname source="ingest">Harlan Fisk Stone Law Society</corpname>
+          <corpname source="ingest">Howard University</corpname>
+          <corpname source="ingest">Independent Sector</corpname>
+          <corpname source="ingest">Mexican American Legal Defense and Education Fund</corpname>
+          <corpname source="ingest">NAACP Legal Defense and Education Fund</corpname>
+          <corpname source="ingest">National Endowment for the Arts</corpname>
+          <corpname source="ingest"><emph render="underline">The New York Times</emph></corpname>
+          <corpname source="ingest">Puerto Rican Legal Defense and Education Fund</corpname>
+          <corpname source="ingest">Rockefeller Brothers Fund</corpname>
+          <corpname source="ingest">Taft Junior High School</corpname>
+          <corpname source="ingest">Yale Law School</corpname>
+          <corpname source="ingest">Yale University</corpname>
+          <persname source="ingest">Clinton, William Jefferson</persname>
+          <persname source="ingest">Comer, James</persname>
+          <persname source="ingest">Logue, Frank</persname>
+          <persname source="ingest">Reagan, Ronald Wilson</persname>
+          <persname source="ingest">Sviridoff, Mike</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00036" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Scallon, Al</unittitle>
+          <unitid>90-010</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">April 19, 1990</unitdate>
+          <physdesc id="aspace_4bb68d30c0dd6df8a0e2dbaaa7b4edca" label="Physical Description">21
+            pages; 2 tapes, 1 7/8 ips, 59 minutes; index; photo of interviewee</physdesc>
+        </did>
+        <accessrestrict id="aspace_b942ffb11852d43ec7835c90ed7b7cf9">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_a4255dcfe2e8b4972f479758a8460d91">
+          <head>Scope and Content Note</head>
+          <p>Al Scallon, the director of the Corporate Support Programs (or corporate philanthropy)
+            of IBM, speaks of IBM's reasons for giving, as well as his own ideas regarding the
+            purpose and orientation of philanthropy. He emphasizes the international character of
+            IBM's philanthropic activities and discusses the increased stress on programs aimed at
+            minority development. In addition, Scallon discusses the issue of philanthropic
+            ethics.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="ingest">corporate foundations</subject>
+          <subject source="ingest">international philanthropy</subject>
+          <subject source="ingest">minority groups</subject>
+          <subject source="ingest">philanthropic ethics</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">IBM Corporation</corpname>
+          <persname source="ingest">Akers, John</persname>
+          <persname source="ingest">Watson, Thomas J., Jr.</persname>
+          <persname source="ingest">Watson, Thomas J., Sr.</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00037" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Shannon, James P.</unittitle>
+          <unitid>90-024</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">February 26, 1991</unitdate>
+          <physdesc id="aspace_c2b6db64ec9fca9cccc2b3fffdfd3a4d" label="Physical Description">39
+            pages; 2 tapes, 1 7/8 ips, 117 minutes; index; photo of interviewee, group photo with
+            interviewee</physdesc>
+        </did>
+        <accessrestrict id="aspace_f8fe48779d81dc59a70fcadfb352b47b">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_de8b0ce502ea7564befad2afc4270802">
+          <head>Scope and Content Note</head>
+          <p>James P. Shannon, the former vice president and director of the General Mills
+            Foundation, reflects on his life. He discusses his family, Catholicism, and education.
+            He also discusses his career in philanthropy, the ethics of philanthropy, its
+            diversification, some problems, and a few of his favorite projects. In addition, Shannon
+            emphasizes the purpose and goals, in his view, of corporate philanthropy.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">attorney</occupation>
+          <occupation source="ingest">bishop</occupation>
+          <occupation source="ingest">philanthropist</occupation>
+          <geogname source="ingest">St. Paul, Minnesota</geogname>
+          <subject source="ingest">diversity</subject>
+          <subject source="ingest">Catholicism</subject>
+          <subject source="ingest">Civil Rights Movement</subject>
+          <subject source="ingest">corporate philanthropy</subject>
+          <subject source="ingest">grant making</subject>
+          <subject source="ingest">Great Depression</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">Brothers of the Christian Schools</corpname>
+          <corpname source="ingest">Bush Foundation</corpname>
+          <corpname source="ingest">General Mills Foundation</corpname>
+          <corpname source="ingest">Independent Sector</corpname>
+          <corpname source="ingest">University of St. Thomas</corpname>
+          <corpname source="ingest">The William and Flora Hewlett Foundation</corpname>
+          <corpname source="ingest">Yale University</corpname>
+          <persname source="ingest">King, Martin Luther, Jr.</persname>
+          <persname source="ingest">Warren, Robert Penn</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00038" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Shute, Benjamin R., Jr.</unittitle>
+          <unitid>90-013</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">July 10, 1990</unitdate>
+          <physdesc id="aspace_01eb73b422397e64d09e14a2c18f3de1" label="Physical Description">35
+            pages; 2 tapes, 1 7/8 ips, 90 minutes; index</physdesc>
+        </did>
+        <accessrestrict id="aspace_9082181758073ffa0d77b98ee5a2d3ec">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_952adfa83248b118a694e4b27b001482">
+          <head>Scope and Content Note</head>
+          <p>Benjamin R. Shute, Jr., the corporate secretary of the Rockefeller Brothers Fund,
+            discusses his childhood, family life, education, and how each of these influenced the
+            development of the values which direct his judgement in his career in philanthropy. He
+            speaks of the Rockefellers as a family and as a foundation, their special interests,
+            international projects, focus on New York City, and diversification to include
+            minorities in the grant making and grant receiving process. In addition, he discusses
+            the creation of New Ventures, a nonprofit consulting organization.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">philanthropist</occupation>
+          <geogname source="ingest">New York, New York</geogname>
+          <subject source="ingest">1969 Tax Reform Act</subject>
+          <subject source="ingest">diversity</subject>
+          <subject source="ingest"><emph render="underline">Enterprise in the Nonprofit
+              Sector</emph></subject>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">grant making</subject>
+          <subject source="ingest">international philanthropy</subject>
+          <subject source="ingest">minority groups</subject>
+          <subject source="ingest">philanthropic ethics</subject>
+          <subject source="ingest">philanthropy</subject>
+          <subject source="ingest">political philanthropy</subject>
+          <corpname source="ingest">New Ventures</corpname>
+          <corpname source="ingest">Rockefeller Brothers Fund</corpname>
+          <corpname source="ingest">Rockefeller Family Fund</corpname>
+          <famname source="ingest">Rockefeller</famname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00039" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Slutsky, Lorie</unittitle>
+          <unitid>90-017</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">September 10, 1990</unitdate>
+          <physdesc id="aspace_194406db4841c995d175ab198cc89472" label="Physical Description">22
+            pages; 2 tapes, 1 7/8 ips, 50 minutes; index; photo of interviewee</physdesc>
+        </did>
+        <accessrestrict id="aspace_6a7c23a7a92a194a230123b6cb5796ce">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_fae150a6a8dfe4f20d63d0ac0506ea3c">
+          <head>Scope and Content Note</head>
+          <p>Lorie Slutsky, president of New York Community Trust, speaks of her background and
+            career as a philanthropist in this interview. She discusses the grant making procedures
+            at the New York Community Trust as well as its priorities, which include children,
+            youth, families, health, community development, and education. Additionally, she
+            describes its mission, philosophy, and structure, and comments on the increasing
+            diversity in the Trust, especially regarding the large number of women on the board and
+            staff, the processes involved, and idea of philanthropy and grant evaluation.</p>
+        </scopecontent>
+        <controlaccess>
+          <geogname source="ingest">New York, New York</geogname>
+          <subject authfilenumber="sh00007918" source="lcsh">community foundations</subject>
+          <subject source="ingest">diversity</subject>
+          <subject source="ingest">grant evaluation</subject>
+          <subject source="ingest">grant making</subject>
+          <subject source="ingest">grant proposals</subject>
+          <subject source="ingest">minority groups</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">Foundation Center</corpname>
+          <corpname source="ingest">Independent Sector</corpname>
+          <corpname source="ingest">New York Community Trust</corpname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00040" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Taylor, Alfred H., Jr.</unittitle>
+          <unitid>90-020</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">January 25, 1991</unitdate>
+          <physdesc id="aspace_c909346f7e3342630a7375424643ecf5" label="Physical Description">19
+            pages; 2 tapes, 1 7/8 ips, 69 minutes; index; 2 photographs of interviewee</physdesc>
+        </did>
+        <accessrestrict id="aspace_aa0d93ed9cd6e59abcf85b6d2ae26a1e">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_540d03c2ae60f57773e801515219ccc8">
+          <head>Scope and Content Note</head>
+          <p>Alfred H. Taylor, Jr., the board chairman of the Kresge Foundation, speaks of his
+            background and career in philanthropy. He emphasizes the history and priorities of the
+            Kresge Foundation, as well as its grant making procedures. Taylor discusses the
+            relations between the professional staff and trustees of the foundation, as well as the
+            question of foundations serving their own interests or areas of preferred service. In
+            addition, he speaks of the increase in diversity in philanthropy.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="ingest">diversity</subject>
+          <subject authfilenumber="http://id.loc.gov/authorities/subjects/sh2004005489.html"
+            source="lcsh">family foundations</subject>
+          <subject source="ingest">grant evaluation</subject>
+          <subject source="ingest">grant making</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">Give Five Program</corpname>
+          <corpname source="ingest">Kresge Foundation</corpname>
+          <persname source="ingest">Kresge, Bruce</persname>
+          <persname source="ingest">Kresge, Sebastian</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00041" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Wilson, Kirke</unittitle>
+          <unitid>90-032</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">June 26, 1991</unitdate>
+          <physdesc id="aspace_6f254283f91b40aee28bc7b8520c4a0e" label="Physical Description">32
+            pages 2 tapes, 109 minutes; no index</physdesc>
+        </did>
+        <accessrestrict id="aspace_88a71a257b230cdfff6b87d59576d6a7">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_bb439c7fc4a39c5b406cd8b8b7b38216">
+          <head>Scope and Content Note</head>
+          <p>Kirke Wilson, a philanthropist employed at the Rosenberg Foundation, discusses the main
+            issues tackled by the foundation: the cultural integration of immigrants, children and
+            families in poverty, and child support reform. He speaks of his strong feelings of
+            social responsibility and about social justice. Mr. Wilson comments on the recognition
+            of the need for reform that grew out of the movements of the nineteen sixties. In
+            addition, he discusses grant making, his opinion as to the government's optimal role in
+            philanthropy, and foundation specialization.</p>
+        </scopecontent>
+        <controlaccess>
+          <geogname source="ingest">San Francisco, California</geogname>
+          <occupation source="ingest">philanthropist</occupation>
+          <subject source="ingest">child abuse</subject>
+          <subject source="ingest">childcare regulation</subject>
+          <subject source="ingest">diversity</subject>
+          <subject source="ingest">foundation bureaucracy</subject>
+          <subject source="ingest">foundation specialization</subject>
+          <subject source="ingest">government philanthropic role</subject>
+          <subject source="ingest">grant making</subject>
+          <subject source="ingest">immigration</subject>
+          <subject source="ingest">nineteen sixties</subject>
+          <subject source="ingest">philanthropy</subject>
+          <subject source="ingest">social responsibility</subject>
+          <corpname source="ingest">Democratic Party</corpname>
+          <corpname source="ingest">Pacific Oaks</corpname>
+          <corpname source="ingest">Rosenberg Foundation</corpname>
+          <corpname source="ingest">United States Congress</corpname>
+          <persname source="ingest">Chance, Ruth</persname>
+          <persname source="ingest">Ganyard, Leslie</persname>
+        </controlaccess>
+      </c01>
+      <c01 id="aspace_ohrc001-00042" level="otherlevel" otherlevel="interview">
+        <did>
+          <unittitle>Ylvisaker, Paul</unittitle>
+          <unitid>90-025</unitid>
+          <origination label="Creator"><persname source="ingest">Lichtenberg,
+            Naomi</persname></origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">February 25, 1991</unitdate>
+          <physdesc id="aspace_23d4feff2a95abbf2386684426de3758" label="Physical Description">30
+            pages; 2 tapes, 1 7/8 ips, 111 minutes; index; photo of interviewee</physdesc>
+        </did>
+        <accessrestrict id="aspace_8e97c127b8646484a94b82d9d8fa2d56">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent id="aspace_65f9ba99348ddbfc06b4004c3d5839c0">
+          <head>Scope and Content Note</head>
+          <p>Paul Ylvisaker discusses in this interview his life, background, and richly varied
+            career that centered on philanthropy, primarily in association with the Ford Foundation.
+            He speaks of both the problems with and benefits of American foundations, as well as the
+            ethics involved in philanthropy. Ylvisaker comments on the impact his Lutheran
+            upbringing had on his values and career path, as well as the increasing diversity within
+            philanthropy.</p>
+        </scopecontent>
+        <controlaccess>
+          <occupation source="ingest">philanthropist</occupation>
+          <subject source="ingest">Civil Rights Movement</subject>
+          <subject source="ingest">diversity</subject>
+          <subject source="ingest">foundations</subject>
+          <subject source="ingest">Gray Areas Program</subject>
+          <subject source="ingest">Lutheranism</subject>
+          <subject source="ingest">philanthropic ethics</subject>
+          <subject source="ingest">philanthropy</subject>
+          <corpname source="ingest">Ford Foundation</corpname>
+          <persname source="ingest">Crown, Susan</persname>
+          <persname source="ingest">Curvin, Bob</persname>
+          <persname source="ingest">Joseph, James A.</persname>
+          <persname source="ingest">Kant, Immanuel</persname>
+          <persname source="ingest">Odendahl, Theresa</persname>
+          <persname source="ingest">Sullivan, Leon</persname>
+        </controlaccess>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

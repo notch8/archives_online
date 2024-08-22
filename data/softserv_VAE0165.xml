@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="completed"
+    langencoding="iso639-2b" repositoryencoding="iso15511">
+    <eadid countrycode="US" mainagencycode="US-InU">VAE0165</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper type="filing">Adelaide Hall Collection, 1928-2003</titleproper>
+        <titleproper>Adelaide Hall Collection, 1928-2003 <num>SC 134</num></titleproper>
+        <subtitle>A Guide to the collection at the Indiana University Archives of African American
+          Music and Culture</subtitle>
+        <author>AAAMC staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Archives of African American Music and Culture</publisher>
+        <p id="logostmt"><extref xlink:actuate="onLoad"
+            xlink:href="http://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/aaamc.jpg"
+            xlink:show="embed" xlink:type="simple"/></p>
+        <p><date>© 2018</date></p>
+        <address>
+          <addressline>Smith Research Center, Rooms 180-181</addressline>
+          <addressline>2805 E. 10th St.</addressline>
+          <addressline>Bloomington, Indiana 47408-2601</addressline>
+          <addressline>Business Number: 812-855-8547</addressline>
+          <addressline>aaamc@indiana.edu</addressline>
+          <addressline>URL: <extptr xlink:href="https://aaamc.indiana.edu/" xlink:show="new"
+              xlink:title="https://aaamc.indiana.edu/" xlink:type="simple"/></addressline>
+        </address>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>© 2018 Trustees of Indiana University. All rights reserved.</p>
+        </note>
+      </notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>This finding aid was produced using ArchivesSpace on <date>2024-08-22 16:49:48
+          -0400</date>.</creation>
+      <langusage>Description is in English.</langusage>
+      <descrules>Describing Archives: A Content Standard</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change audience="internal">
+        <date>June 15, 2018</date>
+        <item>First version published by William R. Vanden Dries.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <repository>
+        <corpname>Archives of African American Music and Culture</corpname>
+      </repository>
+      <unittitle>Adelaide Hall Collection</unittitle>
+      <origination label="Creator">
+        <persname authfilenumber="n92090015" source="lcnaf">Hall, Adelaide</persname>
+      </origination>
+      <unitid>SC 134</unitid>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 document case</extent>
+        <extent altrender="carrier">0.21 linear feet</extent>
+      </physdesc>
+      <unitdate calendar="gregorian" datechar="creation" era="ce" normal="1928/2003"
+        type="inclusive">1928-2003</unitdate>
+      <unitdate calendar="gregorian" datechar="creation" era="ce">undated</unitdate>
+      <abstract id="aspace_12867d4ac4089a6c486a520264fe21f8">The collection contains photographic
+        materials, articles, programs and ephemera related to Hall's performance career.</abstract>
+      <langmaterial id="aspace_22f2b2fc958b7a712406180c0b050624">Materials are in
+        English.</langmaterial>
+    </did>
+    <arrangement id="aspace_216ccd6bbfd7d5da06705006433999dd">
+      <head>Arrangement</head>
+      <p>Arranged in two series:</p>
+      <list type="deflist">
+        <defitem>
+          <label> </label>
+          <item>Series 1: Photographs</item>
+        </defitem>
+        <defitem>
+          <label> </label>
+          <item>Series 2: Articles and ephemera</item>
+        </defitem>
+      </list>
+    </arrangement>
+    <bioghist id="aspace_b2f7552a2ca86b1f843b058e2774f1d2">
+      <head>Biographical / Historical</head>
+      <p>Adelaide Hall was born in Brooklyn, NY in 1901. Hall performed on Broadway in the early
+        1920s and began touring Europe in 1925. Her Broadway career continued throughout the '20s
+        and in 1928 she began performing in Lew Leslie's Blackbirds of 1928, which made her one of
+        the most famous female performers in the United States. Hall continued to perform in the
+        United States into the 1930s, but moved to Paris in 1935 after receiving several death
+        threats following her public stand against racism. In the late 1930s Hall moved to London,
+        and continued to perform throughout the 1940s and 1950s. In the 1960s her career declined,
+        but was revived in the 1980s and '90s. Hall's last recording was made in 1992 at the Prince
+        Edward Theater in London. Hall died in London in 1993.</p>
+    </bioghist>
+    <accessrestrict id="aspace_64fc1fdfa4f8076eea48f145ef7e1d18">
+      <head>Access Restrictions</head>
+      <p>Use of time-based media materials (audio and video) may require production of listening or
+        viewing copies.</p>
+      <p>Access to streaming audio, moving image, and full resolution digital image materials may
+        currently be restricted to researchers who can authenticate with an IU account or who are
+        physically present on campus. Remote streaming to individual researchers may be allowed with
+        the completion of applicable forms.</p>
+      <p>For further information about access to online audiovisual materials, contact AAAMC staff
+        at aaamc@indiana.edu.</p>
+    </accessrestrict>
+    <userestrict id="aspace_fe18d7151595cee5ba1ae7f7aa737571">
+      <head>Use Restrictions</head>
+      <p>Manuscript collections and archival records may contain materials with sensitive or
+        confidential information that is protected under federal or state right to privacy laws and
+        regulations, including but not limited to the Indiana Public Records Act (5-14-3-2 et seq.).
+        Researchers are advised that the disclosure of certain information pertaining to
+        identifiable living individuals represented in this collection without the consent of those
+        individuals may have legal ramifications (e.g., a cause of action under common law for
+        invasion of privacy may arise if facts concerning an individual's private life are published
+        that would be deemed highly offensive to a reasonable person) for which Indiana University
+        assumes no responsibility.</p>
+      <p>Copyright is retained by the creators/authors of items in this collection, or their
+        descendants, as stipulated by United States copyright law. All requests for copying and
+        publishing materials must be submitted in writing to the Archives of African American Music
+        and Culture, and may require the written permission of the creator(s)/author(s) or
+        donor(s).</p>
+    </userestrict>
+    <acqinfo id="aspace_c558c9b34f150e4dfeeaa16dcf886441">
+      <head>Immediate Source of Acquisition</head>
+      <p>Donated in 2003 by Kate Greer.</p>
+    </acqinfo>
+    <prefercite id="aspace_6506ffeaf97e4d8eb4d26f8917643fea">
+      <head>Preferred Citation</head>
+      <p>Adelaide Hall Collection, SC 134, Archives of African American Music and Culture, Indiana
+        University, Bloomington.</p>
+    </prefercite>
+    <processinfo id="aspace_cced1f1c553e0c9345ec41c4dd459588">
+      <head>Processing Information</head>
+      <p>Processed by AAAMC Staff. Completed in 2017.</p>
+    </processinfo>
+    <relatedmaterial id="aspace_c35a18440280fc488da6d9e31fa823a7">
+      <head>Related Materials</head>
+      <p>Williams, Iain Cameron, <title render="italic">Underneath a Harlem Moon: The Harlem to
+          Paris Years of Adelaide Hall.</title> London: Continuum, 2002. (Copy available in IU
+        Bloomington Music Library, ML420.H1166 W55)</p>
+      <p>McHugh, Jimmy, Adelaide Hall, Ethel Waters, Cab Calloway, and Duke Ellington. <title
+          render="italic">Blackbirds of 1928.</title> Columbia Records, OL 6770. (Copy in IU
+        Bloomington Music Library)</p>
+    </relatedmaterial>
+    <scopecontent id="aspace_160be995b7936093d3738c5e6dedcc3b">
+      <head>Scope and Contents</head>
+      <p>The collection contains photographic materials, articles, and ephemera related to Hall's
+        performance career. The first series includes publicity and candid photographs. The second
+        series contains the articles and ephemera. Several articles were written in the first half
+        of the 20th century. Other articles look at Hall's career from the late 20th and early 21st
+        centuries, especially after a book about Hall was published. The third series contains
+        several ephemera pieces including flyers, programs, receipts, and certificates.</p>
+    </scopecontent>
+    <controlaccess>
+      <subject source="LCSH">African American women dancers</subject>
+      <subject source="LCSH">African American women jazz singers</subject>
+      <subject source="LCSH">African American musicians--Photographs</subject>
+      <persname authfilenumber="n2001079930" source="lcnaf">Williams, Iain Cameron, 1953-</persname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_VAE0165-00001" level="series">
+        <did>
+          <unittitle>1. Photographs</unittitle>
+          <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">15 Photographic
+              Prints</extent></physdesc>
+          <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">4 photographic
+              photocopies</extent></physdesc>
+          <unitdate datechar="creation" normal="1928/1990" type="inclusive">1928-1990</unitdate>
+        </did>
+        <c02 id="aspace_VAE0165-00002" level="item">
+          <did>
+            <unittitle>Adelaide Hall on stage</unittitle>
+            <unitid audience="internal" identifier="PA005852" type="shelf">PA005852</unitid>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                Photograph</extent><extent altrender="carrier">black &amp; white ; 8.5 x 6.5
+                in.</extent></physdesc>
+            <unitdate calendar="gregorian" datechar="creation" era="ce" normal="1989/1989"
+              >1989</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_b81104151380858a0db12f5d27a4e77c" label="box" type="box">1</container>
+          </did>
+          <altformavail id="aspace_6276c1f9a40d0276044eaf085424f856">
+            <head>Online Access</head>
+            <p><extref xlink:href="http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000107"
+                >http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000107</extref></p>
+          </altformavail>
+          <odd id="aspace_9bec57e15b7cbd76428cd68e6325f6a2">
+            <head>Shelf Number</head>
+            <p>PA005852</p>
+          </odd>
+        </c02>
+        <c02 id="aspace_VAE0165-00003" level="item">
+          <did>
+            <unittitle>Adelaide Hall on stage</unittitle>
+            <unitid audience="internal" identifier="PA005853" type="shelf">PA005853</unitid>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                Photograph</extent><extent altrender="carrier">black &amp; white ; 6.5 x 8.5
+                in.</extent></physdesc>
+            <unitdate calendar="gregorian" datechar="creation" era="ce" normal="1989/1989"
+              >1989</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_6e833957bd9cb7e87a5ff6c827cda265" label="box" type="box">1</container>
+          </did>
+          <altformavail id="aspace_7e82b5e6c84756edb3aba661545c48a8">
+            <head>Online Access</head>
+            <p><extref xlink:href="http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000108"
+                >http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000108</extref></p>
+          </altformavail>
+          <odd id="aspace_60c71bb72dd9035d31e0432ea5d5fe95">
+            <head>Shelf Number</head>
+            <p>PA005853</p>
+          </odd>
+        </c02>
+        <c02 id="aspace_VAE0165-00004" level="item">
+          <did>
+            <unittitle>Adelaide Hall in London</unittitle>
+            <unitid audience="internal" identifier="PA005854" type="shelf">PA005854</unitid>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                Photograph</extent><extent altrender="carrier">black &amp; white ; 5 x 7
+                in.</extent></physdesc>
+            <unitdate calendar="gregorian" certainty="circa" datechar="creation" era="ce"
+              normal="1982/1982">circa 1982</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_c995647c47fc63ec6a16be7e31167bd9" label="box" type="box">1</container>
+          </did>
+          <altformavail id="aspace_8a1138714ce4971c06065ab453c17760">
+            <head>Online Access</head>
+            <p><extref xlink:href="http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000109"
+                >http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000109</extref></p>
+          </altformavail>
+          <odd id="aspace_30cfce1bc880f892b61b0caea9f99d4f">
+            <head>Shelf Number</head>
+            <p>PA005854</p>
+          </odd>
+        </c02>
+        <c02 id="aspace_VAE0165-00005" level="item">
+          <did>
+            <unittitle>Adelaide Hall in London</unittitle>
+            <unitid audience="internal" identifier="PA005855" type="shelf">PA005855</unitid>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                Photograph</extent><extent altrender="carrier">black &amp; white ; 6.5 x 8.5
+                in.</extent></physdesc>
+            <unitdate calendar="gregorian" certainty="circa" datechar="creation" era="ce"
+              normal="1975/1975">circa 1975</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_72ffd3ddccd6f4b74dd2b5a61e518d8b" label="box" type="box">1</container>
+          </did>
+          <altformavail id="aspace_de91f1b475e3b527554428d13afe4d9f">
+            <head>Online Access</head>
+            <p><extref xlink:href="http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000110"
+                >http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000110</extref></p>
+          </altformavail>
+          <odd id="aspace_b71174b651be11782532a80f7b66022e">
+            <head>Shelf Number</head>
+            <p>PA005855</p>
+          </odd>
+        </c02>
+        <c02 id="aspace_VAE0165-00006" level="item">
+          <did>
+            <unittitle>Adelaide Hall in London</unittitle>
+            <unitid audience="internal" identifier="PA005856" type="shelf">PA005856</unitid>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                Photograph</extent><extent altrender="carrier">black &amp; white ; 4 x 6.25
+                in.</extent></physdesc>
+            <unitdate calendar="gregorian" certainty="circa" datechar="creation" era="ce"
+              normal="1939/1939">circa 1939</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_135652c334ae9f2df533360f8be1d5ac" label="box" type="box">1</container>
+          </did>
+          <altformavail id="aspace_9b3362a9d6f9319d20e817b204f525c8">
+            <head>Online Access</head>
+            <p><extref xlink:href="http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000111"
+                >http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000111</extref></p>
+          </altformavail>
+          <odd id="aspace_0e79d53a86c5c6726fab2a4b3b0bce6a">
+            <head>Shelf Number</head>
+            <p>PA005856</p>
+          </odd>
+        </c02>
+        <c02 id="aspace_VAE0165-00007" level="item">
+          <did>
+            <unittitle>Adelaide Hall in London</unittitle>
+            <unitid audience="internal" identifier="PA005857" type="shelf">PA005857</unitid>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                Photograph</extent><extent altrender="carrier">black &amp; white ; 4 x 6.25
+                in.</extent></physdesc>
+            <unitdate calendar="gregorian" certainty="circa" datechar="creation" era="ce"
+              normal="1939/1939">circa 1939</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_2ec3827cd3e9110b89b4e894f4f8917f" label="box" type="box">1</container>
+          </did>
+          <altformavail id="aspace_47278f6cf40f99e63cf1b43004ccb79e">
+            <head>Online Access</head>
+            <p><extref xlink:href="http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000112"
+                >http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000112</extref></p>
+          </altformavail>
+          <odd id="aspace_d84d4e80f91b96d2f72f67f246e70d5f">
+            <head>Shelf Number</head>
+            <p>PA005857</p>
+          </odd>
+        </c02>
+        <c02 id="aspace_VAE0165-00008" level="item">
+          <did>
+            <unittitle>Adelaide Hall in London</unittitle>
+            <unitid audience="internal" identifier="PA005858" type="shelf">PA005858</unitid>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                Photograph</extent><extent altrender="carrier">black &amp; white ; 8 x 10
+                in.</extent></physdesc>
+            <unitdate calendar="gregorian" certainty="circa" datechar="creation" era="ce"
+              normal="1940/1940">circa 1940</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_1777737b503f011c0b712ce437848e25" label="box" type="box">1</container>
+          </did>
+          <altformavail id="aspace_6613b9b0361e410e82bf6bc2eb5341c9">
+            <head>Online Access</head>
+            <p><extref xlink:href="http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000113"
+                >http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000113</extref></p>
+          </altformavail>
+          <odd id="aspace_fd10202c2f3d95f50b161e3e21940763">
+            <head>Shelf Number</head>
+            <p>PA005858</p>
+          </odd>
+        </c02>
+        <c02 id="aspace_VAE0165-00009" level="item">
+          <did>
+            <unittitle>Adelaide Hall portrait for "The Sun Never Sets" Musical</unittitle>
+            <unitid audience="internal" identifier="PA005859" type="shelf">PA005859</unitid>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                Photograph</extent><extent altrender="carrier">black &amp; white ; 7.75 x 10
+                in.</extent></physdesc>
+            <unitdate calendar="gregorian" certainty="circa" datechar="creation" era="ce"
+              normal="1938/1938">circa 1938</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_05cbcc50003b1a158fbdaee46cad3d57" label="box" type="box">1</container>
+          </did>
+          <altformavail id="aspace_ae1d0d35bdc7a61ec145045b90deb873">
+            <head>Online Access</head>
+            <p><extref xlink:href="http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000114"
+                >http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000114</extref></p>
+          </altformavail>
+          <odd id="aspace_7dfc786f95a9a2ce59b4f46a09797953">
+            <head>Shelf Number</head>
+            <p>PA005859</p>
+          </odd>
+        </c02>
+        <c02 id="aspace_VAE0165-00010" level="item">
+          <did>
+            <unittitle>Adelaide Hall Publicity Portrait</unittitle>
+            <unitid audience="internal" identifier="PA005860" type="shelf">PA005860</unitid>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                Photograph</extent><extent altrender="carrier">black &amp; white ; 6.5 x 8.5
+                in.</extent></physdesc>
+            <unitdate calendar="gregorian" certainty="circa" datechar="creation" era="ce"
+              normal="1938/1938">circa 1938</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_db29bce0f005cc36fa119cca82b95f4e" label="box" type="box">1</container>
+          </did>
+          <altformavail id="aspace_41a678c957eca87409578377c4729e3e">
+            <head>Online Access</head>
+            <p><extref xlink:href="http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000115"
+                >http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000115</extref></p>
+          </altformavail>
+          <odd id="aspace_9bebf54c0c0847008b71a5e6ecc14759">
+            <head>Shelf Number</head>
+            <p>PA005860</p>
+          </odd>
+        </c02>
+        <c02 id="aspace_VAE0165-00011" level="item">
+          <did>
+            <unittitle>Adelaide Hall Publicity Portrait</unittitle>
+            <unitid audience="internal" identifier="PA005861" type="shelf">PA005861</unitid>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                Photograph</extent><extent altrender="carrier">black &amp; white ; 8 x 10
+                in.</extent></physdesc>
+            <unitdate calendar="gregorian" certainty="circa" datechar="creation" era="ce"
+              normal="1937/1937">circa 1937</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_9cfdcc9179f7f7e2ca9d145033116e02" label="box" type="box">1</container>
+          </did>
+          <altformavail id="aspace_d4037dc9e1daff3a7a22ac934ba98bc4">
+            <head>Online Access</head>
+            <p><extref xlink:href="http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000116"
+                >http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000116</extref></p>
+          </altformavail>
+          <odd id="aspace_3399abafb368ec0305f73de0436e4bc9">
+            <head>Shelf Number</head>
+            <p>PA005861</p>
+          </odd>
+        </c02>
+        <c02 id="aspace_VAE0165-00012" level="item">
+          <did>
+            <unittitle>Adelaide Hall Publicity Portrait</unittitle>
+            <unitid audience="internal" identifier="PA005862" type="shelf">PA005862</unitid>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                Photograph</extent><extent altrender="carrier">black &amp; white ; 8 x 10
+                in.</extent></physdesc>
+            <unitdate calendar="gregorian" certainty="circa" datechar="creation" era="ce"
+              normal="1937/1937">circa 1937</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_faf2bcc695072f2597026a647bb1d1b7" label="box" type="box">1</container>
+          </did>
+          <altformavail id="aspace_f0709e3a60b7a34adddb212a9c658061">
+            <head>Online Access</head>
+            <p><extref xlink:href="http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000117"
+                >http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000117</extref></p>
+          </altformavail>
+          <odd id="aspace_29cc897d5614034f46451865577b23ac">
+            <head>Shelf Number</head>
+            <p>PA005862</p>
+          </odd>
+        </c02>
+        <c02 id="aspace_VAE0165-00013" level="item">
+          <did>
+            <unittitle>Adelaide Hall Publicity Portrait</unittitle>
+            <unitid audience="internal" identifier="PA005863" type="shelf">PA005863</unitid>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                Photograph</extent><extent altrender="carrier">black &amp; white ; 8 x 10
+                in.</extent></physdesc>
+            <unitdate calendar="gregorian" certainty="circa" datechar="creation" era="ce"
+              normal="1937/1937">circa 1937</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_62a2cbf97b630dcdf558924f90eb1b0b" label="box" type="box">1</container>
+          </did>
+          <altformavail id="aspace_1722e762168489485584a8f264ee83fb">
+            <head>Online Access</head>
+            <p><extref xlink:href="http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000118"
+                >http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000118</extref></p>
+          </altformavail>
+          <odd id="aspace_fec0afcde9f24cba109f60c8c13eed54">
+            <head>Shelf Number</head>
+            <p>PA005863</p>
+          </odd>
+        </c02>
+        <c02 id="aspace_VAE0165-00014" level="item">
+          <did>
+            <unittitle>Adelaide Hall "Blackbirds of 1928"</unittitle>
+            <unitid audience="internal" identifier="PA005864" type="shelf">PA005864</unitid>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                Photograph</extent><extent altrender="carrier">black &amp; white ; 8 x 10
+                in.</extent></physdesc>
+            <unitdate calendar="gregorian" certainty="circa" datechar="creation" era="ce"
+              normal="1928/1928">circa 1928</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_c521b023e275ebaea47716695e986ed6" label="box" type="box">1</container>
+          </did>
+          <altformavail id="aspace_5a88ed943a02515558d25ad2975ad7a8">
+            <head>Online Access</head>
+            <p><extref xlink:href="http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000119"
+                >http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000119</extref></p>
+          </altformavail>
+          <odd id="aspace_7e531c728498f2c59bbc816cd4ec9e88">
+            <head>Shelf Number</head>
+            <p>PA005864</p>
+          </odd>
+        </c02>
+        <c02 id="aspace_VAE0165-00015" level="item">
+          <did>
+            <unittitle>Adelaide Hall Publicity Portrait</unittitle>
+            <unitid audience="internal" identifier="PA005865" type="shelf">PA005865</unitid>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                Photograph</extent><extent altrender="carrier">black &amp; white ; 8 x 10
+                in.</extent></physdesc>
+            <unitdate calendar="gregorian" certainty="circa" datechar="creation" era="ce"
+              normal="1937/1937">circa 1937</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_6d09422b2df647fa3a10c4278b5c6553" label="box" type="box">1</container>
+          </did>
+          <altformavail id="aspace_39e22500387adfafb3cd6af20a916396">
+            <head>Online Access</head>
+            <p><extref xlink:href="http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000120"
+                >http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000120</extref></p>
+          </altformavail>
+          <odd id="aspace_e3ee2fc2846c2619d30d796f9bda2c33">
+            <head>Shelf Number</head>
+            <p>PA005865</p>
+          </odd>
+        </c02>
+        <c02 id="aspace_VAE0165-00016" level="item">
+          <did>
+            <unittitle>London (At her home)</unittitle>
+            <unitid audience="internal" identifier="PA005866" type="shelf">PA005866</unitid>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                Photograph</extent><extent altrender="carrier">color ; 8 x 10
+              in.</extent></physdesc>
+            <unitdate calendar="gregorian" certainty="circa" datechar="creation" era="ce"
+              normal="1990/1990">circa 1990</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_923e79313671a03d617eeaf60bdcd1a9" label="box" type="box">1</container>
+          </did>
+          <altformavail id="aspace_9ba01bf8dc946d0557f78cdb38b0982e">
+            <head>Online Access</head>
+            <p><extref xlink:href="http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000121"
+                >http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000121</extref></p>
+          </altformavail>
+          <odd id="aspace_528207bf22bdca31a087adcdd719bb09">
+            <head>Shelf Number</head>
+            <p>PA005866</p>
+          </odd>
+        </c02>
+        <c02 id="aspace_VAE0165-00017" level="item">
+          <did>
+            <unittitle>World Concert Tour</unittitle>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                leaf</extent><extent altrender="carrier">black &amp; white ; 8.25 x 11.5
+                in.</extent></physdesc>
+            <unitdate calendar="gregorian" datechar="creation" era="ce" normal="1931/1932"
+              type="inclusive">1931/1932</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_5ac9af3323d6ad23e59f935fbf3d44b7" label="box" type="box">1</container>
+            <container id="aspace_fe4784bac74048e58ea25dc65a8fa413"
+              parent="aspace_5ac9af3323d6ad23e59f935fbf3d44b7" type="folder">1</container>
+          </did>
+          <altformavail id="aspace_7b15fb6a7f70eaa26a095fb2c3c24ed3">
+            <head>Online Access</head>
+            <p><extref xlink:href="http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000103"
+                >http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000103</extref></p>
+          </altformavail>
+          <odd id="aspace_3f540731bef7b2d6200998f5b0da859c">
+            <head>General</head>
+            <p>Photographic reprint on standard printer paper.</p>
+          </odd>
+        </c02>
+        <c02 id="aspace_VAE0165-00018" level="item">
+          <did>
+            <unittitle>World Concert Tour</unittitle>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                leaf</extent><extent altrender="carrier">black &amp; white ; 8.25 x 11.5
+                in.</extent></physdesc>
+            <unitdate calendar="gregorian" datechar="creation" era="ce" normal="1931/1932"
+              type="inclusive">1931/1932</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_32da5b0a83d146895b5485d4fab3e621" label="box" type="box">1</container>
+            <container id="aspace_cdb9316300d7dc9ab5ecde7be32d855f"
+              parent="aspace_32da5b0a83d146895b5485d4fab3e621" type="folder">2</container>
+          </did>
+          <altformavail id="aspace_29fccd0cc57bc94517ee6a04c84f650d">
+            <head>Online Access</head>
+            <p><extref xlink:href="http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000104"
+                >http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000104</extref></p>
+          </altformavail>
+          <odd id="aspace_84f0b7f664f50d56942d431e6e0e568e">
+            <head>General</head>
+            <p>Photographic reprint on standard printer paper.</p>
+          </odd>
+        </c02>
+        <c02 id="aspace_VAE0165-00019" level="item">
+          <did>
+            <unittitle>Blackbirds of 1928</unittitle>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                leaf</extent><extent altrender="carrier">black &amp; white ; 8.25 x 11.5
+                in.</extent></physdesc>
+            <unitdate calendar="gregorian" datechar="creation" era="ce" normal="1928/1928"
+              >1928</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_9d6bae4fc9393c70442923b3b42bdf70" label="box" type="box">1</container>
+            <container id="aspace_fc6b693c9f4abd2cecba8ebc4b36da8f"
+              parent="aspace_9d6bae4fc9393c70442923b3b42bdf70" type="folder">3</container>
+          </did>
+          <altformavail id="aspace_3656cc2b3783f6900dc7c48d38d777f3">
+            <head>Online Access</head>
+            <p><extref xlink:href="http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000105"
+                >http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000105</extref></p>
+          </altformavail>
+          <odd id="aspace_6da8271591bda985da95a80d81e64926">
+            <head>General</head>
+            <p>Photographic reprint on standard printer paper.</p>
+          </odd>
+        </c02>
+        <c02 id="aspace_VAE0165-00020" level="item">
+          <did>
+            <unittitle>Blackbirds of 1928</unittitle>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                leaf</extent><extent altrender="carrier">black &amp; white ; 8.25 x 11.5
+                in.</extent></physdesc>
+            <unitdate calendar="gregorian" datechar="creation" era="ce" normal="1929/1929"
+              >1929</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_e16bbf1e0b03dd069a027147dec9c1f6" label="box" type="box">1</container>
+            <container id="aspace_509a6bb0c9a73f979f6a3a12e81e78a5"
+              parent="aspace_e16bbf1e0b03dd069a027147dec9c1f6" type="folder">4</container>
+          </did>
+          <altformavail id="aspace_7aa7f521ebf9b8d9f39b710be32c4c6c">
+            <head>Online Access</head>
+            <p><extref xlink:href="http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000106"
+                >http://purl.dlib.indiana.edu/iudl/images/VAD5465/VAD5465-000106</extref></p>
+          </altformavail>
+          <odd id="aspace_585be647d484397b5b32d4abcdaba98c">
+            <head>General</head>
+            <p>Photographic reprint on standard printer paper.</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 id="aspace_VAE0165-00021" level="series">
+        <did>
+          <unittitle>2. Articles and ephemera</unittitle>
+          <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">3
+              Folders</extent><extent altrender="carrier">20 items</extent></physdesc>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="1929/2003"
+            type="inclusive">1929-2003</unitdate>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">undated</unitdate>
+        </did>
+        <c02 id="aspace_VAE0165-00022" level="file">
+          <did>
+            <unittitle>Articles</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" era="ce" normal="1940/2003"
+              type="inclusive">1940-2003</unitdate>
+            <unitdate calendar="gregorian" datechar="creation" era="ce">undated</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_da3b299ffd7e20178bd50e4b7a4e5d29" label="box" type="box">1</container>
+            <container id="aspace_0f03b3b97d2c3eaedc17946f8ac4ae49"
+              parent="aspace_da3b299ffd7e20178bd50e4b7a4e5d29" type="folder">2</container>
+          </did>
+          <c03 id="aspace_VAE0165-00023" level="item">
+            <did>
+              <unittitle>Adelaide Hall biography by Iain Cameron Williams</unittitle>
+              <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">4
+                  Leaves</extent><extent altrender="carrier">8.25 x 11.5 in.</extent></physdesc>
+              <unitdate calendar="gregorian" datechar="creation" era="ce">undated</unitdate>
+              <container altrender="Document Storage Case (Letter - skinny)"
+                id="aspace_98a9a347b12adb58f663dbe5585d3725" label="box" type="box">1</container>
+              <container id="aspace_4254659a2982f35a308e68dec56ee098"
+                parent="aspace_98a9a347b12adb58f663dbe5585d3725" type="folder">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_VAE0165-00024" level="item">
+            <did>
+              <unittitle>"Singing for her supper," <title render="italic">The Hill</title>, pp.
+                30-31</unittitle>
+              <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">2
+                  Leaves</extent><extent altrender="carrier">8.25 x 11.5 in.</extent></physdesc>
+              <unitdate calendar="gregorian" datechar="creation" era="ce">January 2003</unitdate>
+              <container altrender="Document Storage Case (Letter - skinny)"
+                id="aspace_8a6305cfb616a279ceee71de4bcdd336" label="box" type="box">1</container>
+              <container id="aspace_bb91dc0f6c898f9d863c4f7cab621a8e"
+                parent="aspace_8a6305cfb616a279ceee71de4bcdd336" type="folder">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_VAE0165-00025" level="item">
+            <did>
+              <unittitle>"Jazz pioneer: Book sheds light on singing sensation," Andrew McCorkell,
+                [Unknown source], p. 16</unittitle>
+              <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                  leaf</extent><extent altrender="carrier">8.25 x 11.5 in.</extent></physdesc>
+              <unitdate calendar="gregorian" datechar="creation" era="ce">October 24,
+                2002</unitdate>
+              <container altrender="Document Storage Case (Letter - skinny)"
+                id="aspace_843948b1f56282424c38fffe1bf08ea9" label="box" type="box">1</container>
+              <container id="aspace_cd4ff13e63c9c87d7690312d5d8da2cf"
+                parent="aspace_843948b1f56282424c38fffe1bf08ea9" type="folder">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_VAE0165-00026" level="item">
+            <did>
+              <unittitle>"Business as usual," <title render="italic">Jazz Express</title>, p.
+                7</unittitle>
+              <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                  leaf</extent><extent altrender="carrier">8.25 x 11.5 in.</extent></physdesc>
+              <unitdate calendar="gregorian" datechar="creation" era="ce">October 1991</unitdate>
+              <container altrender="Document Storage Case (Letter - skinny)"
+                id="aspace_a67a9449206fbec7173644683760de6a" label="box" type="box">1</container>
+              <container id="aspace_8736d12c170c551b91ab7065d0f5aaeb"
+                parent="aspace_a67a9449206fbec7173644683760de6a" type="folder">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_VAE0165-00027" level="item">
+            <did>
+              <unittitle>"Expected in N.Y. for Holidays," <title render="italic">New York
+                  Press</title></unittitle>
+              <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                  leaf</extent><extent altrender="carrier">8.25 x 11.5 in.</extent></physdesc>
+              <unitdate calendar="gregorian" datechar="creation" era="ce" normal="1946/1946"
+                >1946</unitdate>
+              <container altrender="Document Storage Case (Letter - skinny)"
+                id="aspace_3ea93682c557f13dfe58629dc4ce83a0" label="box" type="box">1</container>
+              <container id="aspace_0dcd4d1243be534aed4f8db09b147aac"
+                parent="aspace_3ea93682c557f13dfe58629dc4ce83a0" type="folder">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_VAE0165-00028" level="item">
+            <did>
+              <unittitle>"Adelaide adored," Iain Cameron Williams and Colville Terrace, <title
+                  render="italic">Evening Standard</title>, p. 28</unittitle>
+              <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                  leaf</extent><extent altrender="carrier">8.25 x 11.5 in.</extent></physdesc>
+              <unitdate calendar="gregorian" datechar="creation" era="ce">September 5,
+                2001</unitdate>
+              <container altrender="Document Storage Case (Letter - skinny)"
+                id="aspace_00ab47e8d33cf0554ee474d7b448a208" label="box" type="box">1</container>
+              <container id="aspace_8a5ec1dc3678343976336b7479cabed0"
+                parent="aspace_00ab47e8d33cf0554ee474d7b448a208" type="folder">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_VAE0165-00029" level="item">
+            <did>
+              <unittitle>"All Addie Asks Is One Hit on U.S. Juke Boxes," Robert Wahls</unittitle>
+              <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                  leaf</extent><extent altrender="carrier">8.25 x 11.5 in.</extent></physdesc>
+              <unitdate calendar="gregorian" datechar="creation" era="ce">January 4, 1959</unitdate>
+              <container altrender="Document Storage Case (Letter - skinny)"
+                id="aspace_7f7a03a20fb9f7206dc8b262b6097417" label="box" type="box">1</container>
+              <container id="aspace_a272b0d51eee8c36d6c27b653143d8e2"
+                parent="aspace_7f7a03a20fb9f7206dc8b262b6097417" type="folder">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_VAE0165-00030" level="item">
+            <did>
+              <unittitle>"The real first lady of jazz," Stephen Bourne, [Unkown source], p.
+                16</unittitle>
+              <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                  leaf</extent><extent altrender="carrier">11.75 x 16.5 in.</extent></physdesc>
+              <unitdate calendar="gregorian" datechar="creation" era="ce">undated</unitdate>
+              <container altrender="Document Storage Case (Letter - skinny)"
+                id="aspace_6c051ddc0c6fe1ade88be867fb6ff3c0" label="box" type="box">1</container>
+              <container id="aspace_f8d9b5fecae4a99c7d892aa57abdbb68"
+                parent="aspace_6c051ddc0c6fe1ade88be867fb6ff3c0" type="folder">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_VAE0165-00031" level="item">
+            <did>
+              <unittitle>"Cabarets of Wartime London," Theodora Benson and Betty Askwith, <title
+                  render="italic">The Sketch</title>, p. 44</unittitle>
+              <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                  leaf</extent><extent altrender="carrier">11.75 x 16.5 in.</extent></physdesc>
+              <unitdate calendar="gregorian" datechar="creation" era="ce">April 10, 1940</unitdate>
+              <container altrender="Document Storage Case (Letter - skinny)"
+                id="aspace_acf64191988eb5956179a61da037b1dd" label="box" type="box">1</container>
+              <container id="aspace_9398ff40b2253fc0739c4c02bbffbea9"
+                parent="aspace_acf64191988eb5956179a61da037b1dd" type="folder">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_VAE0165-00032" level="item">
+            <did>
+              <unittitle>"Adelaide Hall," Obituary, <title render="italic">Daily
+                Telegraph</title></unittitle>
+              <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                  leaf</extent><extent altrender="carrier">8.25 x 11.5 in.</extent></physdesc>
+              <unitdate calendar="gregorian" datechar="creation" era="ce">November 1993</unitdate>
+              <container altrender="Document Storage Case (Letter - skinny)"
+                id="aspace_5abf762c8786017cd53ffb7ef10d64ef" label="box" type="box">1</container>
+              <container id="aspace_8bbfa70610dbff208f8c6b00f88ee781"
+                parent="aspace_5abf762c8786017cd53ffb7ef10d64ef" type="folder">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_VAE0165-00033" level="item">
+            <did>
+              <unittitle>"Peterborough," Quentin Letts, <title render="italic">Daily
+                  Telegraph</title></unittitle>
+              <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                  leaf</extent><extent altrender="carrier">8.25 x 11.5 in.</extent></physdesc>
+              <unitdate calendar="gregorian" datechar="creation" era="ce">April 23, 1994</unitdate>
+              <container altrender="Document Storage Case (Letter - skinny)"
+                id="aspace_b94324629daef7809acc423d51d569ad" label="box" type="box">1</container>
+              <container id="aspace_7f37a3810d6c6ad83e4bca1717defc3c"
+                parent="aspace_b94324629daef7809acc423d51d569ad" type="folder">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_VAE0165-00034" level="item">
+            <did>
+              <unittitle>"Still going strong after all that jazz," Cherry Chappell, [Unkown source],
+                pp. 29-30</unittitle>
+              <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">2
+                  Leaves</extent><extent altrender="carrier">8.25 x 11.5 in.</extent></physdesc>
+              <unitdate calendar="gregorian" datechar="creation" era="ce">undated</unitdate>
+              <container altrender="Document Storage Case (Letter - skinny)"
+                id="aspace_eac2c98eb7de65025e2284fe9b5eaece" label="box" type="box">1</container>
+              <container id="aspace_5e2c7eecdc360d7736d729eab2e1266c"
+                parent="aspace_eac2c98eb7de65025e2284fe9b5eaece" type="folder">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_VAE0165-00035" level="item">
+            <did>
+              <unittitle>"Ol' Lady Hall," Geoffrey Smith, <title render="italic">Country
+                  Life</title></unittitle>
+              <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                  leaf</extent><extent altrender="carrier">11.75 x 16.5 in.</extent></physdesc>
+              <unitdate calendar="gregorian" datechar="creation" era="ce">April 3, 1986</unitdate>
+              <container altrender="Document Storage Case (Letter - skinny)"
+                id="aspace_c28f746c094c9522db0f5faec262ca8f" label="box" type="box">1</container>
+              <container id="aspace_190a6e589f97613a7a6dac6839d7dd42"
+                parent="aspace_c28f746c094c9522db0f5faec262ca8f" type="folder">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_VAE0165-00036" level="item">
+            <did>
+              <unittitle>"The Big Apple of New York's eye…," Martin Dawes, <title render="italic"
+                  >The Star</title>, p. 8</unittitle>
+              <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                  leaf</extent><extent altrender="carrier">11.75 x 12.5 in.</extent></physdesc>
+              <unitdate calendar="gregorian" datechar="creation" era="ce">September 23,
+                2002</unitdate>
+              <container altrender="Document Storage Case (Letter - skinny)"
+                id="aspace_c00bdfe765c10fd6c651c0a05c10d9ef" label="box" type="box">1</container>
+              <container id="aspace_68cfea3188b8a1b6351cc00b1dcdbe8b"
+                parent="aspace_c00bdfe765c10fd6c651c0a05c10d9ef" type="folder">2</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 id="aspace_VAE0165-00037" level="file">
+          <did>
+            <unittitle>Ephemera</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" era="ce" normal="1929/1991"
+              type="inclusive">1929-1991</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_6fef97b89aee9213b901962ab7bb51be" label="box" type="box">1</container>
+            <container id="aspace_34c2ace1129d71c063842ddde593f971"
+              parent="aspace_6fef97b89aee9213b901962ab7bb51be" type="folder">3</container>
+          </did>
+          <c03 id="aspace_VAE0165-00038" level="item">
+            <did>
+              <unittitle>Photocopy of congratulatory note for Hall's appearance in a Variety
+                Performance at the Victoria Palace</unittitle>
+              <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                  leaf</extent><extent altrender="carrier">8.25 x 11.5 in.</extent></physdesc>
+              <unitdate calendar="gregorian" datechar="creation" era="ce">October 29,
+                1951</unitdate>
+              <container altrender="Document Storage Case (Letter - skinny)"
+                id="aspace_5df756c7b0b8d9bfd779ccf37b6050f0" label="box" type="box">1</container>
+              <container id="aspace_ad01ea52b0da935fd75285d6b2505540"
+                parent="aspace_5df756c7b0b8d9bfd779ccf37b6050f0" type="folder">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_VAE0165-00039" level="item">
+            <did>
+              <unittitle>A Tribute to Adelaide Hall</unittitle>
+              <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                  flyer</extent><extent altrender="carrier">5.75 x 8.25 in.</extent></physdesc>
+              <unitdate calendar="gregorian" datechar="creation" era="ce">October 25,
+                1991</unitdate>
+              <container altrender="Document Storage Case (Letter - skinny)"
+                id="aspace_d21bf27bfd6df59dd0ac773a29ad4284" label="box" type="box">1</container>
+              <container id="aspace_7ec7e7f6676dc938e30407a55132fdd0"
+                parent="aspace_d21bf27bfd6df59dd0ac773a29ad4284" type="folder">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_VAE0165-00040" level="item">
+            <did>
+              <unittitle>National Scala; København (Copenhagen)</unittitle>
+              <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                  program</extent><extent altrender="carrier">5.75 x 7.5 in.</extent></physdesc>
+              <unitdate calendar="gregorian" datechar="creation" era="ce">November 1937</unitdate>
+              <container altrender="Document Storage Case (Letter - skinny)"
+                id="aspace_45ffa26e4a70d916106826d34639a355" label="box" type="box">1</container>
+              <container id="aspace_a68ee1a4119937c50e9443aea0e6fef1"
+                parent="aspace_45ffa26e4a70d916106826d34639a355" type="folder">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_VAE0165-00041" level="item">
+            <did>
+              <unittitle>Photocopy of flyer for Moulin Rouge performance of "Blackbirds"; Paris,
+                France</unittitle>
+              <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                  leaf</extent><extent altrender="carrier">8.25 x 11.5 in.</extent></physdesc>
+              <unitdate calendar="gregorian" datechar="creation" era="ce" normal="1929/1929"
+                >1929</unitdate>
+              <container altrender="Document Storage Case (Letter - skinny)"
+                id="aspace_1074ad6b949f55cb4b6964a296b35ec9" label="box" type="box">1</container>
+              <container id="aspace_c56c410a9bd303879604d8627fcba258"
+                parent="aspace_1074ad6b949f55cb4b6964a296b35ec9" type="folder">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_VAE0165-00042" level="item">
+            <did>
+              <unittitle>Photocopy of receipt from Rosenberg &amp; Grief confirming the receipt of a
+                white Casmere [sic] Wrap from Adelaide Hall</unittitle>
+              <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                  leaf</extent><extent altrender="carrier">8.25 x 11.5 in.</extent></physdesc>
+              <unitdate calendar="gregorian" datechar="creation" era="ce">July 8, 1932</unitdate>
+              <container altrender="Document Storage Case (Letter - skinny)"
+                id="aspace_d7e3851c1a9bf1d392a5db7368512933" label="box" type="box">1</container>
+              <container id="aspace_459a269ae7a709fe594dfb28bf5aa104"
+                parent="aspace_d7e3851c1a9bf1d392a5db7368512933" type="folder">3</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 id="aspace_VAE0165-00043" level="file">
+          <did>
+            <unittitle>Guiness World Records Certificate</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2002/2002"
+              >2002</unitdate>
+            <container altrender="Document Storage Case (Letter - skinny)"
+              id="aspace_a4ef76b2c1e26c4a4af169b6ed994c94" label="box" type="box">1</container>
+            <container id="aspace_cf4a9f92c8ed27a8b54dbb6e9e356270"
+              parent="aspace_a4ef76b2c1e26c4a4af169b6ed994c94" type="folder">4</container>
+          </did>
+          <c03 id="aspace_VAE0165-00044" level="item">
+            <did>
+              <unittitle>Guiness World Records Certificate: Most Durable Recording
+                Artist</unittitle>
+              <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                  leaf</extent><extent altrender="carrier">9.75 x 14 in.</extent></physdesc>
+              <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2002/2002"
+                >2002</unitdate>
+              <container altrender="Document Storage Case (Letter - skinny)"
+                id="aspace_794635de568877a41902edd6f2b28b35" label="box" type="box">1</container>
+              <container id="aspace_4b0716aa9c43026c267b1f20eceff8ff"
+                parent="aspace_794635de568877a41902edd6f2b28b35" type="folder">4</container>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
