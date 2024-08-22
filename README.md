@@ -119,3 +119,27 @@ bundle exec traject -u http://solr:8983/solr/${SOLR_CORE} -i xml -c lib/arclight
 bundle exec traject -u http://solr:8983/solr/${SOLR_CORE} -i xml -c lib/arclight/traject/ead2_config.rb data/VAD8042.xml
 bundle exec traject -u http://solr:8983/solr/${SOLR_CORE} -i xml -c lib/arclight/traject/ead2_config.rb data/InU-Li-VAD1572.xml
 ```
+
+## Debugging
+
+To use a debugger, create a docker-compose.override.yml file with the following contents
+
+```
+services:
+  web:
+    environment:
+      - VIRTUAL_HOST=archives-online.test
+      - VIRTUAL_PORT=3000
+    command: sleep infinity
+    volumes:
+    - .:/home/app/webapp
+    - ./generate-init.sh:/home/app/webapp/generate-init.sh
+```
+
+Manually start the application and go into docker's bash:
+
+`docker compose up -d && docker compose exec web bash` 
+
+To use the debugger command, you may need to add the following to the file: 
+
+`require 'debug'; debugger`
