@@ -253,6 +253,27 @@ to_field 'language_ssim', extract_xpath('/ead/archdesc/did/langmaterial')
 
 to_field 'descrules_ssm', extract_xpath('/ead/eadheader/profiledesc/descrules')
 
+##### ADD CAMPUS UNIT FOR NGAO #####
+to_field 'campus_unit_ssm' do |record, accumulator|
+  campus_unit = record.at_xpath('/ead/eadheader/eadid').attribute('mainagencycode')&.value
+  accumulator << campus_unit
+end
+
+to_field 'campus_unit_sim' do |record, accumulator|
+  campus_unit = record.at_xpath('/ead/eadheader/eadid').attribute('mainagencycode')&.value
+  accumulator << campus_unit
+end
+
+to_field 'campus_unit_ssim' do |record, accumulator|
+  campus_unit = record.at_xpath('/ead/eadheader/eadid').attribute('mainagencycode')&.value
+  accumulator << campus_unit
+end
+
+to_field 'campus_unit_teim' do |record, accumulator|
+  campus_unit = record.at_xpath('/ead/eadheader/eadid').attribute('mainagencycode')&.value
+  accumulator << campus_unit
+end
+
 # count all descendant components from the top-level
 to_field 'total_component_count_is', first_only do |record, accumulator|
   accumulator << record.xpath('//c|//c01|//c02|//c03|//c04|//c05|//c06|//c07|//c08|//c09|//c10|//c11|//c12').count

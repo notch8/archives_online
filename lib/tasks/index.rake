@@ -25,7 +25,7 @@ namespace :arclight do
     print "Loading #{ENV.fetch('FILE', nil)} into index...\n"
     solr_url = ENV.fetch('SOLR_URL', Blacklight.default_index.connection.base_uri)
     elapsed_time = Benchmark.realtime do
-      `bundle exec traject -u #{solr_url} -i xml -c #{Arclight::Engine.root}/lib/arclight/traject/ead2_config.rb #{ENV.fetch(
+      `bundle exec traject -u #{solr_url} -i xml -c #{Rails.root}/lib/arclight/traject/ead2_config.rb #{ENV.fetch(
         'FILE', nil
       )}`
     end
