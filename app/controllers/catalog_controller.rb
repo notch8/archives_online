@@ -64,7 +64,7 @@ class CatalogController < ApplicationController
     config.index.title_field = 'normalized_title_ssm'
     config.index.display_type_field = 'level_ssm'
     config.index.document_component = Arclight::SearchResultComponent
-    config.index.group_component = Arclight::GroupComponent
+    config.index.group_component = Ngao::Arclight::GroupComponent
     config.index.constraints_component = Arclight::ConstraintsComponent
     config.index.document_presenter_class = Arclight::IndexPresenter
     config.index.search_bar_component = Arclight::SearchBarComponent
