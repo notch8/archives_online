@@ -20,13 +20,15 @@ Rails.application.routes.draw do
     concerns :exportable
   end
 
-  resources :bookmarks do
-    concerns :exportable
+  
+  ##### REMOVE BOOKMARK #####
+  # resources :bookmarks do
+  #   concerns :exportable
 
-    collection do
-      delete 'clear'
-    end
-  end
+  #   collection do
+  #     delete 'clear'
+  #   end
+  # end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
