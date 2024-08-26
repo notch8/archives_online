@@ -1,0 +1,38 @@
+// Override breadcrumb heirarchy styles from arclight
+
+.al-show-breadcrumb {
+  .breadcrumb {
+    svg {
+      height: 1rem;
+      width: 1rem;
+      fill: #6E757C;
+    }
+
+    .breadcrumb-item:first-of-type::before,
+    .breadcrumb-item + .breadcrumb-item::before {
+      content: '';
+    }
+
+    .breadcrumb-item {
+      display: block;
+    }
+
+    .breadcrumb-item-1 {
+      padding-left: 1rem;
+    }
+
+    .breadcrumb-item-2 {
+      .breadcrumb {
+        padding-left: 1rem;
+
+        li:last-child:not(:first-child) {
+          padding-left: 1rem;
+        }
+      }
+    }
+
+    .breadcrumb-campus-link {
+      flex: 1 0 100%;
+    }
+  }
+}

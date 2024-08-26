@@ -64,7 +64,7 @@ class CatalogController < ApplicationController
     config.index.title_field = 'normalized_title_ssm'
     config.index.display_type_field = 'level_ssm'
     config.index.document_component = Arclight::SearchResultComponent
-    config.index.group_component = Arclight::GroupComponent
+    config.index.group_component = Ngao::Arclight::GroupComponent
     config.index.constraints_component = Arclight::ConstraintsComponent
     config.index.document_presenter_class = Arclight::IndexPresenter
     config.index.search_bar_component = Arclight::SearchBarComponent
@@ -74,7 +74,7 @@ class CatalogController < ApplicationController
     # config.show.title_field = 'title_display'
     config.show.document_component = Arclight::DocumentComponent
     config.show.sidebar_component = Arclight::SidebarComponent
-    config.show.breadcrumb_component = Arclight::BreadcrumbsHierarchyComponent
+    config.show.breadcrumb_component = Ngao::Arclight::BreadcrumbsHierarchyComponent
     config.show.embed_component = UniversalViewer
     config.show.access_component = Arclight::AccessComponent
     config.show.online_status_component = Arclight::OnlineStatusIndicatorComponent
@@ -138,6 +138,7 @@ class CatalogController < ApplicationController
     # :index_range can be an array or range of prefixes that will be used to create the navigation
     #  (note: It is case sensitive when searching values)
 
+    config.add_facet_field 'campus_unit_sim', label: 'Campus', helper_method: :render_campus_facet
     config.add_facet_field 'collection', field: 'collection_ssim', limit: 10
     config.add_facet_field 'creators', field: 'creator_ssim', limit: 10
     config.add_facet_field 'date_range', field: 'date_range_isim', range: true
@@ -151,6 +152,8 @@ class CatalogController < ApplicationController
     # previously. Simply remove these lines if you'd rather use Solr request
     # handler defaults, or have no facets.
     config.add_facet_fields_to_solr_request!
+
+    config.add_index_field 'campus_unit_ssm', label: 'Campus', helper_method: :render_campus_name
 
     # solr fields to be displayed in the index (search results) view
     #   The ordering of the field names is the order of the display
@@ -422,6 +425,8 @@ class CatalogController < ApplicationController
 
     # Collection and Component Show Page Access Tab - How to Cite Section
     config.add_cite_field 'prefercite', field: 'prefercite_html_tesm', helper_method: :render_html_tags
+
+    config.add_contact_field 'campus_unit_ssm', label: 'Campus', helper_method: :render_campus_name
 
     # Collection and Component Show Page Access Tab - Contact Section
     config.add_contact_field 'repository_contact', values: ->(_, document, _) { document.repository_config&.contact }

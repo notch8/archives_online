@@ -1,0 +1,16 @@
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+  <div class="campus">
+    <div class="text-center">
+      <h3 class="campus-header"><%= convert_campus_id(campus) %></h3>
+    </div>
+    <div>
+      <%= image_tag(campus_image(campus), class: 'campus_image', alt:"#{convert_campus_id(campus)}") %>
+    </div>
+    <div class="text-center campus_footer">
+      <a class="button campus_link" href="#<%= campus %>">
+        <div class="sr-only visually-hidden"><%= "Explore #{convert_campus_id(campus)} Repositories" %></div>
+        <div aria-hidden="true">Explore Repositories</div>
+      </a>
+    </div>
+  </div>
+</div>
