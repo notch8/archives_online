@@ -13,4 +13,16 @@ class SolrDocument
   # and Blacklight::Document::SemanticFields#to_semantic_values
   # Recommendation: Use field names from Dublin Core
   use_extension(Blacklight::Document::DublinCore)
+
+  def campus
+    collection? ? first('campus_unit_ssm') : collection.first('campus_unit_ssm')
+  end
+
+  def parent_campus
+    fetch('parent_campus_unit_ssm', [])
+  end
+
+  def containers
+    fetch('containers_ssim', [])
+  end
 end
