@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 # OVERRIDE blacklight (8.3.0) to set Grouped By Collection as the default search result filter
 
 module Blacklight
