@@ -20,7 +20,6 @@ Rails.application.routes.draw do
     concerns :exportable
   end
 
-  
   ##### REMOVE BOOKMARK #####
   # resources :bookmarks do
   #   concerns :exportable
