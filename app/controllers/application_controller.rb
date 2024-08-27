@@ -5,4 +5,8 @@ class ApplicationController < ActionController::Base
   include Blacklight::Controller
   include Blacklight::LocalePicker::Concern
   layout :determine_layout if respond_to? :layout
+
+  def render404
+    raise ActionController::RoutingError, 'Not Found'
+  end
 end
