@@ -49,15 +49,17 @@ class CatalogController < ApplicationController
 
     config.header_component = Arclight::HeaderComponent
     config.add_results_document_tool(:online, component: Arclight::OnlineStatusIndicatorComponent)
-    config.add_results_document_tool(:arclight_bookmark_control, component: Arclight::BookmarkComponent)
+    ##### REMOVE BOOKMARK #####
+    # config.add_results_document_tool(:arclight_bookmark_control, component: Arclight::BookmarkComponent)
 
     config.add_results_collection_tool(:group_toggle)
     config.add_results_collection_tool(:sort_widget)
     config.add_results_collection_tool(:per_page_widget)
     config.add_results_collection_tool(:view_type_group)
 
-    config.add_nav_action(:bookmark, partial: 'blacklight/nav/bookmark', if: :render_bookmarks_control?)
-    config.add_nav_action(:search_history, partial: 'blacklight/nav/search_history')
+    ##### REMOVE BOOKMARK AND HISTORY #####
+    # config.add_nav_action(:bookmark, partial: 'blacklight/nav/bookmark', if: :render_bookmarks_control?)
+    # config.add_nav_action(:search_history, partial: 'blacklight/nav/search_history')
 
     # solr field configuration for search results/index views
     config.index.partials = %i[arclight_index_default]
@@ -72,7 +74,7 @@ class CatalogController < ApplicationController
 
     # solr field configuration for document/show views
     # config.show.title_field = 'title_display'
-    config.show.document_component = Arclight::DocumentComponent
+    config.show.document_component = Ngao::Arclight::DocumentComponent
     config.show.sidebar_component = Arclight::SidebarComponent
     config.show.breadcrumb_component = Ngao::Arclight::BreadcrumbsHierarchyComponent
     config.show.embed_component = UniversalViewer
