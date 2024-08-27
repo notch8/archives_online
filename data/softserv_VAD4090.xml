@@ -1,0 +1,3376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="edited-full-draft"
+    langencoding="iso639-2b" repositoryencoding="iso15511">
+    <eadid countrycode="US" mainagencycode="US-InU">VAD4090</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Mary Perry Smith Black Filmmakers Hall of Fame Archives collection, Series 5.
+          Sidney Poitier Fellowship Competition, <date normal="1985/1993">1985-1993, </date>
+          <date normal="1992/1993">bulk 1992-1993</date>
+          <num>COL 5</num></titleproper>
+        <subtitle>A Guide to Her Holdings at the Indiana University Black Film Center &amp;
+          Archive</subtitle>
+        <author>Finding aid prepared by Seth Mitter</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Black Film Center &amp; Archive</publisher>
+        <p id="logostmt"><extref xlink:actuate="onLoad"
+            xlink:href="http://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/bfca.png"
+            xlink:show="embed" xlink:type="simple"/></p>
+        <p><date>© 2015</date></p>
+        <address>
+          <addressline>1320 East Tenth Street</addressline>
+          <addressline>Herman B Wells Library, Room 044</addressline>
+          <addressline>Bloomington, Indiana 47405-7000</addressline>
+          <addressline>Business Number: 812-855-6041</addressline>
+          <addressline>bfca@indiana.edu</addressline>
+          <addressline>URL: <extptr xlink:href="https://bfca.sitehost.iu.edu" xlink:show="new"
+              xlink:title="https://bfca.sitehost.iu.edu" xlink:type="simple"/></addressline>
+        </address>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p><date normal="2015">© 2015</date> Trustees of Indiana University. All rights
+            reserved.</p>
+        </note>
+      </notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>This finding aid was produced using ArchivesSpace on <date>2024-08-27 17:24:00
+          -0400</date>.</creation>
+      <langusage>Description is in English.</langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change audience="internal">
+        <date>February 18, 2015</date>
+        <item>Minor update.</item>
+      </change>
+      <change audience="internal">
+        <date>March 3, 2015</date>
+        <item>Minor update.</item>
+      </change>
+      <change audience="internal">
+        <date>March 31, 2015</date>
+        <item>Minor update.</item>
+      </change>
+      <change audience="internal">
+        <date>June 3, 2015</date>
+        <item>Final clean-up before Xubmit upload.</item>
+      </change>
+      <change audience="internal">
+        <date>June 9, 2015</date>
+        <item>Revision, fixed template, minor cleanup.</item>
+      </change>
+      <change audience="internal">
+        <date>January 4, 2016</date>
+        <item>Final edit on first published version.</item>
+      </change>
+      <change audience="internal">
+        <date>December 1, 2017</date>
+        <item>Batch update to change subject links.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <repository>
+        <corpname>Black Film Center &amp; Archive</corpname>
+      </repository>
+      <unittitle>Mary Perry Smith Black Filmmakers Hall of Fame Archives collection, Series 5.
+        Sidney Poitier Fellowship Competition</unittitle>
+      <origination label="Creator">
+        <persname source="local">Smith, Mary Perry, 1926-2015</persname>
+      </origination>
+      <origination label="Creator">
+        <corpname source="local">Black Filmmakers Hall of Fame, Inc.</corpname>
+      </origination>
+      <unitid>COL 5</unitid>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 Boxes</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">52 Videocassettes</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 Audiocassettes</extent>
+      </physdesc>
+      <unitdate datechar="creation" normal="1985/1993" type="inclusive">1985-1993</unitdate>
+      <unitdate datechar="creation" normal="1992/1993" type="bulk">1992-1993</unitdate>
+      <abstract id="aspace_5cd04a2f84f8c6c76e00c81eb4562406">This series contains papers,
+        application packets, and audiovisual materials related to the Black Filmmakers Hall of
+        Fame's 1993 Sidney Poitier Fellowship competition. Applications to the program include
+        written film proposals, scripts, sample works on videocassette, and other materials
+        submitted by film and video makers competing for fellowship awards.</abstract>
+      <langmaterial id="aspace_cec92450f73995c98544fdc0871c1f1d">Materials are in <language
+          langcode="eng">English</language></langmaterial>
+    </did>
+    <accessrestrict id="aspace_6eef1e9c4be82018bb31ba7e2c15486d">
+      <head>Access Restrictions</head>
+      <p>This series is open for research. The bulk of the video recordings in this series will be
+        digitized as part of Indiana University's Media Digitization and Preservation Initiative
+        (MDPI) between summer 2015 and winter 2018 and access will be extremely limited until that
+        time. If you wish to preview an item in this series, please contact the BFCA staff well in
+        advance of your visit.</p>
+    </accessrestrict>
+    <bioghist id="aspace_504a274658cda54213e0be67cc1e1638">
+      <head>Administrative History</head>
+      <p>The Black Filmmakers Hall of Fame, Inc. (BFHFI) was founded in Oakland, California in 1974.
+        The BFHFI began as a collaboration among Roy Thomas from the Afro-American Studies
+        Department at UC-Berkeley, Mary Perry Smith, who was the co-chairperson of the Cultural and
+        Ethnic Affairs Guild and at the Oakland Museum, and Sonny Buxton of the San Francisco Bay
+        Area station KGO-TV.</p>
+      <p> The BFHFI identified itself as an organization "dedicated to influencing Black images
+        portrayed in film and television through education, the nurturing of current independent
+        filmmakers and the preservation of contributions by Black artists" (BFHFI 20th Anniversary
+        Celebration Program). Throughout its existence the BFHFI presented award ceremonies honoring
+        contemporary and historic figures in black filmmaking. Notable programs established by the
+        BFHFI include the Oscar Micheaux Awards Ceremony, the International Black Film, Video &amp;
+        Screenplay Competition, the Black Filmworks International Film Festival, and the Sidney
+        Poitier Fellowship. Additionally, educational programs, various symposia, and lecture series
+        on black film were conducted throughout the life of the organization.</p>
+      <p> The BFHFI initially operated in partnership with the Oakland Museum, later incorporating
+        itself as an independent, non-profit organization in 1978. Attempts to establish a dedicated
+        museum and permanent home for the BFHFI were ultimately unsuccessful, although the BFHFI did
+        begin acquisition of collections for this proposed museum.</p>
+      <p> The final Oscar Micheaux Awards ceremony was held in 1993, the 20th anniversary of the
+        founding of the event. The BFHFI continued to present the Black Filmworks International Film
+        Festival and Black Independent Film, Video &amp; Screenplay Competition through 2003. </p>
+      <p> For a more detailed administrative history, a biography for Mary Perry Smith, and a
+        listing of other series, please see collection overview (<extref
+          xlink:href="http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD4347"
+          >http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD4347</extref>).</p>
+    </bioghist>
+    <arrangement id="aspace_3440ebf015d5f11a76d484d321c98398">
+      <head>Arrangement</head>
+      <p>The collection is arranged in the follow series with Series 1 containing twelve
+        subseries:</p>
+      <list type="ordered">
+        <item><extref xlink:href="https://archives.iu.edu/catalog/VAD4347" xlink:type="simple"
+            >Collection overview</extref></item>
+        <item><extref xlink:href="https://archives.iu.edu/catalog/VAD5314" xlink:type="simple"
+            >Series 1. Publicity Materials</extref></item>
+        <item><extref xlink:href="https://archives.iu.edu/catalog/VAD5316" xlink:type="simple"
+            >Series 2. Oscar Micheaux Awards Ceremony and Gala</extref></item>
+        <item><extref xlink:href="https://archives.iu.edu/catalog/VAD5300" xlink:type="simple"
+            >Series 3. Film Lecture Series and Symposiums</extref></item>
+        <item><extref xlink:href="https://archives.iu.edu/catalog/VAD4348" xlink:type="simple"
+            >Series 4. Black Filmworks and Independent Film, Video &amp; Screenplay
+            Competition</extref></item>
+        <item><title render="bold">Series 5. Sidney Poitier Fellowship Competition</title></item>
+        <item>-- Subseries 5.1. Applications Packets</item>
+        <item>-- Subseries 5.2. Videocassette Submissions</item>
+        <item>-- Subseries 5.3. Sidney Poitier Fellowship Administrative Documents</item>
+        <item><extref xlink:href="https://archives.iu.edu/catalog/VAD5299" xlink:type="simple"
+            >Series 6. Miscellaneous BFHFI events files</extref></item>
+        <item><extref xlink:href="https://archives.iu.edu/catalog/VAD5304" xlink:type="simple"
+            >Series 7. BFHFI event recordings</extref></item>
+        <item><extref xlink:href="https://archives.iu.edu/catalog/VAD5306" xlink:type="simple"
+            >Series 8. Board and committee documents</extref></item>
+        <item><extref xlink:href="https://archives.iu.edu/catalog/VAD5315" xlink:type="simple"
+            >Series 9. General correspondence</extref></item>
+        <item><extref xlink:href="https://archives.iu.edu/catalog/VAD5319" xlink:type="simple"
+            >Series 10. HRMS, volunteer, and staff documents</extref></item>
+        <item><extref xlink:href="https://archives.iu.edu/catalog/VAD5323" xlink:type="simple"
+            >Series 11. General financial, fundraising, and legal documents</extref></item>
+        <item><extref xlink:href="https://archives.iu.edu/catalog/VAD5458" xlink:type="simple"
+            >Series 12. Memorabilia and artifacts</extref></item>
+        <item><extref xlink:href="https://archives.iu.edu/catalog/VAD5405" xlink:type="simple"
+            >Series 13. Third party publications</extref></item>
+        <item><extref xlink:href="https://archives.iu.edu/catalog/VAD5462" xlink:type="simple"
+            >Series 14. Research files</extref></item>
+        <item><extref xlink:href="https://archives.iu.edu/catalog/VAD5474" xlink:type="simple"
+            >Series 15. Mary P. Smith's files</extref></item>
+        <item><extref xlink:href="https://archives.iu.edu/catalog/VAD7352" xlink:type="simple"
+            >Series 16. Miscellaneous</extref></item>
+        <item><extref xlink:href="https://archives.iu.edu/catalog/VAD8293" xlink:type="simple"
+            >Series 17. Phil Moore Collection</extref> (Inventoried as if separate collection due to
+          size)</item>
+        <item>Series 18. Photographs (undergoing processing)</item>
+        <item>Series 19. Born-digital materials (undergoing processing)</item>
+      </list>
+    </arrangement>
+    <scopecontent id="aspace_c1016b5ff551c0c95a3939eb1aa6d36b">
+      <head>Scope and Content Note</head>
+      <p>This series consists of application materials submitted for consideration for the Sidney
+        Poitier Fellowship (SPF) competition. The Sidney Poitier Fellowship for Emerging Black
+        Filmmakers was announced by the Black Filmmakers Hall of Fame, Inc. (BFHFI) in 1992 as a
+        program to award up to ten fellowships to black film/video artists in the process of
+        beginning or completing projects. The SPF program sought to "discover and provide support to
+        talented persons who are pursuing careers as video and film makers" and to further the
+        BFHFI's mission to provide resources to "those who are creating new and dynamic media images
+        from our cultural perspective" (BFHFI planning document). The BFHFI announced the first
+        Poitier Fellowship winners, who were selected from a pool of 102 applicants, at its 20th and
+        final Oscar Micheaux Awards Ceremony in October 1993. The Awards Ceremony souvenir program
+        includes a listing of the Poitier Fellowship awardees. Although the BFHFI intended to
+        present ten awards bi-annually, the Sidney Poitier Fellowship program did not continue after
+        its initial year.</p>
+      <p> SPF applicants were required to submit budgets, treatments, scripts, or project proposals,
+        as well as a sample work on videocassette. The applications reflect a broad spectrum of
+        independent film and video making from the early 1990s. Proposals include feature films,
+        film school student projects, documentaries, community television, animation, experimental
+        short films, and new media productions submitted by applicants ranging from first-time
+        filmmakers to experienced mid-career veterans.</p>
+      <p> Videocassettes included with applications have been arranged in a separate series. Except
+        when unavailable, each application has a corresponding sample work on videocassette found in
+        the Videocassettes Series</p>
+    </scopecontent>
+    <relatedmaterial id="aspace_bf4c28a4b2259c6d51404b5ee4d6d007">
+      <head>Related Material</head>
+      <p>For some works-in-progress, another version of the production was submitted to the BFHFI
+        for its regular Independent Film, Video, &amp; Screenplay Competition or other BFHFI events.
+        These alternate versions have been listed within the relevant series. When possible, the
+        existence of an alternate version to an SPF entry has been noted, however this cross-listing
+        is not comprehensive and researchers interested in studying multiple version of a specific
+        work are advised to perform additional keyword searches within "Series 4. Black Filmworks
+        and Independent Film, Video &amp; Screenplay Competition."</p>
+    </relatedmaterial>
+    <acqinfo id="aspace_3b54835d439f8197d007f7d0bf6ee702">
+      <head>Acquisition Information</head>
+      <p>The material in this series is part of a collection donated by <persname
+          normal="Smith, Mary Perry">Mary Perry Smith</persname> to the Indiana University Black
+        Film Center &amp; Archive in January 2014.</p>
+    </acqinfo>
+    <userestrict id="aspace_75c853d91a276fd8bf419a70161bcc40">
+      <head>Usage Restrictions</head>
+      <p>Materials may be used in-house at the BFCA; duplication permitted only with permission of
+        the Archivist.</p>
+    </userestrict>
+    <prefercite id="aspace_269e7c0bae4a820655de365be8de0ff3">
+      <head>Preferred Citation</head>
+      <p>[item], Mary Perry Smith Black Filmmakers Hall of Fame Archives Collection, Special
+        Collection COL 5, Black Film Center &amp; Archive, Indiana University, Bloomington.</p>
+    </prefercite>
+    <processinfo id="aspace_f3cd0980d49e78f60f8a51e47fc9e556">
+      <head>Processing Information</head>
+      <p>Processed by Seth Mitter.</p>
+      <p> Completed in <date normal="2015">2015</date>.</p>
+    </processinfo>
+    <odd id="aspace_a24958cb68abeb55ca28f7148937195d">
+      <head>General</head>
+      <p>In 2022, the Black Film Center/Archive (BFC/A) transitioned to its current name, the Black
+        Film Center &amp; Archive (BFCA). This finding aid was created under the organizational name
+        Black Film Center/Archive. Upon this organizational name change, all previous references to
+        the BFC/A were updated in this finding aid to match the current name, Black Film Center
+        &amp; Archive.</p>
+    </odd>
+    <controlaccess>
+      <subject source="lcsh">Motion Pictures--Competitions</subject>
+      <subject source="lcsh">African American motion picture producers and directors</subject>
+      <subject source="lcsh">Blacks in the motion picture industry</subject>
+      <subject source="lcsh">Independent Films</subject>
+      <persname authfilenumber="n79095315" source="lcnaf">Poitier, Sidney</persname>
+      <persname authfilenumber="n95043811" source="lcnaf">Davis, Zeinabu</persname>
+      <persname authfilenumber="no99017394" source="lcnaf">Welbon, Yvonne, 1962-</persname>
+      <persname authfilenumber="n2006011458" source="lcnaf">Sharp, S. Pearl</persname>
+      <persname authfilenumber="no2004036448" source="lcnaf">Crawford, Alonzo</persname>
+      <persname authfilenumber="n91063619" source="lcnaf">Nelson, Stanley, 1955-</persname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_VAD4090-00157" level="series">
+        <did>
+          <unittitle><extref xlink:href="http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD5314"
+              xlink:type="simple">1. Publicity materials</extref></unittitle>
+        </did>
+      </c01>
+      <c01 id="aspace_VAD4090-00158" level="series">
+        <did>
+          <unittitle><extref xlink:href="http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD5316"
+              xlink:type="simple">2. Oscar Micheaux Awards Ceremony and Gala</extref></unittitle>
+        </did>
+      </c01>
+      <c01 id="aspace_VAD4090-00159" level="series">
+        <did>
+          <unittitle><extref xlink:href="http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD5300"
+              xlink:type="simple">3. Film Lecture Series and Symposiums</extref></unittitle>
+        </did>
+      </c01>
+      <c01 id="aspace_VAD4090-00160" level="series">
+        <did>
+          <unittitle><extref xlink:href="http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD4348"
+              xlink:type="simple">4. Black Filmworks and Independent Film, Video &amp; Screenplay
+              Competition</extref></unittitle>
+        </did>
+      </c01>
+      <c01 id="aspace_VAD4090-00161" level="series">
+        <did>
+          <unittitle><extref xlink:href="http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD4090"
+              xlink:type="simple">5. Sidney Poitier Fellowship Competition</extref></unittitle>
+        </did>
+        <c02 id="aspace_VAD4090-00001" level="subseries">
+          <did>
+            <unittitle>5.1. Application Packets</unittitle>
+            <unitdate datechar="creation" normal="1993/1993">1993</unitdate>
+          </did>
+          <scopecontent id="aspace_1bb5648db20de1e872be918a6969e7fa">
+            <head>Content</head>
+            <p>SPF applicants were required to submit project proposals as well as project budgets
+              detailing funding sought from the BFHFI. Many applications include complete scripts,
+              while others provide treatments or storyboards. Other supplementary material commonly
+              found in application packets include press clippings, résumés, and letters of
+              recommendation. Sample works on videocassette included with submissions are identified
+              in the supplemental content to the applications; however, these videocassettes are
+              arranged and described separately in the series Videocassette Submissions.</p>
+            <p> The items listed under "Originally Submitted Supplemental Content" are those
+              indicated by the applicant as having originally been submitted to the BFHFI. In some
+              cases materials described in this section were returned to the applicant by the BFHFI
+              and are not held by BFC/A. This has been indicated where possible.</p>
+            <p> Except when unavailable, evaluation forms completed by the five judges, including
+              comments and responses to proposals and sample works, are filed with the application
+              packets.</p>
+            <p> Arrangement of the series follows the entry numbering system the BFHFI assigned to
+              each application packet.</p>
+          </scopecontent>
+          <c03 id="aspace_VAD4090-00002" level="file">
+            <did>
+              <unittitle>Sheldon Sampson application packet</unittitle>
+              <unitid>1</unitid>
+              <unitid audience="internal" identifier="1" type="collector">1</unitid>
+              <unitdate datechar="creation" normal="1993/1993">1993</unitdate>
+              <physdesc id="aspace_35a80cff0cbf857ece3afd9bb0fb9d03" label="Physical Description">1
+                application packet (6 pages) + script (84 pages)</physdesc>
+              <container id="aspace_a3fbce188c81a7d2748bc5ac0d3439a5" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_24e72f356f8eeb8532f5d652d0d0a565">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Fathers &amp; Angels (Fifth Draft)</item>
+                <item>Video title(s): Choices</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00006" level="file">
+            <did>
+              <unittitle>Trish Geran application packet</unittitle>
+              <unitid>2</unitid>
+              <unitid audience="internal" identifier="2" type="collector">2</unitid>
+              <unitdate datechar="creation" normal="1993-08-21/1993-08-21">1993 August 21</unitdate>
+              <physdesc id="aspace_27a07bb1ad0eb67b4f33f54b77a45786" label="Physical Description">1
+                application packet (31 pages) + program and portfolio</physdesc>
+              <container id="aspace_8d6dca15647747d0d5a7258adbe1e45f" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_98dc3e48fee5becfccc12cc3dbb1cf9b">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): The Other Side of the Coin</item>
+                <item>Moulin Rouge Hotel and Casino birthday celebration souvenir program</item>
+                <item>Trish Geran publicity photograph</item>
+                <item>Publicity materials for video titled: Wake Up Everybody</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00007" level="file">
+            <did>
+              <unittitle>Zeinabu irene Davis application packet</unittitle>
+              <unitid>3</unitid>
+              <unitid audience="internal" identifier="3" type="collector">3</unitid>
+              <unitdate datechar="creation" normal="1993-08-31/1993-08-31">1993 August 31</unitdate>
+              <physdesc id="aspace_1a34ade4da0cad868305e04b093a875d" label="Physical Description">1
+                application packet (15 pages) + 1 script (20 pages)</physdesc>
+              <container id="aspace_58a31a27fa2232c486b565f60c354911" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_0d7b5654ba00e34c098ace324424eaa2">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Compensation (Final draft)</item>
+                <item>Video title(s): Compensation ; A Powerful Thang</item>
+              </list>
+            </scopecontent>
+            <odd id="aspace_aa56ef1c159f56ebe8983e69fe5c0e92">
+              <head>General</head>
+              <p>SPF Awardee.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00008" level="file">
+            <did>
+              <unittitle>Easton O. Nelson Jr. application packet</unittitle>
+              <unitid>4</unitid>
+              <unitid audience="internal" identifier="4" type="collector">4</unitid>
+              <unitdate datechar="creation" normal="1993-08-23/1993-08-23">1993 August 23</unitdate>
+              <physdesc id="aspace_230977f657de27d16e3c104470a2d911" label="Physical Description">1
+                application packet (12 pages) + poetry booklet</physdesc>
+              <container id="aspace_7610e98ff8ae3a35bb48822e9861e9f5" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_59267c729f37226ad63c43fe0d1db114">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Coming Home Again [NOT HELD BY BFC/A]</item>
+                <item>Poem booklet containing "The Black Raven" by Gordon Nelson</item>
+                <item>1 audiocassette submitted with application. Shelf No. COL 5 AC 18</item>
+              </list>
+            </scopecontent>
+            <odd id="aspace_e44313f99958d0f24604660f5b6e4c3e">
+              <head>General</head>
+              <p>Audiocassette labeled: The Black Raven, sound track for film by Nelson Brothers
+                Productions.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00009" level="file">
+            <did>
+              <unittitle>Francee Covington application packet</unittitle>
+              <unitid>5</unitid>
+              <unitid audience="internal" identifier="5" type="collector">5</unitid>
+              <unitdate datechar="creation" normal="1993-09-03/1993-09-03">1993 September
+                3</unitdate>
+              <physdesc id="aspace_9af4e8e5540dfa1e5d77d05342ec5876" label="Physical Description">1
+                application packet (20 pages)</physdesc>
+              <container id="aspace_458a6ba00d4a0d92c225e69e227cbf53" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_5863ec167b5f84c875978bbfc1e1201b">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Nipped in the Bud/Potboiler [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00010" level="file">
+            <did>
+              <unittitle>Sally Joan Baker application packet</unittitle>
+              <unitid>6</unitid>
+              <unitid audience="internal" identifier="6" type="collector">6</unitid>
+              <unitdate datechar="creation" normal="1993-09-09/1993-09-09">1993 September
+                9</unitdate>
+              <physdesc id="aspace_07880b26058ca61a0cb1c8e1f9e2bbc0" label="Physical Description">1
+                application packet (11 pages)</physdesc>
+              <container id="aspace_17ddea0c3f0c2e857bc11d73e2d784b5" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_0eae83bc208cd681251aa720167611f9">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): 8th Anniversary Program [NOT HELD BY BFC/A]</item>
+                <item>"Wee Poets" pamphlet</item>
+                <item>Correspondence with BFHFI</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00011" level="file">
+            <did>
+              <unittitle>George Stubbs application packet</unittitle>
+              <unitid>7</unitid>
+              <unitid audience="internal" identifier="7" type="collector">7</unitid>
+              <unitdate datechar="creation" normal="1993-09-02/1993-09-02">1993 September
+                2</unitdate>
+              <physdesc id="aspace_7f760f61cb5e96ab83c95c7984cd87d2" label="Physical Description">1
+                application packet (4 pages) + 1 script (16 pages) + storyboard (40
+                pages)</physdesc>
+              <container id="aspace_3014fa16bab2416c94c36d80f211e2c1" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_e30e07392ffd8f4435687e730a5d2d9c">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Peace and Quiet (6th draft)</item>
+                <item>Video title(s): Peace and Quiet [NOT HELD BY BFC/A]</item>
+                <item>Storyboard</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00012" level="file">
+            <did>
+              <unittitle>Iverson White application packet</unittitle>
+              <unitid>8</unitid>
+              <unitid audience="internal" identifier="8" type="collector">8</unitid>
+              <unitdate datechar="creation" normal="1993-09-01/1993-09-01">1993 September
+                1</unitdate>
+              <physdesc id="aspace_e2418ead6a0b65667fdee13bc754d845" label="Physical Description">1
+                application packet (approximately 40 pages) + 1 script (24 pages)</physdesc>
+              <container id="aspace_d854c4cf8f4b4beee824d1eb2705212f" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_68e05bbf8a0a578dc8a32d1b264a358d">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: The Johnson Girls</item>
+                <item>Video title(s): Dark Exodus ; Magic Love</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00013" level="file">
+            <did>
+              <unittitle>Daniel Pierce Bergin application packet</unittitle>
+              <unitid>9</unitid>
+              <unitid audience="internal" identifier="9" type="collector">9</unitid>
+              <unitdate datechar="creation" normal="1993-09-07/1993-09-07">1993 September
+                7</unitdate>
+              <physdesc id="aspace_df3ce3898b6d16dc5106b66069265aad" label="Physical Description">1
+                application packet (10 pages)</physdesc>
+              <container id="aspace_3196c5622085757deb4e4f9eb69184a3" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_d69a798d618a5048e0f3c9ae3edf5fc3">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Race Memory ; Droppin' Knowledge ; Zero Street</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00014" level="file">
+            <did>
+              <unittitle>Sidra Score application packet</unittitle>
+              <unitid>10</unitid>
+              <unitid audience="internal" identifier="10" type="collector">10</unitid>
+              <unitdate datechar="creation" normal="1993-09-08/1993-09-08">1993 September
+                8</unitdate>
+              <physdesc id="aspace_3e41449ccbc652d510332c6515f2393a" label="Physical Description">1
+                application packet (9 pages)</physdesc>
+              <container id="aspace_072c37b84444b33587dc48098f7bba8e" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_d04408e3238f6a6c1605497b9fb1bb06">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Martin's Lament</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00015" level="file">
+            <did>
+              <unittitle>Olaniyi Areke application packet</unittitle>
+              <unitid>11</unitid>
+              <unitid audience="internal" identifier="11" type="collector">11</unitid>
+              <unitdate datechar="creation" normal="1993-09-03/1993-09-03">1993 September
+                3</unitdate>
+              <physdesc id="aspace_34d91a95aeefa9256ed2b0825452fc72" label="Physical Description">1
+                application packet (8 pages)</physdesc>
+              <container id="aspace_f577a47cce20e61fcdc2fce4ae34610b" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_efb82663a963d954bc052f009182c27f">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Spouse Abuse : A Global Perspective [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00016" level="file">
+            <did>
+              <unittitle>Castaudaryl Kellum application packet</unittitle>
+              <unitid>12</unitid>
+              <unitid audience="internal" identifier="12" type="collector">12</unitid>
+              <unitdate datechar="creation" normal="1993-09-10/1993-09-10">1993 September
+                10</unitdate>
+              <physdesc id="aspace_35cbce03cf9328cfaad7d746ff9110e6" label="Physical Description">1
+                application packet (21 pages) + brochure</physdesc>
+              <container id="aspace_6cab11cd9f59e5960a16fec6e88bc672" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_3c9bd2261a03aff936870ac371f07894">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Dead End Street</item>
+                <item>Brochure for EXODUS Atlanta, GA Cities in Schools Program</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00017" level="file">
+            <did>
+              <unittitle>Donna Mungen application packet</unittitle>
+              <unitid>13</unitid>
+              <unitid audience="internal" identifier="13" type="collector">13</unitid>
+              <unitdate datechar="creation" normal="1993-09-09/1993-09-09">1993 September
+                9</unitdate>
+              <physdesc id="aspace_41624b2598340c4de0ce0dd466b5af81" label="Physical Description">1
+                application packet (10 pages)</physdesc>
+              <container id="aspace_b450a9af7912870d2aaa2782afbf53f1" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_10b7a3f36faa97ac87ef8291f6aa9dcc">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Success Avenue : Watts, Los Angeles</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00018" level="file">
+            <did>
+              <unittitle>Willie Moore application packet</unittitle>
+              <unitid>14</unitid>
+              <unitid audience="internal" identifier="14" type="collector">14</unitid>
+              <unitdate datechar="creation" normal="1993-08-28/1993-08-28">1993 August 28</unitdate>
+              <physdesc id="aspace_b29ae6dad9b0e01c13e18789f2d31728" label="Physical Description">1
+                application packet (5 pages)</physdesc>
+              <container id="aspace_90c57dbf945bd5058d889576c7a08c4d" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_a630165041d05e5240aeab46738e8b6c">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Ghana Folktale Jamm [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00019" level="file">
+            <did>
+              <unittitle>Teresa Jo Styles application packet</unittitle>
+              <unitid>15</unitid>
+              <unitid audience="internal" identifier="15" type="collector">15</unitid>
+              <unitdate datechar="creation" normal="1993-09-03/1993-09-03">1993 September
+                3</unitdate>
+              <physdesc id="aspace_62e738149d9fabeca933ad1173f13aa0" label="Physical Description">1
+                application packet (8 pages)</physdesc>
+              <container id="aspace_4d233db83fff6c63c8c2416421cd393d" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_3cc5c8a4cba4055c279d73d5fc822ac6">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): The Real McCoy : A Tribute to Black Inventors [NOT HELD BY
+                  BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00020" level="file">
+            <did>
+              <unittitle>Yvonne Welbon application packet</unittitle>
+              <unitid>16</unitid>
+              <unitid audience="internal" identifier="16" type="collector">16</unitid>
+              <unitdate datechar="creation" normal="1993-09-10/1993-09-10">1993 September
+                10</unitdate>
+              <physdesc id="aspace_ed14c8b1e111453f21fc37dec6290682" label="Physical Description">1
+                application packet (13 pages)</physdesc>
+              <container id="aspace_390e3c0e316a3fff005de1c01519f7a8" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_ddd7b9d8332941676df6a35ae743f95a">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Remembering Wei Yi-fang, Remembering Myself</item>
+              </list>
+            </scopecontent>
+            <odd id="aspace_46ec52022db743dd22adcd2032829208">
+              <head>General</head>
+              <p>SPF Awardee.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00021" level="file">
+            <did>
+              <unittitle>Reginald Woolery application packet</unittitle>
+              <unitid>17</unitid>
+              <unitid audience="internal" identifier="17" type="collector">17</unitid>
+              <unitdate datechar="creation" normal="1993-09-10/1993-09-10">1993 September
+                10</unitdate>
+              <physdesc id="aspace_92f6185d6e8b5adc40deb9366df5a56f" label="Physical Description">1
+                application packet (22 pages) + 1 script (56 pages)</physdesc>
+              <container id="aspace_e1fba78ec0e1b4f3a89f50ddab3f6e40" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_524c083077695425c6f83acca18526ad">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Overextended Family</item>
+                <item>Video title(s): Backwalk ; 38th Parallel</item>
+              </list>
+            </scopecontent>
+            <odd id="aspace_b8a62b3122e71e38c980abd83c6045e8">
+              <head>General</head>
+              <p>SPF Awardee.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00022" level="file">
+            <did>
+              <unittitle>Keith Hunter application packet</unittitle>
+              <unitid>18</unitid>
+              <unitid audience="internal" identifier="18" type="collector">18</unitid>
+              <unitdate datechar="creation" normal="1993-09-10/1993-09-10">1993 September
+                10</unitdate>
+              <physdesc id="aspace_ddd689f2fe6f6e56d6b3d8be96a70be0" label="Physical Description">1
+                application packet (6 pages) + 5 duplicate copies with variant
+                illustrations</physdesc>
+              <container id="aspace_8ba5eac0dbe5ebbff7fcba37b02906cb" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_eacfc8cd125a2358dd74c0a13c49c843">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Power Surge ; The Power ; Hawker M25</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00023" level="file">
+            <did>
+              <unittitle>Aki L. Spicer application packet</unittitle>
+              <unitid>19</unitid>
+              <unitid audience="internal" identifier="19" type="collector">19</unitid>
+              <unitdate datechar="creation" normal="1993-09-12/1993-09-12">1993 September
+                12</unitdate>
+              <physdesc id="aspace_26449bd0bad4f8a83590badf2c9d5a90" label="Physical Description">1
+                application packet (approximately 25 pages) + 1 script (approximately 150
+                pages)</physdesc>
+              <container id="aspace_fe84de30446832187d6d3536eef46f99" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_f96b38671cd3067c07b7fe3b7a29580f">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Random Abstracts : A Compendium of Films by Aki L. Spicer and
+                  Steven J. Foley</item>
+                <item>Video title(s): Insomnia [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00024" level="file">
+            <did>
+              <unittitle>VernAnthony Pringle application packet</unittitle>
+              <unitid>20</unitid>
+              <unitid audience="internal" identifier="20" type="collector">20</unitid>
+              <unitdate datechar="creation" normal="1993-09-10/1993-09-10">1993 September
+                10</unitdate>
+              <physdesc id="aspace_2b49083f621d70cd2b4aacbc5afbc243" label="Physical Description">1
+                application packet (10 pages) + 1 script (9 pages)</physdesc>
+              <container id="aspace_b9cec71d43559aa6889e8e06d112ae0c" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_8e475347334a7501954d10458dfcce6f">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: A Cup of Sugar</item>
+                <item>Video title(s): Men, Myths, &amp; Dogs</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00025" level="file">
+            <did>
+              <unittitle>Heather Foxworth application packet</unittitle>
+              <unitid>21</unitid>
+              <unitid audience="internal" identifier="21" type="collector">21</unitid>
+              <unitdate datechar="creation" normal="1993-09-13/1993-09-13">1993 September
+                13</unitdate>
+              <physdesc id="aspace_c9c8a822acbc7cece67c44c3385ed28e" label="Physical Description">1
+                application packet (13 pages)</physdesc>
+              <container id="aspace_33890bde585c5169299de3af0b3b7cb9" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_92e78b9aeda6b3c5a26d3bd256d7dfd8">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Trouble I've Seen</item>
+                <item>Audiocassette with song "Times Are Trying" (2 minutes) submitted along with
+                  video (AV shelf no. COL 5 AC 20)</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00026" level="file">
+            <did>
+              <unittitle>Loren Reed application packet</unittitle>
+              <unitid>22</unitid>
+              <unitid audience="internal" identifier="22" type="collector">22</unitid>
+              <unitdate datechar="creation" normal="1993-09-09/1993-09-09">1993 September
+                13</unitdate>
+              <physdesc id="aspace_65a2307a19d2a4973f4d7102cef67ea2" label="Physical Description">1
+                application packet (9 pages)</physdesc>
+              <container id="aspace_696c646cfb9d265dbc86b9f871d7f9e5" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_f4bc764a6aaed8c5776fd27feff25a73">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Reclaiming Young African-American Males</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00027" level="file">
+            <did>
+              <unittitle>Dwight Wilkins application packet</unittitle>
+              <unitid>24</unitid>
+              <unitid audience="internal" identifier="24" type="collector">24</unitid>
+              <unitdate datechar="creation" normal="1993-09-11/1993-09-11">1993 September
+                11</unitdate>
+              <physdesc id="aspace_53fba158621a16f8ae8c590a094d5646" label="Physical Description">1
+                application packet (13 pages) + 1 script (56 pages)</physdesc>
+              <container id="aspace_8d85fcc764dd4539ad2ead02ca1b69b0" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_af7b2e92d26011757e85e134302d7a81">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Prisoners of Passion</item>
+                <item>Video title(s): Reflections</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00028" level="file">
+            <did>
+              <unittitle>Eric Ross application packet</unittitle>
+              <unitid>25</unitid>
+              <unitid audience="internal" identifier="25" type="collector">25</unitid>
+              <unitdate datechar="creation" normal="1993-09-13/1993-09-13">1993 September
+                13</unitdate>
+              <physdesc id="aspace_6dfe031a18b20851d262ea0a3df3014b" label="Physical Description">1
+                application packet (8 pages)</physdesc>
+              <container id="aspace_c210f5460024e2b3609053a3282c4ce3" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_43fc28ec10215654b50d9c0f11b5cb75">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Rank &amp; File</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00029" level="file">
+            <did>
+              <unittitle>Dwight L. Smith application packet</unittitle>
+              <unitid>26</unitid>
+              <unitid audience="internal" identifier="26" type="collector">26</unitid>
+              <unitdate datechar="creation" normal="1993-09-13/1993-09-13">1993 September
+                13</unitdate>
+              <physdesc id="aspace_557a3ba26bd87b8f2c1282f2cf55ca5d" label="Physical Description">1
+                application packet (11 pages)</physdesc>
+              <container id="aspace_53c55ff566cade16ad2b7cdef8cc2023" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_506aa966123543befb8ae71abca22154">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Samson and Delilah [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00030" level="file">
+            <did>
+              <unittitle>H. Len Keller application packet</unittitle>
+              <unitid>27</unitid>
+              <unitid audience="internal" identifier="27" type="collector">27</unitid>
+              <unitdate datechar="creation" normal="1993-09-13/1993-09-13">1993 September
+                13</unitdate>
+              <physdesc id="aspace_b2c31fab9dafff88ba8205d42d69d7c8" label="Physical Description">1
+                application packet (5 pages)</physdesc>
+              <container id="aspace_08e1d2a6d865adc006548fea516fdc2f" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_831f73ea0d07d366f2dd8f481b1bc214">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Sincerely, Zena (1st draft)</item>
+                <item>Video title(s): IFE [ORIGINAL SUBMISSION NOT HELD BY BFC/A; DO HAVE COPY
+                  SUBMITTED TO 1994 COMPETITION: COL 5 VH 382]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00031" level="file">
+            <did>
+              <unittitle>Paul Rigne Roach application packet</unittitle>
+              <unitid>28</unitid>
+              <unitid audience="internal" identifier="28" type="collector">28</unitid>
+              <unitdate datechar="creation" normal="1993-09-14/1993-09-14">1993 September
+                14</unitdate>
+              <physdesc id="aspace_60cafab617ae285952743c8ddbe742b7" label="Physical Description">1
+                application packet (4 pages) + 1 duplicate application with annotations</physdesc>
+              <container id="aspace_a26adcad21eeaf6ec6dfd3ed9d80e9b8" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_5f570616212e324b85f1583889c55fc3">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Sydney Byrd, Private Eye</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00032" level="file">
+            <did>
+              <unittitle>[incomplete application]</unittitle>
+              <unitid>29</unitid>
+              <unitid audience="internal" identifier="29" type="collector">29</unitid>
+              <unitdate datechar="creation" normal="1993/1993">1993</unitdate>
+              <physdesc id="aspace_5619e5db900462915bf8618f69d8c84e" label="Physical Description">1
+                incomplete application packet (1 page) + 3 duplicate copies of same</physdesc>
+              <container id="aspace_76da3ab90fce6354f7e4253357cee0a3" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_d92dc1189a5d0d505c32fca9c8c60ed7">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>1 audiocassette, shelf no. COL 5 AC 19</item>
+              </list>
+            </scopecontent>
+            <odd id="aspace_1e54305fec11d3639701ae22aad6316b">
+              <head>General</head>
+              <p>Packet contains fragment of project proposal and judges' evaluation forms.</p>
+              <p> Audiocassette label: Theme "Condition" Ken Wms.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00033" level="file">
+            <did>
+              <unittitle>George Tillman, Jr. application packet</unittitle>
+              <unitid>30</unitid>
+              <unitid audience="internal" identifier="30" type="collector">30</unitid>
+              <unitdate datechar="creation" normal="1993-09-12/1993-09-12">1993 September
+                12</unitdate>
+              <physdesc id="aspace_33bdeb9a4d0f0e9826aff24d3b54c4a0" label="Physical Description">1
+                application packet (1 page) + 1 script (101 pages) + business cards</physdesc>
+              <container id="aspace_2d8ec27cf96dd986f3609c9328c2a775" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_8db07ce687af150f6a7e3a429bb89d49">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Scenes For the Soul (draft eight)</item>
+                <item>Video title(s): Menagerie Reel</item>
+                <item>Stickers and business cards for Menagerie Films production company</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00034" level="file">
+            <did>
+              <unittitle>Katherine Nero application packet</unittitle>
+              <unitid>31</unitid>
+              <unitid audience="internal" identifier="31" type="collector">31</unitid>
+              <unitdate datechar="creation" normal="1993-09-11/1993-09-11">1993 September
+                11</unitdate>
+              <physdesc id="aspace_858a29e7638e3d6ca220647303ee410e" label="Physical Description">1
+                application packet (9 pages) + 1 script (29 pages)</physdesc>
+              <container id="aspace_6d03fcaf2622b8136c217ce0414b6e5b" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_3620a6be38812004a8ef4eabfd556d0b">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Wedding Bell Blues (aka "Happily Ever After") (revised final
+                  draft)</item>
+                <item>Video title(s): Wedding Bell Blues ; The Choice ; Blues Alive ;
+                  Nine-ish</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00035" level="file">
+            <did>
+              <unittitle>Michele Barnwell application packet</unittitle>
+              <unitid>32</unitid>
+              <unitid audience="internal" identifier="32" type="collector">32</unitid>
+              <unitdate datechar="creation" normal="1993-09-14/1993-09-14">1993 September
+                14</unitdate>
+              <physdesc id="aspace_0bfbdc5ae07c600425e4c75e8878d5e6" label="Physical Description">1
+                application packet (2 pages) + 1 script (34 pages) + 1 revised script (35
+                pages)</physdesc>
+              <container id="aspace_6644203c73897cdad03f88d4a31ab828" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_bcc4a56555cc494577f57c6bfc61d992">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: One Red Rose ; One Red Rose (Revised November 8, 1991)</item>
+                <item>Video title(s): One Red Rose (trailer)</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00036" level="file">
+            <did>
+              <unittitle>R. Montgomery application packet</unittitle>
+              <unitid>33</unitid>
+              <unitid audience="internal" identifier="33" type="collector">33</unitid>
+              <unitdate datechar="creation" normal="1993/1993">1993</unitdate>
+              <physdesc id="aspace_cef3d576cdd605016af974b8144f09f5" label="Physical Description">1
+                self-addressed envelope</physdesc>
+              <container id="aspace_5b85b44de83453e0dfbd6bfb706b1e95" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <odd id="aspace_b2f668c796d9e4c8032829d6ee21a679">
+              <head>General</head>
+              <p>Folder contains applicant's self-addressed stamped envelope and judge's evaluation
+                forms.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00037" level="file">
+            <did>
+              <unittitle>Saundra Sharp application packet</unittitle>
+              <unitid>35</unitid>
+              <unitid audience="internal" identifier="35" type="collector">35</unitid>
+              <unitdate datechar="creation" normal="1993-09-09/1993-09-09">1993 September
+                9</unitdate>
+              <physdesc id="aspace_f65e185320f8cbb721d1c22f2e93dca2" label="Physical Description">1
+                application packet (8 pages)</physdesc>
+              <container id="aspace_4cb4b5707ebafd38cf7d479c433f866e" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_b62eff656b25123c1e00d032b0081f0c">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Why Didn't You Tell Me This Before? ; Picking Tribes [NOT HELD
+                  BY BFC/A]</item>
+              </list>
+            </scopecontent>
+            <odd id="aspace_e9df37ed1ac627f2cb2c9f3b3b082913">
+              <head>General</head>
+              <p>SPF Awardee.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00038" level="file">
+            <did>
+              <unittitle>Donald Wylie application packet</unittitle>
+              <unitid>37</unitid>
+              <unitid audience="internal" identifier="37" type="collector">37</unitid>
+              <unitdate datechar="creation" normal="1993-09-14/1993-09-14">1993 September
+                14</unitdate>
+              <physdesc id="aspace_3b60eb5f5fec090c048b4e5d5fec73f5" label="Physical Description">1
+                application packet (11 pages) + 1 script (14 pages)</physdesc>
+              <container id="aspace_e55039119b4fd13a53577f100f44fb20" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_bf15d49efd4e9c3f10a2ceb0947a39fc">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Tea Time</item>
+                <item>Video title(s): Tea Time</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00039" level="file">
+            <did>
+              <unittitle>Frank Crosby application packet</unittitle>
+              <unitid>38</unitid>
+              <unitid audience="internal" identifier="38" type="collector">38</unitid>
+              <unitdate datechar="creation" normal="1993-09-14/1993-09-14">1993 September
+                14</unitdate>
+              <physdesc id="aspace_b1a5e18712c5d10c16a9710c9683d98c" label="Physical Description">1
+                application packet (15 pages)</physdesc>
+              <container id="aspace_02cc9bfe393682648f805c15e35a5801" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_af6ea9a79030e1e8b8897fbed0d77e33">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: The Hunger of Memory [excerpt]</item>
+                <item>Video title(s): The Hunger of Memory</item>
+              </list>
+            </scopecontent>
+            <odd id="aspace_3632211a4c1663b6dd697a5c2e3e54b9">
+              <head>General</head>
+              <p>Excerpt of script is included in application packet.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00040" level="file">
+            <did>
+              <unittitle>Candace Hunter application packet</unittitle>
+              <unitid>40</unitid>
+              <unitid audience="internal" identifier="40" type="collector">40</unitid>
+              <unitdate datechar="creation" normal="1993-09-13/1993-09-13">1993 September
+                13</unitdate>
+              <physdesc id="aspace_95d4cc674cf1391040d23cc585849ea8" label="Physical Description">1
+                application packet (9 pages) + 1 script (24 pages)</physdesc>
+              <container id="aspace_8dcdfb80ebfb286cdb02c5a0586b3598" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_b461d6cb67b2a1f0e724ff37dc470904">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Black Fax (the movie?!) (2nd draft)</item>
+                <item>Video title(s): The Making of Tamika's World [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00041" level="file">
+            <did>
+              <unittitle>Ashley James application packet</unittitle>
+              <unitid>41</unitid>
+              <unitid audience="internal" identifier="41" type="collector">41</unitid>
+              <unitdate datechar="creation" normal="1993-09-13/1993-09-13">1993 September
+                13</unitdate>
+              <physdesc id="aspace_6dfee0709e7a2425414d701e7bef0b5f" label="Physical Description">1
+                application packet (27 pages)</physdesc>
+              <container id="aspace_3efe4d315f3db9090d28006c5cd487bf" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_d49c791a6ea25d947e265deac9eafa38">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): We Love You Like A Rock [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+            <odd id="aspace_893274e815be76514db6e5ec45c685ff">
+              <head>General</head>
+              <p>SPF Awardee.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00042" level="file">
+            <did>
+              <unittitle>Fikisha Cumbo application packet</unittitle>
+              <unitid>42</unitid>
+              <unitid audience="internal" identifier="42" type="collector">42</unitid>
+              <unitdate datechar="creation" normal="1993-09-11/1993-09-11">1993 September
+                11</unitdate>
+              <physdesc id="aspace_36b528bd9d1464cd2c19f0775a434350" label="Physical Description">1
+                application packet (20 pages)</physdesc>
+              <container id="aspace_3e21ba9f7cbd997c9fe5fa67882cfc23" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_72d8a506aec87d6dee500f9c3469b8d1">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): An American Story</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00043" level="file">
+            <did>
+              <unittitle>Alonzo Crawford application packet</unittitle>
+              <unitid>43</unitid>
+              <unitid audience="internal" identifier="43" type="collector">43</unitid>
+              <unitdate datechar="creation" normal="1993-09/1993-09">1993 September</unitdate>
+              <physdesc id="aspace_0038212afd49b729a9e576ced1cfa456" label="Physical Description">1
+                application packet (34 pages) + 1 script (142 pages)</physdesc>
+              <container id="aspace_c33c1f7c462051c61be310bdc4047fb4" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_38579287dfa82b0acc28a8a36e8b6e62">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: American Blue</item>
+                <item>Video title(s): Walk On White Nails [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+            <odd id="aspace_4b54bff15071aba436ea03298403c0b2">
+              <head>General</head>
+              <p>SPF Awardee.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00044" level="file">
+            <did>
+              <unittitle>Monica Breckenridge application packet</unittitle>
+              <unitid>44</unitid>
+              <unitid audience="internal" identifier="44" type="collector">44</unitid>
+              <unitdate datechar="creation" normal="1993-09-14/1993-09-14">1993 September
+                14</unitdate>
+              <physdesc id="aspace_ef2b21943a57adf8739f42fcc627b2d0" label="Physical Description">1
+                application packet (approximately 30 pages) + 1 script (11 pages)</physdesc>
+              <container id="aspace_be046704118632828941499df6a60e02" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_15cdbd28168357e36d76d5e9810f4b77">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Roxi's Bluff</item>
+                <item>Video title(s): Faking It [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00045" level="file">
+            <did>
+              <unittitle>Erick Knight application packet</unittitle>
+              <unitid>45</unitid>
+              <unitid audience="internal" identifier="45" type="collector">45</unitid>
+              <unitdate datechar="creation" normal="1993-09-14/1993-09-14">1993 September
+                14</unitdate>
+              <physdesc id="aspace_ae44ab196fb8912659fc602a7389d0e4" label="Physical Description">1
+                application packet (17 pages) + 1 script (32 pages)</physdesc>
+              <container id="aspace_928f203d742850b1c1da4861e1bd7e30" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_b3677b450916cac0887307e68f632a69">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Dread Night Folk</item>
+                <item>Video title(s): Dread Night Folk [work-in-progress] ; Baobab [excerpt]</item>
+              </list>
+            </scopecontent>
+            <odd id="aspace_0567e7785374f76afc59caf7512b823c">
+              <head>General</head>
+              <p>SPF Awardee.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00046" level="file">
+            <did>
+              <unittitle>Celeste A. Crenshaw application packet</unittitle>
+              <unitid>46</unitid>
+              <unitid audience="internal" identifier="46" type="collector">46</unitid>
+              <unitdate datechar="creation" normal="1993-09-14/1993-09-14">1993 September
+                14</unitdate>
+              <physdesc id="aspace_285cf434ed63b56006dcb1de5a162d84" label="Physical Description">1
+                application packet (6 pages)</physdesc>
+              <container id="aspace_8ce6d127bf3c6dbc8e990e68ad7e84c4" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_84ffb9bb8cf8cf5904cb3dfd992c21c9">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Black Women On: The Light-Dark Thang ; [untitled sample of
+                  programs] [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+            <odd id="aspace_c7026f982dcf2059da00e26e27125cc3">
+              <head>General</head>
+              <p>Application indicates that two VHS tapes were submitted.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00047" level="file">
+            <did>
+              <unittitle>Ann Marie J. Bryan application packet</unittitle>
+              <unitid>47</unitid>
+              <unitid audience="internal" identifier="47" type="collector">47</unitid>
+              <unitdate datechar="creation" normal="1993-09-12/1993-09-12">1993 September
+                12</unitdate>
+              <physdesc id="aspace_a9e16bf30694a499b1bfc13d9532bccb" label="Physical Description">1
+                application packet (11 pages) + 1 duplicate application with slight variant
+                handwritten annotations (11 pages)</physdesc>
+              <container id="aspace_9585673ac2009b9825d2a913031bfffe" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_7cc04101cdf2aed369a152b2f2855e7a">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Cutting The Edge Of A Free Bird</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00048" level="file">
+            <did>
+              <unittitle>David N. Roach application packet</unittitle>
+              <unitid>48</unitid>
+              <unitid audience="internal" identifier="48" type="collector">48</unitid>
+              <unitdate datechar="creation" normal="1993-09-15/1993-09-15">1993 September
+                15</unitdate>
+              <physdesc id="aspace_012e5b0f11966c542c3b1fdfcba35b30" label="Physical Description">1
+                application packet (6 pages)</physdesc>
+              <container id="aspace_72933701bc0c04b3ddaedb89b918173f" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_3efcd09f85367a5cdd428dce23c2ae8b">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): The Griot: An African Storyteller</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00049" level="file">
+            <did>
+              <unittitle>Nicole Atkinson application packet</unittitle>
+              <unitid>49</unitid>
+              <unitid audience="internal" identifier="49" type="collector">49</unitid>
+              <unitdate datechar="creation" normal="1993-09-14/1993-09-14">1993 September
+                14</unitdate>
+              <physdesc id="aspace_ae310e8c1d3d9903deb8893b8d26ebf1" label="Physical Description">1
+                application packet (5 pages)</physdesc>
+              <container id="aspace_e76e786f92963d33344b7f7e09d42c0f" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_a4c2c97abf02908f6592e0496ee3f299">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Word of Mouth [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00050" level="file">
+            <did>
+              <unittitle>Lawrence "Tucky" McKey Jr. application packet</unittitle>
+              <unitid>50</unitid>
+              <unitid audience="internal" identifier="50" type="collector">50</unitid>
+              <unitdate datechar="creation" normal="1993-09-13/1993-09-13">1993 September
+                13</unitdate>
+              <physdesc id="aspace_58c2d5ebde64c325e0b7b4161370ddf5" label="Physical Description">1
+                application packet (3 pages)</physdesc>
+              <container id="aspace_de45aee3786d138aa40f0eb8164774bc" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_a8a29ecfdcb1753d0ea6f64f7ddf72bc">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): We Will Never Die (Test Stage) ; The Masterdisc Vs Hup Two
+                  3</item>
+              </list>
+            </scopecontent>
+            <odd id="aspace_1ac0fce9bd2928c9bf1cf8227f925eec">
+              <head>General</head>
+              <p>SPF Awardee.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00051" level="file">
+            <did>
+              <unittitle>Steven K. Ball application packet</unittitle>
+              <unitid>51</unitid>
+              <unitid audience="internal" identifier="51" type="collector">51</unitid>
+              <unitdate datechar="creation" normal="1993-10-11/1993-10-11">1993 October
+                11</unitdate>
+              <physdesc id="aspace_27dbdcc6c83ca2e1d3363c0b82456520" label="Physical Description">1
+                application packet (30 pages) + 1 script</physdesc>
+              <container id="aspace_41bef18fcde861aaafcc657eab2ff5cd" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_9c3b465fd17c6598b546d6b7d7157dfe">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title(s): Night Time People</item>
+                <item>Video title(s): Night Time People</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00052" level="file">
+            <did>
+              <unittitle>James E. Noblin application packet</unittitle>
+              <unitid>52</unitid>
+              <unitid audience="internal" identifier="52" type="collector">52</unitid>
+              <unitdate datechar="creation" normal="1993-09-13/1993-09-13">1993 September
+                13</unitdate>
+              <physdesc id="aspace_c5c0df36ecd508352125bbf00e328205" label="Physical Description">1
+                application packet (8 pages) + 1 script (9 pages) + 1 storyboard (approximately 40
+                pages)</physdesc>
+              <container id="aspace_10529dab20f61fe386882b0e34c16b50" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_5faee40741858e097904e70af93c68ac">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: The Associate</item>
+                <item>Video title(s): The Last Time I Saw Rikki</item>
+                <item>Storyboard: The Associate</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00053" level="file">
+            <did>
+              <unittitle>Windell Williams application packet</unittitle>
+              <unitid>53</unitid>
+              <unitid audience="internal" identifier="53" type="collector">53</unitid>
+              <unitdate datechar="creation" normal="1993-09-09/1993-09-09">1993 September
+                9</unitdate>
+              <physdesc id="aspace_5175e1925e44b08ed339cd6a81f06f2e" label="Physical Description">1
+                application packet (6 pages) + 1 press kit (7 pages) + 3 photographs: black &amp;
+                white ; 8 x 10 in.</physdesc>
+              <container id="aspace_ea635185b7a954a186135d5a14f55f66" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_0e7e43470f6c07e6a4f004514f06967e">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Murder Magic</item>
+                <item>Murder Magic promotional production stills</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00054" level="file">
+            <did>
+              <unittitle>Yuell V. Newsome application packet</unittitle>
+              <unitid>55</unitid>
+              <unitid audience="internal" identifier="55" type="collector">55</unitid>
+              <unitdate datechar="creation" normal="1993-09-13/1993-09-13">1993 September
+                13</unitdate>
+              <physdesc id="aspace_73e29151077d7f79bce1f0ea2bb641d6" label="Physical Description">1
+                application packet (12 pages)</physdesc>
+              <container id="aspace_e96b70a6b7390081b54c031b4d6f946e" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_d13077e38b4526b13a5d44d54cdf4b89">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Euphaedra [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00055" level="file">
+            <did>
+              <unittitle>Reginald R. Sutton application packet</unittitle>
+              <unitid>56</unitid>
+              <unitid audience="internal" identifier="56" type="collector">56</unitid>
+              <unitdate datechar="creation" normal="1993-09-12/1993-09-12">1993 September
+                12</unitdate>
+              <physdesc id="aspace_18eb7a51e66ee6db647db417cccc52e7" label="Physical Description">1
+                application packet (12 pages) + 1 script (13 pages)</physdesc>
+              <container id="aspace_8af4be57518a323eebe72daeed950327" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_cde1f2f468aba1d14a39d91059b1172d">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: I'm from the Old School!</item>
+                <item>Video title(s): I'm from the Old School! [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00056" level="file">
+            <did>
+              <unittitle>Billy Jackson application packet</unittitle>
+              <unitid>57</unitid>
+              <unitid audience="internal" identifier="57" type="collector">57</unitid>
+              <unitdate datechar="creation" normal="1993-09-10/1993-09-10">1993 September
+                10</unitdate>
+              <physdesc id="aspace_1f3a250d5669d9de6aa453ab5c11f703" label="Physical Description">1
+                application packet (10 pages)</physdesc>
+              <container id="aspace_2ca0ce0596859a4fa4ec92a1003c0542" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_4f51930ee656c711cf640a7cd94ce5d9">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Didn't We Ramble On [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00057" level="file">
+            <did>
+              <unittitle>Michael Lange application packet</unittitle>
+              <unitid>58</unitid>
+              <unitid audience="internal" identifier="58" type="collector">58</unitid>
+              <unitdate datechar="creation" normal="1993-09-13/1993-09-13">1993 September
+                13</unitdate>
+              <physdesc id="aspace_8c53677c64c56c263080a9628d4c8d1f" label="Physical Description">1
+                application packet (25 pages) + 1 script (31 pages)</physdesc>
+              <container id="aspace_bc821fa443d73cea7281ba1e91cd233c" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_7d6191cddc6c399a0e50e527137d31e9">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Prophet Nat</item>
+                <item>Video title(s): Othello [NOT HELD BY BFC/A]</item>
+                <item>Application packet includes Prophet Nat storyboard (8 pages)</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00058" level="file">
+            <did>
+              <unittitle>Garret C. Williams application packet</unittitle>
+              <unitid>59</unitid>
+              <unitid audience="internal" identifier="59" type="collector">59</unitid>
+              <unitdate datechar="creation" normal="1993-09-14/1993-09-14">1993 September
+                14</unitdate>
+              <physdesc id="aspace_d265ff5d1fb31d2f3e2eac0c49d09203" label="Physical Description">1
+                application packet (4 pages) + 1 script (26 pages)</physdesc>
+              <container id="aspace_a6e9e8ba587937c2d3d4a8d5f2724941" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_b7686a97f3e2c6b47b372493bc1daca3">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Spark (first draft)</item>
+                <item>Video title(s): Helicopter [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00059" level="file">
+            <did>
+              <unittitle>Thomas Poole application packet</unittitle>
+              <unitid>60</unitid>
+              <unitid audience="internal" identifier="60" type="collector">60</unitid>
+              <unitdate datechar="creation" normal="1993-09-13/1993-09-13">1993 September
+                13</unitdate>
+              <physdesc id="aspace_d14440d4789b398a43a94cd4779bcd94" label="Physical Description">1
+                application packet (11 pages)</physdesc>
+              <container id="aspace_36599c8211dbfbd778fa0a2d23840e2a" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_c121a821c057188fcc5e23a2967bcb66">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Compilation of Not Channel Zero</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00060" level="file">
+            <did>
+              <unittitle>Delle Chatman application packet</unittitle>
+              <unitid>62</unitid>
+              <unitid audience="internal" identifier="62" type="collector">62</unitid>
+              <unitdate datechar="creation" normal="1993-09-14/1993-09-14">1993 September
+                14</unitdate>
+              <physdesc id="aspace_0b6b232f19468cca4abadaea5de9f4f4" label="Physical Description">1
+                application packet (6 pages)</physdesc>
+              <container id="aspace_cfd7f382f55fa1c87cb6a752293f6efa" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_6c2ecbfa8eccf81c0a0620e6c8a1ce4c">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Madame Secretary</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00061" level="file">
+            <did>
+              <unittitle>Steven J. Foley application packet</unittitle>
+              <unitid>63</unitid>
+              <unitid audience="internal" identifier="63" type="collector">63</unitid>
+              <unitdate datechar="creation" normal="1993-09-14/1993-09-14">1993 September
+                14</unitdate>
+              <physdesc id="aspace_6630088f2cb97133e82988a3347ab858" label="Physical Description">1
+                application packet (21 pages) + 1 script (97 pages)</physdesc>
+              <container id="aspace_51ef5d0ff4339342d78374a13f38949c" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_5b3c235b30ec0f0fbbcd555e69765b27">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Strange as Angels</item>
+                <item>Video title(s): Insomnia [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+            <odd id="aspace_e137c45a17b1bf5956123ead5c60d097">
+              <head>General</head>
+              <p>Includes letter from BFHFI to Steven J. Foley, 1993 October 8.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00062" level="file">
+            <did>
+              <unittitle>Sonya Lynn application packet</unittitle>
+              <unitid>64</unitid>
+              <unitid audience="internal" identifier="64" type="collector">64</unitid>
+              <unitdate datechar="creation" normal="1993-09-13/1993-09-13">1993 September
+                13</unitdate>
+              <physdesc id="aspace_8f1e58e38c38223555c7834b0019c318" label="Physical Description">1
+                application packet (6 pages) + 1 script (30 pages)</physdesc>
+              <container id="aspace_09df89b5be6fc0aaa2eb59b881d6d15b" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_21bf52e9524517f129ac5ce53f1543c0">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Sweet (final draft)</item>
+                <item>Video title(s): Sweet [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00063" level="file">
+            <did>
+              <unittitle>Jerry-Tremaine Combes application packet</unittitle>
+              <unitid>65</unitid>
+              <unitid audience="internal" identifier="65" type="collector">65</unitid>
+              <unitdate datechar="creation" normal="1993-09-08/1993-09-08">1993 September
+                8</unitdate>
+              <physdesc id="aspace_31329a19de4efb1bd048569e803fdcfb" label="Physical Description">1
+                application packet (approximately 40 pages)</physdesc>
+              <container id="aspace_ebd128d1c3b2919ccc3c93ff17236985" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_3f54871ec04836d307e5dd9f9c7af518">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Stop</item>
+                <item>3 page screenplay title: Word Is Bond bound with application materials</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00064" level="file">
+            <did>
+              <unittitle>Marie Smith Kellier application packet</unittitle>
+              <unitid>66</unitid>
+              <unitid audience="internal" identifier="66" type="collector">66</unitid>
+              <unitdate datechar="creation" normal="1993-09-10/1993-09-10">1993 September
+                10</unitdate>
+              <physdesc id="aspace_476d58c054050e7cd624743308c421f5" label="Physical Description">1
+                application packet (15 pages)</physdesc>
+              <container id="aspace_a6b41bfa5bbd99b1f1fc112ab561f0a9" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_c9a80d4a88f5cba2e06f57a7fd3159b2">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Rivermaiden's Dance</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00065" level="file">
+            <did>
+              <unittitle>Linda Gibson application packet</unittitle>
+              <unitid>67</unitid>
+              <unitid audience="internal" identifier="67" type="collector">67</unitid>
+              <unitdate datechar="creation" normal="1993-09-15/1993-09-15">1993 September
+                15</unitdate>
+              <physdesc id="aspace_111a4d648ea28a74fd13a6008c85779e" label="Physical Description">1
+                application packet (20 pages)</physdesc>
+              <container id="aspace_3b78be1b67891cf0eae9111565124796" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_1b994b533f9c36e2a6aa260958c665fa">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Flag</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00066" level="file">
+            <did>
+              <unittitle>Evelyn C. White application packet</unittitle>
+              <unitid>68</unitid>
+              <unitid audience="internal" identifier="68" type="collector">68</unitid>
+              <unitdate datechar="creation" normal="1993-09-10/1993-09-10">1993 September
+                10</unitdate>
+              <physdesc id="aspace_cf3e91cacaf39dc865a1a2eda7003222" label="Physical Description">1
+                application packet (23 pages)</physdesc>
+              <container id="aspace_3f4e2315be22b8d3983cbf8bc0ec75ff" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_3c409bf321c128621b813e1212a4d12b">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Framing Lesbian Fashion</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00067" level="file">
+            <did>
+              <unittitle>Jonathan O. Gary application packet</unittitle>
+              <unitid>69</unitid>
+              <unitid audience="internal" identifier="69" type="collector">69</unitid>
+              <unitdate datechar="creation" normal="1993-09-12/1993-09-12">1993 September
+                12</unitdate>
+              <physdesc id="aspace_0e46a4880ea27aaddb8b35cee1abc1aa" label="Physical Description">1
+                application packet (4 pages) + script (9 pages) + clippings (2 pages)</physdesc>
+              <container id="aspace_dd8c5d5bb04d8d926c88bc6c41ed9ddc" label="mixed materials"
+                type="box">SFP 1</container>
+            </did>
+            <scopecontent id="aspace_dd1e80843b6fd134b03aacac20df70b2">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: True Blue Bart</item>
+                <item>Video title(s): True Blue Bart</item>
+                <item>Newspaper clippings pasted on construction paper housed in oversized
+                  folder</item>
+              </list>
+            </scopecontent>
+            <odd id="aspace_c59bac8b2728f10954e53d994ee81d0b">
+              <head>General</head>
+              <p>Three folders for applicant entry number 69: application packet, script,
+                clippings.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00068" level="file">
+            <did>
+              <unittitle>Mary Frances Spruce application packet</unittitle>
+              <unitid>70</unitid>
+              <unitid audience="internal" identifier="70" type="collector">70</unitid>
+              <unitdate datechar="creation" normal="1993-09-12/1993-09-12">1993 September
+                12</unitdate>
+              <physdesc id="aspace_070d3091b28ab0eb69a9cf2d8798b986" label="Physical Description">1
+                application packet (18 pages) + 1 script (33 pages)</physdesc>
+              <container id="aspace_3d7d8e97fbda4056b08013c1c834c1c0" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_058eb97ea032a874a06249bf01b2df82">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Step Two</item>
+                <item>Video title(s): Turn It Out [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00069" level="file">
+            <did>
+              <unittitle>Laini Dakar application packet</unittitle>
+              <unitid>71</unitid>
+              <unitid audience="internal" identifier="71" type="collector">71</unitid>
+              <unitdate datechar="creation" normal="1993-09-14/1993-09-14">1993 September
+                14</unitdate>
+              <physdesc id="aspace_5a5b0775d27a0702816302c60d2942fc" label="Physical Description">1
+                application packet (10 pages)</physdesc>
+              <container id="aspace_14a1647d635db06e95ccfb630553c39a" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_53f6697eb7f6b947c31f07336492c7ee">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Beyond the Agenda</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00070" level="file">
+            <did>
+              <unittitle>Darryl Dane Bohanan applicaton packet</unittitle>
+              <unitid>72</unitid>
+              <unitid audience="internal" identifier="72" type="collector">72</unitid>
+              <unitdate datechar="creation" normal="1993-09-10/1993-09-10">1993 September
+                10</unitdate>
+              <physdesc id="aspace_e44325298acb959925e4541fc306de80" label="Physical Description">1
+                application packet (10 pages) + 1 script (15 pages)</physdesc>
+              <container id="aspace_f5e9cd12448b7b79fe1090934f1119a5" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_5adbdc87029dbfcd92442eb46cedf40d">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Taking It to the Stage</item>
+                <item>Video title(s): Taking It to the Stage [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00071" level="file">
+            <did>
+              <unittitle>Ben McCrea application packet</unittitle>
+              <unitid>73</unitid>
+              <unitid audience="internal" identifier="73" type="collector">73</unitid>
+              <unitdate datechar="creation" normal="1993-09-13/1993-09-13">1993 September
+                13</unitdate>
+              <physdesc id="aspace_300de21594de3a3fdf4e6501e16bfabc" label="Physical Description">1
+                application packet (approximately 40 pages)</physdesc>
+              <container id="aspace_991ad4f0af25c47e7c22907c8a5bb07a" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_4c9efa7aadc5a92d7d15f0f767476ec8">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Retribution [NOT HELD BY BFC/A]</item>
+                <item>Application packet includes photocopied stills from production of
+                  "Retribution" (25 pages)</item>
+              </list>
+            </scopecontent>
+            <odd id="aspace_54921fab68ba98d1461206e172fa1ebb">
+              <head>General</head>
+              <p>Original folder enclosing application materials has been retained. Production
+                includes actor <persname normal="Pierce, Wendell">Wendell Pierce</persname>.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00072" level="file">
+            <did>
+              <unittitle>Monique L. Shaifer application packet</unittitle>
+              <unitid>75</unitid>
+              <unitid audience="internal" identifier="75" type="collector">75</unitid>
+              <unitdate datechar="creation" normal="1993-09-15/1993-09-15">1993 September
+                15</unitdate>
+              <physdesc id="aspace_23d94507d7b8847e9218ee931cee578d" label="Physical Description">1
+                application packet (6 pages)</physdesc>
+              <container id="aspace_18cd801bb4fc0320e613979b4b99a9bd" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_c0d599f4a5e73f94ee6b3708bb4d4b45">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Oakland Is … Special: A Juneteenth Celebration ; Oakland
+                  Style</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00073" level="file">
+            <did>
+              <unittitle>Darryl E. Pugh application packet</unittitle>
+              <unitid>78</unitid>
+              <unitid audience="internal" identifier="78" type="collector">78</unitid>
+              <unitdate datechar="creation" normal="1993-09-14/1993-09-14">1993 September
+                14</unitdate>
+              <physdesc id="aspace_d675e9a231ae6a81842cb26bd7372583" label="Physical Description">1
+                application packet (approximately 50 pages) + script (29 pages) + press book (8
+                pages)</physdesc>
+              <container id="aspace_eaecdd4770758cc95953797896369021" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_1157ac3fc89ec89bcb7715abdecc714d">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: The Raven</item>
+                <item>Video title(s): The Raven</item>
+                <item>Bound document "Private Placement and Proposed Limited Partnership for The
+                  Raven Production Limited Partnership"</item>
+                <item>"The Raven" pressbook</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00074" level="file">
+            <did>
+              <unittitle>Desmon Brown application packet</unittitle>
+              <unitid>79</unitid>
+              <unitid audience="internal" identifier="79" type="collector">79</unitid>
+              <unitdate datechar="creation" normal="1993-09-14/1993-09-14">1993 September
+                14</unitdate>
+              <physdesc id="aspace_3c308172e3bc7580676423169e1fbc15" label="Physical Description">1
+                application packet (25 pages)</physdesc>
+              <container id="aspace_30163e3b419d9888cd9d6db835581748" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_76697c7f59cabdead006053c4dd81eae">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Demo.</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00075" level="file">
+            <did>
+              <unittitle>Stanley Nelson application packet</unittitle>
+              <unitid>81</unitid>
+              <unitid audience="internal" identifier="81" type="collector">81</unitid>
+              <unitdate datechar="creation" normal="1993-09-14/1993-09-14">1993 September
+                14</unitdate>
+              <physdesc id="aspace_9f3d752401443d9c7aca3647f075ca86" label="Physical Description">1
+                application packet (11 pages) + 1 letter to BFHFI (1 page)</physdesc>
+              <container id="aspace_0ec5639afe7c9a9208b2fbc6b0b9edfd" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_3baa6dde7c3964f9a03b3492b8961866">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Two Dollars and a Dream ; Metahdone-Curse or Cure</item>
+              </list>
+            </scopecontent>
+            <odd id="aspace_3067fa23ac361f1fd0e16cd16a5279bf">
+              <head>General</head>
+              <p>SPF awardee. Letter dated 1993 September 20 accompanying submission of
+                work-in-progress videocassette. Application indicates that two videotapes were
+                submitted; only one held by BFHFI.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00076" level="file">
+            <did>
+              <unittitle>Ada Marie Babino application packet</unittitle>
+              <unitid>82</unitid>
+              <unitid audience="internal" identifier="82" type="collector">82</unitid>
+              <unitdate datechar="creation" normal="1993-08-26/1993-08-26">1993 August 26</unitdate>
+              <physdesc id="aspace_8595944b7c3187d44cd6a3828668f427" label="Physical Description">1
+                application packet (6 pages)</physdesc>
+              <container id="aspace_e892ca93cc302422a753619741ca09dd" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_4b27b7de3a2c1d3009cd2e013f3dc703">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Middle Passage -N- Roots [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00077" level="file">
+            <did>
+              <unittitle>Mario Bobino application packet</unittitle>
+              <unitid>84</unitid>
+              <unitid audience="internal" identifier="84" type="collector">84</unitid>
+              <unitdate datechar="creation" normal="1993-09-15/1993-09-15">1993 September
+                15</unitdate>
+              <physdesc id="aspace_2c041f2e9b541d673a263846194f330a" label="Physical Description">1
+                application packet (6 pages)</physdesc>
+              <container id="aspace_2c2fc5cf2582173f58bf0cc22945c1a4" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_19b646648b49d70de598adef62d58d64">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Mario Bobino IDebonair Productions Bio</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00078" level="file">
+            <did>
+              <unittitle>E. Lance McCarthy application packet</unittitle>
+              <unitid>85</unitid>
+              <unitid audience="internal" identifier="85" type="collector">85</unitid>
+              <unitdate datechar="creation" normal="1993-09-13/1993-09-13">1993 September
+                13</unitdate>
+              <physdesc id="aspace_ffd16f9fb22d818a231d2c797eb589c6" label="Physical Description">1
+                application packet (11 pages) + supplementary materials (approximately 40
+                pages)</physdesc>
+              <container id="aspace_ed1658fb33d7a45cc0b1a46ab56bda26" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_84773d1bd77e2076cbe87c28769a6401">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Black Entrepreneur</item>
+                <item>Supplementary materials include various writings, clippings and photocopy of
+                  applicant's poetry collection "Spirit of Utopia"</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00079" level="file">
+            <did>
+              <unittitle>M. David Lee III application packet</unittitle>
+              <unitid>87</unitid>
+              <unitid audience="internal" identifier="87" type="collector">87</unitid>
+              <unitdate datechar="creation" normal="1993-09-08/1993-09-08">1993 September
+                8</unitdate>
+              <physdesc id="aspace_6258ae53eb21843d8baa4cb8c35b50fb" label="Physical Description">1
+                application packet (17 pages) + 1 script (100 pages)</physdesc>
+              <container id="aspace_8fa8ae335be73e6990c3d8e0b420924e" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_377bcd0c7408de0f272894739456def5">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Black &amp; White: Make Grey</item>
+                <item>Video title(s): Black and White: Make Grey [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00080" level="file">
+            <did>
+              <unittitle>Oshalla Nun-Ra application packet</unittitle>
+              <unitid>88</unitid>
+              <unitid audience="internal" identifier="88" type="collector">88</unitid>
+              <unitdate datechar="creation" normal="1993-09-15/1993-09-15">1993 September
+                15</unitdate>
+              <physdesc id="aspace_ed2b42a507ca8714d1e27d1e01a86dcf" label="Physical Description">1
+                application packet (18 pages)</physdesc>
+              <container id="aspace_1a0e9c8ce77b43b2948c54883e31bee8" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_919bba0f30ac9da7033fae08a3271cba">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Marin City Then and Now (An African-American Community in
+                  Transition)</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00081" level="file">
+            <did>
+              <unittitle>Gloria J. Fluker application packet</unittitle>
+              <unitid>89</unitid>
+              <unitid audience="internal" identifier="89" type="collector">89</unitid>
+              <unitdate datechar="creation" normal="1993-09-13/1993-09-13">1993 September
+                13</unitdate>
+              <physdesc id="aspace_3a0ed99f5ed585b907347301b43e9164" label="Physical Description">1
+                application packet (17 pages)</physdesc>
+              <container id="aspace_1227ac62fc6fc2235292cc7f3eefd8ba" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_11d32af7f893941f50551f9fb89a0c49">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): GOTCHA! From the Mouth of Syphilis and Crack Cocaine [NOT HELD
+                  BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00082" level="file">
+            <did>
+              <unittitle>Kelvin Zachary Phillips application packet</unittitle>
+              <unitid>90</unitid>
+              <unitid audience="internal" identifier="90" type="collector">90</unitid>
+              <unitdate datechar="creation" normal="1993-09-13/1993-09-13">1993 September
+                13</unitdate>
+              <physdesc id="aspace_92a0fb08520f00a96465204c33ed3045" label="Physical Description">1
+                application packet (27 pages) + 1 script (30 pages)</physdesc>
+              <container id="aspace_d054be5227581ac3f6e2725b00cb11c1" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_ad2eaa8a7853d0a1f34984bc18981fb1">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Love: In Brief (final draft)</item>
+                <item>Video title(s): Love: In Brief</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00083" level="file">
+            <did>
+              <unittitle>Margaret Jackson application packet</unittitle>
+              <unitid>91</unitid>
+              <unitid audience="internal" identifier="91" type="collector">91</unitid>
+              <unitdate datechar="creation" normal="1993-09-13/1993-09-13">1993 September
+                13</unitdate>
+              <physdesc id="aspace_b2e2a9e9789bbdb302bf41483f61c37a" label="Physical Description">1
+                application packet (11 pages)</physdesc>
+              <container id="aspace_8fa3ddfd7065d91f6bc145d4b92d9f0d" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_fe4d45ae2fce851c4f1e1ee3b91a0f3d">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Keepers of the Culture [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00084" level="file">
+            <did>
+              <unittitle>Christopher Grant application packet</unittitle>
+              <unitid>92</unitid>
+              <unitid audience="internal" identifier="92" type="collector">92</unitid>
+              <unitdate datechar="creation" normal="1993-09-13/1993-09-13">1993 September
+                13</unitdate>
+              <physdesc id="aspace_71a9ab3f7e1e932f8b898879a1f506bc" label="Physical Description">1
+                application packet (14 pages)</physdesc>
+              <container id="aspace_cdcfd5894e17cabadba35368a6f32b54" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_110ca4d8ee2420d6de0ab95dc8bd1da3">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Mama Am Cookin'</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00085" level="file">
+            <did>
+              <unittitle>Christine L. Minor application packet</unittitle>
+              <unitid>93</unitid>
+              <unitid audience="internal" identifier="93" type="collector">93</unitid>
+              <unitdate datechar="creation" normal="1993-09-14/1993-09-14">1993 September
+                14</unitdate>
+              <physdesc id="aspace_5cedc0301d771d5bd86f4add014b777a" label="Physical Description">1
+                application packet (24 pages)</physdesc>
+              <container id="aspace_6b50e95e1bc5551991ccc53b0125f648" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_79596be887cb6de25e326f6603714bca">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Let the Truth Be Told…</item>
+              </list>
+            </scopecontent>
+            <odd id="aspace_c2a402f84a1cc0ba86702e192944791d">
+              <head>General</head>
+              <p>SPF Awardee.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00086" level="file">
+            <did>
+              <unittitle>Frank Wiley application packet</unittitle>
+              <unitid>94</unitid>
+              <unitid audience="internal" identifier="94" type="collector">94</unitid>
+              <unitdate datechar="creation" normal="1993-09-14/1993-09-14">1993 September
+                14</unitdate>
+              <physdesc id="aspace_fb140d9348c16a9361ad212fd0057ed8" label="Physical Description">1
+                application packet (8 pages)</physdesc>
+              <container id="aspace_5b3e5e1ee2b0a25da564e723eb613251" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_888a5b4e440a80d4f2a89bae55502ec1">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>[no video submitted]</item>
+              </list>
+            </scopecontent>
+            <odd id="aspace_7bf35d24a25b26e162ded2d59cbf43ff">
+              <head>General</head>
+              <p>Proposal for an "interactive multimedia CD ROM project about the history of Black
+                film makers, films, and the America they lived in." No indication in application
+                that video or other sample work was submitted.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00087" level="file">
+            <did>
+              <unittitle>Neke Bivins application packet</unittitle>
+              <unitid>96</unitid>
+              <unitid audience="internal" identifier="96" type="collector">96</unitid>
+              <unitdate datechar="creation" normal="1993-09-14/1993-09-14">1993 September
+                14</unitdate>
+              <physdesc id="aspace_b7bb182d1d87fb0eab494273dd189993" label="Physical Description">1
+                application packet (8 pages)</physdesc>
+              <container id="aspace_b761ffc94a4c912c19ec532345120b3b" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_5e5a513a844cb341358bb07b923ae2be">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): Drum Beats of Hope [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00088" level="file">
+            <did>
+              <unittitle>Dennis Burroughs application packet</unittitle>
+              <unitid>97</unitid>
+              <unitid audience="internal" identifier="97" type="collector">97</unitid>
+              <unitdate datechar="creation" normal="1993-09-10/1993-09-10">1993 September
+                10</unitdate>
+              <physdesc id="aspace_36cbbecb0554b29498aaf16a7cf3b580" label="Physical Description">1
+                application packet (17 pages)</physdesc>
+              <container id="aspace_3faa86a891bdf4d1b6fd6e4e3c095ce2" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_5094ecec0ca7ee387a9b7f3ca0b8165a">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Video title(s): The Commission on African American Males</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00089" level="file">
+            <did>
+              <unittitle>T. Carlos Williams application packet</unittitle>
+              <unitid>98</unitid>
+              <unitid audience="internal" identifier="98" type="collector">98</unitid>
+              <unitdate datechar="creation" normal="1993-09-13/1993-09-13">1993 September
+                13</unitdate>
+              <physdesc id="aspace_dc733d51df8c302af7e934bca5eb38c0" label="Physical Description">1
+                application packet (14 pages) + 1 script (20 pages)</physdesc>
+              <container id="aspace_6b9972fe1ca9385f930591ea55509c48" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_c7295d58757236d9656a4905cbed29a9">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Superdread</item>
+                <item>Video title(s): DA Bridge</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00090" level="file">
+            <did>
+              <unittitle>Rudy Hypolite application packet</unittitle>
+              <unitid>100</unitid>
+              <unitid audience="internal" identifier="100" type="collector">100</unitid>
+              <unitdate datechar="creation" normal="1993-09-10/1993-09-10">1993 September
+                10</unitdate>
+              <physdesc id="aspace_15797bfb80bba16575e7be8fd59732e5" label="Physical Description">1
+                application packet (8 pages) + 1 script (approximately 25 pages)</physdesc>
+              <container id="aspace_ad6b617dc121af3b02e058d687114fc3" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_64c9ba6b24384da862737e5cc460040a">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Allegations</item>
+                <item>Video title(s): Allegations (off line edited excerpt)</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00091" level="file">
+            <did>
+              <unittitle>Edgar P. Davis application packet</unittitle>
+              <unitid>101</unitid>
+              <unitid audience="internal" identifier="101" type="collector">101</unitid>
+              <unitdate datechar="creation" normal="1993-09-13/1993-09-13">1993 September
+                13</unitdate>
+              <physdesc id="aspace_3d9143cb4b90f3c1dc6f2dfc72232663" label="Physical Description">1
+                application packet (9 pages) + 1 script (67 pages)</physdesc>
+              <container id="aspace_a5ff543dd73050080cb59eb01adefef7" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_2f04ecdafe4e26c30579f8189d99ad2d">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: A Jury of Her Peers (draft three)</item>
+                <item>Video title(s): A Jury of Her Peers [NOT HELD BY BFC/A]</item>
+              </list>
+            </scopecontent>
+          </c03>
+          <c03 id="aspace_VAD4090-00092" level="file">
+            <did>
+              <unittitle>Ruth Forman application packet</unittitle>
+              <unitid>102</unitid>
+              <unitid audience="internal" identifier="102" type="collector">102</unitid>
+              <unitdate datechar="creation" normal="1993-09-15/1993-09-15">1993 September
+                15</unitdate>
+              <physdesc id="aspace_b044c4b029cc7a18b50b64591709a50f" label="Physical Description">1
+                application packet (10 pages) + 1 script (14 pages) + duplicate application packet
+                (13 pages)</physdesc>
+              <container id="aspace_f17e8dd140fb0ccfb8091b06c28bd93c" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <scopecontent id="aspace_ec880b7c23ff31830a0c783b94ab1471">
+              <head>Originally Submitted Supplemental Content</head>
+              <list type="ordered">
+                <item>Script title: Poetry Should Ride the Bus</item>
+                <item>Video title(s): Poetry Should Ride the Bus</item>
+              </list>
+            </scopecontent>
+            <odd id="aspace_13c0bace747fdfb8f320ccc64c818059">
+              <head>General</head>
+              <p>Duplicate application packet includes pages not contained in original.</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 id="aspace_VAD4090-00093" level="subseries">
+          <did>
+            <unittitle>5.2. Videocassette Submissions</unittitle>
+            <unitdate datechar="creation" normal="1985/1993" type="inclusive">1985-1993</unitdate>
+          </did>
+          <scopecontent id="aspace_49447bdab1e047f5df0ad4b9afba8c07">
+            <head>Content</head>
+            <p>Sidney Poitier Fellowship (SPF) applicants were asked to submit a 15-minute sample
+              work on a VHS videocassette. Video submissions vary in content from portions of the
+              work-in-progress proposed in the SPF application to previously completed works to
+              compilation reels. Applicants were offered the choice to have videocassettes returned
+              after judging, and for many applications in this series no video submission is
+              held.</p>
+            <p> Videocassettes listed in this series were received with SPF application materials.
+              For some works-in-progress, a later version of the production was later submitted to
+              the BFHFI. A separate inventory of videocassettes submitted to other BFHFI
+              competitions, which includes these later versions, may be found in "Series 4. Black
+              Filmworks &amp; the annual BFHFI Independent Film, Video &amp; Screenplay Competition,
+              1987-2003 (bulk 1990-2003)": <extref
+                xlink:href="http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD4348"
+                >http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD4348</extref>. For some
+              items, the existance of a version submitted to the regular competition has been noted
+              has been noted, however this cross-listing is not comprehensive.</p>
+            <p> Arrangement of this series follows the entry numbering system BFHFI assigned to each
+              application packet.</p>
+          </scopecontent>
+          <c03 id="aspace_VAD4090-00094" level="item">
+            <did>
+              <unittitle>Choices</unittitle>
+              <unitid>COL 5 VH 1</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 1" type="shelf">COL 5 VH 1</unitid>
+              <unitid audience="internal" identifier="1" type="collector">1</unitid>
+              <origination label="Creator"><persname source="ingest">Sampson,
+                Sheldon</persname></origination>
+              <unitdate datechar="creation" normal="1993/1993">1993</unitdate>
+              <physdesc id="aspace_f442258bcd8b6f91bff824ed586b90b6" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_cbf65fde88732d9455afab810a03f9db">
+              <head>Format of original version</head>
+              <p>1 film reel (28 minutes) : sound, color ; 16 mm</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00095" level="item">
+            <did>
+              <unittitle>The Other Side of the Coin</unittitle>
+              <unitid>COL 5 VH 2</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 2" type="shelf">COL 5 VH 2</unitid>
+              <unitid audience="internal" identifier="2" type="collector">2</unitid>
+              <unitid audience="internal" identifier="O9" type="collector">O9</unitid>
+              <origination label="Creator"><persname source="ingest">Geran,
+                Trish</persname></origination>
+              <unitdate datechar="creation" normal="1992-10/1992-10">1992 October</unitdate>
+              <physdesc id="aspace_d691d6f967b07bb7f85c25f30df5f672" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+          </c03>
+          <c03 id="aspace_VAD4090-00096" level="item">
+            <did>
+              <unittitle>Compensation; A Powerful Thang</unittitle>
+              <unitid>COL 5 VH 3</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 3" type="shelf">COL 5 VH 3</unitid>
+              <unitid audience="internal" identifier="3" type="collector">3</unitid>
+              <unitid audience="internal" identifier="C30" type="collector">C30</unitid>
+              <origination label="Creator"><persname source="ingest">Davis, Zeinabu
+                irene</persname></origination>
+              <unitdate datechar="creation" normal="1993/1993">1993</unitdate>
+              <unitdate datechar="creation" normal="1991/1991">1991</unitdate>
+              <physdesc id="aspace_0c5fe00bb16fce03ade05a91a21cdda8" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_a118c970c6999720ebd3719c32cfe2e5">
+              <head>Format of original version</head>
+              <p>1 film reel (10 minutes) : black &amp; white ; 16 mm + 1 film reel (57 minutes) :
+                color ; 16 mm.</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00098" level="item">
+            <did>
+              <unittitle>Dark Exodus; Magic Love</unittitle>
+              <unitid>COL 5 VH 4</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 4" type="shelf">COL 5 VH 4</unitid>
+              <unitid audience="internal" identifier="8" type="collector">8</unitid>
+              <origination label="Creator"><persname source="ingest">White,
+                Iverson</persname></origination>
+              <unitdate datechar="creation" normal="1985/1985">1985</unitdate>
+              <unitdate datechar="creation" normal="1993/1993">1993</unitdate>
+              <physdesc id="aspace_248c56d799228b596c3404873a776af6" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_354dbb46e971f9cd5e06edcd32a58c5c">
+              <head>Format of original version</head>
+              <p>Dark Exodus, 28 minutes, 16 mm ; Magic Love, 97 minutes, 16 mm</p>
+            </originalsloc>
+            <odd id="aspace_184e0233346d03990b6a13f78cbff439">
+              <head>General</head>
+              <p>Submission includes excerpts from these two works.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00099" level="item">
+            <did>
+              <unittitle>Race Memory ; Droppin' Knowledge ; Zero Street</unittitle>
+              <unitid>COL 5 TQS 12</unitid>
+              <unitid audience="internal" identifier="COL 5 TQS 12" type="shelf">COL 5 TQS
+                12</unitid>
+              <unitid audience="internal" identifier="9" type="collector">9</unitid>
+              <unitid audience="internal" identifier="R34" type="collector">R34</unitid>
+              <origination label="Creator"><persname source="ingest">Bergin, Daniel
+                  Pierce</persname></origination>
+              <unitdate datechar="creation" normal="1990-12/1992-11" type="inclusive">1990
+                December-1992 November</unitdate>
+              <physdesc id="aspace_a5995f39143de644e6c9f2037b6c148a" label="Physical Description">1
+                videocassette (U-matic)</physdesc>
+            </did>
+            <originalsloc id="aspace_ec8debb3740fe40260aa824cdc5ee484">
+              <head>Format of original version</head>
+              <p>Race Memory: 16 mm and 3/4 in. video ; Droppin' Knowledge: 3/4 in. video ; Zero
+                Street: 16 mm and beta video</p>
+            </originalsloc>
+            <odd id="aspace_4f8027cc318ee2dd38e9c044e0d24f12">
+              <head>General</head>
+              <p>Videocassette label: Race Memory (10 minutes).</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00100" level="item">
+            <did>
+              <unittitle>Martin's Lament Preview</unittitle>
+              <unitid>COL 5 VH 5</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 5" type="shelf">COL 5 VH 5</unitid>
+              <unitid audience="internal" identifier="10" type="collector">10</unitid>
+              <origination label="Creator"><persname source="ingest">Score,
+                Sidra</persname></origination>
+              <origination label="Creator"><corpname source="ingest">Parallax Communications,
+                  Inc.</corpname></origination>
+              <unitdate datechar="creation" normal="1993-06/1993-06">1993 June</unitdate>
+              <physdesc id="aspace_e174ce3025de65405a7175c4cd8ee27f" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_60db4e73e341c447d44dc5c5041cb70a">
+              <head>Format of original version</head>
+              <p>1 videocassette (Betacam) (15 minutes)</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00101" level="item">
+            <did>
+              <unittitle>Dead End Street</unittitle>
+              <unitid>COL 5 VH 6</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 6" type="shelf">COL 5 VH 6</unitid>
+              <unitid audience="internal" identifier="12" type="collector">12</unitid>
+              <origination label="Creator"><persname source="ingest">Kellum,
+                Castaudaryl</persname></origination>
+              <origination label="Creator"><corpname source="ingest">Kellum
+                Enterprises</corpname></origination>
+              <unitdate datechar="creation" normal="1990-07/1990-07">1990 July</unitdate>
+              <physdesc id="aspace_cfebc573884b08d6d777a4c856aa9720" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_9a76568f234c6c850d235e56e1a67fea">
+              <head>Format of original version</head>
+              <p>1 film reel (10 minutes) ; 16 mm</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00102" level="item">
+            <did>
+              <unittitle>Success Avenue : Watts, Los Angeles</unittitle>
+              <unitid>COL 5 VH 7</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 7" type="shelf">COL 5 VH 7</unitid>
+              <unitid audience="internal" identifier="13" type="collector">13</unitid>
+              <unitid audience="internal" identifier="S47" type="collector">S47</unitid>
+              <origination label="Creator"><persname source="ingest">Mungen,
+                Donna</persname></origination>
+              <unitdate datechar="creation" normal="1993/1993">1993</unitdate>
+              <physdesc id="aspace_18783a9da52c14be27ff064076c6c90a" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_87498ea72931f0468f590f96e6a59109">
+              <head>Format of original version</head>
+              <p>1 film reel (17 minutes, 26 sec.) ; 35 mm</p>
+            </originalsloc>
+            <odd id="aspace_e0f543f980e87ee404a7f53b0d7d7d2d">
+              <head>General</head>
+              <p>Videocassette is labeled 1995 competition entry.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00103" level="item">
+            <did>
+              <unittitle>Remembering Wei Yi-fang, Remembering Myself</unittitle>
+              <unitid>COL 5 TQL 40</unitid>
+              <unitid audience="internal" identifier="COL 5 TQL 40" type="shelf">COL 5 TQL
+                40</unitid>
+              <unitid audience="internal" identifier="16" type="collector">16</unitid>
+              <unitid audience="internal" identifier="R35" type="collector">R35</unitid>
+              <origination label="Creator"><persname source="ingest">Welbon,
+                Yvonne</persname></origination>
+              <unitdate datechar="creation" normal="1993/1993">1993</unitdate>
+              <physdesc id="aspace_f1df6d86acd76152d90972b092425641" label="Physical Description">1
+                videocassette (U-matic)</physdesc>
+            </did>
+            <originalsloc id="aspace_0071c7a342e90451b221b6fbd387b989">
+              <head>Format of original version</head>
+              <p>Super8 film ; Hi-8 video (15 minutes, 45 sec.)</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00104" level="item">
+            <did>
+              <unittitle>Backwalk ; 38th Parallel</unittitle>
+              <unitid>COL 5 TQS 3</unitid>
+              <unitid audience="internal" identifier="COL 5 TQS 3" type="shelf">COL 5 TQS 3</unitid>
+              <unitid audience="internal" identifier="17" type="collector">17</unitid>
+              <unitid audience="internal" identifier="B23" type="collector">B23</unitid>
+              <origination label="Creator"><persname source="ingest">Woolery,
+                Reginald</persname></origination>
+              <unitdate datechar="creation" normal="1993/1993">1993</unitdate>
+              <physdesc id="aspace_8eaa6c3fec46d954fa62139cb61d072a" label="Physical Description">1
+                videocassette (U-matic)</physdesc>
+            </did>
+            <originalsloc id="aspace_3ac450aef095033ec4295a56d04e1ff3">
+              <head>Format of original version</head>
+              <p>Backwalk: 5 minutes, beta-sp video ; 38th Parallel: 10 minutes, Hi-8 video, Super8
+                mm, 3/4 in. video</p>
+            </originalsloc>
+            <odd id="aspace_684b7bc58b93f48625c66f1a99784ad7">
+              <head>General</head>
+              <p>Videocassette label: Backwalk, Overextended Family (sample).</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00105" level="item">
+            <did>
+              <unittitle>Power Surge ; The Power ; Hawker M25</unittitle>
+              <unitid>COL 5 VH 8</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 8" type="shelf">COL 5 VH 8</unitid>
+              <unitid audience="internal" identifier="18" type="collector">18</unitid>
+              <origination label="Creator"><persname source="ingest">Hunter,
+                Keith</persname></origination>
+              <unitdate datechar="creation" normal="1991/1991">1991</unitdate>
+              <physdesc id="aspace_36d0797321a3b04f127d04774c45a457" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_2af83fe0ebda4e9cd87133262840fe36">
+              <head>Format of original version</head>
+              <p>Power Surge: videocassette, (U-matic) ; The Power: videocassette (VHS) ; Hawker
+                M25: videocassette (VHS)</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00106" level="item">
+            <did>
+              <unittitle>Men, Myths, &amp; Dogs</unittitle>
+              <unitid>COL5 VH 9</unitid>
+              <unitid audience="internal" identifier="COL5 VH 9" type="shelf">COL5 VH 9</unitid>
+              <unitid audience="internal" identifier="20" type="collector">20</unitid>
+              <origination label="Creator"><persname source="ingest">Pringle,
+                VernAnthony</persname></origination>
+              <unitdate datechar="creation" normal="1993-05/1993-05">1993 May</unitdate>
+              <physdesc id="aspace_22a301866901759d26ad128f4c8d0eb3" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_5a9159d81ce66f6eea07e7d9532ba5aa">
+              <head>Format of original version</head>
+              <p>1 film reel (12 minutes) ; color ; 16 mm</p>
+            </originalsloc>
+            <odd id="aspace_abfb054482cd776bbf70aee437980e5b">
+              <head>General</head>
+              <p>Additional copy/version of Men, Myths, &amp; Dogs also submitted to the regular
+                1994 competition (entry 2, shelf no. COL5 TQL 28).</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00107" level="item">
+            <did>
+              <unittitle>Trouble I've Seen</unittitle>
+              <unitid>COL 5 VH 10</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 10" type="shelf">COL 5 VH 10</unitid>
+              <unitid audience="internal" identifier="21" type="collector">21</unitid>
+              <unitid audience="internal" identifier="T35" type="collector">T35</unitid>
+              <origination label="Creator"><persname source="ingest">Foxworth,
+                Heather</persname></origination>
+              <unitdate datechar="creation" normal="1991/1991">1991</unitdate>
+              <physdesc id="aspace_e32814bb01a084064b9a6295c7372fbe" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_2d282d7d8d8e50c2ccd29d4f5e27a195">
+              <head>Format of original version</head>
+              <p>1 film reel ; 16 mm</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00108" level="item">
+            <did>
+              <unittitle>Reclaiming Young African-American Males</unittitle>
+              <unitid>COL 5 VH 11</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 11" type="shelf">COL 5 VH 11</unitid>
+              <unitid audience="internal" identifier="22" type="collector">22</unitid>
+              <origination label="Creator"><persname source="ingest">Reed,
+                Loren</persname></origination>
+              <unitdate datechar="creation" normal="1993-06/1993-06">1993 June</unitdate>
+              <physdesc id="aspace_89a82ae5a041ee9a99e03c49c5214863" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_fd733051868e1750962557104b15b405">
+              <head>Format of original version</head>
+              <p>Video (58 minutes, 40 sec.)</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00109" level="item">
+            <did>
+              <unittitle>Reflections</unittitle>
+              <unitid>COL 5 VH 12</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 12" type="shelf">COL 5 VH 12</unitid>
+              <unitid audience="internal" identifier="24" type="collector">24</unitid>
+              <origination label="Creator"><persname source="ingest">Wilkins,
+                Dwight</persname></origination>
+              <unitdate datechar="creation" normal="1990-11/1990-11">1990 November</unitdate>
+              <physdesc id="aspace_11231bf91c2f7551f652051fadb9f7f5" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_41d6164454013ce3847e276722fb0410">
+              <head>Format of original version</head>
+              <p>1 film reel (12 minutes, 38 sec.) ; 16 mm</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00110" level="item">
+            <did>
+              <unittitle>Rank &amp; File</unittitle>
+              <unitid>COL 5 VH 13</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 13" type="shelf">COL 5 VH 13</unitid>
+              <unitid audience="internal" identifier="25" type="collector">25</unitid>
+              <origination label="Creator"><persname source="ingest">Ross,
+                Eric</persname></origination>
+              <unitdate datechar="creation" normal="1993/1993">1993</unitdate>
+              <physdesc id="aspace_1498a2e134d0bc39f2c5abc82ee5eab8" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_45a7bdd3c87856d4aa96a2f433a3c587">
+              <head>Format of original version</head>
+              <p>1 videocassette (U-matic) (14 minutes) ; 3/4 in.</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00111" level="item">
+            <did>
+              <unittitle>Sydney Byrd, Private Eye</unittitle>
+              <unitid>COL 5 VH 14</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 14" type="shelf">COL 5 VH 14</unitid>
+              <unitid audience="internal" identifier="28" type="collector">28</unitid>
+              <origination label="Creator"><persname source="ingest">Roach, Paul
+                Rigne</persname></origination>
+              <unitdate datechar="creation" normal="1993-04-26/1993-04-26">1993 April 26</unitdate>
+              <physdesc id="aspace_b5f89a2d68c87c2cd23d1b4966782560" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_cc6fce90bd10f95f0313f2e6ada906b5">
+              <head>Format of original version</head>
+              <p>[unknown]</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00112" level="item">
+            <did>
+              <unittitle>[incomplete application]</unittitle>
+              <unitid>COL 5 AC 19</unitid>
+              <unitid audience="internal" identifier="COL 5 AC 19" type="shelf">COL 5 AC 19</unitid>
+              <unitid audience="internal" identifier="29" type="collector">29</unitid>
+              <unitdate datechar="creation" normal="1993/1993">1993</unitdate>
+              <physdesc id="aspace_033ae9317f9cde4bd27e5f9c6b715fd7" label="Physical Description">1
+                audiocassette</physdesc>
+            </did>
+            <odd id="aspace_f9afd33f54147b60b1296626c255aad2">
+              <head>General</head>
+              <p>Audiocassette label: Theme "Condition" Ken Wms.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00113" level="item">
+            <did>
+              <unittitle>Menagerie Reel</unittitle>
+              <unitid>COL 5 VH 15</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 15" type="shelf">COL 5 VH 15</unitid>
+              <unitid audience="internal" identifier="30" type="collector">30</unitid>
+              <origination label="Creator"><persname source="ingest">Tillman, George,
+                Jr.</persname></origination>
+              <origination label="Creator"><corpname source="ingest">Menagerie
+                Films</corpname></origination>
+              <unitdate datechar="creation" normal="1993-02/1993-02">1993 February</unitdate>
+              <physdesc id="aspace_126a7b18f5d30e5b1e3d79f9d42951d1" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_ad5e8dabb7b952c1569f2a41fa7d808c">
+              <head>Format of original version</head>
+              <p>1 film reel (6 minutes) ; 16 mm</p>
+            </originalsloc>
+            <odd id="aspace_5b5c0b26723f06142e652e4d66bcdab3">
+              <head>General</head>
+              <p>Titled Menagerie Films Demo Reel on videocassette.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00114" level="item">
+            <did>
+              <unittitle>Wedding Bell Blues ; The Choice ; Blues Alive ; Nine-ish</unittitle>
+              <unitid>COL 5 VH 16</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 16" type="shelf">COL 5 VH 16</unitid>
+              <unitid audience="internal" identifier="31" type="collector">31</unitid>
+              <unitid audience="internal" identifier="W2" type="collector">W2</unitid>
+              <origination label="Creator"><persname source="ingest">Nero,
+                Katherine</persname></origination>
+              <unitdate datechar="creation" normal="1989/1993" type="inclusive">1989 through
+                1993</unitdate>
+              <physdesc id="aspace_23f891db801834100b3075f3cd47cdb8" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_161fad13b459e531600806e28e7009cd">
+              <head>Format of original version</head>
+              <p>Wedding Bell Blues [excerpt from work-in-progress]: 2 minutes, 16 mm ; The Choice:
+                6 minutes, 16 mm ; Blues Alive: 4 minutes, 16 mm ; Nine-ish: 3 minutes, 16 mm</p>
+            </originalsloc>
+            <odd id="aspace_08707189d72b3e03ff82309b04574095">
+              <head>General</head>
+              <p>Videocassette label: Wedding Bell Blues (27 minutes, 32 sec.).</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00115" level="item">
+            <did>
+              <unittitle>One Red Rose</unittitle>
+              <unitid>COL 5 VH 17</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 17" type="shelf">COL 5 VH 17</unitid>
+              <unitid audience="internal" identifier="32" type="collector">32</unitid>
+              <unitid audience="internal" identifier="O17" type="collector">O17</unitid>
+              <origination label="Creator"><persname source="ingest">Barnwell,
+                Michele</persname></origination>
+              <unitdate datechar="creation" normal="1993-03/1993-03">1993 March</unitdate>
+              <physdesc id="aspace_59a9dfa983b384133e1a3eb979c0c201" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_c4abb52be03b01a65d7fbecbd0c89460">
+              <head>Format of original version</head>
+              <p>1 film reel (2 minutes, 40 sec.) ; 35mm</p>
+            </originalsloc>
+            <odd id="aspace_c933b7ed40bcb451593af8326b68ef88">
+              <head>General</head>
+              <p>Videocassette label: One Red Rose (29 minutes, 55 sec.).</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00117" level="item">
+            <did>
+              <unittitle>Tea Time</unittitle>
+              <unitid>COL 5 VH 18</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 18" type="shelf">COL 5 VH 18</unitid>
+              <unitid audience="internal" identifier="37" type="collector">37</unitid>
+              <origination label="Creator"><persname source="ingest">Wylie,
+                Donald</persname></origination>
+              <unitdate datechar="creation" normal="1988/1993" type="inclusive">between 1988 and
+                1993</unitdate>
+              <physdesc id="aspace_870fca28a6e6b80e175fc1e08f2db0a9" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_73138499088a864fae2352abedb6d9c4">
+              <head>Format of original version</head>
+              <p>1 videocassette (U-matic) (30 minutes) ; 3/4 in.</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00118" level="item">
+            <did>
+              <unittitle>The Hunger of Memory</unittitle>
+              <unitid>COL 5 VH 19</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 19" type="shelf">COL 5 VH 19</unitid>
+              <unitid audience="internal" identifier="38" type="collector">38</unitid>
+              <unitid audience="internal" identifier="H16" type="collector">H16</unitid>
+              <origination label="Creator"><persname source="ingest">Crosby, Frank
+                D.</persname></origination>
+              <unitdate datechar="creation" normal="1993/1993">1993</unitdate>
+              <physdesc id="aspace_f42163569016189ef3ed477d356c5b13" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_54a496bcf5f126b6d895176bbb9dad3d">
+              <head>Format of original version</head>
+              <p>1 film reel (27 minutes, 30 sec.) ; 16 mm</p>
+            </originalsloc>
+            <odd id="aspace_6e3d8130acd32760600b2f9ac0d881d1">
+              <head>General</head>
+              <p>Videocassette label: The Hunger of Memory (30 minutes, 45 sec.).</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00119" level="item">
+            <did>
+              <unittitle>An American Story</unittitle>
+              <unitid>COL 5 VH 20</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 20" type="shelf">COL 5 VH 20</unitid>
+              <unitid audience="internal" identifier="42" type="collector">42</unitid>
+              <origination label="Creator"><persname source="ingest">Cumbo,
+                Fikisha</persname></origination>
+              <unitdate datechar="creation" normal="1993/1993">1993</unitdate>
+              <physdesc id="aspace_29babffc35635286d85782554f60bd3d" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_0960730fa0e0554ff9c85fffa31e78d4">
+              <head>Format of original version</head>
+              <p>Hi8 video (15 minutes)</p>
+            </originalsloc>
+            <odd id="aspace_a222d9b73e50de4f9263c969fbf75ff3">
+              <head>General</head>
+              <p>Note on videocassette: Mrs. Elnora Evans-Sampson-Brantley. Photographs of her
+                family (raw footage).</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00120" level="item">
+            <did>
+              <unittitle>Dread Night Folk; Baobab</unittitle>
+              <unitid>COL 5 VH 21</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 21" type="shelf">COL 5 VH 21</unitid>
+              <unitid audience="internal" identifier="45" type="collector">45</unitid>
+              <origination label="Creator"><persname source="ingest">Knight,
+                Eric</persname></origination>
+              <unitdate datechar="creation" normal="1989-06/1989-06">1989 June</unitdate>
+              <unitdate datechar="creation" normal="1993-02/1993-02">1993 February</unitdate>
+              <physdesc id="aspace_fc0662e15038f600feb51b67aeb00c44" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_33cc55ce8b5487cf8cb0fb7977c72e5d">
+              <head>Format of original version</head>
+              <p>Dread Night Folk : 1 film reel (8 minutes, 30 sec.) : color and black and white,
+                sound ; 16 mm Baobab: 1 film reel (9 minutes) : color and black and white, sound ;
+                16 mm</p>
+            </originalsloc>
+            <odd id="aspace_f407e5dd7d5ebaacb58cfefb9125e74a">
+              <head>General</head>
+              <p>Additional copy/version of Dread Night Folk also submitted to the regular 1997
+                competition (entry 156, shelf no. VH 271).</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00121" level="item">
+            <did>
+              <unittitle>Cutting the Edge of a Free Bird</unittitle>
+              <unitid>COL 5 VH 22</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 22" type="shelf">COL 5 VH 22</unitid>
+              <unitid audience="internal" identifier="47" type="collector">47</unitid>
+              <origination label="Creator"><persname source="ingest">Bryan, Ann Marie
+                J.</persname></origination>
+              <origination label="Creator"><corpname source="ingest">Deafvision filmworks,
+                  Inc.</corpname></origination>
+              <unitdate datechar="creation" normal="1993-09/1993-09">1993 September</unitdate>
+              <physdesc id="aspace_fbafb96533ec3a6ffd980c85c9edabc3" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_484baad6ae571ce3a0e3ec175880d105">
+              <head>Format of original version</head>
+              <p>1 film reel (15 minutes) ; 16 mm</p>
+            </originalsloc>
+            <odd id="aspace_df75bd4eaf5ad06a29c37975d14af2c7">
+              <head>General</head>
+              <p>Additional copy/version of Cutting the Edge of a Free Bird submitted to regular
+                1994 competition (entry 16, shelf no. COL 5 VH 219)..</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00122" level="item">
+            <did>
+              <unittitle>Listen to the Hands of Our People</unittitle>
+              <unitid>COL 5 VH 23</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 23" type="shelf">COL 5 VH 23</unitid>
+              <unitid audience="internal" identifier="47" type="collector">47</unitid>
+              <origination label="Creator"><persname source="ingest">Bryan, Ann Marie
+                J.</persname></origination>
+              <unitdate datechar="creation" normal="1993-09/1993-09">1993 September</unitdate>
+              <physdesc id="aspace_b7ab18da1d3d7f72a057a4560c5df48b" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_8e074a693b64cf8bb0d5ef9748e92391">
+              <head>Format of original version</head>
+              <p>[unknown]</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00123" level="item">
+            <did>
+              <unittitle>The Griot: An African Storyteller</unittitle>
+              <unitid>COL 5 VH 24</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 24" type="shelf">COL 5 VH 24</unitid>
+              <unitid audience="internal" identifier="48" type="collector">48</unitid>
+              <origination label="Creator"><persname source="ingest">Roach, David
+                N.</persname></origination>
+              <unitdate datechar="creation" normal="1993-07/1993-07">1993 July</unitdate>
+              <physdesc id="aspace_883096868a9716a13d3a139220ee2dea" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_c0bf3a2b92d30375f2ca0229c6ab2d56">
+              <head>Format of original version</head>
+              <p>1 videocassette (VHS) (15 minutes) : 1/2 in.</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00124" level="item">
+            <did>
+              <unittitle>We Will Never Die (Test Stage); The Masterdisc Vs Hup Two 3</unittitle>
+              <unitid>COL 5 VH 25</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 25" type="shelf">COL 5 VH 25</unitid>
+              <unitid audience="internal" identifier="50" type="collector">50</unitid>
+              <unitid audience="internal" identifier="W7" type="collector">W7</unitid>
+              <origination label="Creator"><persname source="ingest">McKey, Lawrence "Tucky"
+                  Jr.</persname></origination>
+              <unitdate datechar="creation" normal="1993-06/1993-08" type="inclusive">1993
+                summer</unitdate>
+              <unitdate datechar="creation" normal="1992-05/1992-05">1992 May</unitdate>
+              <physdesc id="aspace_a028b93516b1b3aeb647a00480d5e28f" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_742ec27a8c248fd271129437368b29bd">
+              <head>Format of original version</head>
+              <p>We Will Never Die: 1 film reel (8 minutes) ; 16 mm. The Masterdisc Vs Hup Two 3: 1
+                film reel (5 minutes) ; 16 mm</p>
+            </originalsloc>
+            <odd id="aspace_4bd5e75aebf58a4e98eb57a948f2c639">
+              <head>General</head>
+              <p>Additional copy/version of The Masterdisc vs Hup Two 3 also submitted to the BFHFI
+                (shelf no. COL 5 VH 464).</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00156" level="item">
+            <did>
+              <unittitle>Night Time People (Sample)</unittitle>
+              <unitid>COL 5 VH 74</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 74" type="shelf">COL 5 VH 74</unitid>
+              <unitid audience="internal" identifier="51" type="collector">51</unitid>
+              <origination label="Creator"><persname source="ingest">Ball, Steven
+                K.</persname></origination>
+              <unitdate datechar="creation" normal="1993-01-20/1993-01-20">1993 January
+                20</unitdate>
+              <physdesc id="aspace_80d150adb72eb262694253cd5fa64837" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_3f2ad420ab7967086b447f088cff895c">
+              <head>Format of original version</head>
+              <p>Original(s) presumed to be with applicant:1 videocassette (U-matic) (30 minutes) ;
+                3/4 in.</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00126" level="item">
+            <did>
+              <unittitle>The Last Time I Saw Rikki</unittitle>
+              <unitid>COL 5 VH 26</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 26" type="shelf">COL 5 VH 26</unitid>
+              <unitid audience="internal" identifier="52" type="collector">52</unitid>
+              <origination label="Creator"><persname source="ingest">Noblin, James
+                E.</persname></origination>
+              <unitdate datechar="creation" normal="1991/1993" type="inclusive">1991-1993</unitdate>
+              <physdesc id="aspace_de10682a6bd98d38c3110c604fce178c" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_57ca4847de52a5b2ebd085624f34f550">
+              <head>Format of original version</head>
+              <p>1 film reel (6 minutes, 30 sec.) ; 16 mm</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00127" level="item">
+            <did>
+              <unittitle>Murder Magic</unittitle>
+              <unitid>COL 5 VH 27</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 27" type="shelf">COL 5 VH 27</unitid>
+              <unitid audience="internal" identifier="53" type="collector">53</unitid>
+              <origination label="Creator"><persname source="ingest">Williams,
+                Windell</persname></origination>
+              <unitdate datechar="creation" normal="1993/1993">1993</unitdate>
+              <physdesc id="aspace_cab53e10cf7f1b18c5351e5083efd465" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_34a0d4bf357a7d1b95a2c373cef07c16">
+              <head>Format of original version</head>
+              <p>Film (90 minutes) ; 35 mm</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00128" level="item">
+            <did>
+              <unittitle>Compilation of Not Channel Zero</unittitle>
+              <unitid>COL 5 VH 28</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 28" type="shelf">COL 5 VH 28</unitid>
+              <unitid audience="internal" identifier="60" type="collector">60</unitid>
+              <origination label="Creator"><persname source="ingest">Poole,
+                Thomas</persname></origination>
+              <unitdate datechar="creation" normal="1991/1992" type="inclusive">1991-1992</unitdate>
+              <physdesc id="aspace_df472081f3e709fd37a9d0568948a5e9" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_8cc8223618a6e5575d2cc08b175a53ba">
+              <head>Format of original version</head>
+              <p>Video (15 minutes) ; 1/2 in.</p>
+            </originalsloc>
+            <odd id="aspace_8553900fa9b908a2b96e77f4498d3e5c">
+              <head>General</head>
+              <p>Compilation includes: Uncle Clarence Goes to Hollywood ; Dear Brother ; Nation
+                Erupts.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00129" level="item">
+            <did>
+              <unittitle>Madame Secretary</unittitle>
+              <unitid>COL 5 VH 29</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 29" type="shelf">COL 5 VH 29</unitid>
+              <unitid audience="internal" identifier="62" type="collector">62</unitid>
+              <origination label="Creator"><persname source="ingest">Chatman,
+                Delle</persname></origination>
+              <unitdate datechar="creation" normal="1993/1993">1993</unitdate>
+              <physdesc id="aspace_a7161ed555b00e112e60e3f3e80a3340" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_effbac63f01218f43d3b2513fe8cb0b3">
+              <head>Format of original version</head>
+              <p>Video (28 minutes)</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00130" level="item">
+            <did>
+              <unittitle>Stop</unittitle>
+              <unitid>COL 5 VH 30</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 30" type="shelf">COL 5 VH 30</unitid>
+              <unitid audience="internal" identifier="65" type="collector">65</unitid>
+              <origination label="Creator"><persname source="ingest">Combes,
+                  Jerry-Tremaine</persname></origination>
+              <unitdate datechar="creation" normal="1991-12/1991-12">1991 December</unitdate>
+              <physdesc id="aspace_77330123c7ef96208d7ddeececb4144f" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_5dfa83777b60b16471c50248eea8f9ac">
+              <head>Format of original version</head>
+              <p>1 film reel (Super8) (7 minutes) ; 8 mm</p>
+            </originalsloc>
+            <odd id="aspace_3aa58a6c06a338511eabea9918cae8ba">
+              <head>General</head>
+              <p>Also includes: monologue from "A Soldier Story" (3 minutes).</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00131" level="item">
+            <did>
+              <unittitle>Rivermaiden's Dance</unittitle>
+              <unitid>COL 5 VH 31</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 31" type="shelf">COL 5 VH 31</unitid>
+              <unitid audience="internal" identifier="66" type="collector">66</unitid>
+              <origination label="Creator"><persname source="ingest">Smith Kellier,
+                Marie</persname></origination>
+              <unitdate datechar="creation" normal="1987/1993" type="inclusive">1987-1993</unitdate>
+              <physdesc id="aspace_a90e78ae86c5be7feb66d8f6be276144" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_c1d9592aa22311e5adb01c02f6bb6114">
+              <head>Format of original version</head>
+              <p>1 film reel (20 minutes) : color, sound ; 16 mm</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00132" level="item">
+            <did>
+              <unittitle>Flag</unittitle>
+              <unitid>COL 5 VH 32</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 32" type="shelf">COL 5 VH 32</unitid>
+              <unitid audience="internal" identifier="67" type="collector">67</unitid>
+              <unitid audience="internal" identifier="F7" type="collector">F7</unitid>
+              <origination label="Creator"><persname source="ingest">Gibson,
+                Linda</persname></origination>
+              <unitdate datechar="creation" normal="1989/1989">1989</unitdate>
+              <physdesc id="aspace_90ef08bcb3bdd55b149ab522b34521c8" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_34a2edd86a3464faaa5228cf669d70e1">
+              <head>Format of original version</head>
+              <p>1 videocassette (U-matic) (25 minutes) ; 3/4 in.</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00133" level="item">
+            <did>
+              <unittitle>Framing Lesbian Fashion</unittitle>
+              <unitid>COL 5 VH 33</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 33" type="shelf">COL 5 VH 33</unitid>
+              <unitid audience="internal" identifier="68" type="collector">68</unitid>
+              <origination label="Creator"><persname source="ingest">Everett,
+                Karen</persname></origination>
+              <unitdate datechar="creation" normal="1992/1992">1992</unitdate>
+              <physdesc id="aspace_7dce2f0e328feaf25be94ca5a4dad1c0" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_2de5a04a5e019c9ab3dba524788a26d4">
+              <head>Format of original version</head>
+              <p>1 videocassette (Betacam) (58 minutes, 30 minutes) ; 1/2 in.</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00134" level="item">
+            <did>
+              <unittitle>True Blue Bart</unittitle>
+              <unitid>COL 5 VH 34</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 34" type="shelf">COL 5 VH 34</unitid>
+              <unitid audience="internal" identifier="69" type="collector">69</unitid>
+              <unitid audience="internal" identifier="T3" type="collector">T3</unitid>
+              <origination label="Creator"><persname source="ingest">Gary, Jonathan
+                O.</persname></origination>
+              <unitdate datechar="creation" normal="1991-05/1991-05">1991 May</unitdate>
+              <physdesc id="aspace_03405dd08f22913ad94473486fe9404e" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_cd88d315ce0058c2f3bacd6c67cb0d32">
+              <head>Format of original version</head>
+              <p>1 videocassette (S-VHS) (15 minutes) ; 1/2 in.</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00135" level="item">
+            <did>
+              <unittitle>Beyond the Agenda</unittitle>
+              <unitid>COL 5 VH 35</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 35" type="shelf">COL 5 VH 35</unitid>
+              <unitid audience="internal" identifier="71" type="collector">71</unitid>
+              <unitid audience="internal" identifier="B9" type="collector">B9</unitid>
+              <origination label="Creator"><persname source="ingest">Dakar,
+                Laini</persname></origination>
+              <unitdate datechar="creation" normal="1993-02/1993-02">1993 February</unitdate>
+              <physdesc id="aspace_9da13ec4798ec0b9d04ea79a46a93e34" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_2d7047764f07248bdaca0097ebedf064">
+              <head>Format of original version</head>
+              <p>1 film reel (15 minutes) ; 16 mm</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00136" level="item">
+            <did>
+              <unittitle>Oakland Is ... Special: A Juneteenth Celebration ; Oakland
+                Style</unittitle>
+              <unitid>COL 5 TQL 36</unitid>
+              <unitid audience="internal" identifier="COL 5 TQL 36" type="shelf">COL 5 TQL
+                36</unitid>
+              <unitid audience="internal" identifier="75" type="collector">75</unitid>
+              <unitid audience="internal" identifier="O23" type="collector">O23</unitid>
+              <origination label="Creator"><persname source="ingest">Shaifer, Monique
+                L.</persname></origination>
+              <unitdate datechar="creation" normal="1993/1993">1993</unitdate>
+              <physdesc id="aspace_72b00f1145ed13b823fcfb66a561ab62" label="Physical Description">1
+                videocassette (U-matic)</physdesc>
+            </did>
+            <odd id="aspace_cdfffe3d1fb80f66f4dd5a81ba89f757">
+              <head>General</head>
+              <p>Additional copy/version of Oakland Is... also submitted to BFHFI (shelf no. COL 5
+                TQL 36).</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00137" level="item">
+            <did>
+              <unittitle>The Raven</unittitle>
+              <unitid>COL 5 VH 36</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 36" type="shelf">COL 5 VH 36</unitid>
+              <unitid audience="internal" identifier="78" type="collector">78</unitid>
+              <origination label="Creator"><persname source="ingest">Pugh, Darryl
+                E.</persname></origination>
+              <origination label="Creator"><corpname source="ingest">Mirror Image
+                  Productions</corpname></origination>
+              <unitdate datechar="creation" normal="1990-09/1990-09">1990 September</unitdate>
+              <physdesc id="aspace_b339db548ae4f42660239c965bcedbfc" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_f6984dae8989c05e25aecc37302932a5">
+              <head>Format of original version</head>
+              <p>1 film reel (20 minutes) ; 16 mm</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00138" level="item">
+            <did>
+              <unittitle>Demo.</unittitle>
+              <unitid>COL 5 VH 37</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 37" type="shelf">COL 5 VH 37</unitid>
+              <unitid audience="internal" identifier="79" type="collector">79</unitid>
+              <origination label="Creator"><persname source="ingest">Brown,
+                Desmond</persname></origination>
+              <unitdate datechar="creation" normal="1990-12/1993-06" type="inclusive">between 1990
+                December and 1993 June</unitdate>
+              <physdesc id="aspace_0a40567bc839dafa3c86ae246dcec565" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_0501d1a4f15bda97cda9eefbf9f1cc69">
+              <head>Format of original version</head>
+              <p>Video 3/4 in. ; film 16 mm ; film 8 mm</p>
+            </originalsloc>
+            <odd id="aspace_d17b6045cc729a5f9017ad544eea3ad0">
+              <head>General</head>
+              <p>Video description "A compilation of video images an [sic] issues that have a
+                distinct fashion that is generated through the level of intensity and the varied
+                background of the viewer."</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00139" level="item">
+            <did>
+              <unittitle>Two Dollars and a Dream; Methadone-Curse or Cure</unittitle>
+              <unitid>COL 5 VH 38</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 38" type="shelf">COL 5 VH 38</unitid>
+              <unitid audience="internal" identifier="81" type="collector">81</unitid>
+              <unitid audience="internal" identifier="T44" type="collector">T44</unitid>
+              <origination label="Creator"><persname source="ingest">Nelson,
+                Stanley</persname></origination>
+              <unitdate datechar="creation" normal="1990/1990">1990</unitdate>
+              <unitdate datechar="creation" normal="1993-09/1993-09">1993 September</unitdate>
+              <physdesc id="aspace_7d4a64ea65c853d12a037b0d015c28a7" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_78fb74a2b64d9db2fb92347f2242ad5d">
+              <head>Format of original version</head>
+              <p>1 film reel (56 minutes) 16 mm ; 1 film reel (60 minutes) 16 mm</p>
+            </originalsloc>
+            <odd id="aspace_5010e4dc86840023771a0471fe73afb9">
+              <head>General</head>
+              <p>Videocassette label: Two Dollars and a Dream (no titles 5/88).</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00140" level="item">
+            <did>
+              <unittitle>Mario Bobino Idebonair Productions Bio</unittitle>
+              <unitid>COL 5 TQL 13</unitid>
+              <unitid audience="internal" identifier="COL 5 TQL 13" type="shelf">COL 5 TQL
+                13</unitid>
+              <unitid audience="internal" identifier="84" type="collector">84</unitid>
+              <unitid audience="internal" identifier="D1" type="collector">D1</unitid>
+              <origination label="Creator"><persname source="ingest">Bobino,
+                Mario</persname></origination>
+              <origination label="Creator"><corpname source="ingest">Debonair
+                Productions</corpname></origination>
+              <unitdate datechar="creation" normal="1993-09/1993-09">1993 September</unitdate>
+              <physdesc id="aspace_d9b3945c858b047a6a0c8479d6f362c5" label="Physical Description">1
+                videocassette (U-matic)</physdesc>
+            </did>
+            <originalsloc id="aspace_fe0eb7ae7a018eecceaf6dc724709c5a">
+              <head>Format of original version</head>
+              <p>[unknown format] (14 minutes, 28 sec.)</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00141" level="item">
+            <did>
+              <unittitle>Black Entrepreneur</unittitle>
+              <unitid>COL 5 VH 39</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 39" type="shelf">COL 5 VH 39</unitid>
+              <unitid audience="internal" identifier="85" type="collector">85</unitid>
+              <origination label="Creator"><persname source="ingest">McCarthy, E.
+                Lance</persname></origination>
+              <origination label="Creator"><corpname source="ingest">Urban Rennaissance
+                  Productions</corpname></origination>
+              <unitdate datechar="creation" normal="1993-09-01/1993-09-01">1993 September
+                1</unitdate>
+              <physdesc id="aspace_b20d51be98e4f5cb14b6ae11313c0aaf" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_57f5d6457b32deadad3b1f1f385101b5">
+              <head>Format of original version</head>
+              <p>[unknown format] (15 minutes)</p>
+            </originalsloc>
+            <odd id="aspace_efb04165708dc998ed42916d3980c21f">
+              <head>General</head>
+              <p>Videocassette case labeled: uni-vite inc. ; uni-vite opportunity.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00142" level="item">
+            <did>
+              <unittitle>Marin City Then and Now (An African-American Community in
+                Transition)</unittitle>
+              <unitid>COL 5 VH 40</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 40" type="shelf">COL 5 VH 40</unitid>
+              <unitid audience="internal" identifier="88" type="collector">88</unitid>
+              <unitid audience="internal" identifier="M51" type="collector">M51</unitid>
+              <origination label="Creator"><persname source="ingest">Nun-Ra,
+                Oshalla</persname></origination>
+              <unitdate datechar="creation" normal="1992-04/1992-04">1992 April</unitdate>
+              <physdesc id="aspace_a24a3e87f71ee3be57d8a577f390c9bf" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_46905482d169e1f2ebf5d13ebd140497">
+              <head>Format of original version</head>
+              <p>1 videocassette (U-matic) (30 minutes) ; 3/4 in.</p>
+            </originalsloc>
+            <odd id="aspace_8740d6461f400a350988031b83b72a34">
+              <head>General</head>
+              <p>Additional copy/version of Marin City Then and Now also submitted to BFHFI (shelf
+                no. COL 5 TQL 29).</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00143" level="item">
+            <did>
+              <unittitle>Love: In Brief</unittitle>
+              <unitid>COL 5 VH 41</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 41" type="shelf">COL 5 VH 41</unitid>
+              <unitid audience="internal" identifier="90" type="collector">90</unitid>
+              <origination label="Creator"><persname source="ingest">Phillips, Kelvin
+                  Zachary</persname></origination>
+              <unitdate datechar="creation" normal="1993/1993">1993</unitdate>
+              <physdesc id="aspace_8673df9938b38fb47e8a0364346c5769" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_3d9bf2e0f2a9675f3bd6f5dab16607e7">
+              <head>Format of original version</head>
+              <p>1 film reel (25 minutes) ; 16 mm</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00144" level="item">
+            <did>
+              <unittitle>Mama Am Cookin'</unittitle>
+              <unitid>COL 5 VH 42</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 42" type="shelf">COL 5 VH 42</unitid>
+              <unitid audience="internal" identifier="92" type="collector">92</unitid>
+              <origination label="Creator"><persname source="ingest">Grant,
+                Christopher</persname></origination>
+              <unitdate datechar="creation" normal="1993/1993">1993</unitdate>
+              <physdesc id="aspace_8fc739ae02263d9a1e0fac9521485cb1" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_c902eecf82ba960b0bbab8b538bc7ed7">
+              <head>Format of original version</head>
+              <p>1 film reel (13 minutes) : black &amp; white ; 16 mm</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00145" level="item">
+            <did>
+              <unittitle>Let the Truth Be Told…</unittitle>
+              <unitid>COL 5 VH 43</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 43" type="shelf">COL 5 VH 43</unitid>
+              <unitid audience="internal" identifier="93" type="collector">93</unitid>
+              <unitid audience="internal" identifier="L11" type="collector">L11</unitid>
+              <origination label="Creator"><persname source="ingest">Minor, Christine
+                L.</persname></origination>
+              <unitdate datechar="creation" normal="1993-06/1993-06">1993 June</unitdate>
+              <physdesc id="aspace_6118bab12f9e5eea3d1857c750981fad" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_1fea8acf52d5df314bd2a4428a917548">
+              <head>Format of original version</head>
+              <p>1 videocassette (U-matic) (12 minutes) ; 3/4 in.</p>
+            </originalsloc>
+            <odd id="aspace_9f675dba33e96e11017cd89edbbc150b">
+              <head>General</head>
+              <p>Videocassette label: Let the Truth Be Told…Voices of Women in the Black Panther
+                Party (a 12-minute sample tape).</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00146" level="item">
+            <did>
+              <unittitle>The Commission on African American Males</unittitle>
+              <unitid>COL 5 VH 44</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 44" type="shelf">COL 5 VH 44</unitid>
+              <unitid audience="internal" identifier="97" type="collector">97</unitid>
+              <origination label="Creator"><persname source="ingest">Burroughs,
+                Dennis</persname></origination>
+              <unitdate datechar="creation" normal="1993-03/1993-03">1993 March</unitdate>
+              <physdesc id="aspace_71ac40a104dc4dd2845dfa6109fc948b" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_66a5f5f1d4d2597fdff70f5b9d0b6faf">
+              <head>Format of original version</head>
+              <p>1 videocassette (U-matic) (20 minutes) ; 3/4 in.</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00147" level="item">
+            <did>
+              <unittitle>Da' Bridge</unittitle>
+              <unitid>COL 5 VH 45</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 45" type="shelf">COL 5 VH 45</unitid>
+              <unitid audience="internal" identifier="98" type="collector">98</unitid>
+              <origination label="Creator"><persname source="ingest">Williams, Carlos
+                T.</persname></origination>
+              <origination label="Creator"><corpname source="ingest">Animafrica
+                  Productions</corpname></origination>
+              <unitdate datechar="creation" normal="1991/1991">1991</unitdate>
+              <physdesc id="aspace_c3e6af046cd0433e3f981384511a0017" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_839c855b48c0c7148b4711042362bf83">
+              <head>Format of original version</head>
+              <p>1 videocassette (U-matic) (4 minutes) ; 3/4 in.</p>
+            </originalsloc>
+            <odd id="aspace_4ae1b5024a5b7f8fd7b3ed8efe012194">
+              <head>General</head>
+              <p>Additional copy/version of Da' Bridge also submitted to the regular 1992
+                competition (entry 104, shelf no. COL 5 TQS 6).</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00148" level="item">
+            <did>
+              <unittitle>Allegations</unittitle>
+              <unitid>COL 5 VH 46</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 46" type="shelf">COL 5 VH 46</unitid>
+              <unitid audience="internal" identifier="100" type="collector">100</unitid>
+              <origination label="Creator"><persname source="ingest">Hypolite,
+                Rudy</persname></origination>
+              <unitdate datechar="creation" normal="1993/1993">1993</unitdate>
+              <physdesc id="aspace_b99c41f1c9072dddb5113fa1bfc0ff54" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_2216a44d1a8d43b362c4fe36f7750abc">
+              <head>Format of original version</head>
+              <p>1 videocassette (U-matic) (15 minutes) ; 3/4 in.</p>
+            </originalsloc>
+          </c03>
+          <c03 id="aspace_VAD4090-00149" level="item">
+            <did>
+              <unittitle>Poetry Should Ride the Bus</unittitle>
+              <unitid>COL 5 VH 47</unitid>
+              <unitid audience="internal" identifier="COL 5 VH 47" type="shelf">COL 5 VH 47</unitid>
+              <unitid audience="internal" identifier="102" type="collector">102</unitid>
+              <unitid audience="internal" identifier="P5" type="collector">P5</unitid>
+              <origination label="Creator"><persname source="ingest">Forman,
+                Ruth</persname></origination>
+              <unitdate datechar="creation" normal="1992-08/1992-08">1992 August</unitdate>
+              <physdesc id="aspace_15cfc0de734998923083affff0ad7499" label="Physical Description">1
+                videocassette (VHS)</physdesc>
+            </did>
+            <originalsloc id="aspace_e71bbc6bf0adecf46e8e42b5136c8a7b">
+              <head>Format of original version</head>
+              <p>1 videocassette (S-VHS) (15 minutes) ; 1/2 in.</p>
+            </originalsloc>
+          </c03>
+        </c02>
+        <c02 id="aspace_VAD4090-00150" level="subseries">
+          <did>
+            <unittitle>5.3. Sidney Poitier Fellowship Administrative Documents</unittitle>
+            <unitdate datechar="creation" normal="1992/1993" type="inclusive">1992-1993</unitdate>
+          </did>
+          <c03 id="aspace_VAD4090-00151" level="file">
+            <did>
+              <unittitle>SPF Awardee Letters</unittitle>
+              <container id="aspace_a77de76dd16088da26fe4d5549ec0e64" label="mixed materials"
+                type="box">SFP 2</container>
+            </did>
+            <odd id="aspace_28585349ad063fa69490507fca737ece">
+              <head>General</head>
+              <p>Yvonne Welbon award letter is missing.</p>
+            </odd>
+          </c03>
+          <c03 id="aspace_VAD4090-00155" level="file">
+            <did>
+              <unittitle>SPF Rejection Letters</unittitle>
+            </did>
+          </c03>
+          <c03 id="aspace_VAD4090-00152" level="file">
+            <did>
+              <unittitle>Judging Forms for Missing Applications</unittitle>
+            </did>
+          </c03>
+          <c03 id="aspace_VAD4090-00153" level="file">
+            <did>
+              <unittitle>Judges' Documents</unittitle>
+            </did>
+          </c03>
+          <c03 id="aspace_VAD4090-00154" level="file">
+            <did>
+              <unittitle>SPF internal planning documents</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 id="aspace_VAD4090-00162" level="series">
+        <did>
+          <unittitle><extref xlink:href="http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD5299"
+              xlink:type="simple">6. Miscellaneous BFHFI events files</extref></unittitle>
+        </did>
+      </c01>
+      <c01 id="aspace_VAD4090-00163" level="series">
+        <did>
+          <unittitle><extref xlink:href="http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD5304"
+              xlink:type="simple">7. BFHFI event recordings</extref></unittitle>
+        </did>
+      </c01>
+      <c01 id="aspace_VAD4090-00164" level="series">
+        <did>
+          <unittitle><extref xlink:href="http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD5306"
+              xlink:type="simple">8. Board and committee documents</extref></unittitle>
+        </did>
+      </c01>
+      <c01 id="aspace_VAD4090-00165" level="series">
+        <did>
+          <unittitle><extref xlink:href="http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD5315"
+              xlink:type="simple">9. General correspondence</extref></unittitle>
+        </did>
+      </c01>
+      <c01 id="aspace_VAD4090-00166" level="series">
+        <did>
+          <unittitle><extref xlink:href="http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD5319"
+              xlink:type="simple">10. HRMS, volunteer, and staff documents</extref></unittitle>
+        </did>
+      </c01>
+      <c01 id="aspace_VAD4090-00167" level="series">
+        <did>
+          <unittitle><extref xlink:href="http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD5323"
+              xlink:type="simple">11. General financial, fundraising, and legal
+            documents</extref></unittitle>
+        </did>
+      </c01>
+      <c01 id="aspace_VAD4090-00168" level="series">
+        <did>
+          <unittitle><extref xlink:href="http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD5458"
+              xlink:type="simple">12. Memorabilia and artifacts</extref></unittitle>
+        </did>
+      </c01>
+      <c01 id="aspace_VAD4090-00169" level="series">
+        <did>
+          <unittitle><extref xlink:href="http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD5405"
+              xlink:type="simple">13. Third party publications</extref></unittitle>
+        </did>
+      </c01>
+      <c01 id="aspace_VAD4090-00170" level="series">
+        <did>
+          <unittitle><extref xlink:href="http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD5462"
+              xlink:type="simple">14. Research files</extref></unittitle>
+        </did>
+      </c01>
+      <c01 id="aspace_VAD4090-00171" level="series">
+        <did>
+          <unittitle><extref xlink:href="http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD5474"
+              xlink:type="simple">15. Mary P. Smith's files</extref></unittitle>
+        </did>
+      </c01>
+      <c01 id="aspace_VAD4090-00172" level="series">
+        <did>
+          <unittitle><extref xlink:href="http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD7352"
+              xlink:type="simple">16. Miscellaneous</extref></unittitle>
+        </did>
+      </c01>
+      <c01 id="aspace_VAD4090-00173" level="series">
+        <did>
+          <unittitle><extref xlink:href="http://purl.dlib.indiana.edu/iudl/findingaids/bfca/VAD8293"
+              xlink:type="simple">17. Phil Moore Collection</extref> (Inventoried as if separate
+            collection due to size)</unittitle>
+        </did>
+      </c01>
+      <c01 id="aspace_VAD4090-00174" level="series">
+        <did>
+          <unittitle>18. Photographs (undergoing processing)</unittitle>
+        </did>
+      </c01>
+      <c01 id="aspace_VAD4090-00175" level="series">
+        <did>
+          <unittitle>19. Born-digital materials (undergoing processing)</unittitle>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
