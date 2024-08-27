@@ -1,0 +1,143 @@
+#branding-bar,
+#footer {
+  -webkit-font-smoothing: initial;
+  -moz-font-smoothing: initial;
+  font-smoothing: initial;
+}
+
+#branding-bar *,
+#footer * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#branding-bar .row,
+#footer .row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 64rem;
+  position: relative;
+}
+
+#branding-bar .row:before, #branding-bar .row:after,
+#footer .row:before,
+#footer .row:after {
+  content: " ";
+  display: table;
+}
+
+#branding-bar .row:after,
+#footer .row:after {
+  clear: both;
+}
+
+#branding-bar .row.pad,
+#footer .row.pad {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+}
+
+#footer {
+  padding: 24px 0;
+  text-align: center;
+  position: relative;
+  font-family: BentonSansRegular, Arial, serif;
+  font-weight: normal;
+}
+
+#footer a {
+  color: #990000;
+}
+
+#footer a:focus {
+  outline: .125rem solid #990000;
+  outline-offset: .125rem;
+}
+
+#footer .signature {
+  text-align: center;
+}
+
+#footer .signature-link {
+  background: url("iu-sig-formal.svg") no-repeat left top;
+  background-size: contain;
+  display: inline-block;
+  height: 0;
+  padding-top: 36px;
+  overflow: hidden;
+  width: 240px;
+}
+
+#footer .signature-link.signature-img {
+  background-image: none;
+  height: auto;
+  width: 15rem;
+  padding-top: 0;
+}
+
+#footer p {
+  font-size: 0.75rem;
+  line-height: 24px;
+  margin: 0;
+  clear: left;
+}
+
+#footer .row {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 350px) {
+  #footer .line-break-small {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #footer .line-break {
+    display: block;
+  }
+  #footer .hide-on-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 40em) {
+  /* Campus names */
+  #branding-bar .show-on-tablet {
+    display: inline;
+  }
+  #branding-bar .show-on-mobile,
+  #branding-bar .show-on-desktop {
+    display: none;
+  }
+  #footer {
+    text-align: left;
+    border-top: 6px solid #7A1705;
+    padding: 32px 0 24px;
+    margin-top: 16px;
+  }
+  #footer p {
+    line-height: 2.25rem;
+  }
+  #footer .footer-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #footer .signature {
+    float: left;
+    text-align: left;
+    height: 36px;
+  }
+  #footer .copyright {
+    float: right;
+    clear: right;
+    text-align: right;
+  }
+}

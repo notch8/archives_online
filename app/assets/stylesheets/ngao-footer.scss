@@ -1,0 +1,43 @@
+@import "iu_variables";
+
+#ngao-footer {
+  width: 100%;
+  margin: 0 auto;
+  background-color: $iu-mahogany;
+  display: flex;
+  .ngao-links {
+    margin: 0 auto;
+    position: relative;
+    justify-content: space-around;
+  }
+}
+
+.link-caddy {
+  ul {
+    list-style-type: none;
+    li {
+      display: inline-flex;
+      a {
+        color: $iu-cream;
+        padding: 0.5rem 1rem;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.link-caddy {
+  a:hover {
+    color: $iu-cream;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (min-width:40em) {
+  #ngao-footer {
+    padding: 1rem 0;
+  }
+  #footer {
+    margin-top: 0px;
+  }
+}
