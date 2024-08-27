@@ -6,3 +6,12 @@ $logo-image: image_url('arclight/logo.png') !default;
 @import 'breadcrumbs';
 @import 'campus';
 @import 'scroll_to_top';
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#main-container {
+  flex: 1 0 auto;
+}
