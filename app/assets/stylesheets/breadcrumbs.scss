@@ -1,5 +1,8 @@
 // Override breadcrumb heirarchy styles from arclight
 
+$base-padding: 0.5rem;
+$padding-increment: 0.5rem;
+
 .al-show-breadcrumb {
   .breadcrumb {
     svg {
@@ -18,16 +21,22 @@
     }
 
     .breadcrumb-item-1 {
-      padding-left: 1rem;
+      padding-left: $base-padding;
+
+      .breadcrumb {
+        padding-left: $base-padding;
+      }
     }
 
-    .breadcrumb-item-2 {
-      .breadcrumb {
-        padding-left: 1rem;
+    @for $i from 3 through 8 {
+      .breadcrumb-item-3:nth-child(#{$i}) {
+        padding-left: calc(#{$base-padding} + #{$padding-increment * ($i - 2)});
+      }
+    }
 
-        li:last-child:not(:first-child) {
-          padding-left: 1rem;
-        }
+    @for $i from 2 through 8 {
+      .breadcrumb-item-3:nth-of-type(#{$i}) ~ li.breadcrumb-item-4 {
+        padding-left: calc(#{$base-padding} + #{$padding-increment * ($i - 1)});
       }
     }
 
