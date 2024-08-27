@@ -7,36 +7,36 @@
   <li class="breadcrumb-home-link">
     <%= link_to t('arclight.routes.home'), root_path %>
   </li>
+  <%# OVERRIDE begin %>
   <li class="breadcrumb-campus-link">
     <span aria-hidden="true"><%= blacklight_icon :campus, classes: 'al-collection-content-icon' %></span>
     <span class="breadcrumb-text"><%= @campus %></span>
   </li>
+  <%# OVERRIDE end %>
   <li class="breadcrumb-item breadcrumb-item-1">
     <span aria-hidden="true"><%= blacklight_icon :repository, classes: 'al-repository-content-icon' %></span>
     <span class="breadcrumb-text"><%= repository %></span>
     <ol class="breadcrumb">
       <% if collection %>
         <li class="breadcrumb-item breadcrumb-item-2">
-          <span aria-hidden="true"><%= blacklight_icon 'arrow-return-right', classes: 'al-collection-content-icon' %></span>
+          <span aria-hidden="true"><%= blacklight_icon :collection, classes: 'al-collection-content-icon' %></span>
           <span class="breadcrumb-text"><%= link_to collection.label, solr_document_path(collection.id) %></span>
 
           <ol class="breadcrumb">
             <% parents_under_collection.each do |parent| %>
               <li class="breadcrumb-item breadcrumb-item-3">
-                <span aria-hidden="true"><%= blacklight_icon 'arrow-return-right', classes: 'al-collection-content-icon' %></span>
                 <span class="breadcrumb-text"><%= link_to parent.label, solr_document_path(parent.id) %></span>
               </li>
             <% end %>
 
             <li class="breadcrumb-item breadcrumb-item-4">
-              <span aria-hidden="true"><%= blacklight_icon 'arrow-return-right', classes: 'al-collection-content-icon' %></span>
-              <span class="breadcrumb-text"><%= @presenter.heading %></span>
+             <span class="breadcrumb-text"><%= @presenter.heading %></span>
             </li>
           </ol>
         </li>
       <% else # this is a collection %>
         <li class="breadcrumb-item breadcrumb-item-4">
-          <span aria-hidden="true"><%= blacklight_icon 'arrow-return-right', classes: 'al-collection-content-icon' %></span>
+          <span aria-hidden="true"><%= blacklight_icon :collection, classes: 'al-collection-content-icon' %></span>
           <span class="breadcrumb-text"><%= @presenter.heading %></span>
         </li>
       <% end %>
