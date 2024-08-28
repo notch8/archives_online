@@ -28,11 +28,10 @@ Rails.application.routes.draw do
   ##### REMOVE BOOKMARK #####
   # resources :bookmarks do
   #   concerns :exportable
-
-    collection do
-      delete 'clear'
-    end
-  end
+  #   collection do
+  #     delete 'clear'
+  #   end
+  # end
 
   get '/about', to: 'pages#about', as: 'about'
   get '/contribute', to: 'pages#contribute', as: 'contribute'
