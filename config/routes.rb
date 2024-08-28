@@ -1,6 +1,11 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+  ##### REMOVE SEARCH HISTORY #####
+  # Note: has to be before we mount Blacklight::Engine
+  get '/search_history', to: 'application#render404'
+  delete '/search_history/clear', to: 'application#render404'
+
   mount Blacklight::Engine => '/'
   mount Arclight::Engine => '/'
 
@@ -20,8 +25,9 @@ Rails.application.routes.draw do
     concerns :exportable
   end
 
-  resources :bookmarks do
-    concerns :exportable
+  ##### REMOVE BOOKMARK #####
+  # resources :bookmarks do
+  #   concerns :exportable
 
     collection do
       delete 'clear'
