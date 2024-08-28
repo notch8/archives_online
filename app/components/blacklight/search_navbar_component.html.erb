@@ -1,0 +1,12 @@
+<%#
+  OVERRIDE Blacklight v8.3.0 to add 'Get search help' link to navbar
+%>
+
+<%= tag.div class: 'navbar-search navbar navbar-light bg-light', role: 'navigation', aria: { label: t('blacklight.search.header') } do %>
+  <div class="<%= container_classes %>">
+    <%= search_bar %>
+    <%# OVERRIDE begin %>
+    <%= link_to 'Get search help', help_path %>
+    <%# OVERRIDE end %>
+  </div>
+<% end %>

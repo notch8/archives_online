@@ -28,11 +28,14 @@ Rails.application.routes.draw do
   ##### REMOVE BOOKMARK #####
   # resources :bookmarks do
   #   concerns :exportable
-
   #   collection do
   #     delete 'clear'
   #   end
   # end
+
+  get '/about', to: 'pages#about', as: 'about'
+  get '/contribute', to: 'pages#contribute', as: 'contribute'
+  get '/help', to: 'pages#help', as: 'help'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")

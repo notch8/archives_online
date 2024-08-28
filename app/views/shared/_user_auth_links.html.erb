@@ -1,0 +1,20 @@
+<% if current_user %>
+  <li class="nav-item ml-3"><a class="nav-link" href="https://libraries.indiana.edu/harmful-language-statement">Harmful Language Statement</a></li>
+  <li class="nav-item ml-3">
+    <%= link_to "Admin", admin_path, class: 'nav-link' %>
+  </li>
+  <li class="nav-item ml-3">
+    <% if ENV['AL_AUTHN'] == 'database' %>
+      <%= link_to "Logout", destroy_user_session_path, class: 'nav-link' %>
+    <% else %>
+      <%= link_to "Logout", destroy_global_session_path, class: 'nav-link' %>
+    <% end %>
+  </li>
+  <%# <li class="nav-item ml-3"><a class="nav-link" href="http://www.dlib.indiana.edu/collections/findingaids">Legacy Archives Online</a></li> %> 
+<% else %>
+  <li class="nav-item ml-3"><a class="nav-link" href="https://libraries.indiana.edu/harmful-language-statement">Harmful Language Statement</a></li>
+  <li class="nav-item ml-3">
+    <%#= link_to "Admin", admin_path, class: 'nav-link' %>
+  </li>
+  <%# <li class="nav-item ml-3"><a class="nav-link" href="http://www.dlib.indiana.edu/collections/findingaids">Legacy Archives Online</a></li> %>
+<% end %>
