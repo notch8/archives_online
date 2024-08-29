@@ -1,0 +1,12 @@
+@import 'vendor/rivet';
+
+// These overrides are applied to the current classes and styles to make
+// the application look closer to IU's Rivet design system.  To truly
+// add the Rivet utility classes would take an incredible amount of view
+// overrides from both Arclight and Blacklight.
+
+// CONTAINERS
+.container {
+  @extend .rvt-container-xl;
+}
+
