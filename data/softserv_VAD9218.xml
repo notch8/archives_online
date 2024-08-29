@@ -4,7 +4,7 @@
   xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="edited-full-draft"
     langencoding="iso639-2b" repositoryencoding="iso15511">
-    <eadid url="https://archives.iu.edu/catalog/ohrc110">VAD9218</eadid>
+    <eadid countrycode="US" mainagencycode="US-InU">VAD9218</eadid>
     <filedesc>
       <titlestmt>
         <titleproper>Donald E. Hattin Media Materials<date normal="1959/2016"> 1959/2016</date>
@@ -131,6 +131,10 @@
       <head>File Plan</head>
       <p>file plan note</p>
     </fileplan>
+    <odd id="aspace_6f89501d873f54b4de298f0878e77e9f">
+      <head>General</head>
+      <p>general note</p>
+    </odd>
     <acqinfo id="aspace_46240bac0c07eaee8a3c4cb51c2450d9">
       <head>Immediate Source of Acquisition</head>
       <p>immediate source of acquisition note</p>
