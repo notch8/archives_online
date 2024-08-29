@@ -1,0 +1,1518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="completed"
+    langencoding="iso639-2b" repositoryencoding="iso15511">
+    <eadid countrycode="US" mainagencycode="US-InU-K">VAE1938</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Midwest Migrant Farm Worker Collection. <num>MMFW</num></titleproper>
+        <author>Emily Hoover and Meg Galasso. </author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Indiana University Kokomo Campus Archives</publisher>
+        <p id="logostmt"><extref xlink:actuate="onLoad"
+            xlink:href="http://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/iukokomo.jpg"
+            xlink:show="embed" xlink:type="simple"/></p>
+        <p><date>2018</date></p>
+        <address>
+          <addressline>Indiana University Kokomo Library</addressline>
+          <addressline>2300 S Washington Street</addressline>
+          <addressline>Kokomo, IN 46902</addressline>
+          <addressline>Business Number: 765-455-9412</addressline>
+          <addressline>iukarch@iuk.edu</addressline>
+          <addressline>URL: <extptr xlink:href="https://www.iuk.edu/library/campus-archives.html"
+              xlink:show="new" xlink:title="https://www.iuk.edu/library/campus-archives.html"
+              xlink:type="simple"/></addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>This finding aid was produced using ArchivesSpace on <date>2024-08-29 15:34:28
+          -0400</date>.</creation>
+      <langusage>Description is written in: <language langcode="eng" scriptcode="Latn">English,
+          Latin script</language>.</langusage>
+      <descrules>Describing Archives: A Content Standard</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <repository>
+        <corpname>Indiana University Kokomo Campus Archives</corpname>
+      </repository>
+      <unittitle>Midwest Migrant Farm Worker Collection</unittitle>
+      <origination label="Creator">
+        <persname authfilenumber="no97042709" rules="aacr" source="naf">Cormier, David R.</persname>
+      </origination>
+      <unitid>MMFW</unitid>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">6 Linear Feet</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">7.3 Gigabytes</extent>
+        <physfacet>digital images</physfacet>
+      </physdesc>
+      <unitdate datechar="creation" normal="1963/1996" type="inclusive">1963-1996</unitdate>
+      <unitdate datechar="creation" normal="1963/1977" type="bulk">1963-1977</unitdate>
+      <abstract id="aspace_0ece56f6197fee54120c89d6aec275e6" label="Summary/Abstract ">This
+        collection is comprised of paper records, objects, photographs, and research files donated
+        by Dave Cormier, assistant coordinator of Labor Studies, and other people active in
+        organizing for farm workers. As described by Cormier, "the primary focus is on materials
+        from the first grape and lettuce boycotts, the volunteer boycott support committees which
+        were set up in northern and central Indiana, the activity with migrant workers during that
+        period here in the Midwest, and related information from the UFW from that
+        period."</abstract>
+      <langmaterial>
+        <language langcode="eng" scriptcode="Latn">English</language> , <language langcode="spa"
+          scriptcode="Latn">Spanish; Castilian</language> . </langmaterial>
+    </did>
+    <accessrestrict id="aspace_4beee4161f5ab3effb3014a608fbc71f">
+      <head>Restrictions on access </head>
+      <p>There are no restrictions on access for this collection. Materials are available for
+        research by contacting the Indiana University Kokomo Campus Archives, iukarch@iuk.edu.</p>
+    </accessrestrict>
+    <userestrict id="aspace_c6cdeb79ac4729f099391a8481129f13">
+      <head>Conditions Governing Use</head>
+      <p>Copyright restrictions may apply. Unpublished manuscripts are protected by copyright.
+        Permission to publish or reproduce must be secured from the repository. Due to the existence
+        of records bearing personal and private information from a variety of sources, permission
+        must be obtained from the IU Kokomo Campus Archives prior to copying any of the materials
+        within this collection, even if that material is not intended for publication or
+        digitization.</p>
+    </userestrict>
+    <prefercite id="aspace_b26f1332f19c9d8964abd1d69fdb0aae">
+      <head>Preferred Citation</head>
+      <p>[Series], Midwest Migrant Farm Worker Collection, Indiana University Kokomo Campus
+        Archives.</p>
+    </prefercite>
+    <acqinfo id="aspace_cf96ca280a1d50b0d05fd5511e037e10">
+      <head>Immediate Source of Acquisition</head>
+      <p>Donated to the IU Kokomo Campus Archives in 1993 in honor of Cesar Chavez</p>
+    </acqinfo>
+    <processinfo id="aspace_0baadd2bb074d0a66872055735eab775">
+      <head>Processing Information</head>
+      <p>This collection was processed upon acquisition to a minimum standard. Further processing
+        was completed in the spring of 2018.</p>
+    </processinfo>
+    <arrangement id="aspace_e6fbd3c69cf4f6086373aada8a31dd23">
+      <head>Arrangement by Series </head>
+      <p>Audiovisual Boycott Coordination Boycotts Collection Correspondence Midwest Committees
+        Monographs Objects Photographs Press and Publications Research Teamsters United Farm
+        Workers</p>
+    </arrangement>
+    <scopecontent id="aspace_8bc2f92b151c6c6524fc66d22f4ba6b3">
+      <head>Scope and Contents</head>
+      <p>The Midwest Migrant Farm Worker collection largely consists of paper records, objects,
+        monographs, and photographs collected by Dave Cormier, both a faculty member at Indiana
+        University Kokomo and an active organizer in the farm labor movement. He helped to organize
+        and worked with the Great Boycott Committee, later known as the Farm Labor Aid Committee,
+        from 1968 to 1974. Other organizers, including Ricardo Parra and Jose Juarez from St. Joseph
+        County, contributed personal papers. </p>
+      <p>The collection is organized into thirteen series, listed above and detailed further in the
+        following container list. Audiovisual materials and monographs are discoverable in IUCAT,
+        Indiana University Library's catalog, and are stored in the Special Collections Room.
+        Photographs are available in print and have also been digitized to be made available online. </p>
+      <p>As described by Cormier, many of the materials in the collection "depict the confrontative
+        propaganda and protest methods" used in farm worker organizing. The correspondence, research
+        files, and news clippings are complemented by the objects in the collection, notably
+        including buttons, jewelry, and hand-painted signs. </p>
+    </scopecontent>
+    <controlaccess>
+      <subject source="lcsh">Migrant Workers</subject>
+      <subject authfilenumber="sh87007598" source="lcsh">Migrant agricultural laborers -- Labor
+        unions</subject>
+      <subject authfilenumber="sh00005449" source="lcsh">Migrant agricultural laborers --
+        Housing</subject>
+      <subject authfilenumber="sh96009976" source="lcsh">Migrant agricultural laborers -- United
+        States</subject>
+      <subject authfilenumber="sh2010101733" source="lcsh">Migrant agricultural laborers -- Legal
+        status, laws, etc. -- United States</subject>
+      <subject authfilenumber="sh96009928" source="lcsh">Mexican American migrant agricultural
+        laborers</subject>
+      <subject authfilenumber="sh85002346" source="lcsh">Agricultural laborers -- United
+        States</subject>
+      <subject authfilenumber="sh85136525" source="lcsh">Agricultural laborers -- Labor unions --
+        Organizing</subject>
+      <subject authfilenumber="sh85002345" source="lcsh">Agricultural laborers -- Political
+        activity</subject>
+      <subject authfilenumber="sh2009128353" source="lcsh">Labor movement -- United States --
+        History -- 20th century</subject>
+      <persname authfilenumber="n50038224" rules="rda" source="lcnaf">Chavez, Cesar,
+        1927-1993</persname>
+      <corpname authfilenumber="n50057791" source="naf">United Farm Workers</corpname>
+      <corpname authfilenumber="n91008086" source="naf">United Farm Workers of America</corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_1c5f62539f722801c11450c6e014899b" level="series">
+        <did>
+          <unittitle>Boycott Coordination</unittitle>
+          <unitdate datechar="creation" normal="1970/1977" type="inclusive">1970-1977</unitdate>
+          <langmaterial><language langcode="eng">English</language>, <language langcode="spa"
+              >Spanish; Castilian</language>.</langmaterial>
+        </did>
+        <c02 id="aspace_24ad30a5fdc8ec9b1786ef8430f588bc" level="file">
+          <did>
+            <unittitle>Legal Info on Picketing</unittitle>
+            <unitdate datechar="creation" normal="1971/1972" type="inclusive">1971-1972</unitdate>
+            <container id="aspace_de0b14b482fc950264e7cc3cb6543c8b" label="Mixed Materials"
+              type="Box">1</container>
+            <container id="aspace_24e5cfff8b4965b235e69bf3fa1c6a39"
+              parent="aspace_de0b14b482fc950264e7cc3cb6543c8b" type="folder">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_72fd4fd9e80f372ebd9e5ca443920c75" level="file">
+          <did>
+            <unittitle>Local Grape Boycott Kit</unittitle>
+            <unitdate datechar="creation" normal="1973/1973">1973</unitdate>
+            <container id="aspace_63809d5e415313860aa32a3f458dc492" label="Mixed Materials"
+              type="Box">1</container>
+            <container id="aspace_0afc1b769bc79cfc53acac14efab5a48"
+              parent="aspace_63809d5e415313860aa32a3f458dc492" type="folder">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c2a1563720c0e7cbc294a2f05133da14" level="file">
+          <did>
+            <unittitle>Micellaneous</unittitle>
+            <unitdate datechar="other">undated</unitdate>
+            <container id="aspace_cbf552c3a0f04de5370f39d397131b8f" label="Mixed Materials"
+              type="Box">1</container>
+            <container id="aspace_15258c2ccb0164a1bb974289ccf9901f"
+              parent="aspace_cbf552c3a0f04de5370f39d397131b8f" type="folder">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e4405c676baa5fdfbf84fb6a8b011d24" level="file">
+          <did>
+            <unittitle>Miscellaneous</unittitle>
+            <unitdate datechar="creation" normal="1970/1977" type="inclusive">1970-1977</unitdate>
+            <container id="aspace_cb3cac006c1f558635aad0dd18ba87f3" label="Mixed Materials"
+              type="Box">1</container>
+            <container id="aspace_2e2bfa3347569731c692f17a21a86c8f"
+              parent="aspace_cb3cac006c1f558635aad0dd18ba87f3" type="folder">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_9c88aefbf5d128f4c836bb5fb1a6c77f" level="file">
+          <did>
+            <unittitle>New Jersey</unittitle>
+            <unitdate datechar="creation" normal="1971/1975" type="inclusive">1971-1975</unitdate>
+            <container id="aspace_433c35baf3658e1109fdd7c6c3a9f9e4" label="Mixed Materials"
+              type="Box">1</container>
+            <container id="aspace_af6cc35a37ac4c02e36833e3c6249177"
+              parent="aspace_433c35baf3658e1109fdd7c6c3a9f9e4" type="folder">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_2505e0d90c16bc67e5ef8f5ea277e4aa" level="file">
+          <did>
+            <unittitle>New Jersey Materials</unittitle>
+            <unitdate datechar="creation" normal="1973/1973">1973</unitdate>
+            <container id="aspace_6f155d0b850df5b3ee02f4d584b2bb5a" label="Mixed Materials"
+              type="Box">1</container>
+            <container id="aspace_77b9ae50bef49106a0b2c00416a41978"
+              parent="aspace_6f155d0b850df5b3ee02f4d584b2bb5a" type="folder">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3dbdab0b0bd929157e11f009b454136f" level="file">
+          <did>
+            <unittitle>Pennsylvania Counties</unittitle>
+            <unitdate datechar="creation" normal="1974/1974">1974</unitdate>
+            <container id="aspace_ae1c391942926961407b51e702fe1575" label="Mixed Materials"
+              type="Box">1</container>
+            <container id="aspace_9a0fdec0c52d3bf9e87c2f4c9237585b"
+              parent="aspace_ae1c391942926961407b51e702fe1575" type="folder">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_9ee796823da16b9f3d8929874a06da91" level="file">
+          <did>
+            <unittitle>Pittsburgh</unittitle>
+            <unitdate datechar="creation" normal="1973/1977" type="inclusive">1973-1977</unitdate>
+            <container id="aspace_7e28f536f090a277464fe6a0fc2e3d43" label="Mixed Materials"
+              type="Box">1</container>
+            <container id="aspace_1b9ed0e7b618cf2397c8df3b8a6a6f7a"
+              parent="aspace_7e28f536f090a277464fe6a0fc2e3d43" type="folder">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d9d0bcfcba5f4d0f522fdf36e3a2ab84" level="file">
+          <did>
+            <unittitle>Store Information</unittitle>
+            <unitdate datechar="creation" normal="1972/1974" type="inclusive">1972-1974</unitdate>
+            <container id="aspace_01a446c9a6c5170b5fb91f6f21a72a30" label="Mixed Materials"
+              type="Box">1</container>
+            <container id="aspace_e7cad5cfdc26ebeedc7d9d7412391ff0"
+              parent="aspace_01a446c9a6c5170b5fb91f6f21a72a30" type="folder">9</container>
+          </did>
+        </c02>
+        <c02 id="aspace_88246dd4560242c48ac4a0472098fa09" level="file">
+          <did>
+            <unittitle>Volunteer Contacts</unittitle>
+            <unitdate datechar="creation" normal="1973/1974" type="inclusive">1973-1974</unitdate>
+            <container id="aspace_c09f5fdac2c93665323bc30f4f06432e" label="Mixed Materials"
+              type="Box">1</container>
+            <container id="aspace_24f972b72c65954560c7ac86832f7dd5"
+              parent="aspace_c09f5fdac2c93665323bc30f4f06432e" type="folder">10</container>
+          </did>
+        </c02>
+        <c02 id="aspace_41c6893f6959ed174591322e7777725d" level="file">
+          <did>
+            <unittitle>Westmoreland</unittitle>
+            <unitdate datechar="creation" normal="1972/1974" type="inclusive">1972-1974</unitdate>
+            <container id="aspace_5ca3132e29e664a5128723baf9ccc42e" label="Mixed Materials"
+              type="Box">1</container>
+            <container id="aspace_7dd6aa62b58d85c33411c4a2dadbf206"
+              parent="aspace_5ca3132e29e664a5128723baf9ccc42e" type="folder">11</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_985ae32ce12594ce5b996e68dbc09462" level="series">
+        <did>
+          <unittitle>Boycotts</unittitle>
+          <unitdate datechar="creation" normal="1966/1983" type="inclusive">1966-1983</unitdate>
+          <langmaterial><language langcode="eng">English</language>, <language langcode="spa"
+              >Spanish; Castilian</language>.</langmaterial>
+        </did>
+        <c02 id="aspace_d895bc26d602c50b6a11cce1977c3875" level="file">
+          <did>
+            <unittitle>A&amp;P Boycott</unittitle>
+            <unitdate datechar="creation" normal="1972/1973" type="inclusive">1972-1973</unitdate>
+            <container id="aspace_7dbd1cea7cfc0f9029a0baa75ca0c8a6" label="Mixed Materials"
+              type="Box">1</container>
+            <container id="aspace_580bad8e4b6e22451245c810424510cc"
+              parent="aspace_7dbd1cea7cfc0f9029a0baa75ca0c8a6" type="folder">12</container>
+          </did>
+        </c02>
+        <c02 id="aspace_41037eb4bca8b90c028436b0014724bf" level="file">
+          <did>
+            <unittitle>Boycott Community</unittitle>
+            <unitdate datechar="creation" normal="1969/1972" type="inclusive">1969-1972</unitdate>
+            <container id="aspace_da0c55ec8851e0e4efab0023dc8e561a" label="Mixed Materials"
+              type="Box">1</container>
+            <container id="aspace_78b0aeefcce2c85158ea2651b5594415"
+              parent="aspace_da0c55ec8851e0e4efab0023dc8e561a" type="folder">13</container>
+          </did>
+        </c02>
+        <c02 id="aspace_31250d610a268f2850712b33bf9e0a02" level="file">
+          <did>
+            <unittitle>Boycott Promotional Materials</unittitle>
+            <unitdate datechar="creation" normal="1968/1977" type="inclusive">1968-1977</unitdate>
+            <container id="aspace_3f96e6285e1d41dbfaca3f32267eb3af" label="Mixed Materials"
+              type="Box">1</container>
+            <container id="aspace_415f5b9cb8f31425a8f3863afefb83f3"
+              parent="aspace_3f96e6285e1d41dbfaca3f32267eb3af" type="folder">14</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ae770ef6b27aa0291849f2f592401871" level="file">
+          <did>
+            <unittitle>Gallo Wine Boycott</unittitle>
+            <unitdate datechar="creation" normal="1972/1975" type="inclusive">1972-1975</unitdate>
+            <container id="aspace_4bdd1316e90b6618780064d181329722" label="Mixed Materials"
+              type="Box">1</container>
+            <container id="aspace_92eb1a2fb8cd8d2838b4ff330bd27ba3"
+              parent="aspace_4bdd1316e90b6618780064d181329722" type="folder">15</container>
+          </did>
+        </c02>
+        <c02 id="aspace_4e59c5e6eeadf93113d143ad07ef5ca0" level="file">
+          <did>
+            <unittitle>Grape Boycott</unittitle>
+            <unitdate datechar="creation" normal="1968/1973" type="inclusive">1968-1973</unitdate>
+            <container id="aspace_1ce77f54b2ae7103cf1a1db61d7c47ae" label="Mixed Materials"
+              type="Box">1</container>
+            <container id="aspace_6d61613562f3036661946d4de57b8f5f"
+              parent="aspace_1ce77f54b2ae7103cf1a1db61d7c47ae" type="folder">16</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f649a0900927bbf5dab3828b46df8744" level="file">
+          <did>
+            <unittitle>Indiana Grape Boycotts</unittitle>
+            <unitdate datechar="creation" normal="1966/1971" type="inclusive">1966-1971</unitdate>
+            <container id="aspace_79d2711e12416d1c4650fcd917c5d4a4" label="Mixed Materials"
+              type="Box">1</container>
+            <container id="aspace_51b6118d4c7d0963d2e85a050eb28d87"
+              parent="aspace_79d2711e12416d1c4650fcd917c5d4a4" type="folder">17</container>
+          </did>
+        </c02>
+        <c02 id="aspace_5cc29040f0d3a46c55b753d32c9aab98" level="file">
+          <did>
+            <unittitle>Lettuce Boycott</unittitle>
+            <unitdate datechar="creation" normal="1970/1980" type="inclusive">1970-1980</unitdate>
+            <container id="aspace_e802251ca14abb89b46be02b379be8df" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_ec9df8d302bfc4bc78a77bd335962dbc"
+              parent="aspace_e802251ca14abb89b46be02b379be8df" type="folder">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_bf445820c1182b8e690749824d0689aa" level="file">
+          <did>
+            <unittitle>Lettuce Boycott</unittitle>
+            <unitdate datechar="creation" normal="1971/1973" type="inclusive">1971-1973</unitdate>
+            <container id="aspace_f847ccb4562be1210f0ff2460ad2e0c1" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_8ae142363263b9f1397610e73a236a6b"
+              parent="aspace_f847ccb4562be1210f0ff2460ad2e0c1" type="folder">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_af7f22f472753de80818edc53e8180ed" level="file">
+          <did>
+            <unittitle>Midwest Boycott Activities</unittitle>
+            <unitdate datechar="creation" normal="1968/1976" type="inclusive">1968-1976</unitdate>
+            <container id="aspace_44ea46444edd130f6e0c5b5ddc30fa45" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_84f7887983d027cf88533dc6713ba50e"
+              parent="aspace_44ea46444edd130f6e0c5b5ddc30fa45" type="folder">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_fa9aba4a9416af0e11846bed1f46d82c" level="file">
+          <did>
+            <unittitle>New Jersey Boycott</unittitle>
+            <unitdate datechar="creation" normal="1972/1973" type="inclusive">1972-1973</unitdate>
+            <container id="aspace_2dfe2f21af2fdddad49ea72ba384c1f1" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_585f69d46631bb1184d7d27755bf2114"
+              parent="aspace_2dfe2f21af2fdddad49ea72ba384c1f1" type="folder">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f771e86e37c3862ab9394accfa194a0c" level="file">
+          <did>
+            <unittitle>New Jersey Handouts</unittitle>
+            <unitdate datechar="creation" normal="1970/1975" type="inclusive">1970-1975</unitdate>
+            <container id="aspace_329cb9b38e4e413ff77a48c82b20752b" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_1ecad6ba1b40177fd24e48e16df7f591"
+              parent="aspace_329cb9b38e4e413ff77a48c82b20752b" type="folder">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_075447291b889490b5123663704c4fe2" level="file">
+          <did>
+            <unittitle>New York Boycott Study</unittitle>
+            <unitdate datechar="other">undated</unitdate>
+            <container id="aspace_4f7270b0466beff3a4512d34b0bd4eaa" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_22ee6a54e4335e1502754468295e86ae"
+              parent="aspace_4f7270b0466beff3a4512d34b0bd4eaa" type="folder">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_73c877c3cb442f25ae5d59a565607287" level="file">
+          <did>
+            <unittitle>Opposition to Boycotts</unittitle>
+            <unitdate datechar="creation" normal="1968/1974" type="inclusive">1968-1974</unitdate>
+            <container id="aspace_bd0d1ae7241c70e70462aa259977b046" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_130acca8b890281f90510298fac8518c"
+              parent="aspace_bd0d1ae7241c70e70462aa259977b046" type="folder">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_7e71019f1226caab66e159894f40551b" level="file">
+          <did>
+            <unittitle>Pittsburgh Boycott Publicity </unittitle>
+            <unitdate datechar="creation" normal="1970/1977" type="inclusive">1970-1977</unitdate>
+            <container id="aspace_68c755557be1cbebf02480cf98e1a8ce" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_b918ae66436c2e30e8fcd872debde2fb"
+              parent="aspace_68c755557be1cbebf02480cf98e1a8ce" type="folder">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_036d9cf024c4ea4fd7bc917304bfd2ea" level="file">
+          <did>
+            <unittitle>Print Media for Grape Boycott</unittitle>
+            <unitdate datechar="creation" normal="1967/1983" type="inclusive">1967-1983</unitdate>
+            <container id="aspace_c05710b93d4d1b0a15c3ed1b5e6180f3" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_89107bba1350e1c3d11a2d0d77568641"
+              parent="aspace_c05710b93d4d1b0a15c3ed1b5e6180f3" type="folder">9</container>
+          </did>
+        </c02>
+        <c02 id="aspace_63664b56bf9793f48189d56825abb098" level="file">
+          <did>
+            <unittitle>Promotional Items for Boycotts</unittitle>
+            <unitdate datechar="other">undated</unitdate>
+            <container id="aspace_9b356de4205c2c222d2c6f1a5c4996b4" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_70122ad00b7b0a5adcacbf9b1a9cc99a"
+              parent="aspace_9b356de4205c2c222d2c6f1a5c4996b4" type="folder">10</container>
+          </did>
+        </c02>
+        <c02 id="aspace_0302be2f245ff4571575074d2e4ef2b7" level="file">
+          <did>
+            <unittitle>Support for Lettuce Boycott</unittitle>
+            <unitdate datechar="other">undated</unitdate>
+            <container id="aspace_840981035a68ab02bb90c5c3cbda4ddc" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_f809412b3932de39170c46370b777e96"
+              parent="aspace_840981035a68ab02bb90c5c3cbda4ddc" type="folder">11</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_1e738ca00a5ac897d78d097d17cdf9c5" level="series">
+        <did>
+          <unittitle>Collection</unittitle>
+          <unitdate datechar="creation" normal="1993/1996" type="inclusive">1993-1996</unitdate>
+          <langmaterial><language langcode="eng">English</language>.</langmaterial>
+        </did>
+        <c02 id="aspace_6a05ed84994196c5e590047cbdb2a1e7" level="file">
+          <did>
+            <unittitle>Dedication</unittitle>
+            <unitdate datechar="creation" normal="1993/1996" type="inclusive">1993-1996</unitdate>
+            <container id="aspace_8f1c253b8d5c490e502479f9bc51bf3e" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_b512fd244535e34e7266f50d09f35da6"
+              parent="aspace_8f1c253b8d5c490e502479f9bc51bf3e" type="folder">12</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f8094445b8b95fa80471909d4a12ee74" level="file">
+          <did>
+            <unittitle>Fundraising</unittitle>
+            <unitdate datechar="creation" normal="1995/1995">1995</unitdate>
+            <container id="aspace_62aa1ddb182e335a18a50a2b4ad0c44d" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_f1f9777beaf24c7010c25e532dd4654c"
+              parent="aspace_62aa1ddb182e335a18a50a2b4ad0c44d" type="folder">13</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e587e20915815a06e160159d30480bd7" level="file">
+          <did>
+            <unittitle>Previous Box Lists</unittitle>
+            <unitdate datechar="other">undated</unitdate>
+            <container id="aspace_9b024edc261861ea8969bf16d597914f" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_36e0e03f10dda0e8f2fa9f21a180ce43"
+              parent="aspace_9b024edc261861ea8969bf16d597914f" type="folder">14</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_da58c5b2697222c28ca4b5a10e9a329a" level="series">
+        <did>
+          <unittitle>Correspondence</unittitle>
+          <unitdate datechar="creation" normal="1971/1977" type="inclusive">1971-1977</unitdate>
+          <langmaterial><language langcode="eng">English</language>, <language langcode="spa"
+              >Spanish; Castilian</language>.</langmaterial>
+        </did>
+        <c02 id="aspace_e602b0a96b8ff6fafedc55b4b987fc10" level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+            <unitdate datechar="creation" normal="1971/1977" type="inclusive">1971-1977</unitdate>
+            <container id="aspace_fdc364f33dce5c273b25b011a5abea21" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_b7cb7d0aaf5b154291258621602d46c7"
+              parent="aspace_fdc364f33dce5c273b25b011a5abea21" type="folder">14</container>
+          </did>
+        </c02>
+        <c02 id="aspace_08dd22423ea0d9f0380055c48517063b" level="file">
+          <did>
+            <unittitle>Correspondence signed by Cesar Chavez</unittitle>
+            <unitdate datechar="creation" normal="1971/1971">1971</unitdate>
+            <container id="aspace_2dc02875269137337070d043ec23bbe6" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_8a9908d6b485d82df030f5e5bef256b2"
+              parent="aspace_2dc02875269137337070d043ec23bbe6" type="folder">15</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_4cb5382df446cbaca43a9f218c3cfb9a" level="series">
+        <did>
+          <unittitle>Midwest Committees</unittitle>
+          <unitdate datechar="creation" normal="1969/1973" type="inclusive">1969-1973</unitdate>
+          <langmaterial><language langcode="eng">English</language>, <language langcode="spa"
+              >Spanish; Castilian</language>.</langmaterial>
+        </did>
+        <c02 id="aspace_f7c188da5ba6e4f0fdc155003bce3c0b" level="file">
+          <did>
+            <unittitle>Farm Labor Aid Committee</unittitle>
+            <unitdate datechar="creation" normal="1969/1972" type="inclusive">1969-1972</unitdate>
+            <container id="aspace_b14142cc8701d78ab73598158d0b3447" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_ce0cfc3dfa9d0bd6d87f93d59207cfcd"
+              parent="aspace_b14142cc8701d78ab73598158d0b3447" type="folder">16</container>
+          </did>
+        </c02>
+        <c02 id="aspace_271f0ceba6ab9d0483df486998037e5b" level="file">
+          <did>
+            <unittitle>Farm Labor Aid Committee</unittitle>
+            <unitdate datechar="creation" normal="1971/1971">1971</unitdate>
+            <container id="aspace_5b57a0118cbc0a2834590cb3a3c6b986" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_e776b710d27061ba0a27aba14f779209"
+              parent="aspace_5b57a0118cbc0a2834590cb3a3c6b986" type="folder">17</container>
+          </did>
+        </c02>
+        <c02 id="aspace_8ad5d36767816964160c9fc5a27cc8cb" level="file">
+          <did>
+            <unittitle>Farm Labor Assistance Committee</unittitle>
+            <unitdate datechar="creation" normal="1970/1973" type="inclusive">1970-1973</unitdate>
+            <container id="aspace_e614b5c6fedaafccfa4f6d7a67f5e030" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_c157356cf9303e5058b5c95836beeb9f"
+              parent="aspace_e614b5c6fedaafccfa4f6d7a67f5e030" type="folder">18</container>
+          </did>
+        </c02>
+        <c02 id="aspace_09aa1026db9776f53fb96ffd4a97b0ab" level="file">
+          <did>
+            <unittitle>Farm Workers Legal Rights Project</unittitle>
+            <unitdate datechar="creation" normal="1971/1972" type="inclusive">1971-1972</unitdate>
+            <container id="aspace_6f6cec9993dafcd9ac26f4a77423542f" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_94bb96fa8aab36327703b7588ba28689"
+              parent="aspace_6f6cec9993dafcd9ac26f4a77423542f" type="folder">19</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_38878f22d22531271a517f03a846871f" level="series">
+        <did>
+          <unittitle>Press and Publications</unittitle>
+          <unitdate datechar="creation" normal="1969/1993" type="inclusive">1969-1993</unitdate>
+          <langmaterial><language langcode="eng">English</language>, <language langcode="spa"
+              >Spanish; Castilian</language>.</langmaterial>
+        </did>
+        <c02 id="aspace_b8c491d86b0d3915f73045ca8e0331f9" level="file">
+          <did>
+            <unittitle>Assorted Newspaper Clippings</unittitle>
+            <unitdate datechar="creation" normal="1966/1983" type="inclusive">1966-1983</unitdate>
+            <container id="aspace_cf996f09a7e7d9707cd954a19a4acf95" label="Mixed Materials"
+              type="Box">2</container>
+            <container id="aspace_dc2414c24e443b1b866e852208a39942"
+              parent="aspace_cf996f09a7e7d9707cd954a19a4acf95" type="folder">20</container>
+          </did>
+        </c02>
+        <c02 id="aspace_6bd497c38dd307e321efb9ae600688ed" level="file">
+          <did>
+            <unittitle>Migrant Legal Action Book / by Thomas R. Ewald</unittitle>
+            <unitdate datechar="other">undated</unitdate>
+            <container id="aspace_e0f4db2782de32dd5598ec41454bbe81" label="Mixed Materials"
+              type="Box">3</container>
+            <container id="aspace_36536d609f6208ab61691117442a2052"
+              parent="aspace_e0f4db2782de32dd5598ec41454bbe81" type="folder">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_655b54338bc560b70736c887e35533d9" level="file">
+          <did>
+            <unittitle>Cesar Chavez - Press and Statements</unittitle>
+            <unitdate datechar="publication" normal="1969/1993" type="inclusive"
+              >1969-1993</unitdate>
+            <container id="aspace_9c164f1981b56b826763bffff1d086a7" label="Mixed Materials"
+              type="Box">3</container>
+            <container id="aspace_42975bb6760f417faafd68c25aa34621"
+              parent="aspace_9c164f1981b56b826763bffff1d086a7" type="folder">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_59227e16432ac4ee4b5d7f53fee8f48b" level="file">
+          <did>
+            <unittitle>El Malcriado Publications</unittitle>
+            <unitdate datechar="publication" normal="1969/1974" type="inclusive"
+              >1969-1974</unitdate>
+            <container id="aspace_402e0df912271f095991c425b0759490" label="Mixed Materials"
+              type="Box">3</container>
+            <container id="aspace_efcc05bb7f693b8c92c98295b3f8515e"
+              parent="aspace_402e0df912271f095991c425b0759490" type="folder">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_abc0c2afdff8bd55afe3d9cc752d6199" level="file">
+          <did>
+            <unittitle>Hispanic Movement</unittitle>
+            <unitdate datechar="publication" normal="1970/1973" type="inclusive"
+              >1970-1973</unitdate>
+            <container id="aspace_553025ad656b85852e03739fd12bfbd9" label="Mixed Materials"
+              type="Box">3</container>
+            <container id="aspace_a629fd2e7e222621d0145e033a5fab40"
+              parent="aspace_553025ad656b85852e03739fd12bfbd9" type="folder">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_700a575a8e4aaebde7c16f3644c0227d" level="file">
+          <did>
+            <unittitle>Leaflets</unittitle>
+            <unitdate datechar="publication" normal="1973/1974" type="inclusive"
+              >1973-1974</unitdate>
+            <container id="aspace_964b9f4d8796f03db29793ae5db06c21" label="Mixed Materials"
+              type="Box">3</container>
+            <container id="aspace_ad827d9d30eab466057dc2fc59b44dca"
+              parent="aspace_964b9f4d8796f03db29793ae5db06c21" type="folder">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_6a6a7d6dfa452747da2dbaca965f0ab4" level="file">
+          <did>
+            <unittitle>Leaflet Originals</unittitle>
+            <unitdate datechar="publication" normal="1972/1973" type="inclusive"
+              >1972-1973</unitdate>
+            <container id="aspace_ccd72ea8fc917903724a238d3a4c4a96" label="Mixed Materials"
+              type="Box">3</container>
+            <container id="aspace_6f0d05ae29cf09af59b75875a1ca43db"
+              parent="aspace_ccd72ea8fc917903724a238d3a4c4a96" type="folder">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e33b832837d0164e6f97d579fb01ecf0" level="file">
+          <did>
+            <unittitle>Newsletters</unittitle>
+            <unitdate datechar="publication" normal="1969/1977" type="inclusive"
+              >1969-1977</unitdate>
+            <container id="aspace_cf0f6cc6af796d0a60813bda79ed273a" label="Mixed Materials"
+              type="Box">3</container>
+            <container id="aspace_98ec15f720b6eea6d0a8b92535ebe6d6"
+              parent="aspace_cf0f6cc6af796d0a60813bda79ed273a" type="folder">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_5d417d8ffde41093c2ce8c042f6e09f4" level="file">
+          <did>
+            <unittitle>Paper Items</unittitle>
+            <unitdate datechar="creation" normal="1971/1993" type="inclusive">1971-1993</unitdate>
+            <container id="aspace_092736ad60fe7d1727e12b1015a821fa" label="Mixed Materials"
+              type="Box">3</container>
+            <container id="aspace_da90c138540175d9745200e5eafbdd9a"
+              parent="aspace_092736ad60fe7d1727e12b1015a821fa" type="folder">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3470aa9b17251e4fef8cc5eec8d063ab" level="file">
+          <did>
+            <unittitle>Radical Press</unittitle>
+            <unitdate datechar="other" normal="1973/1974" type="inclusive">1973-1974</unitdate>
+            <container id="aspace_edb53cf535e2dad2373cdd31fd026307" label="Mixed Materials"
+              type="Box">3</container>
+            <container id="aspace_d5bbf5df4adb6907b6e804adf5778855"
+              parent="aspace_edb53cf535e2dad2373cdd31fd026307" type="folder">9</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_73729a1ecb1b46571685b4e4d14a0826" level="series">
+        <did>
+          <unittitle>Research</unittitle>
+          <unitdate datechar="creation" normal="1963/1983" type="inclusive">1963-1983</unitdate>
+          <langmaterial><language langcode="eng">English</language>, <language langcode="spa"
+              >Spanish; Castilian</language>.</langmaterial>
+        </did>
+        <c02 id="aspace_ee99cd81240b383129064e0f55da5f56" level="file">
+          <did>
+            <unittitle>Agribusiness</unittitle>
+            <unitdate datechar="creation" normal="1971/1974" type="inclusive">1971-1974</unitdate>
+            <container id="aspace_ef409974e7c8a3db34e6b2120f4fb0a9" label="Mixed Materials"
+              type="Box">3</container>
+            <container id="aspace_9a970954d45c8216cbbb009a654f0048"
+              parent="aspace_ef409974e7c8a3db34e6b2120f4fb0a9" type="folder">10</container>
+          </did>
+        </c02>
+        <c02 id="aspace_26fa632e9c6816e511599d5ede423329" level="file">
+          <did>
+            <unittitle>Early unionization efforts</unittitle>
+            <unitdate datechar="creation" normal="1969/1975" type="inclusive">1969-1975</unitdate>
+            <container id="aspace_fd268e49cbee016c9fc13b54ae6745ad" label="Mixed Materials"
+              type="Box">3</container>
+            <container id="aspace_8b6fe5a6b3a3bcf53b29d89c0e555b00"
+              parent="aspace_fd268e49cbee016c9fc13b54ae6745ad" type="folder">11</container>
+          </did>
+        </c02>
+        <c02 id="aspace_21d24bb9d007649bd183c75ef11801a7" level="file">
+          <did>
+            <unittitle>Farm Bureau</unittitle>
+            <unitdate datechar="creation" normal="1971/1973" type="inclusive">1971-1973</unitdate>
+            <container id="aspace_4301134b1497d9d606cca00ba0d1a2a7" label="Mixed Materials"
+              type="Box">3</container>
+            <container id="aspace_cb7253dfc64d36cd492d5e2024fdfbf1"
+              parent="aspace_4301134b1497d9d606cca00ba0d1a2a7" type="folder">12</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ec1ff3ba25b1b175733c97ca14a4ed7c" level="file">
+          <did>
+            <unittitle>Farm Labor Reports</unittitle>
+            <unitdate datechar="creation" normal="1966/1983" type="inclusive">1966-1983</unitdate>
+            <container id="aspace_53579088254f4ed00acceab677774249" label="Mixed Materials"
+              type="Box">3</container>
+            <container id="aspace_af63ecabdef4e44c6526a57253536708"
+              parent="aspace_53579088254f4ed00acceab677774249" type="folder">13</container>
+          </did>
+        </c02>
+        <c02 id="aspace_34ff0f7ff3452ce99a1995e0fd8f75f0" level="file">
+          <did>
+            <unittitle>Farm Labor Study</unittitle>
+            <unitdate datechar="creation" normal="1970/1973" type="inclusive">1970-1973</unitdate>
+            <container id="aspace_a5de2f6c471d5a7ea081c327f9334467" label="Mixed Materials"
+              type="Box">3</container>
+            <container id="aspace_770385ca8044802d4dac3ec9b12af76f"
+              parent="aspace_a5de2f6c471d5a7ea081c327f9334467" type="folder">14</container>
+          </did>
+        </c02>
+        <c02 id="aspace_0526b5c126d94016bf4e558b40818a4f" level="file">
+          <did>
+            <unittitle>Farm Workers Legal Rights Notes 1</unittitle>
+            <unitdate datechar="creation" normal="1972/1972">1972</unitdate>
+            <container id="aspace_d0d7165cf9a21d97065ae9f49f79d3db" label="Mixed Materials"
+              type="Box">3</container>
+            <container id="aspace_fd6813f200e8d6ec3fdd62cdb0e9ff4e"
+              parent="aspace_d0d7165cf9a21d97065ae9f49f79d3db" type="folder">15</container>
+          </did>
+        </c02>
+        <c02 id="aspace_553787912db830c2fbe344431a381f6e" level="file">
+          <did>
+            <unittitle>Farmworker Reform</unittitle>
+            <unitdate datechar="creation" normal="1970/1973" type="inclusive">1970-1973</unitdate>
+            <container id="aspace_5403e872b68c9532891d2662615e49db" label="Mixed Materials"
+              type="Box">3</container>
+            <container id="aspace_f3d53499e87a6a7e7bb13c372fd8a6bf"
+              parent="aspace_5403e872b68c9532891d2662615e49db" type="folder">16</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e0c8c4bd226407ae57dc7cfa834f6bdd" level="file">
+          <did>
+            <unittitle>Florida Farm Workers</unittitle>
+            <unitdate datechar="creation" normal="1973/1973">1973</unitdate>
+            <container id="aspace_0b2158ebd775bb53eea1f320a285aff8" label="Mixed Materials"
+              type="Box">3</container>
+            <container id="aspace_371409da098c7052ec01d62d9fbf0bb9"
+              parent="aspace_0b2158ebd775bb53eea1f320a285aff8" type="folder">17</container>
+          </did>
+        </c02>
+        <c02 id="aspace_09fe083ee41a4f76a7d06990a361ec6a" level="file">
+          <did>
+            <unittitle>Giant Eagle Grocery</unittitle>
+            <unitdate datechar="creation" normal="1973/1974" type="inclusive">1973-1974</unitdate>
+            <container id="aspace_45e6ad01dacc89b313db3ce65288cd4e" label="Mixed Materials"
+              type="Box">3</container>
+            <container id="aspace_93965c7b4003d338732b9982e54dd95f"
+              parent="aspace_45e6ad01dacc89b313db3ce65288cd4e" type="folder">18</container>
+          </did>
+        </c02>
+        <c02 id="aspace_4aac0d36aa65ee97de39361811e559cf" level="file">
+          <did>
+            <unittitle>Indiana Legislature</unittitle>
+            <unitdate datechar="creation" normal="1971/1974" type="inclusive">1971-1974</unitdate>
+            <container id="aspace_e0dd893956a854e5e7a31e9732d71a7a" label="Mixed Materials"
+              type="Box">3</container>
+            <container id="aspace_912d3dd71fb042eb41d4e37ff5cfb9be"
+              parent="aspace_e0dd893956a854e5e7a31e9732d71a7a" type="folder">19</container>
+          </did>
+        </c02>
+        <c02 id="aspace_2ee7740d4fd9a5cad84d6e0fee6ece71" level="file">
+          <did>
+            <unittitle>Indianapolis</unittitle>
+            <unitdate datechar="creation" normal="1968/1969" type="inclusive">1968-1969</unitdate>
+            <container id="aspace_bf6d0560c4af3a438e7575af58091932" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_6e43b84ec9f57d9397920a0b2b36ac5e"
+              parent="aspace_bf6d0560c4af3a438e7575af58091932" type="folder">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_437dbc063c8bb24a6f78a4e17670e111" level="file">
+          <did>
+            <unittitle>Migrant Farm Workers and Poverty</unittitle>
+            <unitdate datechar="creation" normal="1963/1993" type="inclusive">1963-1993</unitdate>
+            <container id="aspace_2cd0cf83dd6495b72de1d9c924f05041" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_288fb3ef6615a9290a487a50fc4dc710"
+              parent="aspace_2cd0cf83dd6495b72de1d9c924f05041" type="folder">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_9cc4e1518a1b07724174cc935076c99e" level="file">
+          <did>
+            <unittitle>Misc. Social Justice Issues</unittitle>
+            <unitdate datechar="creation" normal="1969/1982" type="inclusive">1969-1982</unitdate>
+            <container id="aspace_7bbb5e484934a8bf627e6e625867f329" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_a077299cf35b5bb1e3c8b79b063d0783"
+              parent="aspace_7bbb5e484934a8bf627e6e625867f329" type="folder">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_83544499a27bcdca8a72385fa60315da" level="file">
+          <did>
+            <unittitle>Morgan Lawsuit</unittitle>
+            <unitdate datechar="creation" normal="1971/1972" type="inclusive">1971-1972</unitdate>
+            <container id="aspace_13907e4931e7a4136aeebf5e1db07291" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_3d4f7351efc333532f7ae24d29970c75"
+              parent="aspace_13907e4931e7a4136aeebf5e1db07291" type="folder">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d34c2a0d7ab59a0e14d0f71d43de7370" level="file">
+          <did>
+            <unittitle>National Labor Relations Board</unittitle>
+            <unitdate datechar="creation" normal="1972/1972">1972</unitdate>
+            <container id="aspace_63cc784d606e786c721f0046b45979ff" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_50fc83995c46e201b36cb1faed97cfae"
+              parent="aspace_63cc784d606e786c721f0046b45979ff" type="folder">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f96a1e79e7dd85d0d7d886d7d0212f3e" level="file">
+          <did>
+            <unittitle>New Jersey Farm Workers</unittitle>
+            <unitdate datechar="creation" normal="1972/1973" type="inclusive">1972-1973</unitdate>
+            <container id="aspace_7a30baed8618d73a807f8b78a3d9ecde" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_7f5b1b448d96403ef62d797f62d3fc47"
+              parent="aspace_7a30baed8618d73a807f8b78a3d9ecde" type="folder">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ab8f8c800fac5510ef7253888108c37c" level="file">
+          <did>
+            <unittitle>Organized Labor</unittitle>
+            <unitdate datechar="creation" normal="1973/1974" type="inclusive">1973-1974</unitdate>
+            <container id="aspace_ef2f263ac66d04a63035eb05b1b3739f" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_559dd3f803bad8d9fcf51771c2ae507a"
+              parent="aspace_ef2f263ac66d04a63035eb05b1b3739f" type="folder">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_df6a8e093b59c4d29375c2f3ab73af77" level="file">
+          <did>
+            <unittitle>Pesticides </unittitle>
+            <unitdate datechar="creation" normal="1965/1974" type="inclusive">1965-1974</unitdate>
+            <container id="aspace_b2f3b6e2e109503c1863e360f64800a7" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_dbf6307d3c6b5da3b7c055bc8f56ac26"
+              parent="aspace_b2f3b6e2e109503c1863e360f64800a7" type="folder">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_56e1017268001a53bcf23d251759ef19" level="file">
+          <did>
+            <unittitle>Pesticides</unittitle>
+            <unitdate datechar="other">undated</unitdate>
+            <container id="aspace_e5c79d32b28f1e5ecdcf439a8934f7b7" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_65630ac85fca13fee1cbf48de6036a49"
+              parent="aspace_e5c79d32b28f1e5ecdcf439a8934f7b7" type="folder">9</container>
+          </did>
+        </c02>
+        <c02 id="aspace_bbb33f61d1acf7fd4af889ef7245f7d9" level="file">
+          <did>
+            <unittitle>Picketing Violence</unittitle>
+            <unitdate datechar="creation" normal="1970/1970">1970</unitdate>
+            <container id="aspace_6a243bed7b96c0a2cf31837222aabbd6" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_44a32e3d7f93fda3cbccd993612b5b0a"
+              parent="aspace_6a243bed7b96c0a2cf31837222aabbd6" type="folder">10</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d3545d388085c8dbbc21a1d69e199123" level="file">
+          <did>
+            <unittitle>Political Issues </unittitle>
+            <unitdate datechar="creation" normal="1967/1975" type="inclusive">1967-1975</unitdate>
+            <container id="aspace_311325d3532bd5c286338b05c5e373aa" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_1f2a74a62d011e0ecd450764b68aeaae"
+              parent="aspace_311325d3532bd5c286338b05c5e373aa" type="folder">11</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d4c5b1f225bc6670a3755b6b74dc4337" level="file">
+          <did>
+            <unittitle>Puerto Rican Farm Workers</unittitle>
+            <unitdate datechar="creation" normal="1973/1973">1973</unitdate>
+            <container id="aspace_166cc4c6a946b77255e11ac3e66b91ed" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_fbeb7b693538e0fdef1a1949f8fbeaaa"
+              parent="aspace_166cc4c6a946b77255e11ac3e66b91ed" type="folder">12</container>
+          </did>
+        </c02>
+        <c02 id="aspace_9c544f4ae55585f268d6e45428d8e4ed" level="file">
+          <did>
+            <unittitle>Safeway</unittitle>
+            <unitdate datechar="creation" normal="1973/1973">1973</unitdate>
+            <container id="aspace_24caf7cf6530a8b0a8602d71fa9c420a" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_0a37231359b86a939ecdbd7a99283b4e"
+              parent="aspace_24caf7cf6530a8b0a8602d71fa9c420a" type="folder">13</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_bd4c61c43dd9bb638fe4f8933b7ba420" level="series">
+        <did>
+          <unittitle>Teamsters</unittitle>
+          <unitdate datechar="creation" normal="1968/1974" type="inclusive">1968-1974</unitdate>
+          <langmaterial><language langcode="eng">English</language>, <language langcode="spa"
+              >Spanish; Castilian</language>.</langmaterial>
+        </did>
+        <c02 id="aspace_187d147268fdce7d093189e00b8cb2ce" level="file">
+          <did>
+            <unittitle>Teamsters</unittitle>
+            <unitdate datechar="creation" normal="1972/1974" type="inclusive">1972-1974</unitdate>
+            <container id="aspace_7218da114f8da062d6cc106dfde1e656" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_5ffcc111a86ec7a5e0553902926453a6"
+              parent="aspace_7218da114f8da062d6cc106dfde1e656" type="folder">14</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3d23469ed44db2aadd0ce5a445256ac4" level="file">
+          <did>
+            <unittitle>Agreements and miscellaneous</unittitle>
+            <unitdate datechar="creation" normal="1970/1971" type="inclusive">1970-1971</unitdate>
+            <container id="aspace_49978931ccd682e6278b95313ba6650f" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_d30cd098eff962a3e44213f54fbb9640"
+              parent="aspace_49978931ccd682e6278b95313ba6650f" type="folder">15</container>
+          </did>
+        </c02>
+        <c02 id="aspace_685f809b27ca22e531149bc4c5a740c2" level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+            <unitdate datechar="creation" normal="1968/1973" type="inclusive">1968-1973</unitdate>
+            <container id="aspace_66f7e0741ec2ef50ff31ea0c82ff60b1" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_11cc4dd3e2361c9dc561b9f8d04d6d47"
+              parent="aspace_66f7e0741ec2ef50ff31ea0c82ff60b1" type="folder">16</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d3731ec29bac9c4dcb7f25a668249a57" level="file">
+          <did>
+            <unittitle>News clippings</unittitle>
+            <unitdate datechar="creation" normal="1970/1973" type="inclusive">1970-1973</unitdate>
+            <container id="aspace_72f9877e4b19543c53523040907317c5" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_360125e38fb652b92612aec4cb79ee6b"
+              parent="aspace_72f9877e4b19543c53523040907317c5" type="folder">17</container>
+          </did>
+        </c02>
+        <c02 id="aspace_57badbf7ff6de55c0898df840b04a437" level="file">
+          <did>
+            <unittitle>News releases and press</unittitle>
+            <unitdate datechar="creation" normal="1971/1974" type="inclusive">1971-1974</unitdate>
+            <container id="aspace_942fd6ebd87fabe51d56e125906e3cf1" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_2dc875325f5ff0fa61ed65653ce81121"
+              parent="aspace_942fd6ebd87fabe51d56e125906e3cf1" type="folder">18</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_13df203a1a834c88b481726507d2555e" level="series">
+        <did>
+          <unittitle>United Farm Workers</unittitle>
+          <unitdate datechar="creation" normal="1967/1996" type="inclusive">1967-1996</unitdate>
+          <langmaterial><language langcode="eng">English</language>, <language langcode="spa"
+              >Spanish; Castilian</language>.</langmaterial>
+        </did>
+        <c02 id="aspace_602fe361dade8851417c0a1dd1ea566e" level="file">
+          <did>
+            <unittitle>Constitutional Convention</unittitle>
+            <unitdate datechar="creation" normal="1969/1973" type="inclusive">1969-1973</unitdate>
+            <container id="aspace_93c87cb79563d520fab4f6d0823d1c81" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_45aed52c138912e29df01e1c44f16c26"
+              parent="aspace_93c87cb79563d520fab4f6d0823d1c81" type="folder">19</container>
+          </did>
+        </c02>
+        <c02 id="aspace_40530a20694dd76e97454659652e36a0" level="file">
+          <did>
+            <unittitle>Delano Grape Strike</unittitle>
+            <unitdate datechar="creation" normal="1967/1973" type="inclusive">1967-1973</unitdate>
+            <container id="aspace_94f3cce4ceb557e53917e1b0c7f76f86" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_b65c54708e0d77196bcaefb137adee78"
+              parent="aspace_94f3cce4ceb557e53917e1b0c7f76f86" type="folder">20</container>
+          </did>
+        </c02>
+        <c02 id="aspace_59888b88c7ae1e7efeb43957c1a4fbd7" level="file">
+          <did>
+            <unittitle>Delano Grape Strike</unittitle>
+            <unitdate datechar="other">undated</unitdate>
+            <container id="aspace_56b8c8f9527abb5321155745c2873cf8" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_ef15f2b6dba93f1ce9c39ee3f0cae33a"
+              parent="aspace_56b8c8f9527abb5321155745c2873cf8" type="folder">21</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e665927f79a0b367e55f1feb66a474b4" level="file">
+          <did>
+            <unittitle>Opposition to UFW </unittitle>
+            <unitdate datechar="creation" normal="1968/1974" type="inclusive">1968-1974</unitdate>
+            <container id="aspace_073483531e286507f8419c512232081f" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_34fd251c62687dbe757e2f7169cb1623"
+              parent="aspace_073483531e286507f8419c512232081f" type="folder">22</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ae95798951be9b4d52a10a37d60715cc" level="file">
+          <did>
+            <unittitle>Proposition 22</unittitle>
+            <unitdate datechar="creation" normal="1971/1972" type="inclusive">1971-1972</unitdate>
+            <container id="aspace_86b1dfbe8fde20120d0a4588d5bfad77" label="Mixed Materials"
+              type="Box">4</container>
+            <container id="aspace_ae03e8950f5b4c5947fd9152e18a5ab6"
+              parent="aspace_86b1dfbe8fde20120d0a4588d5bfad77" type="folder">23</container>
+          </did>
+        </c02>
+        <c02 id="aspace_cd2141ebed682997a5b4df356df7c59a" level="file">
+          <did>
+            <unittitle>Support from Religious Organizations</unittitle>
+            <unitdate datechar="creation" normal="1968/1977" type="inclusive">1968-1977</unitdate>
+            <container id="aspace_1f328cbea95e4a60ee05ca99b59972e4" label="Mixed Materials"
+              type="Box">5</container>
+            <container id="aspace_399729bcefde6f35f59937ffa8672fc1"
+              parent="aspace_1f328cbea95e4a60ee05ca99b59972e4" type="folder">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_54a76cf061d2d8133fbbfe62a4465166" level="file">
+          <did>
+            <unittitle>Support for UFW</unittitle>
+            <unitdate datechar="creation" normal="1968/1974" type="inclusive">1968-1974</unitdate>
+            <container id="aspace_42904e1a473022170cddb8c45ca13e03" label="Mixed Materials"
+              type="Box">5</container>
+            <container id="aspace_5e1851afa6ba32ea171e4dc7a2ffb226"
+              parent="aspace_42904e1a473022170cddb8c45ca13e03" type="folder">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_47938dd28a17552756d4c3c5a84e8e73" level="file">
+          <did>
+            <unittitle>UFW First Constitutional Convention</unittitle>
+            <unitdate datechar="creation" normal="1973/1973">1973</unitdate>
+            <container id="aspace_32daf6c940eeb3d74a5f83752437a9c0" label="Mixed Materials"
+              type="Box">5</container>
+            <container id="aspace_8d494525c6aff37ec5e319854a446207"
+              parent="aspace_32daf6c940eeb3d74a5f83752437a9c0" type="folder">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_5bd52c6fd47c92baa4795c2635c09dc9" level="file">
+          <did>
+            <unittitle>UFW First Constitutional Convention</unittitle>
+            <unitdate datechar="creation" normal="1973/1973" type="inclusive">1973</unitdate>
+            <container id="aspace_4393c7ca0afe03f2b7b121d25b8d616f" label="Mixed Materials"
+              type="Box">5</container>
+            <container id="aspace_c2d0e248ceaeb0881dfe31de2298f9eb"
+              parent="aspace_4393c7ca0afe03f2b7b121d25b8d616f" type="folder">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_899c45f1a5744fad41b621f8fdbadf9c" level="file">
+          <did>
+            <unittitle>UFW General History</unittitle>
+            <unitdate datechar="creation" normal="1967/1975" type="inclusive">1967-1975</unitdate>
+            <container id="aspace_1e652ff068a8506f9b77d3f0da9753d0" label="Mixed Materials"
+              type="Box">5</container>
+            <container id="aspace_4d04d93afce0639553a951a407cd732e"
+              parent="aspace_1e652ff068a8506f9b77d3f0da9753d0" type="folder">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_8fa8b93cf1466eaeb4e5923d27837051" level="file">
+          <did>
+            <unittitle>UFW Materials </unittitle>
+            <unitdate datechar="creation" normal="1969/1996" type="inclusive">1969-1996</unitdate>
+            <container id="aspace_d3fb1806ce387e7f043fad92fbe8dd9c" label="Mixed Materials"
+              type="Box">5</container>
+            <container id="aspace_876b6a213bedbe1567ba1902efde2cc0"
+              parent="aspace_d3fb1806ce387e7f043fad92fbe8dd9c" type="folder">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1595b42a0c290564a4acd4329bd55894" level="file">
+          <did>
+            <unittitle>UFWOC</unittitle>
+            <unitdate datechar="creation" normal="1969/1972" type="inclusive">1969-1972</unitdate>
+            <container id="aspace_d172bed2ff39ccf0dfb9b2076ebf2cff" label="Mixed Materials"
+              type="Box">5</container>
+            <container id="aspace_943e6d437169b9270b56db3b718339a9"
+              parent="aspace_d172bed2ff39ccf0dfb9b2076ebf2cff" type="folder">7</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_e983e343b382f4821439c24a1f37100c" level="series">
+        <did>
+          <unittitle>Objects</unittitle>
+          <unitdate datechar="creation" normal="1970/1976" type="inclusive">1970-1976</unitdate>
+        </did>
+        <c02 id="aspace_fe81a98437f0d9ad0aaed60b870ae7a4" level="item">
+          <did>
+            <unittitle>Belt Buckle</unittitle>
+            <unitdate datechar="other">undated</unitdate>
+            <container id="aspace_379aa35512767d76f74a422b7f11ff82" label="Realia" type="Box"
+              >5</container>
+            <container id="aspace_6a7dcca6686147779d839b17b24e8ee2"
+              parent="aspace_379aa35512767d76f74a422b7f11ff82" type="box">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_09c0bfe155436f919bc1c0bca99b14a3" level="item">
+          <did>
+            <unittitle>Farm Worker Support Buttons</unittitle>
+            <unitdate datechar="creation" normal="1975/1976" type="inclusive">1975-1976</unitdate>
+            <container id="aspace_6b142d7aa24fd833f4047d6fad783617" label="Realia" type="Box"
+              >5</container>
+            <container id="aspace_086c8452fa8e7066ebc697102392afa8"
+              parent="aspace_6b142d7aa24fd833f4047d6fad783617" type="box">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c1e649b7cd96776f63a978c8a2803ff4" level="item">
+          <did>
+            <unittitle>Grape Boycott Buttons</unittitle>
+            <unitdate datechar="other">undated</unitdate>
+            <container id="aspace_dcb1353090c599983998dcaa5fde3189" label="Realia" type="Box"
+              >5</container>
+            <container id="aspace_90e5b42fd7e06df853c071106fb06bbe"
+              parent="aspace_dcb1353090c599983998dcaa5fde3189" type="box">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_37611ddb0ad7b8b0852c2df03ca8916f" level="item">
+          <did>
+            <unittitle>Lettuce Boycott Buttons </unittitle>
+            <unitdate datechar="other">undated</unitdate>
+            <container id="aspace_e7d7f1954aae09588ed7680cf165b026" label="Realia" type="Box"
+              >5</container>
+            <container id="aspace_295e9b0c02993439cd0b9e6e804398fa"
+              parent="aspace_e7d7f1954aae09588ed7680cf165b026" type="box">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b7a83e259cab67ac104eba1ceb19241e" level="item">
+          <did>
+            <unittitle>Photographs</unittitle>
+            <unitdate datechar="creation" normal="1972/1975" type="inclusive">1972-1975</unitdate>
+            <container id="aspace_f00c82b3b97ec6b1a525ed1a240e5346" label="Graphic Materials"
+              type="Box">5</container>
+            <container id="aspace_17a26fdb2aeee50082e7bbdad58bf43c"
+              parent="aspace_f00c82b3b97ec6b1a525ed1a240e5346" type="folder">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d3ed92277102464ea78e747d8e268ac6" level="item">
+          <did>
+            <unittitle>Photographs</unittitle>
+            <unitdate datechar="creation" normal="1972/1975" type="inclusive">1972-1975</unitdate>
+            <container id="aspace_ba275522e80ceadb39f0dee74d167980" label="Realia" type="Box"
+              >5</container>
+            <container id="aspace_d39331572574df87f1c7c8f020b6f2c9"
+              parent="aspace_ba275522e80ceadb39f0dee74d167980" type="folder">9</container>
+          </did>
+        </c02>
+        <c02 id="aspace_223a1c8c875ecb4b0ba6295251c9a23c" level="item">
+          <did>
+            <unittitle>Photographs</unittitle>
+            <unitdate datechar="creation" normal="1972/1975" type="inclusive">1972-1975</unitdate>
+            <container id="aspace_eb84cbaa3ee6cd025abb4273c5b41958" label="Realia" type="Box"
+              >5</container>
+            <container id="aspace_a62c73f9ece97f2c81b9148dca78a86c"
+              parent="aspace_eb84cbaa3ee6cd025abb4273c5b41958" type="folder">10</container>
+          </did>
+        </c02>
+        <c02 id="aspace_33ac831e74bacc8836a23a20e854eed9" level="item">
+          <did>
+            <unittitle>UFW Jewelry</unittitle>
+            <unitdate datechar="other">undated</unitdate>
+            <container id="aspace_9869253c4ed9c1bd73a204300e2f0a3f" label="Realia" type="Box"
+              >5</container>
+            <container id="aspace_c4f3c9a2fa31a92f8f5894c3ed85c216"
+              parent="aspace_9869253c4ed9c1bd73a204300e2f0a3f" type="box">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_44040f7fce0535ebac37d42ccdbb85a7" level="item">
+          <did>
+            <unittitle>UFW Memorabilia</unittitle>
+            <unitdate datechar="creation" normal="1973/1975" type="inclusive">1973-1975</unitdate>
+            <container id="aspace_2be657311329fb14ae4c2e0a22a50fd1" label="Realia" type="Box"
+              >5</container>
+            <container id="aspace_8898c04866638e80252d0573abeb1972"
+              parent="aspace_2be657311329fb14ae4c2e0a22a50fd1" type="box">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_55f460a1eaabc752caa34f80950a08c6" level="item">
+          <did>
+            <unittitle>UFW Support Buttons</unittitle>
+            <unitdate datechar="creation" normal="1975/1975">1975</unitdate>
+            <container id="aspace_8c84ccf43b911ac9b17196890b9fcfb4" label="Realia" type="Box"
+              >5</container>
+            <container id="aspace_c652f56c6ac906d2176aac27cbe9fd34"
+              parent="aspace_8c84ccf43b911ac9b17196890b9fcfb4" type="box">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1af04e581a3ffbe1d703b903be6c341d" level="file">
+          <did>
+            <unittitle>UFW Flat Posters - hand-painted</unittitle>
+            <unitdate datechar="other">undated</unitdate>
+            <container id="aspace_88c47502c50a625c022ac47cde864a20" label="oversize" type="Box"
+              >6</container>
+            <container id="aspace_d6eb765a0f8e0bb1211e1bf29ca53e08"
+              parent="aspace_88c47502c50a625c022ac47cde864a20" type="Oversize">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b0bf254b7e3b6ac9416b7153e4638963" level="file">
+          <did>
+            <unittitle>UFW Rolled Poster - Chavez quote</unittitle>
+            <unitdate datechar="other">undated</unitdate>
+            <container id="aspace_00072b2ab9a6f8b41a9eb051c5ddeca9" label="oversize" type="Box"
+              >6</container>
+            <container id="aspace_5d72dcf2109a5e094887da3abddfdcfb"
+              parent="aspace_00072b2ab9a6f8b41a9eb051c5ddeca9" type="Oversize">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c1f116fdfead9f18be366b933d2fe07a" level="file">
+          <did>
+            <unittitle>UFW Rolled Poster - boycott grapes with Chavez portrait</unittitle>
+            <unitdate datechar="other">undated</unitdate>
+            <container id="aspace_d8f4f1ef2bd564a4d589773adfd33133" label="oversize" type="Box"
+              >6</container>
+            <container id="aspace_c2158ae5b207e6079b5f9a1b4706d722"
+              parent="aspace_d8f4f1ef2bd564a4d589773adfd33133" type="Oversize">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_5e508711f8c0da5f73713668f35e9fd6" level="file">
+          <did>
+            <unittitle>UFW Rolled Poster - farm worker solidarity</unittitle>
+            <unitdate datechar="other">undated</unitdate>
+            <container id="aspace_6cde223a6dc0bb0302b6559de3db070b" label="oversize" type="Box"
+              >6</container>
+            <container id="aspace_b51efbc9d52a981734b1f1a928235db0"
+              parent="aspace_6cde223a6dc0bb0302b6559de3db070b" type="Oversize">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_0393b9b4272a706174d816fcf6a05606" level="file">
+          <did>
+            <unittitle>UFW Rolled Poster - farm worker week events</unittitle>
+            <unitdate datechar="creation" normal="1976/1976">1976</unitdate>
+            <container id="aspace_fc6e043789a84478693de1436d85b6ed" label="oversize" type="Box"
+              >6</container>
+            <container id="aspace_0d5f4ecc3b4f3d05ac104bfd5f844996"
+              parent="aspace_fc6e043789a84478693de1436d85b6ed" type="Oversize">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_33902d3849957056b1a4d0222d9d5424" level="file">
+          <did>
+            <unittitle>UFW Rolled Poster - child labor statistics</unittitle>
+            <unitdate datechar="creation" normal="1971/1971">1971</unitdate>
+            <container id="aspace_719d2673f7726daa8339311827f25870" label="oversize" type="Box"
+              >6</container>
+            <container id="aspace_1950b1422894129a3892e9a9cab72af0"
+              parent="aspace_719d2673f7726daa8339311827f25870" type="Oversize">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_822779077d682ae0657e00d89f113ed0" level="file">
+          <did>
+            <unittitle>UFW Rolled Poster - "Fast for Life" painting </unittitle>
+            <unitdate datechar="other">undated</unitdate>
+            <container id="aspace_79f095550405c8f1b2a21c703fd9d930" label="oversize" type="Box"
+              >6</container>
+            <container id="aspace_ab7039dd04d6ff84cb6d69b6a9550776"
+              parent="aspace_79f095550405c8f1b2a21c703fd9d930" type="Oversize">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_2b53a63b58f73834e31901d36ca97a06" level="file">
+          <did>
+            <unittitle>UFW Rolled Poster - prayer for farm workers</unittitle>
+            <unitdate datechar="creation" normal="1970/1970">1970</unitdate>
+            <container id="aspace_95f9eafb9f906530c1e60f173619af8f" label="oversize" type="Box"
+              >6</container>
+            <container id="aspace_0544090324c6e45ebff165b946afc032"
+              parent="aspace_95f9eafb9f906530c1e60f173619af8f" type="Oversize">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_aa8d33a462075275b1396cb4e8f4ed27" level="file">
+          <did>
+            <unittitle>UFW Rolled Poster - vineyard with workers marching</unittitle>
+            <unitdate datechar="creation" normal="1970/1970">1970</unitdate>
+            <container id="aspace_1125db8d503d33c9e551d82d4b90c31f" label="oversize" type="Box"
+              >6</container>
+            <container id="aspace_cc0d1ae4c1b6db32dbcedeb65a3e0a79"
+              parent="aspace_1125db8d503d33c9e551d82d4b90c31f" type="Oversize">9</container>
+          </did>
+        </c02>
+        <c02 id="aspace_85b7e6f0adb7d68c04d9a20048591def" level="file">
+          <did>
+            <unittitle>UFW Rolled Poster - "Huelga" UFW strike</unittitle>
+            <unitdate datechar="other">undated</unitdate>
+            <container id="aspace_593012384038df48aee5d1b2dd2134a1" label="oversize" type="Box"
+              >6</container>
+            <container id="aspace_a8b2a656971eedeef56412219c524adc"
+              parent="aspace_593012384038df48aee5d1b2dd2134a1" type="Oversize">10</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_67494589041fffe9cf63be91a343a158" level="series">
+        <did>
+          <unittitle>Audiovisual</unittitle>
+          <unitdate datechar="creation" normal="1974/1992" type="inclusive">1974-1992</unitdate>
+          <langmaterial><language langcode="eng">English</language>, <language langcode="spa"
+              >Spanish; Castilian</language>.</langmaterial>
+        </did>
+        <c02 id="aspace_b3c03845baaa38129183db9e1420b045" level="item">
+          <did>
+            <unittitle>VHS - United Farm Workers of America "Fighting for our lives" (1:00:00) </unittitle>
+            <unitdate datechar="copyright" normal="1974/1974">1974</unitdate>
+            <container id="aspace_97b623ac999b17c43f2b60e6eca38604" label="Moving Images"
+              type="room">Special Collections</container>
+            <container id="aspace_78f5a21c9c3d9289f16001afc20c2c9f"
+              parent="aspace_97b623ac999b17c43f2b60e6eca38604" type="object">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_6b9e2cb669e3e028224f72d3d769bf93" level="item">
+          <did>
+            <unittitle>VHS - "Uvas No"</unittitle>
+            <unitdate datechar="copyright" normal="1992/1992">1992</unitdate>
+            <container id="aspace_b5c5420e6efcf83d4502212447e4ec35" label="Moving Images"
+              type="room">Special Collections</container>
+            <container id="aspace_0c44875420a3c0772453798ce59b983d"
+              parent="aspace_b5c5420e6efcf83d4502212447e4ec35" type="object">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_028e71e0278f92c0188f50b46396c2ce" level="item">
+          <did>
+            <unittitle>VHS - "Uvas No"</unittitle>
+            <unitdate datechar="copyright" normal="1992/1992">1992</unitdate>
+            <container id="aspace_ea44f31ff7655d0e0ee98d3656837775" label="Moving Images"
+              type="room">Special Collections</container>
+            <container id="aspace_f7c1ac790876afec00e3a571a302e3e3"
+              parent="aspace_ea44f31ff7655d0e0ee98d3656837775" type="object">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_496ca299b9bad92a3cc10e644b700010" level="item">
+          <did>
+            <unittitle>VHS - "No Grapes"</unittitle>
+            <unitdate datechar="copyright" normal="1992/1992">1992</unitdate>
+            <container id="aspace_789d7cc5ded9eca9c64ff46c8a0322c3" label="Moving Images"
+              type="room">Special Collections</container>
+            <container id="aspace_4bd8cc5a27c70ffc11296287a6227b1c"
+              parent="aspace_789d7cc5ded9eca9c64ff46c8a0322c3" type="object">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_25b8e26c01e0150f13e08eb132eada36" level="item">
+          <did>
+            <unittitle>Audio cassette - "Canciones para Cesar Chavez"</unittitle>
+            <unitdate datechar="copyright" normal="1980/1980">1980</unitdate>
+            <container id="aspace_4018d2437db7ee20f0f08f44cec04d67" label="Audio" type="room"
+              >Special Collections</container>
+            <container id="aspace_ec715ee6d0e482c0076ed81f37974b6e"
+              parent="aspace_4018d2437db7ee20f0f08f44cec04d67" type="object">5</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_8b051a4ae4026dadfd180763578c8b06" level="series">
+        <did>
+          <unittitle>Monographs</unittitle>
+          <unitdate datechar="publication" normal="1966/1995" type="inclusive">1966-1995</unitdate>
+          <langmaterial><language langcode="eng">English</language>, <language langcode="spa"
+              >Spanish; Castilian</language>.</langmaterial>
+        </did>
+        <c02 id="aspace_5f208d14777b3d4922afe3ff94d25e0b" level="item">
+          <did>
+            <unittitle>Book - A gringo manual on how to handle Mexicans / by Jose Angel
+              Gutierrez</unittitle>
+            <unitdate datechar="copyright" normal="1973/1973">1973</unitdate>
+            <container id="aspace_b9f1d51b36a977764132f92df5080792" label="Books" type="room"
+              >Special Collections</container>
+            <container id="aspace_37fad06774ae018b6334231356087fc0"
+              parent="aspace_b9f1d51b36a977764132f92df5080792" type="bound">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_8afbca8a4a6a432ce9c244a449e41b97" level="item">
+          <did>
+            <unittitle>Book - A documentary history of the Mexican Americans.</unittitle>
+            <unitdate datechar="copyright" normal="1971/1971">1971</unitdate>
+            <container id="aspace_5dcecb85b9664384b2ef29c4da41eed7" label="Books" type="room"
+              >Special Collections</container>
+            <container id="aspace_92a87693f7215d0fd6b968b3cad9de85"
+              parent="aspace_5dcecb85b9664384b2ef29c4da41eed7" type="bound">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b2cbd7ffee82f69982a5ebd52fc7e640" level="item">
+          <did>
+            <unittitle>Book - La raza : the Mexican Americans / Stan Steiner.</unittitle>
+            <unitdate datechar="copyright" normal="1970/1970">1970</unitdate>
+            <container id="aspace_8da68ca006f164218e068c1f75622d3f" label="Books" type="room"
+              >Special Collections</container>
+            <container id="aspace_9f5e1eacf33d83778d5e332adebfa04e"
+              parent="aspace_8da68ca006f164218e068c1f75622d3f" type="bound">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c8a4736de7a543f679ef4a89c1b8f719" level="item">
+          <did>
+            <unittitle>Book - La raza : forgotten Americans / Julian Samora.</unittitle>
+            <unitdate datechar="copyright" normal="1970/1970">1970</unitdate>
+            <container id="aspace_2644268eef1d76818961ab24da3c9eb2" label="Books" type="room"
+              >Special Collections</container>
+            <container id="aspace_0f543b793128930565c6cd0bafc90050"
+              parent="aspace_2644268eef1d76818961ab24da3c9eb2" type="bound">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_dbf55d773e33b7b642473cad25120fe3" level="item">
+          <did>
+            <unittitle>Book - MexAmerica : two countries, one future / Lester D.
+              Langley.</unittitle>
+            <unitdate datechar="copyright" normal="1988/1988">1988</unitdate>
+            <container id="aspace_6dcaa33ad15e68957f8c706804e890e3" label="Books" type="room"
+              >Special Collections</container>
+            <container id="aspace_392c77f84c8161a749fe70910ab803f0"
+              parent="aspace_6dcaa33ad15e68957f8c706804e890e3" type="bound">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_8892691c6ad3e85e3b938c4fdd392b81" level="item">
+          <did>
+            <unittitle>Book - Confronting environmental racism : voices from the
+              grassroots</unittitle>
+            <unitdate datechar="copyright" normal="1993/1993">1993</unitdate>
+            <container id="aspace_7cc9c7d61b813dff37594f7fd7a052ad" label="Books" type="room"
+              >Special Collections</container>
+            <container id="aspace_362441ad26764c383c291fe9d6b05d64"
+              parent="aspace_7cc9c7d61b813dff37594f7fd7a052ad" type="bound">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f74c3da3f76f28353af83fd5c3c449ee" level="item">
+          <did>
+            <unittitle>Book - Basta! La historia de nuestra lucha. Enough! The tale of our struggle.
+              Photos: George Ballis. Text from the Plan of Delano.</unittitle>
+            <unitdate datechar="copyright" normal="1966/1966">1966</unitdate>
+            <container id="aspace_5e60b9e9c62db64bedfe913dce30c011" label="Books" type="room"
+              >Special Collections</container>
+            <container id="aspace_db01ebbd7e0e1c8bbe951d7ba0151a75"
+              parent="aspace_5e60b9e9c62db64bedfe913dce30c011" type="bound">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_88f4413142e7299cb538b11bd380d737" level="item">
+          <did>
+            <unittitle>Book - Huelga: the first hundred days of the great Delano grape
+              strike.</unittitle>
+            <unitdate datechar="copyright" normal="1966/1966">1966</unitdate>
+            <container id="aspace_40f14527eec9b38b63d13cf02379d1b6" label="Books" type="room"
+              >Special Collections</container>
+            <container id="aspace_6d9dc4db6fc4bf34050f7d52f79640e0"
+              parent="aspace_40f14527eec9b38b63d13cf02379d1b6" type="bound">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_aad6106f48194d941944d99216593e65" level="item">
+          <did>
+            <unittitle>Book - Cesar Chavez : autobiography of La Causa / Jacques E.
+              Levy.</unittitle>
+            <unitdate datechar="copyright" normal="1975/1975">1975</unitdate>
+            <container id="aspace_e838737557445d313d3170f9b0527e85" label="Books" type="room"
+              >Special Collections</container>
+            <container id="aspace_0bb5dc2319d907c8d06d20c2113390f5"
+              parent="aspace_e838737557445d313d3170f9b0527e85" type="bound">9</container>
+          </did>
+        </c02>
+        <c02 id="aspace_21e6d716e5e63fcaefe736c1b6bece7a" level="item">
+          <did>
+            <unittitle>Book - César Chávez : a triumph of spirit / by Richard Griswold del Castillo
+              and Richard A. Garcia.</unittitle>
+            <unitdate datechar="copyright" normal="1995/1995">1995</unitdate>
+            <container id="aspace_1117a8d77b4bb9bd98189ccc268b2b35" label="Books" type="room"
+              >Special Collections</container>
+            <container id="aspace_8a3506ba899cb8ae2ea885d3c3045afe"
+              parent="aspace_1117a8d77b4bb9bd98189ccc268b2b35" type="bound">10</container>
+          </did>
+        </c02>
+        <c02 id="aspace_da60add9f6ed3d1a693aa239b4dc644e" level="item">
+          <did>
+            <unittitle>Book - Chicanas en la literatura y el arte</unittitle>
+            <unitdate datechar="copyright" normal="1973/1973">1973</unitdate>
+            <container id="aspace_1dc13c3d4b86cb3e91284f3e56a70657" label="Books" type="room"
+              >Special Collections</container>
+            <container id="aspace_7785d8cffcfab15c632516d10e1f3170"
+              parent="aspace_1dc13c3d4b86cb3e91284f3e56a70657" type="bound">11</container>
+          </did>
+        </c02>
+        <c02 id="aspace_711eda76dc0e579da2d3e7dcc3e8911f" level="item">
+          <did>
+            <unittitle>Bound volume - Migrant and seasonal farmworker powerlessness. Hearings before
+              the Subcommittee on Migratory Labor. Part 6-A</unittitle>
+            <unitdate datechar="copyright" normal="1969/1969">1969</unitdate>
+            <container id="aspace_c03786d63399e62e61229539ea501ee4" label="Books" type="room"
+              >Special Collections</container>
+            <container id="aspace_92d94241221a131d02889b4e99f1d337"
+              parent="aspace_c03786d63399e62e61229539ea501ee4" type="bound">12</container>
+          </did>
+        </c02>
+        <c02 id="aspace_255f9dec1a86f8951da115faa7cdd13d" level="item">
+          <did>
+            <unittitle>Bound volume - Migrant and seasonal farmworker powerlessness. Hearings before
+              the Subcommittee on Migratory Labor. Part 6-B</unittitle>
+            <unitdate datechar="copyright" normal="1969/1969">1969</unitdate>
+            <container id="aspace_46672148892448cb9c3f55a2c8251465" label="Books" type="room"
+              >Special Collections</container>
+            <container id="aspace_575cb05e2fa7d866843b74d11de08564"
+              parent="aspace_46672148892448cb9c3f55a2c8251465" type="bound">13</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1844af5ce47821e1f42378bd5146f29f" level="item">
+          <did>
+            <unittitle>Bound volume - Migrant and seasonal farmworker powerlessness. Hearings before
+              the Subcommittee on Migratory Labor. Part 6-C</unittitle>
+            <unitdate datechar="copyright" normal="1969/1969">1969</unitdate>
+            <container id="aspace_48a3a7e4641c5dd37be17731759b26e7" label="Books" type="room"
+              >Special Collections</container>
+            <container id="aspace_e92f130eb9e30f99a2c8d43b5f0b9ddd"
+              parent="aspace_48a3a7e4641c5dd37be17731759b26e7" type="bound">14</container>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
