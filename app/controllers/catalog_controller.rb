@@ -4,6 +4,7 @@
 class CatalogController < ApplicationController
   include Blacklight::Catalog
   include Arclight::Catalog
+  include Arclight::FieldConfigHelpers
 
   configure_blacklight do |config|
     ## Class for sending and receiving requests from a search index
@@ -60,6 +61,10 @@ class CatalogController < ApplicationController
     ##### REMOVE BOOKMARK AND HISTORY #####
     # config.add_nav_action(:bookmark, partial: 'blacklight/nav/bookmark', if: :render_bookmarks_control?)
     # config.add_nav_action(:search_history, partial: 'blacklight/nav/search_history')
+
+    config.add_show_tools_partial(:email, callback: :email_action, validator: :validate_email_params)
+    config.add_show_tools_partial(:sms, if: :render_sms_action?, callback: :sms_action, validator: :validate_sms_params)
+    config.add_show_tools_partial(:citation)
 
     # solr field configuration for search results/index views
     config.index.partials = %i[arclight_index_default]
@@ -141,24 +146,37 @@ class CatalogController < ApplicationController
     #  (note: It is case sensitive when searching values)
 
     config.add_facet_field 'campus_unit_sim', label: 'Campus', helper_method: :render_campus_facet
-    config.add_facet_field 'collection', field: 'collection_ssim', limit: 10
-    config.add_facet_field 'creators', field: 'creator_ssim', limit: 10
-    config.add_facet_field 'date_range', field: 'date_range_isim', range: true
-    config.add_facet_field 'level', field: 'level_ssim', limit: 10
-    config.add_facet_field 'names', field: 'names_ssim', limit: 10
-    config.add_facet_field 'repository', field: 'repository_ssim', limit: 10
-    config.add_facet_field 'places', field: 'geogname_ssim', limit: 10
-    config.add_facet_field 'access_subjects', field: 'access_subjects_ssim', limit: 10
+    config.add_facet_field 'repository_sim', label: 'Repository', limit: 10
+    config.add_facet_field 'collection_sim', label: 'Collection', limit: 10
+    config.add_facet_field 'level_sim', label: 'Level', limit: 10
+    config.add_facet_field 'creator_ssim', label: 'Creator', limit: 10
+    config.add_facet_field 'creators_ssim', label: 'Creator', show: false
+    config.add_facet_field 'component_level_isim', show: false
+    config.add_facet_field 'names_ssim', label: 'Names', limit: 10
+    config.add_facet_field 'geogname_sim', label: 'Place', limit: 10
+    config.add_facet_field 'places_ssim', label: 'Places', show: false
+    config.add_facet_field 'access_subjects_ssim', label: 'Subject', limit: 10
+    config.add_facet_field 'parent_ssim', show: false
 
     # Have BL send all facet field names to Solr, which has been the default
     # previously. Simply remove these lines if you'd rather use Solr request
     # handler defaults, or have no facets.
     config.add_facet_fields_to_solr_request!
 
-    config.add_index_field 'campus_unit_ssm', label: 'Campus', helper_method: :render_campus_name
-
     # solr fields to be displayed in the index (search results) view
     #   The ordering of the field names is the order of the display
+    config.add_index_field 'campus_unit_ssm', label: 'Campus', helper_method: :render_campus_name
+    config.add_index_field 'repository_ssm', label: 'Repository'
+    config.add_index_field 'collection_ssm', label: 'Collection Title'
+    config.add_index_field 'unitid_ssm', label: 'Unit ID'
+    config.add_index_field 'normalized_date_ssm', label: 'Date'
+    config.add_index_field 'creator_ssm', label: 'Creator'
+    config.add_index_field 'language_ssm', label: 'Language'
+    config.add_index_field 'scopecontent_tesim', label: 'Scope Content', helper_method: :render_html_tags
+    config.add_index_field 'extent_ssm', label: 'Physical Description'
+    config.add_index_field 'accessrestrict_ssm', label: 'Conditions Governing Access', helper_method: :render_html_tags
+    config.add_index_field 'geogname_ssm', label: 'Place'
+
     config.add_index_field 'highlight', accessor: 'highlights', separator_options: {
       words_connector: '<br/>',
       two_words_connector: '<br/>',
@@ -246,11 +264,11 @@ class CatalogController < ApplicationController
         pf: '${pf_container}'
       }
     end
-    config.add_search_field 'identifier', label: 'Identifier' do |field|
+    config.add_search_field 'unitid', label: 'Unit ID' do |field|
       field.qt = 'search'
       field.solr_parameters = {
-        qf: '${qf_identifier}',
-        pf: '${pf_identifier}'
+        qf: '${qf_unitid}',
+        pf: '${pf_unitid}'
       }
     end
 
@@ -303,6 +321,8 @@ class CatalogController < ApplicationController
     config.add_background_field 'physdesc', field: 'physdesc_tesim', helper_method: :render_html_tags
     config.add_background_field 'physfacet', field: 'physfacet_tesim', helper_method: :render_html_tags
     config.add_background_field 'dimensions', field: 'dimensions_tesim', helper_method: :render_html_tags
+    config.add_background_field 'odd_html_tesm', label: 'General note', helper_method: :render_html_tags
+    config.add_background_field 'bibliography', field: 'bibliography_html_tesm', helper_method: :render_html_tags
     config.add_background_field 'materialspec', field: 'materialspec_html_tesm', helper_method: :render_html_tags
     config.add_background_field 'fileplan', field: 'fileplan_html_tesm', helper_method: :render_html_tags
     config.add_background_field 'descrules', field: 'descrules_ssm', helper_method: :render_html_tags
@@ -314,7 +334,6 @@ class CatalogController < ApplicationController
     config.add_related_field 'otherfindaid', field: 'otherfindaid_html_tesm', helper_method: :render_html_tags
     config.add_related_field 'altformavail', field: 'altformavail_html_tesm', helper_method: :render_html_tags
     config.add_related_field 'originalsloc', field: 'originalsloc_html_tesm', helper_method: :render_html_tags
-    config.add_related_field 'odd', field: 'odd_html_tesm', helper_method: :render_html_tags
 
     # Collection Show Page - Indexed Terms Section
     config.add_indexed_terms_field 'access_subjects', field: 'access_subjects_ssim',
@@ -352,6 +371,7 @@ class CatalogController < ApplicationController
     }, if: lambda { |_context, _field_config, document|
       document.containers.present?
     }
+    config.add_component_field 'unitid_ssm', label: 'Component Identifier', helper_method: :render_html_tags
     config.add_component_field 'creators', field: 'creator_ssim', link_to_facet: true
     config.add_component_field 'abstract', field: 'abstract_html_tesm', helper_method: :render_html_tags
     config.add_component_field 'extent', field: 'extent_ssm'
@@ -373,7 +393,8 @@ class CatalogController < ApplicationController
     config.add_component_field 'fileplan', field: 'fileplan_html_tesm', helper_method: :render_html_tags
     config.add_component_field 'altformavail', field: 'altformavail_html_tesm', helper_method: :render_html_tags
     config.add_component_field 'otherfindaid', field: 'otherfindaid_html_tesm', helper_method: :render_html_tags
-    config.add_component_field 'odd', field: 'odd_html_tesm', helper_method: :render_html_tags
+    config.add_component_field 'odd_html_tesm', label: 'General note', helper_method: :render_html_tags
+    config.add_component_field 'bibliography_html_tesm', label: 'Bibliography', helper_method: :render_html_tags
     config.add_component_field 'relatedmaterial', field: 'relatedmaterial_html_tesm', helper_method: :render_html_tags
     config.add_component_field 'separatedmaterial', field: 'separatedmaterial_html_tesm',
                                                     helper_method: :render_html_tags
