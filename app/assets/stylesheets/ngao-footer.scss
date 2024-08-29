@@ -1,9 +1,7 @@
-@import "iu_variables";
-
 #ngao-footer {
   width: 100%;
   margin: 0 auto;
-  background-color: $iu-mahogany;
+  background-color: var(--rvt-color-gold-700);
   display: flex;
   .ngao-links {
     margin: 0 auto;
@@ -18,7 +16,7 @@
     li {
       display: inline-flex;
       a {
-        color: $iu-cream;
+        color: var(--rvt-color-white-base);
         padding: 0.5rem 1rem;
         text-decoration: underline;
       }
@@ -28,7 +26,7 @@
 
 .link-caddy {
   a:hover {
-    color: $iu-cream;
+    color: var(--rvt-color-white-base);
     text-decoration: none;
   }
 }
