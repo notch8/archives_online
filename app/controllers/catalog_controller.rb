@@ -3,6 +3,7 @@
 # Blacklight controller that handles searches and document requests
 class CatalogController < ApplicationController
   include Blacklight::Catalog
+  include BlacklightRangeLimit::ControllerOverride
   include Arclight::Catalog
   include Arclight::FieldConfigHelpers
 
@@ -152,6 +153,7 @@ class CatalogController < ApplicationController
     config.add_facet_field 'creator_ssim', label: 'Creator', limit: 10
     config.add_facet_field 'creators_ssim', label: 'Creator', show: false
     config.add_facet_field 'component_level_isim', show: false
+    config.add_facet_field 'date_range_isim', label: 'Year', range: { assumed_boundaries: [0, Time.now.year + 2] }
     config.add_facet_field 'names_ssim', label: 'Names', limit: 10
     config.add_facet_field 'geogname_ssim', label: 'Place', limit: 10
     config.add_facet_field 'places_ssim', label: 'Places', show: false
