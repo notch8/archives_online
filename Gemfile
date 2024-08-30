@@ -74,8 +74,8 @@ group :test do
   gem 'selenium-webdriver'
 end
 gem 'arclight'
-
 gem 'blacklight-locale_picker'
+gem 'blacklight_range_limit'
 gem 'bootstrap', '~> 5.1'
 gem 'devise'
 gem 'devise-guests', '~> 0.8'

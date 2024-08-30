@@ -15,3 +15,18 @@ body {
 #main-container {
   flex: 1 0 auto;
 }
+
+// OVERRIDE Blacklight Range Limit gem because it doesn't seem to work with Rails 7/Blacklight 8
+// @see https://github.com/projectblacklight/blacklight_range_limit/issues/236
+#facet-date_range_isim {
+  // Hide some features that don't work or we don't want
+  .distribution, .more_facets, .facet-values.missing, .facet-count {
+    display: none;
+  }
+  p.range.subsection {
+    .facet-limit-active & {
+      // Don't show the complete date range if one is already applied
+      display: none;
+    }
+  }
+}
