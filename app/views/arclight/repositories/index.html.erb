@@ -11,24 +11,25 @@
   <%= render 'shared/breadcrumbs' %>
 
   <%# ADD CUSTOM CONTENT HERE FOR NGAO REPOSITORY PAGE CONTENT %>
-  <h2>Welcome to Archives Online</h2>
-  <p>Archives Online is a portal for accessing descriptions of archival and special collections held by libraries, archives and other cultural heritage units at Indiana University or affiliated with Indiana University. The collection descriptions (finding aids) are for non-book and original research materials such as correspondence and photographs. This new Archives Online site is currently under development and does not yet contain links to digitized materials from collections or all collections from IUPUI. To view digitized archival materials, visit <a href="https://webapp1.dlib.indiana.edu/findingaids">Legacy Archives Online</a>. To view additional IUPUI collections, visit <a href="https://www.ulib.iupui.edu/special">Ruth Lilly Special Collections &amp; Archives</a>.</p>
+  <h2 class="rvt-ts-lg">Welcome to Archives Online</h2>
+  <p class="rvt-m-top-sm">Archives Online is a portal for accessing descriptions of archival and special collections held by libraries, archives and other cultural heritage units at Indiana University or affiliated with Indiana University. The collection descriptions (finding aids) are for non-book and original research materials such as correspondence and photographs. This new Archives Online site is currently under development and does not yet contain links to digitized materials from collections or all collections from IUPUI. To view digitized archival materials, visit <a href="https://webapp1.dlib.indiana.edu/findingaids">Legacy Archives Online</a>. To view additional IUPUI collections, visit <a href="https://www.ulib.iupui.edu/special">Ruth Lilly Special Collections &amp; Archives</a>.</p>
 
-  <div class="col-md-12 light-gray">
-    <%# ADD CAMPUS CARDS %>
-    <div class="row">
-      <% @campuses.each do |campus| %>
-        <%= render partial: 'campus_card', locals: {campus: campus.first} %>
-      <% end %>
-    </div>
+  <%# ADD CAMPUS CARDS %>
+  <div class="rvt-row">
+    <% @campuses.each do |campus| %>
+      <%= render partial: 'campus_card', locals: {campus: campus.first} %>
+    <% end %>
+  </div>
 
-    <%# ADDED CAMPUS LEVEL FOR DISPLAY %>
+  <%# ADDED CAMPUS LEVEL FOR DISPLAY %>
+  <div class="repositories rvt-m-top-xl rvt-m-bottom-xxl">
     <% @campuses.each do |campus, repositories| %>
-      <h2 id="<%= campus %>" class="repository-header"><%= convert_campus_id(campus) %></h2>
+      <h2 id="<%= campus %>" class="repository-header rvt-ts-lg rvt-m-top-xxl rvt-m-bottom-md rvt-border-bottom"><%= convert_campus_id(campus) %></h2>
       <% repositories.sort{|a,b| a.name <=> b.name}.each do |repository| %>
         <%= render partial: 'repository', locals: { repository: repository } %>
       <% end %>
     <% end %>
   </div>
-  <a href="#" class="scrollToTop"><%= blacklight_icon("chevron-double-up") %> Back to top</a>
+
 </div>
+<a href="#" class="scrollToTop"><%= blacklight_icon("chevron-double-up") %> Back to top</a>

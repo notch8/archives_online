@@ -1,3 +1,5 @@
+@import 'vendor/rivet';
+
 .campus {
   background-color: #fff;
   margin: 1em 0;
@@ -50,5 +52,11 @@
     font-family: BentonSansBold, Helvetica, Arial, sans-serif;
     font-weight: 400;
     transition: background-color 0.2s ease-out, color 0.2s ease-out, border-color 0.18s ease-out;
+  }
+
+  .rvt-c-card__eyebrow {
+    @extend .rvt-card__eyebrow;
+
+    font-size: 0.9375rem;
   }
 }

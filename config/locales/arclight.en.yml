@@ -1,6 +1,7 @@
 en:
   arclight:
     masthead_heading: Archives Online
+    masthead_heading_html: Archives Online
     views:
       about:
         title: About - Archives Online at Indiana University

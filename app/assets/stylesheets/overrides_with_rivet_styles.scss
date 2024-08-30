@@ -1,0 +1,195 @@
+@import 'vendor/rivet';
+
+// These overrides are applied to the current classes and styles to make
+// the application look closer to IU's Rivet design system.  To truly
+// add the Rivet utility classes would take an incredible amount of view
+// overrides from both Arclight and Blacklight.
+
+// CONTAINERS
+.container {
+  @extend .rvt-container-xl;
+}
+
+// CARDS
+.rvt-card__title a::before {
+  box-sizing: unset; // Something was affecting this, unsetting for card title right arrows
+}
+
+// SKIP LINK
+#skip-link {
+  display: none; // using Rivet's skip link
+}
+
+// MASTHEAD NAV LINKS
+.al-masthead {
+  .nav-link {
+    @extend .rvt-header-menu__link;
+
+    font-size: unset;
+
+    &:focus-visible {
+      box-shadow: unset;
+    }
+  }
+}
+
+// NAVBAR SEARCH
+.navbar-search {
+  margin-bottom: 0.75rem;
+
+  .search-query-form {
+    .input-group {
+      @extend .rvt-input-group;
+
+      .input-group-text {
+        @extend .rvt-input-group__text;
+
+        &[for="within_collection"] {
+          border-color: #78838E;
+          background-color: #e2e7e9;
+          border-top-left-radius: .25rem !important;
+          border-bottom-left-radius: .25rem !important;
+        }
+      }
+
+      #within_collection, #search_field {
+        @extend .rvt-select;
+
+        width: 1%;
+      }
+
+      #within_collection {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: .25rem !important;
+        border-bottom-right-radius: .25rem !important;
+      }
+
+      #search_field {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: .25rem !important;
+        border-bottom-left-radius: .25rem !important;
+      }
+
+      #q[type=search] {
+        @extend .rvt-input;
+        height: 100%;
+      }
+
+      .search-autocomplete-wrapper {
+        border: 0;
+      }
+
+      #search {
+        @extend .rvt-button;
+
+        align-items: center;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+
+        &:disabled {
+          background-color: #006298;
+          border: 0.125rem solid #006298;
+        }
+      }
+
+      .search-btn .blacklight-icons {
+        svg {
+          display: none;
+        }
+
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        background-image: image-url('rivet_icons/magnifying-glass.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}
+
+// AL SEARCH BREADCRUMBS
+.al-search-breadcrumb {
+  .breadcrumb {
+    @extend .rvt-breadcrumbs;
+
+    .breadcrumb-item + .breadcrumb-item {
+      padding-left: 0;
+
+      &::before {
+        content: '/';
+        padding-right: 0.5rem;
+        color: #a0abb4;
+      }
+    }
+
+    .breadcrumb-item {
+      a[href="/"] {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        text-indent: -9999px; /* Move the text far off-screen */
+        top: -1.75px;
+
+        &::before {
+          content: "";
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          background-image: image-url('rivet_icons/home.svg');
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+
+        &:hover::before {
+          filter: invert(60%) sepia(100%) saturate(1400%) hue-rotate(195deg) brightness(50%) contrast(130%);
+        }
+
+        &::after {
+          content: "Home"; /* Matches the orignial text content */
+          position: absolute;
+          left: -9999px; /* Moves the text off-screen */
+          visibility: visible; /* Keeps the text readable by screen readers */
+        }
+      }
+    }
+  }
+}
+
+// REPOSITORIES
+.al-repositories {
+  .repositories {
+    .al-repository {
+      @extend .rvt-card--horizontal, .rvt-card--raised;
+
+      margin-bottom: 1.5rem !important;
+      border: unset;
+
+      .container {
+        img {
+          border-radius: .25rem;
+        }
+
+        all: unset;
+
+        .al-repository-information {
+          .repo-name {
+            @extend .rvt-card__title;
+
+            a::before {
+              display: none;
+            }
+          }
+
+          .al-repository-extra a.btn-secondary {
+            @extend .rvt-button--secondary;
+
+            font-weight: var(--rvt-font-weight-medium);
+          }
+        }
+      }
+    }
+  }
+}
