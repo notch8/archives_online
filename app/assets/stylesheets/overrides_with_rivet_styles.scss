@@ -10,6 +10,11 @@
   @extend .rvt-container-xl;
 }
 
+// SKIP LINK
+#skip-link {
+  display: none; // using Rivet's skip link
+}
+
 // MASTHEAD NAV LINKS
 .al-masthead {
   .nav-link {
