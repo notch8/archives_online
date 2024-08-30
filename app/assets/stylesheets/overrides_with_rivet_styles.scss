@@ -10,6 +10,11 @@
   @extend .rvt-container-xl;
 }
 
+// CARDS
+.rvt-card__title a::before {
+  box-sizing: unset; // Something was affecting this, unsetting for card title right arrows
+}
+
 // SKIP LINK
 #skip-link {
   display: none; // using Rivet's skip link
