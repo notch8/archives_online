@@ -10,6 +10,19 @@
   @extend .rvt-container-xl;
 }
 
+// MASTHEAD NAV LINKS
+.al-masthead {
+  .nav-link {
+    @extend .rvt-header-menu__link;
+
+    font-size: unset;
+
+    &:focus-visible {
+      box-shadow: unset;
+    }
+  }
+}
+
 // NAVBAR SEARCH
 .navbar-search {
   margin-bottom: 0.75rem;
