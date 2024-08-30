@@ -10,3 +10,86 @@
   @extend .rvt-container-xl;
 }
 
+// NAVBAR SEARCH
+.navbar-search {
+  margin-bottom: 0.75rem;
+
+  .search-query-form {
+    .input-group {
+      @extend .rvt-input-group;
+
+      .input-group-text {
+        @extend .rvt-input-group__text;
+
+        &[for="within_collection"] {
+          border-color: #78838E;
+          background-color: #e2e7e9;
+          border-top-left-radius: .25rem !important;
+          border-bottom-left-radius: .25rem !important;
+        }
+      }
+
+      #within_collection, #search_field {
+        @extend .rvt-select;
+
+        width: 1%;
+      }
+
+      #within_collection {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: .25rem !important;
+        border-bottom-right-radius: .25rem !important;
+      }
+
+      #search_field {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: .25rem !important;
+        border-bottom-left-radius: .25rem !important;
+      }
+
+      #q[type=search] {
+        @extend .rvt-input;
+        height: 100%;
+      }
+
+      .search-autocomplete-wrapper {
+        border: 0;
+      }
+
+      #search {
+        @extend .rvt-button;
+
+        align-items: center;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+
+        &:disabled {
+          background-color: #006298;
+          border: 0.125rem solid #006298;
+        }
+      }
+
+      .search-btn .blacklight-icons {
+        svg {
+          display: none;
+        }
+
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        background-image: image-url('rivet_icons/magnifying-glass.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}
+
+      .search-btn .blacklight-icons svg {
+        display: none;
+      }
+    }
+  }
+}
