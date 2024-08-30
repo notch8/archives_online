@@ -87,8 +87,49 @@
   }
 }
 
-      .search-btn .blacklight-icons svg {
-        display: none;
+// AL SEARCH BREADCRUMBS
+.al-search-breadcrumb {
+  .breadcrumb {
+    @extend .rvt-breadcrumbs;
+
+    .breadcrumb-item + .breadcrumb-item {
+      padding-left: 0;
+
+      &::before {
+        content: '/';
+        padding-right: 0.5rem;
+        color: #a0abb4;
+      }
+    }
+
+    .breadcrumb-item {
+      a[href="/"] {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        text-indent: -9999px; /* Move the text far off-screen */
+        top: -1.75px;
+
+        &::before {
+          content: "";
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          background-image: image-url('rivet_icons/home.svg');
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+
+        &:hover::before {
+          filter: invert(60%) sepia(100%) saturate(1400%) hue-rotate(195deg) brightness(50%) contrast(130%);
+        }
+
+        &::after {
+          content: "Home"; /* Matches the orignial text content */
+          position: absolute;
+          left: -9999px; /* Moves the text off-screen */
+          visibility: visible; /* Keeps the text readable by screen readers */
+        }
       }
     }
   }
