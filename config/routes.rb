@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+  concern :range_searchable, BlacklightRangeLimit::Routes::RangeSearchable.new
   ##### REMOVE SEARCH HISTORY #####
   # Note: has to be before we mount Blacklight::Engine
   get '/search_history', to: 'application#render404'
@@ -14,6 +15,7 @@ Rails.application.routes.draw do
 
   resource :catalog, only: [:index], as: 'catalog', path: '/catalog', controller: 'catalog' do
     concerns :searchable
+    concerns :range_searchable
   end
   devise_for :users
 
