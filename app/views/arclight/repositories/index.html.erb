@@ -22,12 +22,14 @@
   </div>
 
   <%# ADDED CAMPUS LEVEL FOR DISPLAY %>
-  <% @campuses.each do |campus, repositories| %>
-    <h2 id="<%= campus %>" class="repository-header"><%= convert_campus_id(campus) %></h2>
-    <% repositories.sort{|a,b| a.name <=> b.name}.each do |repository| %>
-      <%= render partial: 'repository', locals: { repository: repository } %>
+  <div class="repositories rvt-m-top-xl rvt-m-bottom-xxl">
+    <% @campuses.each do |campus, repositories| %>
+      <h2 id="<%= campus %>" class="repository-header rvt-ts-lg rvt-m-top-xxl rvt-m-bottom-md rvt-border-bottom"><%= convert_campus_id(campus) %></h2>
+      <% repositories.sort{|a,b| a.name <=> b.name}.each do |repository| %>
+        <%= render partial: 'repository', locals: { repository: repository } %>
+      <% end %>
     <% end %>
-  <% end %>
+  </div>
 
 </div>
 <a href="#" class="scrollToTop"><%= blacklight_icon("chevron-double-up") %> Back to top</a>

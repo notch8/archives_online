@@ -157,3 +157,39 @@
     }
   }
 }
+
+// REPOSITORIES
+.al-repositories {
+  .repositories {
+    .al-repository {
+      @extend .rvt-card--horizontal, .rvt-card--raised;
+
+      margin-bottom: 1.5rem !important;
+      border: unset;
+
+      .container {
+        img {
+          border-radius: .25rem;
+        }
+
+        all: unset;
+
+        .al-repository-information {
+          .repo-name {
+            @extend .rvt-card__title;
+
+            a::before {
+              display: none;
+            }
+          }
+
+          .al-repository-extra a.btn-secondary {
+            @extend .rvt-button--secondary;
+
+            font-weight: var(--rvt-font-weight-medium);
+          }
+        }
+      }
+    }
+  }
+}
