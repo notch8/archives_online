@@ -260,5 +260,37 @@
 
       border-color: #c6ecf6;
     }
+
+    &.active {
+      @extend .rvt-button--secondary;
+
+      background-color: #EFFAFD;
+    }
+
+    &.view-type-compact, &.view-type-list,
+    &.view-type-list.active, &.view-type-compact.active {
+      svg {
+        fill: #296094;
+      }
+    }
+
+    &.dropdown-toggle::after {
+      width: 1rem;
+      height: 1rem;
+      background-image: image-url('rivet_icons/chevron-down.svg');
+      border: none;
+      position: relative;
+      top: .375rem;
+    }
+  }
+
+  #sort-dropdown, #per_page-dropdown {
+    .dropdown-menu {
+      @extend .rvt-dropdown__menu;
+    }
+  }
+
+  #per_page-dropdown .dropdown-menu {
+    min-width: 8rem;
   }
 }
