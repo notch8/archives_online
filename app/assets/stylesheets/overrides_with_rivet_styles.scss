@@ -293,4 +293,29 @@
   #per_page-dropdown .dropdown-menu {
     min-width: 8rem;
   }
+
+  #facets {
+    .facets-heading {
+      font-size: 1.5rem;
+    }
+
+    #facet-panel-collapse {
+      .card, button {
+        border-radius: .25rem;
+      }
+
+      .facet-limit-active {
+        border-color: var(--rvt-color-crimson-500) !important;
+
+        .card-header {
+          background-color: var(--rvt-color-crimson-500) !important;
+          border-radius: unset;
+        }
+
+        .selected {
+          color: var(--rvt-color-crimson-500) !important;
+        }
+      }
+    }
+  }
 }
