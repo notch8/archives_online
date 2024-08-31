@@ -324,4 +324,44 @@
       @extend .rvt-badge, .rvt-badge--secondary;
     }
   }
+
+  .record-padding {
+    .paginate-section {
+      margin-top: 1.5rem;
+      margin-bottom: 4rem;
+
+      .pagination {
+        @extend .rvt-pagination;
+
+        .page-item {
+          @extend .rvt-pagination__item;
+
+          height: inherit;
+          width: inherit;
+
+          .page-link {
+            border-color: transparent;
+            border-radius: 0;
+            margin: 0 1px 0 -1px;
+            padding-left: .775rem;
+            padding-right: .775rem;
+            border: 0;
+          }
+
+          .page-link[aria-current=true] {
+            background-color: #fff3f0;
+            box-shadow: 0 .25rem 0 #900;
+            color: inherit;
+          }
+
+          &.disabled {
+            .page-link {
+              background: unset;
+              color: #A2ABB3;
+            }
+          }
+        }
+      }
+    }
+  }
 }
