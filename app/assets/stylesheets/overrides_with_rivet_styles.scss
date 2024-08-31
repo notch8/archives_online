@@ -318,4 +318,10 @@
       }
     }
   }
+
+  #documents {
+    .badge {
+      @extend .rvt-badge, .rvt-badge--secondary;
+    }
+  }
 }
