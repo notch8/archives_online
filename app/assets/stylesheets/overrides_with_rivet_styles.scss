@@ -159,7 +159,6 @@
 }
 
 // REPOSITORIES
-
 %al-repository-styles {
   @extend .rvt-card--horizontal, .rvt-card--raised;
 
@@ -240,6 +239,26 @@
     .row .al-collection-id {
       display: flex;
       justify-content: end;
+    }
+  }
+}
+
+// SEARCH RESULTS PAGE
+.blacklight-catalog-index {
+  .btn-primary {
+    @extend .rvt-button;
+  }
+
+  .btn-outline-secondary {
+    @extend .rvt-button--secondary;
+
+    font-weight: var(--rvt-font-weight-medium);
+    border-radius: .25rem;
+
+    &.remove {
+      @extend .rvt-button--danger-secondary;
+
+      border-color: #c6ecf6;
     }
   }
 }
