@@ -46,7 +46,7 @@
 
         &[for="within_collection"] {
           border-color: #78838E;
-          background-color: #e2e7e9;
+          background-color: var(--rvt-color-black-100);
           border-top-left-radius: .25rem !important;
           border-bottom-left-radius: .25rem !important;
         }
@@ -89,8 +89,8 @@
         border-bottom-left-radius: 0;
 
         &:disabled {
-          background-color: #006298;
-          border: 0.125rem solid #006298;
+          background-color: var(--rvt-color-blue-base);
+          border: 0.125rem solid var(--rvt-color-blue-base);
         }
       }
 
@@ -121,7 +121,7 @@
       &::before {
         content: '/';
         padding-right: 0.5rem;
-        color: #a0abb4;
+        color: var(--rvt-color-black-200);
       }
     }
 
@@ -258,7 +258,7 @@
     &.remove {
       @extend .rvt-button--danger-secondary;
 
-      border-color: #c6ecf6;
+      border-color: var(--rvt-color-blue-100);
     }
 
     &.active {
