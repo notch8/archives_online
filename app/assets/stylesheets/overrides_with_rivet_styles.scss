@@ -414,4 +414,12 @@
       }
     }
   }
+
+  #collection-nav {
+    margin-top: .75rem;
+  }
+
+  .al-sidebar-navigation-context a {
+    @extend .rvt-link;
+  }
 }
