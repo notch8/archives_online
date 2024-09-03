@@ -7,3 +7,4 @@ import Blacklight from "blacklight"
 
 import "arclight"
 import "repositories"
+import "jquery"
