@@ -159,37 +159,87 @@
 }
 
 // REPOSITORIES
-.al-repositories {
-  .repositories {
-    .al-repository {
-      @extend .rvt-card--horizontal, .rvt-card--raised;
 
-      margin-bottom: 1.5rem !important;
-      border: unset;
+%al-repository-styles {
+  @extend .rvt-card--horizontal, .rvt-card--raised;
 
-      .container {
-        img {
-          border-radius: .25rem;
-        }
+  margin-bottom: 1.5rem !important;
+  border: unset;
 
-        all: unset;
+  .container {
+    img {
+      border-radius: .25rem;
+    }
 
-        .al-repository-information {
-          .repo-name {
-            @extend .rvt-card__title;
+    all: unset;
 
-            a::before {
-              display: none;
-            }
-          }
+    .al-repository-information {
+      .repo-name {
+        @extend .rvt-card__title;
 
-          .al-repository-extra a.btn-secondary {
-            @extend .rvt-button--secondary;
-
-            font-weight: var(--rvt-font-weight-medium);
-          }
+        a::before {
+          display: none;
         }
       }
+
+      .al-repository-extra a.btn-secondary {
+        @extend .rvt-button--secondary;
+
+        font-weight: var(--rvt-font-weight-medium);
+      }
+    }
+  }
+}
+
+.blacklight-repositories-index {
+  .al-repository {
+    @extend %al-repository-styles;
+  }
+}
+
+.blacklight-repositories-show {
+  section {
+    margin-bottom: 4rem;
+  }
+
+  .al-repository {
+    @extend %al-repository-styles;
+  }
+
+  .al-repository-show-header {
+    div {
+      margin-top: 2rem;
+
+      h2 {
+        font-size: 1.75rem;
+      }
+    }
+
+    .text-right {
+      @extend .rvt-card;
+
+      display: flex;
+      align-items: end;
+      justify-content: center;
+
+      .al-repository-collections {
+        display: flex;
+
+        &::after {
+          display: none;
+        }
+
+        a {
+          @extend .rvt-cta
+        }
+      }
+    }
+  }
+
+  .al-document-title-bar {
+    .row .al-collection-id {
+      display: flex;
+      justify-content: end;
     }
   }
 }
