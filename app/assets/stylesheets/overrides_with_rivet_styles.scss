@@ -422,4 +422,14 @@
   .al-sidebar-navigation-context a {
     @extend .rvt-link;
   }
+
+  #appliedParams {
+    .btn-primary {
+      @extend .rvt-button;
+    }
+    .btn-outline-secondary {
+      @extend .rvt-button--secondary;
+      border-radius: .25rem;
+    }
+  }
 }
