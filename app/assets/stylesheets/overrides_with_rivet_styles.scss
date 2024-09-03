@@ -369,3 +369,49 @@
     @extend %breadcrumb-styles;
   }
 }
+
+// SHOW PAGE
+.blacklight-catalog-show {
+  .al-collection-context-actions .dropdown {
+    @extend .rvt-dropdown;
+
+    button {
+      @extend .rvt-button--secondary;
+
+      &::after {
+        width: 1rem;
+        height: 1rem;
+        background-image: image-url('rivet_icons/chevron-down.svg');
+        border: none;
+        position: relative;
+        top: .375rem;
+      }
+
+      .bi-info-circle-fill {
+        background-image: image-url('rivet_icons/info-circle-solid.svg');
+        fill: none;
+        position: relative;
+        bottom: 3px;
+      }
+    }
+
+    .dropdown-menu {
+      @extend .rvt-dropdown__menu;
+
+      min-width: 9rem;
+
+      .dropdown-item {
+        display: flex;
+        align-items: center;
+
+        svg {
+          margin-right: .25rem;
+        }
+      }
+
+      &.dropdown-menu.shadow-lg.p-2.show {
+        min-width: 21.25rem !important;
+      }
+    }
+  }
+}
