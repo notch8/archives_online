@@ -5,6 +5,54 @@
 // add the Rivet utility classes would take an incredible amount of view
 // overrides from both Arclight and Blacklight.
 
+// BREADCRUMBS
+%breadcrumb-styles {
+  .breadcrumb {
+    @extend .rvt-breadcrumbs;
+
+    .breadcrumb-item + .breadcrumb-item {
+      padding-left: 0;
+
+      &::before {
+        content: '/';
+        padding-right: 0.5rem;
+        color: var(--rvt-color-black-200);
+      }
+    }
+
+    .breadcrumb-item {
+      a[href="/"] {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        font-size: 0;
+        top: -1.5px;
+
+        &::before {
+          content: "";
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          background-image: image-url('rivet_icons/home.svg');
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+
+        &:hover::before {
+          filter: invert(60%) sepia(100%) saturate(1400%) hue-rotate(195deg) brightness(50%) contrast(130%);
+        }
+
+        &::after {
+          content: "Home"; /* Matches the orignial text content */
+          position: absolute;
+          left: -9999px; /* Moves the text off-screen */
+          visibility: visible; /* Keeps the text readable by screen readers */
+        }
+      }
+    }
+  }
+}
+
 // CONTAINERS
 .container {
   @extend .rvt-container-xl;
@@ -46,7 +94,7 @@
 
         &[for="within_collection"] {
           border-color: #78838E;
-          background-color: #e2e7e9;
+          background-color: var(--rvt-color-black-100);
           border-top-left-radius: .25rem !important;
           border-bottom-left-radius: .25rem !important;
         }
@@ -89,8 +137,8 @@
         border-bottom-left-radius: 0;
 
         &:disabled {
-          background-color: #006298;
-          border: 0.125rem solid #006298;
+          background-color: var(--rvt-color-blue-base);
+          border: 0.125rem solid var(--rvt-color-blue-base);
         }
       }
 
@@ -112,54 +160,10 @@
 
 // AL SEARCH BREADCRUMBS
 .al-search-breadcrumb {
-  .breadcrumb {
-    @extend .rvt-breadcrumbs;
-
-    .breadcrumb-item + .breadcrumb-item {
-      padding-left: 0;
-
-      &::before {
-        content: '/';
-        padding-right: 0.5rem;
-        color: #a0abb4;
-      }
-    }
-
-    .breadcrumb-item {
-      a[href="/"] {
-        position: relative;
-        display: inline-flex;
-        align-items: center;
-        text-indent: -9999px; /* Move the text far off-screen */
-        top: -1.75px;
-
-        &::before {
-          content: "";
-          display: inline-block;
-          width: 16px;
-          height: 16px;
-          background-image: image-url('rivet_icons/home.svg');
-          background-size: contain;
-          background-repeat: no-repeat;
-        }
-
-        &:hover::before {
-          filter: invert(60%) sepia(100%) saturate(1400%) hue-rotate(195deg) brightness(50%) contrast(130%);
-        }
-
-        &::after {
-          content: "Home"; /* Matches the orignial text content */
-          position: absolute;
-          left: -9999px; /* Moves the text off-screen */
-          visibility: visible; /* Keeps the text readable by screen readers */
-        }
-      }
-    }
-  }
+  @extend %breadcrumb-styles;
 }
 
 // REPOSITORIES
-
 %al-repository-styles {
   @extend .rvt-card--horizontal, .rvt-card--raised;
 
@@ -198,10 +202,6 @@
 }
 
 .blacklight-repositories-show {
-  section {
-    margin-bottom: 4rem;
-  }
-
   .al-repository {
     @extend %al-repository-styles;
   }
@@ -241,5 +241,131 @@
       display: flex;
       justify-content: end;
     }
+  }
+}
+
+// SEARCH RESULTS PAGE
+.blacklight-catalog-index {
+  .btn-primary {
+    @extend .rvt-button;
+  }
+
+  .btn-outline-secondary {
+    @extend .rvt-button--secondary;
+
+    font-weight: var(--rvt-font-weight-medium);
+    border-radius: .25rem;
+
+    &.remove {
+      @extend .rvt-button--danger-secondary;
+
+      border-color: var(--rvt-color-blue-100);
+    }
+
+    &.active {
+      @extend .rvt-button--secondary;
+
+      background-color: #EFFAFD;
+    }
+
+    &.view-type-compact, &.view-type-list,
+    &.view-type-list.active, &.view-type-compact.active {
+      svg {
+        fill: #296094;
+      }
+    }
+
+    &.dropdown-toggle::after {
+      width: 1rem;
+      height: 1rem;
+      background-image: image-url('rivet_icons/chevron-down.svg');
+      border: none;
+      position: relative;
+      top: .375rem;
+    }
+  }
+
+  #sort-dropdown, #per_page-dropdown {
+    .dropdown-menu {
+      @extend .rvt-dropdown__menu;
+    }
+  }
+
+  #per_page-dropdown .dropdown-menu {
+    min-width: 8rem;
+  }
+
+  #facets {
+    .facets-heading {
+      font-size: 1.5rem;
+    }
+
+    #facet-panel-collapse {
+      .card, button {
+        border-radius: .25rem;
+      }
+
+      .facet-limit-active {
+        border-color: var(--rvt-color-crimson-500) !important;
+
+        .card-header {
+          background-color: var(--rvt-color-crimson-500) !important;
+          border-radius: unset;
+        }
+
+        .selected {
+          color: var(--rvt-color-crimson-500) !important;
+        }
+      }
+    }
+  }
+
+  #documents {
+    .badge {
+      @extend .rvt-badge, .rvt-badge--secondary;
+    }
+  }
+
+  .record-padding {
+    .paginate-section {
+      margin-top: 1.5rem;
+
+      .pagination {
+        @extend .rvt-pagination;
+
+        .page-item {
+          @extend .rvt-pagination__item;
+
+          height: inherit;
+          width: inherit;
+
+          .page-link {
+            border-color: transparent;
+            border-radius: 0;
+            margin: 0 1px 0 -1px;
+            padding-left: .775rem;
+            padding-right: .775rem;
+            border: 0;
+          }
+
+          .page-link[aria-current=true] {
+            background-color: #fff3f0;
+            box-shadow: 0 .25rem 0 #900;
+            color: inherit;
+          }
+
+          &.disabled {
+            .page-link {
+              background: unset;
+              color: #A2ABB3;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .document-metadata {
+    @extend %breadcrumb-styles;
   }
 }

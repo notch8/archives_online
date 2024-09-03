@@ -48,3 +48,16 @@ body {
     }
   }
 }
+
+// OVERRIDE Blacklight v8.3.0 to fix boostrap collapsing animation
+.facet-field-heading button.collapsed::after {
+  transition: transform 0.25s ease;
+}
+
+.facet-field-heading button::after {
+  transition: transform 0.25s ease;
+}
+
+.collapsing {
+  transition: height 0.25s ease;
+}
