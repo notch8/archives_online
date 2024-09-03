@@ -12,7 +12,8 @@ require 'arclight/normalized_title'
 require 'active_model/conversion' ## Needed for Arclight::Repository
 require 'active_support/core_ext/array/wrap'
 require 'arclight/digital_object'
-require 'arclight/year_range'
+# IU customization: allow for collection date ranges over 1,000 years
+require_relative '../../ngao/year_range'
 require 'arclight/repository'
 require 'arclight/traject/nokogiri_namespaceless_reader'
 require 'debug' ## Needed for debugging
@@ -230,7 +231,7 @@ to_field 'dimensions_tesim', extract_xpath('/ead/archdesc/did/physdesc/dimension
 to_field 'genreform_ssim', extract_xpath('/ead/archdesc/controlaccess/genreform')
 
 to_field 'date_range_isim', extract_xpath('/ead/archdesc/did/unitdate/@normal', to_text: false) do |_record, accumulator|
-  range = Arclight::YearRange.new
+  range = ::Ngao::YearRange.new
   next range.years if accumulator.blank?
 
   ranges = accumulator.map(&:to_s)
