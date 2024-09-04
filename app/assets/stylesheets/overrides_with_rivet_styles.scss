@@ -244,6 +244,43 @@
   }
 }
 
+%paginate-section {
+  margin-top: 1.5rem;
+
+  .pagination {
+    @extend .rvt-pagination;
+
+    .page-item {
+      @extend .rvt-pagination__item;
+
+      height: inherit;
+      width: inherit;
+
+      .page-link {
+        border-color: transparent;
+        border-radius: 0;
+        margin: 0 1px 0 -1px;
+        padding-left: .775rem;
+        padding-right: .775rem;
+        border: 0;
+      }
+
+      .page-link[aria-current=true] {
+        background-color: #fff3f0;
+        box-shadow: 0 .25rem 0 #900;
+        color: inherit;
+      }
+
+      &.disabled {
+        .page-link {
+          background: unset;
+          color: #6E757C;
+        }
+      }
+    }
+  }
+}
+
 // SEARCH RESULTS PAGE
 .blacklight-catalog-index {
   .btn-primary {
@@ -327,45 +364,152 @@
   }
 
   .record-padding {
-    .paginate-section {
-      margin-top: 1.5rem;
-
-      .pagination {
-        @extend .rvt-pagination;
-
-        .page-item {
-          @extend .rvt-pagination__item;
-
-          height: inherit;
-          width: inherit;
-
-          .page-link {
-            border-color: transparent;
-            border-radius: 0;
-            margin: 0 1px 0 -1px;
-            padding-left: .775rem;
-            padding-right: .775rem;
-            border: 0;
-          }
-
-          .page-link[aria-current=true] {
-            background-color: #fff3f0;
-            box-shadow: 0 .25rem 0 #900;
-            color: inherit;
-          }
-
-          &.disabled {
-            .page-link {
-              background: unset;
-              color: #A2ABB3;
-            }
-          }
-        }
-      }
-    }
+    @extend %paginate-section;
   }
 
   .document-metadata {
     @extend %breadcrumb-styles;
+  }
+}
+
+// SHOW PAGE
+.blacklight-catalog-show {
+  .al-collection-context-actions .dropdown {
+    @extend .rvt-dropdown;
+
+    button {
+      @extend .rvt-button--secondary;
+
+      &::after {
+        width: 1rem;
+        height: 1rem;
+        background-image: image-url('rivet_icons/chevron-down.svg');
+        border: none;
+        position: relative;
+        top: .375rem;
+      }
+
+      .bi-info-circle-fill {
+        background-image: image-url('rivet_icons/info-circle-solid.svg');
+        fill: none;
+        position: relative;
+        bottom: 3px;
+      }
+    }
+
+    .dropdown-menu {
+      @extend .rvt-dropdown__menu;
+
+      min-width: 9rem;
+
+      .dropdown-item {
+        display: flex;
+        align-items: center;
+
+        svg {
+          margin-right: .25rem;
+        }
+      }
+
+      &.dropdown-menu.shadow-lg.p-2.show {
+        min-width: 21.25rem !important;
+      }
+    }
+  }
+
+  #collection-nav {
+    margin-top: .75rem;
+  }
+
+  .al-sidebar-navigation-context a {
+    @extend .rvt-link;
+  }
+
+  #appliedParams {
+    .btn-primary {
+      @extend .rvt-button;
+    }
+    .btn-outline-secondary {
+      @extend .rvt-button--secondary;
+      border-radius: .25rem;
+    }
+  }
+
+  .breadcrumb {
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    .breadcrumb-home-link {
+      a[href="/"] {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        top: .25rem;
+
+        &::before {
+          content: "";
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          background-image: image-url('rivet_icons/home.svg');
+          background-size: contain;
+          background-repeat: no-repeat;
+          margin-right: 0.25rem;
+        }
+
+        &:hover::before {
+          filter: invert(60%) sepia(100%) saturate(1400%) hue-rotate(195deg) brightness(50%) contrast(130%);
+        }
+
+        &::after {
+          content: "Home"; /* Matches the orignial text content */
+          position: absolute;
+          left: -9999px; /* Moves the text off-screen */
+          visibility: visible; /* Keeps the text readable by screen readers */
+        }
+      }
+    }
+
+    .breadcrumb-campus-link {
+      margin-left: 1rem;
+    }
+
+    .breadcrumb-item-1 {
+      margin-left: 2rem;
+    }
+
+    .breadcrumb-item-3:first-of-type::before,
+    .breadcrumb-item-4:first-child > .breadcrumb-text:first-child::before {
+      content: image-url('rivet_icons/arrow-anchor-down-right.svg');
+      margin-left: .5rem;
+      margin-right: .25rem;
+    }
+
+    .breadcrumb-item + .breadcrumb-item {
+      padding-left: 0;
+
+      &::before {
+        content: '/';
+        padding-right: 0.5rem;
+        color: var(--rvt-color-black-200);
+      }
+    }
+
+    .breadcrumb-item a {
+      margin-right: 0.5rem;
+    }
+  }
+
+  .al-request {
+    .btn-primary {
+      @extend .rvt-button;
+    }
+  }
+
+  .record-padding {
+    @extend %paginate-section;
   }
 }
