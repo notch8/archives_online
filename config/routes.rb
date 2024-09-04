@@ -7,6 +7,9 @@ Rails.application.routes.draw do
   get '/search_history', to: 'application#render404'
   delete '/search_history/clear', to: 'application#render404'
 
+  # OVERRIDE Arclight to add `level_ssim`
+  get 'collections' => 'catalog#index', defaults: { f: { level_ssim: ['Collection'] } }, as: :collections
+
   mount Blacklight::Engine => '/'
   mount Arclight::Engine => '/'
 
