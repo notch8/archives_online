@@ -479,7 +479,7 @@
       margin-left: 2rem;
     }
 
-    .breadcrumb-item-3:first-of-type::before, 
+    .breadcrumb-item-3:first-of-type::before,
     .breadcrumb-item-4:first-child > .breadcrumb-text:first-child::before {
       content: image-url('rivet_icons/arrow-anchor-down-right.svg');
       margin-left: .5rem;
@@ -499,5 +499,11 @@
     .breadcrumb-item a {
       margin-right: 0.5rem;
     }
-  } 
+  }
+
+  .al-request {
+    .btn-primary {
+      @extend .rvt-button;
+    }
+  }
 }
