@@ -244,6 +244,43 @@
   }
 }
 
+%paginate-section {
+  margin-top: 1.5rem;
+
+  .pagination {
+    @extend .rvt-pagination;
+
+    .page-item {
+      @extend .rvt-pagination__item;
+
+      height: inherit;
+      width: inherit;
+
+      .page-link {
+        border-color: transparent;
+        border-radius: 0;
+        margin: 0 1px 0 -1px;
+        padding-left: .775rem;
+        padding-right: .775rem;
+        border: 0;
+      }
+
+      .page-link[aria-current=true] {
+        background-color: #fff3f0;
+        box-shadow: 0 .25rem 0 #900;
+        color: inherit;
+      }
+
+      &.disabled {
+        .page-link {
+          background: unset;
+          color: #6E757C;
+        }
+      }
+    }
+  }
+}
+
 // SEARCH RESULTS PAGE
 .blacklight-catalog-index {
   .btn-primary {
@@ -327,42 +364,7 @@
   }
 
   .record-padding {
-    .paginate-section {
-      margin-top: 1.5rem;
-
-      .pagination {
-        @extend .rvt-pagination;
-
-        .page-item {
-          @extend .rvt-pagination__item;
-
-          height: inherit;
-          width: inherit;
-
-          .page-link {
-            border-color: transparent;
-            border-radius: 0;
-            margin: 0 1px 0 -1px;
-            padding-left: .775rem;
-            padding-right: .775rem;
-            border: 0;
-          }
-
-          .page-link[aria-current=true] {
-            background-color: #fff3f0;
-            box-shadow: 0 .25rem 0 #900;
-            color: inherit;
-          }
-
-          &.disabled {
-            .page-link {
-              background: unset;
-              color: #A2ABB3;
-            }
-          }
-        }
-      }
-    }
+    @extend %paginate-section;
   }
 
   .document-metadata {
@@ -505,5 +507,9 @@
     .btn-primary {
       @extend .rvt-button;
     }
+  }
+
+  .record-padding {
+    @extend %paginate-section;
   }
 }
