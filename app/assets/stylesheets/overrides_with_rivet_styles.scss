@@ -432,4 +432,72 @@
       border-radius: .25rem;
     }
   }
+
+  .breadcrumb {
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    .breadcrumb-home-link {
+      a[href="/"] {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        top: .25rem;
+
+        &::before {
+          content: "";
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          background-image: image-url('rivet_icons/home.svg');
+          background-size: contain;
+          background-repeat: no-repeat;
+          margin-right: 0.25rem;
+        }
+
+        &:hover::before {
+          filter: invert(60%) sepia(100%) saturate(1400%) hue-rotate(195deg) brightness(50%) contrast(130%);
+        }
+
+        &::after {
+          content: "Home"; /* Matches the orignial text content */
+          position: absolute;
+          left: -9999px; /* Moves the text off-screen */
+          visibility: visible; /* Keeps the text readable by screen readers */
+        }
+      }
+    }
+
+    .breadcrumb-campus-link {
+      margin-left: 1rem;
+    }
+
+    .breadcrumb-item-1 {
+      margin-left: 2rem;
+    }
+
+    .breadcrumb-item-3:first-of-type::before, 
+    .breadcrumb-item-4:first-child > .breadcrumb-text:first-child::before {
+      content: image-url('rivet_icons/arrow-anchor-down-right.svg');
+      margin-left: .5rem;
+      margin-right: .25rem;
+    }
+
+    .breadcrumb-item + .breadcrumb-item {
+      padding-left: 0;
+
+      &::before {
+        content: '/';
+        padding-right: 0.5rem;
+        color: var(--rvt-color-black-200);
+      }
+    }
+
+    .breadcrumb-item a {
+      margin-right: 0.5rem;
+    }
+  } 
 }
