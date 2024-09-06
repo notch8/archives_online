@@ -1,0 +1,13 @@
+<%#
+  OVERRIDE Arclight v1.4.0 to check if the rendered breadcrumbs is an empty html tag
+%>
+
+<dt class="visually-hidden">Collection Context</dt>
+
+<% if rendered_breadcrumbs.include? 'breadcrumb-item' %>
+  <dd>
+    <div class='breadcrumb-links'>
+      <%= rendered_breadcrumbs %>
+    </div>
+  </dd>
+<% end %>
