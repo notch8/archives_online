@@ -1,0 +1,12 @@
+<%#
+  OVERRIDE Arclight v1.4.0 to alter the link for `Collections`
+%>
+
+<li class="nav-item <%= repositories_active_class %>">
+  <%= link_to t('arclight.routes.repositories'), arclight_engine.repositories_path, class: 'nav-link' %>
+</li>
+<li class="nav-item ml-3 ms-3 <%= collection_active_class %>">
+  <%# OVERRIDE begin %>
+  <%= link_to t('arclight.routes.collections'), '/catalog?f[level_ssim][]=Collection', class: 'nav-link' %>
+  <%# OVERRIDE end %>
+</li>
