@@ -82,6 +82,11 @@
   }
 }
 
+// All a tags
+a {
+  text-decoration: underline !important;
+}
+
 // NAVBAR SEARCH
 .navbar-search {
   margin-bottom: 0.75rem;
@@ -477,12 +482,6 @@
   }
 
   .breadcrumb {
-    a {
-      text-decoration: none;
-      &:hover {
-        text-decoration: underline;
-      }
-    }
     .breadcrumb-home-link {
       a[href="/"] {
         position: relative;
