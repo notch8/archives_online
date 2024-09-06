@@ -16,6 +16,7 @@ AllCops:
     - 'lib/generators/arclight/templates/**/*'
     - 'lib/tasks/index.rake'
     - 'README.md'
+    - 'app/components/blacklight_range_limit/range_form_component.rb'
 
 Metrics/BlockLength:
   Exclude:

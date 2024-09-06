@@ -333,6 +333,20 @@
   }
 
   #facets {
+    h3 button:focus {
+      @extend .rvt-button:focus;
+    }
+
+    h3 button:hover {
+      @extend .rvt-button:hover;
+    }
+
+    h3 button:active {
+      @extend .rvt-button:active;
+
+      border-color: var(--rvt-color-blue-400) !important;
+    }
+
     .facets-heading {
       font-size: 1.5rem;
     }
@@ -352,6 +366,32 @@
 
         .selected {
           color: var(--rvt-color-crimson-500) !important;
+        }
+      }
+    }
+
+    #facet-date_range_isim {
+      .input-group {
+        @extend .rvt-input-group;
+
+        #range_date_range_isim_begin {
+          @extend .rvt-input;
+
+          border-top-right-radius: 0;
+          border-bottom-right-radius: 0;
+        }
+
+        #range_date_range_isim_end {
+          @extend .rvt-input;
+
+          border-radius: 0
+        }
+
+        .btn-secondary {
+          @extend .rvt-button;
+
+          border-top-left-radius: 0;
+          border-bottom-left-radius: 0;
         }
       }
     }
