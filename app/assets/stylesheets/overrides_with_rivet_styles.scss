@@ -407,6 +407,12 @@ a {
     .badge {
       @extend .rvt-badge, .rvt-badge--secondary;
     }
+
+    .al-grouped-repository a {
+      display: inline-block;
+      min-width: 1.5rem;
+      min-height: 1.5rem;
+    }
   }
 
   .record-padding {
@@ -415,6 +421,12 @@ a {
 
   .document-metadata {
     @extend %breadcrumb-styles;
+
+    .breadcrumb-item a {
+      display: inline-block;
+      min-width: 1.5rem;
+      min-height: 1.5rem;
+    }
   }
 }
 
