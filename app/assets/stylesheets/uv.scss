@@ -1,0 +1,7 @@
+// Make the universal viewer iframe responsive
+
+.blacklight-catalog-show {
+  #main-container iframe {
+    width: 100%;
+  }
+}
