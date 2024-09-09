@@ -289,6 +289,12 @@ a {
 
 // SEARCH RESULTS PAGE
 .blacklight-catalog-index {
+  .applied-filter .constraint-value {
+    max-width: 100%;
+    overflow: unset;
+    white-space: normal;
+  }
+
   .btn-primary {
     @extend .rvt-button;
   }
