@@ -106,19 +106,14 @@ archives_online relies on helm charts for deployment to kubernetes containers. W
 
 ### EAD Files
 
-#### In Docker
-There are 2 files pre-loaded and in order to run them you need to be inside the web container:
 ```
-docker compose exec web bash
-bundle exec traject -u http://solr:8983/solr/${SOLR_CORE} -i xml -c lib/arclight/traject/ead2_config.rb data/VAD8042.xml
-bundle exec traject -u http://solr:8983/solr/${SOLR_CORE} -i xml -c lib/arclight/traject/ead2_config.rb data/InU-Li-VAD1572.xml
+DIR=data rake arclight:index_dir
 ```
 
-#### Without Docker
-```
-bundle exec traject -u http://solr:8983/solr/${SOLR_CORE} -i xml -c lib/arclight/traject/ead2_config.rb data/VAD8042.xml
-bundle exec traject -u http://solr:8983/solr/${SOLR_CORE} -i xml -c lib/arclight/traject/ead2_config.rb data/InU-Li-VAD1572.xml
-```
+## Setup in k8 env
+
+### Creating solr collections in k8 env with zookeeper
+curl -X POST "http://admin:$SOLR_ADMIN_PASSWORD@solr.staging-solr:8983/solr/admin/collections?action=CREATE&name=archives-online&numShards=1&collection.configName=archives-online"
 
 ## Debugging
 
@@ -138,8 +133,8 @@ services:
 
 Manually start the application and go into docker's bash:
 
-`docker compose up -d && docker compose exec web bash` 
+`docker compose up -d && docker compose exec web bash`
 
-To use the debugger command, you may need to add the following to the file: 
+To use the debugger command, you may need to add the following to the file:
 
 `require 'debug'; debugger`
