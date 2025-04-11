@@ -104,3 +104,6 @@ externalSolrHost: solr.solr.svc.cluster.local
 externalSolrUser: admin
 externalSolrCollection: "archives-online"
 externalSolrPassword: $SOLR_ADMIN_PASSWORD
+
+nginx:
+  enabled: false
