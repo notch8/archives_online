@@ -32,7 +32,7 @@ fullnameOverride: ""
 shared:
   storage:
     size: 1Gi
-    className: nfs
+    className: efs-sc
 
 service:
   port: 80
