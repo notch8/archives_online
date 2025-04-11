@@ -17,7 +17,7 @@ on:
 # We are using version 14 since this project has not been knap-sackerized yet
 jobs:
   build:
-    uses: scientist-softserv/actions/.github/workflows/build.yaml@v0.0.22
+    uses: notch8/actions/.github/workflows/build.yaml@v0.0.24
     secrets: inherit
     with:
       platforms: "linux/amd64"
@@ -26,13 +26,13 @@ jobs:
 
   # test:
   #   needs: build
-  #   uses: scientist-softserv/actions/.github/workflows/test.yaml@v0.0.22
+  #   uses: notch8/actions/.github/workflows/test.yaml@v0.0.24
   #   with:
   #     confdir: '/home/app/webapp/solr/conf'
   #     rspec_cmd: "cd .. && gem install semaphore_test_boosters && bundle && rspec_booster --job $CI_NODE_INDEX/$CI_NODE_TOTAL"
 
   lint:
     needs: build
-    uses: scientist-softserv/actions/.github/workflows/lint.yaml@v0.0.22
+    uses: notch8/actions/.github/workflows/lint.yaml@v0.0.24
     with:
       webTarget: web

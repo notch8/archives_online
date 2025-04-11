@@ -82,3 +82,5 @@ gem 'devise-guests', '~> 0.8'
 gem 'rsolr', '>= 1.0', '< 3'
 gem 'rubocop', '>= 1.0', group: %i[development test]
 gem 'sassc-rails', '~> 2.1'
+gem 'sentry-ruby'
+gem 'sentry-rails'

@@ -8,8 +8,9 @@
 # MYSQL_ROOT_PASSWORD
 # SECRET_KEY_BASE
 # DATABASE_PASSWORD
+# SMTP_PASSWORD
 
-## If you are using our heml_deploy script,
+## If you are using our helm_deploy script,
 ## you can set these environment variables,
 ## you have to base64 encode the values:
 # KUBECONFIG_FILE
@@ -36,7 +37,7 @@ shared:
 ingress:
   enabled: true
   hosts:
-    - host: archives-online-staging.notch8.cloud
+    - host: archives-online-friends.notch8.cloud
       paths:
         - path: /
           pathType: ImplementationSpecific
@@ -47,28 +48,38 @@ ingress:
   }
   tls:
     - hosts:
-        - archives-online-staging.notch8.cloud
+        - archives-online-friends.notch8.cloud
       secretName: archives-online-tls
 
 env:
   configmap:
     CONFDIR: /home/app/webapp/solr/conf
     DATABASE_ADAPTER: mysql2
-    DATABASE_HOST: archives-online-staging-mysql
-    DATABASE_NAME: archives_online
+    DATABASE_HOST: archives-online-friends-mysql
+    DATABASE_NAME: 'archives-online'
     DATABASE_PASSWORD: $DATABASE_PASSWORD
     DATABASE_USER: archives-online
     MYSQL_ROOT_PASSWORD: $MYSQL_ROOT_PASSWORD
     PASSENGER_APP_ENV: production
     SECRET_KEY_BASE: $SECRET_KEY_BASE
+    SENTRY_DSN: $SENTRY_DSN
+    SENTRY_ENVIRONMENT: 'archives-online-friends'
+    SMTP_ADDRESS: maildev-smtp.maildev.svc.cluster.local
+    SMTP_DOMAIN: maildev-smtp.maildev.svc.cluster.local
+    SMTP_ENABLED: true
+    SMTP_PASSWORD: $SMTP_PASSWORD
+    SMTP_PORT: '1025'
+    SMTP_STARTTLS: false
+    SMTP_TYPE: plain
+    SMTP_USER_NAME: admin
     SOLR_ADMIN_PASSWORD: $SOLR_ADMIN_PASSWORD
     SOLR_ADMIN_USER: admin
     SOLR_COLLECTION_NAME: archives-online
     SOLR_CONFIGSET_NAME: archives-online
     SOLR_CORE: archives-online
-    SOLR_HOST: solr.staging-solr
+    SOLR_HOST: solr.solr
     SOLR_PORT: '8983'
-    SOLR_URL: http://admin:$SOLR_ADMIN_PASSWORD@solr.staging-solr:8983/solr/archives-online
+    SOLR_URL: http://admin:$SOLR_ADMIN_PASSWORD@solr.solr:8983/solr/archives-online
 
 mysql:
   image:
@@ -77,14 +88,15 @@ mysql:
     tag: 8.4.2-debian-12-r2
   architecture: standalone
   auth:
-    database: archives_online
+    database: 'archives-online'
     username: archives-online
-    existingSecret: "mysql-secret"
+    rootPassword: $MYSQL_ROOT_PASSWORD
+    password: $DATABASE_PASSWORD
     persistence:
       enabled: true
       size: 8Gi
 
-externalSolrHost: solr.staging-solr.svc.cluster.local
+externalSolrHost: solr.solr.svc.cluster.local
 externalSolrUser: admin
 externalSolrCollection: "archives-online"
 externalSolrPassword: $SOLR_ADMIN_PASSWORD
