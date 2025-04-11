@@ -1,6 +1,6 @@
 FROM phusion/passenger-ruby32:3.0.7 as base
 
-ARG REPO_URL=https://github.com/scientist-softserv/archives_online.git
+ARG REPO_URL=https://github.com/notch8/archives_online.git
 
 RUN echo 'Downloading Packages' && \
     curl -sL https://deb.nodesource.com/setup_16.x | bash - && \

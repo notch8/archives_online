@@ -18,7 +18,7 @@
 replicaCount: 1
 
 image:
-  repository: ghcr.io/scientist-softserv/archives_online:latest
+  repository: ghcr.io/notch8/archives_online:latest
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
