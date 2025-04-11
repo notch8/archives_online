@@ -1,4 +1,4 @@
-FROM phusion/passenger-ruby32:3.0.7 as base
+FROM phusion/passenger-ruby32:latest AS base
 
 ARG REPO_URL=https://github.com/notch8/archives_online.git
 
@@ -35,7 +35,7 @@ RUN /sbin/setuser app bash -l -c "bundle check || bundle install"
 # RUN rm -f /etc/service/nginx/down
 
 # Web stage
-FROM base as web
+FROM base AS web
 
 COPY ops/webapp.conf /etc/nginx/sites-enabled/webapp.conf
 COPY ops/env.conf /etc/nginx/main.d/env.conf
