@@ -92,6 +92,7 @@ mysql:
     username: archives-online
     rootPassword: $MYSQL_ROOT_PASSWORD
     password: $DATABASE_PASSWORD
+  primary:
     persistence:
       enabled: true
       size: 8Gi
