@@ -49,12 +49,12 @@ spec:
               containerPort: {{ .Values.service.port }}
               protocol: TCP
           readinessProbe:
-            httpGet:
+            tcpSocket:
               port: 80
             initialDelaySeconds: 30
             periodSeconds: 10
           livenessProbe:
-            httpGet:
+            tcpSocket:
               port: 80
             initialDelaySeconds: 60
             periodSeconds: 120
