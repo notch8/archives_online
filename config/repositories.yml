@@ -1,21 +1,21 @@
 iupuigeneral:
   campus: 'US-iniu'
-  name: 'IUPUI General Collections'
+  name: 'IU Indianapolis General Collections'
   visit_note: ''
   description: 'The General Collections include the records and papers of organizations and individuals with ties to the University and/or Indianapolis.'
   contact_html: |
     <div class="al-repository-contact-info"><a href="mailto:speccoll@iupui.edu">speccoll@iupui.edu</a></div>
   location_html: |
-    <div class="al-repository-street-address-building">IUPUI University Library</div>
+    <div class="al-repository-street-address-building">IU Indianapolis University Library</div>
     <div class="al-repository-street-address-address1">755 West Michigan Street</div>
     <div class="al-repository-street-address-address2">Room 0133</div>
     <div class="al-repository-street-address-city_state_zip_country">Indianapolis, Indiana 46202, United States</div>
     <a href="http://www.ulib.iupui.edu/special">Visit the Ruth Lilly Special Collections and Archives</a>
-  thumbnail_url: 'https://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/IUPUI_General.jpg'
+  thumbnail_url: 'https://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/IU Indianapolis_General.jpg'
 
 iupuiga:
   campus: 'US-iniu'
-  name: 'IUPUI German-American Archives'
+  name: 'IU Indianapolis German-American Archives'
   visit_note: ''
   description: 'The German-American Collections include the records of national and local social, cultural, economic, and athletic organizations started by German immigrants. Particularly significant are the national and local records of the American Turners, a social organization of German origin whose is physical fitness, sports, and the propagation of German culture.'
   contact_html: |
@@ -26,11 +26,11 @@ iupuiga:
     <div class="al-repository-street-address-address2">Room 0133</div>
     <div class="al-repository-street-address-city_state_zip_country">Indianapolis, Indiana 46202, United States</div>
     <a href="http://www.ulib.iupui.edu/special">Visit the Ruth Lilly Special Collections and Archives</a>
-  thumbnail_url: 'https://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/IUPUI_German.jpg'
+  thumbnail_url: 'https://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/IU Indianapolis_German.jpg'
 
 iupuipsa:
   campus: 'US-iniu'
-  name: 'IUPUI Philanthropic Studies Archives'
+  name: 'IU Indianapolis Philanthropic Studies Archives'
   visit_note: ''
   description: 'The Philanthropic Studies Archives documents the history of the philanthropic tradition, including the historical records of nonprofit organizations, advocates for the nonprofit sector, fundraising firms, private foundations, individual philanthropists, and organizations and individuals involved in national service theory and practice.'
   contact_html: |
@@ -41,13 +41,13 @@ iupuipsa:
     <div class="al-repository-street-address-address2">Room 0133</div>
     <div class="al-repository-street-address-city_state_zip_country">Indianapolis, Indiana 46202, United States</div>
     <a href="http://www.ulib.iupui.edu/special">Visit the Ruth Lilly Special Collections and Archives</a>
-  thumbnail_url: 'https://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/IUPUI_Philanthropic.jpg'
+  thumbnail_url: 'https://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/IU Indianapolis_Philanthropic.jpg'
 
 iupuiua:
   campus: 'US-iniu'
-  name: 'IUPUI University Archives'
+  name: 'IU Indianapolis University Archives'
   visit_note: ''
-  description: 'The University Archives at Indiana University Purdue University Indianapolis (IUPUI) was created in April, 1975 by Vice President and Chancellor Glenn W. Irwin, Jr. to serve as the official repository for University records that have long-term historical, administrative, legal, and/or fiscal value. It accessions such records by authority of the University’s administration, preserves them for future use, and organizes them for controlled access. Its primary purpose is to serve the administrative, teaching, research, and public service needs of the University and other user communities. In order to fulfill this purpose, the University Archives collects as comprehensively as possible those records that have enduring value to documenting the history of IUPUI, its administration, and the schools, programs, and services that it administers.'
+  description: 'The University Archives at Indiana University Purdue University Indianapolis (IU Indianapolis) was created in April, 1975 by Vice President and Chancellor Glenn W. Irwin, Jr. to serve as the official repository for University records that have long-term historical, administrative, legal, and/or fiscal value. It accessions such records by authority of the University’s administration, preserves them for future use, and organizes them for controlled access. Its primary purpose is to serve the administrative, teaching, research, and public service needs of the University and other user communities. In order to fulfill this purpose, the University Archives collects as comprehensively as possible those records that have enduring value to documenting the history of IU Indianapolis, its administration, and the schools, programs, and services that it administers.'
   contact_html: |
     <div class="al-repository-contact-info"><a href="mailto:speccoll@iupui.edu">speccoll@iupui.edu</a></div>
   location_html: |
@@ -56,7 +56,7 @@ iupuiua:
     <div class="al-repository-street-address-address2">Room 0133</div>
     <div class="al-repository-street-address-city_state_zip_country">Indianapolis, Indiana 46202, United States</div>
     <a href="http://www.ulib.iupui.edu/special">Visit the Ruth Lilly Special Collections and Archives</a>
-  thumbnail_url: 'https://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/IUPUI_University_Archives.jpg'
+  thumbnail_url: 'https://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/IU Indianapolis_University_Archives.jpg'
 
 lilly:
   campus: 'US-InU'
@@ -457,7 +457,7 @@ rbc:
     <div class="al-repository-contact-phone">317-274-1451</div>
     <div class="al-repository-contact-info"><a href="mailto:bradbury@iupui.edu">bradbury@iupui.edu</a></div>
   location_html: |
-    <div class="al-repository-street-address-building">IUPUI Cavanaugh Hall</div>
+    <div class="al-repository-street-address-building">IU Indianapolis Cavanaugh Hall</div>
     <div class="al-repository-street-address-address1">425 University Blvd</div>
     <div class="al-repository-street-address-address2">Room 121</div>
     <div class="al-repository-street-address-city_state_zip_country">Indianapolis, Indiana 46202, United States</div>
