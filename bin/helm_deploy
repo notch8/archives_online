@@ -18,7 +18,7 @@ fi
 release_name="${1//_/-}"
 namespace="${2//_/-}"
 
-DEPLOY_IMAGE="${DEPLOY_IMAGE:-ghcr.io/scientist-softserv/archives_online}"
+DEPLOY_IMAGE="${DEPLOY_IMAGE:-ghcr.io/notch8/archives_online}"
 DEPLOY_TAG="${DEPLOY_TAG:-latest}"
 echo $DEPLOY_TAG
 
