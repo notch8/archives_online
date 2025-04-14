@@ -148,7 +148,7 @@ class CatalogController < ApplicationController
 
     config.add_facet_field 'campus_unit_ssim', label: 'Campus', helper_method: :render_campus_facet
     config.add_facet_field 'repository_ssim', label: 'Repository', limit: 10
-    config.add_facet_field 'collection_ssim', label: 'Collection', limit: 10
+    config.add_facet_field 'collection', field: 'collection_ssim', label: 'Collection', limit: 10
     config.add_facet_field 'level_ssim', label: 'Level', limit: 10
     config.add_facet_field 'creator_ssim', label: 'Creator', limit: 10
     config.add_facet_field 'creators_ssim', label: 'Creator', show: false
