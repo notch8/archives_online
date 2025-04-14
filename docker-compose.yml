@@ -5,9 +5,9 @@ x-app: &app
     args:
       BUILDKIT_INLINE_CACHE: 1
     cache_from:
-      - ghcr.io/scientist-softserv/archives_online/base:latest
-      - ghcr.io/scientist-softserv/archives_online:latest
-  image: ghcr.io/scientist-softserv/archives_online:${TAG:-latest}
+      - ghcr.io/notch8/archives_online/base:latest
+      - ghcr.io/notch8/archives_online:latest
+  image: ghcr.io/notch8/archives_online:${TAG:-latest}
   env_file:
     - .env
   volumes:
@@ -31,12 +31,12 @@ networks:
 services:
   base:
     <<: *app
-    image: ghcr.io/scientist-softserv/archives_online/base:${TAG:-latest}
+    image: ghcr.io/notch8/archives_online/base:${TAG:-latest}
     build:
       context: .
       target: base
       cache_from:
-        - ghcr.io/scientist-softserv/archives_online/base:latest
+        - ghcr.io/notch8/archives_online/base:latest
       args:
         BUILDKIT_INLINE_CACHE: 1
 

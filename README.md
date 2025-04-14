@@ -25,7 +25,7 @@ newgrp docker
 1) **Clone the repository and checkout the last release:**
 
     ```bash
-    git clone git@github.com:scientist-softserv/archives_online.git
+    git clone git@github.com:notch8/archives_online.git
     cd archives_online
     ```
 
