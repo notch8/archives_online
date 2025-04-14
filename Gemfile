@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.2.5'
+ruby '3.2.8'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.8', '>= 7.0.8.1'
@@ -82,3 +82,5 @@ gem 'devise-guests', '~> 0.8'
 gem 'rsolr', '>= 1.0', '< 3'
 gem 'rubocop', '>= 1.0', group: %i[development test]
 gem 'sassc-rails', '~> 2.1'
+gem 'sentry-rails'
+gem 'sentry-ruby'

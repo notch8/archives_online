@@ -1,6 +1,6 @@
-FROM phusion/passenger-ruby32:3.0.7 as base
+FROM phusion/passenger-ruby32:latest AS base
 
-ARG REPO_URL=https://github.com/scientist-softserv/archives_online.git
+ARG REPO_URL=https://github.com/notch8/archives_online.git
 
 RUN echo 'Downloading Packages' && \
     curl -sL https://deb.nodesource.com/setup_16.x | bash - && \
@@ -30,12 +30,8 @@ ENV BUNDLE_GEMFILE=$APP_HOME/Gemfile \
 COPY --chown=app:app Gemfile* $APP_HOME/
 RUN /sbin/setuser app bash -l -c "bundle check || bundle install"
 
-# COPY ops/nginx.sh /etc/service/nginx/run
-# RUN chmod +x /etc/service/nginx/run
-# RUN rm -f /etc/service/nginx/down
-
 # Web stage
-FROM base as web
+FROM base AS web
 
 COPY ops/webapp.conf /etc/nginx/sites-enabled/webapp.conf
 COPY ops/env.conf /etc/nginx/main.d/env.conf
