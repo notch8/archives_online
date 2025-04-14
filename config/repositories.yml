@@ -11,7 +11,7 @@ iupuigeneral:
     <div class="al-repository-street-address-address2">Room 0133</div>
     <div class="al-repository-street-address-city_state_zip_country">Indianapolis, Indiana 46202, United States</div>
     <a href="http://www.ulib.iupui.edu/special">Visit the Ruth Lilly Special Collections and Archives</a>
-  thumbnail_url: 'https://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/IU Indianapolis_General.jpg'
+  thumbnail_url: 'https://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/IUPUI_General.jpg'
 
 iupuiga:
   campus: 'US-iniu'
@@ -26,7 +26,7 @@ iupuiga:
     <div class="al-repository-street-address-address2">Room 0133</div>
     <div class="al-repository-street-address-city_state_zip_country">Indianapolis, Indiana 46202, United States</div>
     <a href="http://www.ulib.iupui.edu/special">Visit the Ruth Lilly Special Collections and Archives</a>
-  thumbnail_url: 'https://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/IU Indianapolis_German.jpg'
+  thumbnail_url: 'https://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/IUPUI_German.jpg'
 
 iupuipsa:
   campus: 'US-iniu'
@@ -41,7 +41,7 @@ iupuipsa:
     <div class="al-repository-street-address-address2">Room 0133</div>
     <div class="al-repository-street-address-city_state_zip_country">Indianapolis, Indiana 46202, United States</div>
     <a href="http://www.ulib.iupui.edu/special">Visit the Ruth Lilly Special Collections and Archives</a>
-  thumbnail_url: 'https://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/IU Indianapolis_Philanthropic.jpg'
+  thumbnail_url: 'https://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/IUPUI_Philanthropic.jpg'
 
 iupuiua:
   campus: 'US-iniu'
@@ -56,7 +56,7 @@ iupuiua:
     <div class="al-repository-street-address-address2">Room 0133</div>
     <div class="al-repository-street-address-city_state_zip_country">Indianapolis, Indiana 46202, United States</div>
     <a href="http://www.ulib.iupui.edu/special">Visit the Ruth Lilly Special Collections and Archives</a>
-  thumbnail_url: 'https://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/IU Indianapolis_University_Archives.jpg'
+  thumbnail_url: 'https://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/IUPUI_University_Archives.jpg'
 
 lilly:
   campus: 'US-InU'
