@@ -3,7 +3,7 @@
 require 'active_support/core_ext/integer/time'
 
 Rails.application.configure do
-  config.hosts << 'archives-online-staging.notch8.cloud'
+  config.hosts << 'archives-online-friends.notch8.cloud'
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
