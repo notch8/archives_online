@@ -1,0 +1,20 @@
+<%#
+  OVERRIDE Arclight v1.4.0 to add the collection unitid
+  @see: Ngao::Arclight::CollectionContextComponent
+%>
+
+<div class="al-show-actions-box mb-3">
+  <div class="al-actions-box-container">
+    <button type="button" class="btn-close d-lg-none float-end mt-1 me-1" data-bs-dismiss="offcanvas" data-bs-target="#sidebar" aria-label="Close"></button>
+    <div class="d-flex flex-row justify-content-between">
+      <h2>Collection</h2>
+      <div><%= t('.collection_id') %>: <%= collection['unitid_ssm']&.first %></div>
+    </div>
+    <h3><%= title %></h3>
+
+    <div class="al-collection-context-actions d-flex flex-wrap gap-1">
+      <%= document_download %>
+      <%= collection_info %>
+    </div>
+  </div>
+</div>
