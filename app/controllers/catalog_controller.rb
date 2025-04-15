@@ -154,10 +154,10 @@ class CatalogController < ApplicationController
     config.add_facet_field 'creators_ssim', label: 'Creator', show: false
     config.add_facet_field 'component_level_isim', show: false
     config.add_facet_field 'date_range_isim', label: 'Year', range: { assumed_boundaries: [0, Time.now.year + 2] }
-    config.add_facet_field 'names_ssim', label: 'Names', limit: 10
+    config.add_facet_field 'names', field: 'names_ssim', limit: 10
     config.add_facet_field 'geogname_ssim', label: 'Place', limit: 10
     config.add_facet_field 'places_ssim', label: 'Places', show: false
-    config.add_facet_field 'access_subjects_ssim', label: 'Subject', limit: 10
+    config.add_facet_field 'access_subjects', field: 'access_subjects_ssim', label: 'Subject', limit: 10
     config.add_facet_field 'parent_ssim', show: false
 
     # Have BL send all facet field names to Solr, which has been the default
