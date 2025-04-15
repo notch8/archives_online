@@ -57,3 +57,26 @@ body {
 .collapsing {
   transition: height 0.25s ease;
 }
+
+// Force wrapping and line height for long breadcrumb links in search results
+.al-document-listings {
+  dl.document-metadata {
+    .breadcrumb-links {
+      ol.breadcrumb {
+        li.breadcrumb-item {
+          height: auto !important;
+          vertical-align: top !important;
+
+          a {
+            display: inline !important;
+            white-space: normal !important;
+            word-break: break-word !important;
+            overflow-wrap: break-word !important;
+            line-height: 1.4 !important;
+            margin-bottom: 0 !important;
+          }
+        }
+      }
+    }
+  }
+}
