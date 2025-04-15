@@ -76,3 +76,7 @@ en:
           place: Place
           subject: Subject
           access: Access
+  ngao:
+    arclight:
+      collection_context_component:
+        collection_id: Collection ID

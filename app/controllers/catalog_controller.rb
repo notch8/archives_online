@@ -81,7 +81,8 @@ class CatalogController < ApplicationController
     # solr field configuration for document/show views
     # config.show.title_field = 'title_display'
     config.show.document_component = Ngao::Arclight::DocumentComponent
-    config.show.sidebar_component = Arclight::SidebarComponent
+    config.show.sidebar_component = Ngao::Arclight::SidebarComponent
+    config.show.collection_info_component = Ngao::Arclight::CollectionInfoComponent
     config.show.breadcrumb_component = Ngao::Arclight::BreadcrumbsHierarchyComponent
     config.show.embed_component = UniversalViewer
     config.show.access_component = Arclight::AccessComponent
