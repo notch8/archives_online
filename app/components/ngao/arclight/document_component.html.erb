@@ -1,6 +1,8 @@
 <%#
   OVERRIDE Arclight v1.4.0 to remove bookmarks
   @see: Ngao::Arclight::DocumentComponent
+
+  Also to, render normlized_html_title
 %>
 
 <div class='d-md-flex justify-content-between al-show'>
@@ -13,7 +15,7 @@
 
 <div class="title-container">
   <%= content_tag :h1 do %>
-    <%= document.normalized_title %>
+    <%= helpers.render_html_tags({ value: document.normalized_title_html }) || document.normalized_title %>
   <% end %>
   <%= render 'arclight/requests', document: document %>
   <%#= render Arclight::BookmarkComponent.new document: document, action: bookmark_config %>

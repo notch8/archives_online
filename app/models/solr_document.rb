@@ -25,4 +25,8 @@ class SolrDocument
   def containers
     fetch('containers_ssim', [])
   end
+
+  def normalized_title_html
+    self['normalized_title_html_ssm']&.first
+  end
 end
