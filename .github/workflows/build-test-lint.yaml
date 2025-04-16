@@ -14,7 +14,6 @@ on:
         description: 'Run the build with tmate debugging enabled (https://github.com/marketplace/actions/debugging-with-tmate)'
         required: false
         default: false
-# We are using version 14 since this project has not been knap-sackerized yet
 jobs:
   build:
     uses: notch8/actions/.github/workflows/build.yaml@v0.0.24
@@ -24,12 +23,12 @@ jobs:
       baseTarget: base
       webTarget: web
 
-  # test:
-  #   needs: build
-  #   uses: notch8/actions/.github/workflows/test.yaml@v0.0.24
-  #   with:
-  #     confdir: '/home/app/webapp/solr/conf'
-  #     rspec_cmd: "cd .. && gem install semaphore_test_boosters && bundle && rspec_booster --job $CI_NODE_INDEX/$CI_NODE_TOTAL"
+  test:
+    needs: build
+    uses: notch8/actions/.github/workflows/test.yaml@v0.0.24
+    with:
+      confdir: '/home/app/webapp/solr/conf'
+      rspec_cmd: "cd .. && gem install semaphore_test_boosters && bundle && rspec_booster --job $CI_NODE_INDEX/$CI_NODE_TOTAL"
 
   lint:
     needs: build

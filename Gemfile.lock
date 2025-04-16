@@ -117,8 +117,23 @@ GEM
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
     concurrent-ruby (1.3.4)
+    coveralls (0.7.1)
+      multi_json (~> 1.3)
+      rest-client
+      simplecov (>= 0.7)
+      term-ansicolor
+      thor
+    crack (1.0.0)
+      bigdecimal
+      rexml
     crass (1.0.6)
     csv (3.3.4)
+    database_cleaner (2.1.0)
+      database_cleaner-active_record (>= 2, < 3)
+    database_cleaner-active_record (2.2.0)
+      activerecord (>= 5.a)
+      database_cleaner-core (~> 2.0.0)
+    database_cleaner-core (2.0.1)
     date (3.3.4)
     debug (1.9.2)
       irb (~> 1.10)
@@ -133,11 +148,15 @@ GEM
       warden (~> 1.2.3)
     devise-guests (0.8.3)
       devise
+    diff-lcs (1.6.1)
+    docile (1.4.1)
     domain_name (0.6.20240107)
     dot-properties (0.1.4)
       bundler (>= 2.2.33)
     erubi (1.13.0)
     execjs (2.9.1)
+    factory_bot (6.5.1)
+      activesupport (>= 6.1.0)
     faraday (2.10.1)
       faraday-net_http (>= 2.0, < 3.2)
       logger
@@ -152,6 +171,7 @@ GEM
     gretel (5.0.1)
       actionview (>= 6.1)
       railties (>= 6.1)
+    hashdiff (1.1.2)
     hashie (5.0.0)
     http (5.2.0)
       addressable (~> 2.8)
@@ -159,6 +179,7 @@ GEM
       http-cookie (~> 1.0)
       http-form_data (~> 2.2)
       llhttp-ffi (~> 0.5.0)
+    http-accept (1.7.0)
     http-cookie (1.0.7)
       domain_name (~> 0.5)
     http-form_data (2.3.0)
@@ -213,6 +234,10 @@ GEM
     marcel (1.0.4)
     matrix (0.4.2)
     method_source (1.1.0)
+    mime-types (3.6.2)
+      logger
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2025.0415)
     mini_mime (1.1.5)
     minitar (1.0.1)
     minitest (5.25.1)
@@ -231,6 +256,7 @@ GEM
       timeout
     net-smtp (0.5.0)
       net-protocol
+    netrc (0.11.0)
     nio4r (2.7.3)
     nokogiri (1.16.7-aarch64-linux)
       racc (~> 1.4)
@@ -264,6 +290,10 @@ GEM
       activesupport (= 7.0.8.4)
       bundler (>= 1.15.0)
       railties (= 7.0.8.4)
+    rails-controller-testing (1.0.5)
+      actionpack (>= 5.0.1.rc1)
+      actionview (>= 5.0.1.rc1)
+      activesupport (>= 5.0.1.rc1)
     rails-dom-testing (2.2.0)
       activesupport (>= 5.0.0)
       minitest
@@ -289,12 +319,40 @@ GEM
     responders (3.1.1)
       actionpack (>= 5.2)
       railties (>= 5.2)
+    rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
     retriable (3.1.2)
     rexml (3.3.6)
       strscan
     rsolr (2.6.0)
       builder (>= 2.1.2)
       faraday (>= 0.9, < 3, != 2.0.0)
+    rspec (3.13.0)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.3)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.3)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-rails (7.1.1)
+      actionpack (>= 7.0)
+      activesupport (>= 7.0)
+      railties (>= 7.0)
+      rspec-core (~> 3.13)
+      rspec-expectations (~> 3.13)
+      rspec-mocks (~> 3.13)
+      rspec-support (~> 3.13)
+    rspec-support (3.13.2)
+    rspec_junit_formatter (0.6.0)
+      rspec-core (>= 2, < 4, != 2.12.0)
     rubocop (1.65.1)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
@@ -347,6 +405,14 @@ GEM
     sentry-ruby (5.23.0)
       bigdecimal
       concurrent-ruby (~> 1.0, >= 1.0.2)
+    shoulda-matchers (6.4.0)
+      activesupport (>= 5.2.0)
+    simplecov (0.22.0)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.13.1)
+    simplecov_json_formatter (0.1.4)
     slop (4.10.1)
     solr_wrapper (4.0.2)
       http
@@ -364,9 +430,15 @@ GEM
       railties (>= 6.0.0)
     stringio (3.1.1)
     strscan (3.1.0)
+    sync (0.5.0)
+    term-ansicolor (1.11.2)
+      tins (~> 1.0)
     thor (1.3.1)
     tilt (2.4.0)
     timeout (0.4.1)
+    tins (1.38.0)
+      bigdecimal
+      sync
     traject (3.8.3)
       concurrent-ruby (>= 0.8.0)
       csv
@@ -405,6 +477,14 @@ GEM
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
       railties (>= 6.0.0)
+    webdrivers (5.2.0)
+      nokogiri (~> 1.6)
+      rubyzip (>= 1.3.0)
+      selenium-webdriver (~> 4.0)
+    webmock (3.25.1)
+      addressable (>= 2.8.0)
+      crack (>= 0.3.2)
+      hashdiff (>= 0.4.0, < 2.0.0)
     websocket (1.2.11)
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
@@ -425,16 +505,24 @@ DEPENDENCIES
   bootsnap
   bootstrap (~> 5.1)
   capybara
+  coveralls
+  database_cleaner
+  database_cleaner-active_record
   debug
   devise
   devise-guests (~> 0.8)
+  factory_bot
   importmap-rails
   jbuilder
   mysql2
   puma (~> 5.0)
   rails (~> 7.0.8, >= 7.0.8.1)
+  rails-controller-testing
   redis (~> 4.0)
   rsolr (>= 1.0, < 3)
+  rspec
+  rspec-rails
+  rspec_junit_formatter
   rubocop (>= 1.0)
   rubocop-factory_bot
   rubocop-rake
@@ -443,12 +531,16 @@ DEPENDENCIES
   selenium-webdriver
   sentry-rails
   sentry-ruby
+  shoulda-matchers
+  simplecov
   solr_wrapper (>= 0.3)
   sprockets-rails
   stimulus-rails
   turbo-rails
   tzinfo-data
   web-console
+  webdrivers
+  webmock
 
 RUBY VERSION
    ruby 3.2.8p263
