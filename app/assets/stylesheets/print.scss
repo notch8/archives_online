@@ -22,6 +22,11 @@ $component-indent: 2rem;  // Modify this value to change indentation between lev
 body.ead-print {
   font-family: GeorgiaPro, Georgia, "Times New Roman", Times, serif;
   margin: auto;
+
+  font-size: 12pt;
+  padding-top: 5rem;
+  width: 70rem;
+  max-width: 95%;
 }
 
 .no-bullets {

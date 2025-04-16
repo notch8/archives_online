@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Metrics/ClassLength
 class EadProcessor
   require 'zip'
 
@@ -19,10 +20,11 @@ class EadProcessor
 
   # Open web address with Nokogiri
   def self.page(args = {})
-    Nokogiri::HTML(URI.open(client(args)))
+    Nokogiri::HTML(URI.open(client(args))) # rubocop:disable Security/Open
   end
 
   # open file and call extract
+  # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
   def self.process_files(args = {})
     page(args).css('a').each do |file_link|
       file_name = file_link.attributes['href'].value
@@ -32,12 +34,13 @@ class EadProcessor
       next unless ext == '.zip'
       next unless should_process_file(args, directory)
 
-      URI.open(link, 'rb') do |file|
+      URI.open(link, 'rb') do |file| # rubocop:disable Security/Open
         directory = directory.parameterize.underscore
         extract_and_index(file, directory)
       end
     end
   end
+  # rubocop:enable Metrics/AbcSize, Metrics/MethodLength
 
   def self.process_updated_files(args = {})
     page(args).css('a').each do |file_link|
@@ -54,6 +57,7 @@ class EadProcessor
   end
 
   # unzip the file and call index
+  # rubocop:disable Metrics/MethodLength
   def self.extract_and_index(file, directory)
     Zip::File.open(file) do |zip_file|
       zip_file.each do |f|
@@ -71,9 +75,11 @@ class EadProcessor
       end
     end
   end
+  # rubocop:enable Metrics/MethodLength
 
   # for indexing a single ead file
   # need to unzip parent and index only the file selected
+  # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
   def self.index_single_ead(args = {})
     repository = args[:repository]
     file_name = args[:ead]
@@ -82,7 +88,7 @@ class EadProcessor
     path = "./data/#{directory}"
     FileUtils.mkdir_p(path)
     puts link
-    download = URI.open(link, 'rb')
+    download = URI.open(link, 'rb') # rubocop:disable Security/Open
     fpath = File.join(path, file_name)
     IO.copy_stream(download, fpath)
     filename = File.basename(fpath)
@@ -91,6 +97,7 @@ class EadProcessor
     EadProcessor.convert_ead_to_html(fpath)
     EadProcessor.delay.index_file(fpath, repository)
   end
+  # rubocop:enable Metrics/AbcSize, Metrics/MethodLength
 
   # for deleting a single ead file
   def self.delete_single_ead(args = {})
@@ -123,6 +130,7 @@ class EadProcessor
   end
 
   # get list of zip files and ead contents to show on admin import page
+  # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
   def self.get_repository_names(args = {})
     repositories = {}
     page(args).css('a').each do |repository|
@@ -138,7 +146,7 @@ class EadProcessor
       update_repository(key, value[:name], last_updated_at)
       eads = []
       if ext == '.zip'
-        URI.open(link, 'rb') do |file|
+        URI.open(link, 'rb') do |file| # rubocop:disable Security/Open
           eads = get_ead_names(file, key)
         end
       end
@@ -146,6 +154,7 @@ class EadProcessor
     end
     repositories
   end
+  # rubocop:enable Metrics/AbcSize, Metrics/MethodLength
 
   # Only updates name & last update date w/ data from aspace
   def self.update_repository(id, name, last_updated_at)
@@ -168,6 +177,7 @@ class EadProcessor
   end
 
   # get list of eads in solr and postgres but no longer on archive space
+  # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
   def self.get_delta_eads(args = {})
     archive_space_eads = []
     page(args).css('a').each do |ead|
@@ -183,6 +193,7 @@ class EadProcessor
     delta_eads = local_eads - archive_space_eads
     delta_eads.uniq.sort
   end
+  # rubocop:enable Metrics/AbcSize, Metrics/MethodLength
 
   def self.add_ead_to_db(filename, repository_id)
     Ead.where(filename: filename).first_or_create do |ead|
@@ -228,9 +239,10 @@ class EadProcessor
   def self.convert_ead_to_html(file)
     directory = './public/html'
     FileUtils.mkdir_p directory
-    filename = File.basename(file, '.xml')
     xslt = Nokogiri::XSLT(File.read('app/templates/template.xslt'))
     doc = Nokogiri::XML(File.read(file))
+    # ensure filename matches id
+    filename = doc.xpath('//*[local-name()="eadid"]').first.text || File.basename(file, '.xml')
     doc.remove_namespaces!
     File.write("public/html/#{filename}.html", xslt.transform(doc))
   end
@@ -242,3 +254,4 @@ class EadProcessor
     args[:files].nil? || args[:files].include?(name)
   end
 end
+# rubocop:enable Metrics/ClassLength
