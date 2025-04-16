@@ -54,10 +54,23 @@ group :development, :test do
   gem 'bixby'
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem 'debug', platforms: %i[mri mingw x64_mingw]
+  gem 'solr_wrapper', '>= 0.3'
+
+  gem 'rspec'
+  gem 'rspec_junit_formatter'
+  gem 'rspec-rails'
+
+  gem 'coveralls', require: false
+  gem 'simplecov', require: false
+
+  gem 'database_cleaner'
+  gem 'factory_bot'
+  gem 'rails-controller-testing'
+  gem 'webmock'
+
   gem 'rubocop-factory_bot'
   gem 'rubocop-rake'
   gem 'rubocop-rspec_rails'
-  gem 'solr_wrapper', '>= 0.3'
 end
 
 group :development do
@@ -75,7 +88,10 @@ end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem 'capybara'
+  gem 'database_cleaner-active_record'
   gem 'selenium-webdriver'
+  gem 'shoulda-matchers'
+  gem 'webdrivers'
 end
 gem 'arclight'
 gem 'blacklight-locale_picker'
