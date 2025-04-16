@@ -2,6 +2,7 @@
 
 require 'arclight'
 require 'benchmark'
+require_relative '../../app/models/ead_processor'
 
 ##
 # Environment variables and information for indexing:
@@ -22,22 +23,24 @@ namespace :arclight do
   task index: :environment do
     raise 'Please specify your EAD document, ex. FILE=<path/to/ead.xml>' unless ENV['FILE']
 
-    print "Loading #{ENV.fetch('FILE', nil)} into index...\n"
+    file = ENV['FILE']
+    print "Loading #{file} into index...\n"
     solr_url = ENV.fetch('SOLR_URL', Blacklight.default_index.connection.base_uri)
     elapsed_time = Benchmark.realtime do
-      `bundle exec traject -u #{solr_url} -i xml -c #{Rails.root}/lib/arclight/traject/ead2_config.rb #{ENV.fetch(
-        'FILE', nil
-      )}`
+      `bundle exec traject -u #{solr_url} -i xml -c #{Rails.root}/lib/arclight/traject/ead2_config.rb #{file}`
+      EadProcessor.convert_ead_to_html(file)
     end
-    print "Indexed #{ENV.fetch('FILE', nil)} (in #{elapsed_time.round(3)} secs).\n"
+    print "Indexed #{file} (in #{elapsed_time.round(3)} secs).\n"
   end
 
   desc 'Index a directory of EADs, use DIR=<path/to/directory> and REPOSITORY_ID=<myid>'
   task :index_dir do
     raise 'Please specify your directory, ex. DIR=<path/to/directory>' unless ENV['DIR']
 
-    Dir.glob(File.join(ENV.fetch('DIR', nil), '*.xml')).each do |file|
+    dir = ENV['DIR']
+    Dir.glob(File.join(dir, '*.xml')).each do |file|
       system("rake arclight:index FILE=#{file}")
+      EadProcessor.convert_ead_to_html(file)
     end
   end
 

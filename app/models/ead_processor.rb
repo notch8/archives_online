@@ -242,7 +242,7 @@ class EadProcessor
     xslt = Nokogiri::XSLT(File.read('app/templates/template.xslt'))
     doc = Nokogiri::XML(File.read(file))
     # ensure filename matches id
-    filename = doc.xpath('//*[local-name()="eadid"]').first.text || File.basename(file, '.xml')
+    filename = doc.xpath('//*[local-name()="eadid"]').first&.text || File.basename(file, '.xml')
     doc.remove_namespaces!
     File.write("public/html/#{filename}.html", xslt.transform(doc))
   end
