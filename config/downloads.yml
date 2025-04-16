@@ -19,7 +19,7 @@ sample_unitid:
     # size_accessor: 'level'
 default:
   disabled: true
-  pdf:
-    template: 'http://example.com/%{unitid}.pdf'
+  printable_view:
+    template: '/html/%{eadid}.html'
   ead:
-    template: 'http://example.com/%{unitid}.xml'
+    template: '/ead/%{eadid}.xml'
