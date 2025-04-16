@@ -90,6 +90,7 @@ end
 
 to_field 'title_filing_ssi', extract_xpath('/ead/eadheader/filedesc/titlestmt/titleproper[@type="filing"]')
 to_field 'title_ssm', extract_xpath('/ead/archdesc/did/unittitle')
+to_field 'title_html_tesm', extract_xpath('/ead/archdesc/did/unittitle', to_text: false)
 to_field 'title_tesim', extract_xpath('/ead/archdesc/did/unittitle')
 to_field 'ead_ssi', extract_xpath('/ead/eadheader/eadid')
 
@@ -125,6 +126,12 @@ end
 
 to_field 'normalized_title_ssm' do |_record, accumulator, context|
   title = context.output_hash['title_ssm']&.first
+  date = context.output_hash['normalized_date_ssm']&.first
+  accumulator << settings['title_normalizer'].constantize.new(title, date).to_s
+end
+
+to_field 'normalized_title_html_ssm' do |_record, accumulator, context|
+  title = context.output_hash['title_html_tesm']&.first&.to_xml
   date = context.output_hash['normalized_date_ssm']&.first
   accumulator << settings['title_normalizer'].constantize.new(title, date).to_s
 end
