@@ -151,7 +151,7 @@ class CatalogController < ApplicationController
     config.add_facet_field 'repository_ssim', label: 'Repository', limit: 10
     config.add_facet_field 'collection', field: 'collection_ssim', label: 'Collection', limit: 10
     config.add_facet_field 'level_ssim', label: 'Level', limit: 10
-    config.add_facet_field 'creator_ssim', label: 'Creator', limit: 10
+    config.add_facet_field 'creators', field: 'creator_ssim', label: 'Creator', limit: 10
     config.add_facet_field 'creators_ssim', label: 'Creator', show: false
     config.add_facet_field 'component_level_isim', show: false
     config.add_facet_field 'date_range_isim', label: 'Year', range: { assumed_boundaries: [0, Time.now.year + 2] }
