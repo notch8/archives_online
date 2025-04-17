@@ -13,7 +13,7 @@ RUN echo 'Downloading Packages' && \
       pv \
       rsync \
       tzdata \
-      mysql-client \
+      mysql-client && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
     echo 'Packages Downloaded'
