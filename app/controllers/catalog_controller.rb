@@ -185,7 +185,6 @@ class CatalogController < ApplicationController
       two_words_connector: '<br/>',
       last_word_connector: '<br/>'
     }, compact: true, component: Arclight::IndexMetadataFieldComponent
-    config.add_index_field 'creator', accessor: true, component: Arclight::IndexMetadataFieldComponent
     config.add_index_field 'breadcrumbs', accessor: :itself,
                                           component: Ngao::Arclight::SearchResultBreadcrumbsComponent,
                                           compact: { count: 2 }
