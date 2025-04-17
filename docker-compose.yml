@@ -65,7 +65,7 @@ services:
       - 3306
     volumes:
       - mysql:/var/lib/mysql
-      # - ./generate-init.sh:/docker-entrypoint-initdb.d/generate-init.sh
+      - ./mysql-init:/docker-entrypoint-initdb.d
     networks:
       - internal
 
