@@ -80,3 +80,5 @@ en:
     arclight:
       collection_context_component:
         collection_id: Collection ID
+      collection_info_component:
+        total_items: Total Items
