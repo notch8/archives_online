@@ -27,6 +27,8 @@ jobs:
     needs: build
     uses: notch8/actions/.github/workflows/test.yaml@v0.0.24
     secrets: inherit
+    env:
+      MYSQL_ROOT_PW: ${{ secrets.MYSQL_ROOT_PASSWORD }}
     with:
       confdir: '/home/app/webapp/solr/conf'
       rspec_cmd: "cd .. && gem install semaphore_test_boosters && bundle && rspec_booster --job $CI_NODE_INDEX/$CI_NODE_TOTAL"
@@ -34,7 +36,7 @@ jobs:
         echo 'Waiting for mysql:3306...' &&
         while ! nc -z mysql 3306; do sleep 1; done &&
         echo 'MySQL is up, granting privileges...' &&
-        mysql -h mysql -u root -p'${{ secrets.MYSQL_ROOT_PASSWORD }}' -e "GRANT CREATE ON *.* TO '${DATABASE_USER:-archives-online}'@'%'; FLUSH PRIVILEGES;" &&
+        mysql -h mysql -u root -p'${{ env.MYSQL_ROOT_PW }}' -e "GRANT CREATE ON *.* TO '${DATABASE_USER:-archives-online}'@'%'; FLUSH PRIVILEGES;" &&
         echo 'Privileges granted, running setup...' &&
         RAILS_ENV=test bundle exec rake db:create db:schema:load db:migrate
 
