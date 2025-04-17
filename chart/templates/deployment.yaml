@@ -75,6 +75,9 @@ spec:
             - mountPath: /home/app/webapp/public/html
               name: shared
               subPath: html
+            - mountPath: /home/app/webapp/public/ead
+              name: shared
+              subPath: ead
           {{- end }}
           envFrom:
             - configMapRef:

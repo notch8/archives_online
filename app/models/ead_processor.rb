@@ -230,9 +230,12 @@ class EadProcessor
   def self.save_ead_for_downloading(file)
     directory = './public/ead'
     FileUtils.mkdir_p directory
-    fpath = File.join(directory, file)
+    doc = Nokogiri::XML(File.read(file))
+    filename = doc.xpath('//*[local-name()="eadid"]').first&.text || file
+    filename = filename == file ? file : "#{filename}.xml"
+    fpath = File.join(directory, filename)
     File.delete(fpath) if File.exist?(fpath)
-    FileUtils.cp(file, directory)
+    FileUtils.cp(file, fpath)
   end
 
   # converts the saved ead to html and saves in public directory for downloading
