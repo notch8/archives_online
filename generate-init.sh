@@ -4,7 +4,7 @@ set -e
 DB_HOST="${DATABASE_HOST:-db}"
 
 # Wait until MySQL is ready
-until mysqladmin ping -h "mysql" -u root -p${MYSQL_ROOT_PASSWORD} --silent; do
+until mysqladmin ping -h "$DB_HOST" -u root -p${MYSQL_ROOT_PASSWORD} --silent; do
   echo "Waiting for MySQL to be ready..."
   sleep 2
 done
