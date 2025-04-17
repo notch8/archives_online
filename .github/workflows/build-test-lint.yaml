@@ -33,12 +33,8 @@ jobs:
     uses: notch8/actions/.github/workflows/test.yaml@v0.0.24
     with:
       confdir: '/home/app/webapp/solr/conf'
-      rspec_cmd: "cd .. && gem install semaphore_test_boosters && bundle && rspec_booster --job $CI_NODE_INDEX/$CI_NODE_TOTAL"
-      setup_db_cmd: >-
-        echo 'Waiting for mysql:3306...' &&
-        while ! nc -z mysql 3306; do echo 'Waiting...'; sleep 1; done &&
-        echo 'MySQL is up, running default setup...' &&
-        RAILS_ENV=test bundle exec rake db:create db:schema:load db:migrate
+      rspec_cmd: "gem install semaphore_test_boosters && ruby -S rspec_booster --job $CI_NODE_INDEX/$CI_NODE_TOTAL"
+      setup_db_cmd: "RAILS_ENV=test bundle exec rake db:create db:schema:load db:migrate"
 
   lint:
     needs: build
