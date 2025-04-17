@@ -19,7 +19,7 @@ x-app: &app
     internal:
 
 volumes:
-  mysql:
+  db:
   node_modules:
   public:
   solr:
@@ -53,10 +53,12 @@ services:
     volumes:
       - ./generate-init.sh:/home/app/webapp/generate-init.sh
     depends_on:
-      - mysql
-      - solr
+      db:
+        condition: service_healthy
+      solr:
+        condition: service_started
 
-  mysql:
+  db:
     platform: linux/amd64
     image: mysql:8.4.2
     env_file:
@@ -64,10 +66,15 @@ services:
     expose:
       - 3306
     volumes:
-      - mysql:/var/lib/mysql
+      - db:/var/lib/mysql
       # - ./generate-init.sh:/docker-entrypoint-initdb.d/generate-init.sh
     networks:
       - internal
+    healthcheck:
+      test: ["CMD", "sh", "-c", "mysqladmin ping -h${DATABASE_HOST:-db}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
 
   mailhog:
     image: mailhog/mailhog

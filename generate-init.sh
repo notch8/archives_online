@@ -1,8 +1,10 @@
 #!/bin/bash
 set -e
 
+DB_HOST="${DATABASE_HOST:-db}"
+
 # Wait until MySQL is ready
-until mysqladmin ping -h "mysql" -u root -p${MYSQL_ROOT_PASSWORD} --silent; do
+until mysqladmin ping -h "$DB_HOST" -u root -p${MYSQL_ROOT_PASSWORD} --silent; do
   echo "Waiting for MySQL to be ready..."
   sleep 2
 done
@@ -22,6 +24,6 @@ EOSQL
 envsubst < /tmp/init.sql.template > /tmp/init.sql
 
 # Run the SQL script
-mysql -uroot -proot -h mysql < /tmp/init.sql
+mysql -uroot -p"${MYSQL_ROOT_PASSWORD}" -h "$DB_HOST" < /tmp/init.sql
 
 echo "Database setup and user permissions granted."
