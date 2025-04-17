@@ -216,20 +216,32 @@ to_field 'physdesc_tesim', extract_xpath('/ead/archdesc/did/physdesc', to_text: 
   end
 end
 
-to_field 'extent_ssm' do |record, accumulator|
-  physdescs = record.xpath('/ead/archdesc/did/physdesc')
-  extents_per_physdesc = physdescs.map do |physdesc|
-    extents = physdesc.xpath('./extent').map { |e| e.text.strip }
-    # Join extents within the same physdesc with an empty string
-    extents.join(' ') unless extents.empty?
+to_field 'extent_ssm', extract_xpath('/ead/archdesc/did/physdesc', to_text: false) do |_record, accumulator|
+  accumulator.map! do |element|
+    extent_array = []
+    %w[extent].map do |selector|
+      extent = element.xpath(".//#{selector}").map(&:text)
+      first = extent.shift unless extent.empty?
+      others = "(#{extent.join(' ')})" unless extent.empty?
+      extent_array << first unless first.nil?
+      extent_array << others unless others.nil?
+    end.flatten
+    extent_array.join(' ') unless extent_array.empty?
   end
-
-  # Add each physdesc separately to the accumulator
-  accumulator.concat(extents_per_physdesc)
 end
 
-to_field 'extent_tesim' do |_record, accumulator, context|
-  accumulator.concat context.output_hash['extent_ssm'] || []
+to_field 'extent_tesim', extract_xpath('/ead/archdesc/did/physdesc', to_text: false) do |_record, accumulator|
+  accumulator.map! do |element|
+    extent_array = []
+    %w[extent].map do |selector|
+      extent = element.xpath(".//#{selector}").map(&:text)
+      first = extent.shift unless extent.empty?
+      others = "(#{extent.join(' ')})" unless extent.empty?
+      extent_array << first unless first.nil?
+      extent_array << others unless others.nil?
+    end.flatten
+    extent_array.join(' ') unless extent_array.empty?
+  end
 end
 
 to_field 'physfacet_tesim', extract_xpath('/ead/archdesc/did/physdesc/physfacet')
