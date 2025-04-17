@@ -1,0 +1,322 @@
+$component-indent: 2rem;  // Modify this value to change indentation between levels
+
+@media screen {
+  body.ead-print {
+    font-size: 12pt;
+    padding-top: 5rem;
+    width: 70rem;
+    max-width: 95%;
+  }
+}
+
+@media print {
+  html {
+    width: 100%;
+  }
+
+  body.ead-print {
+    font-size: 10pt;
+  }
+}
+
+body.ead-print {
+  font-family: GeorgiaPro, Georgia, "Times New Roman", Times, serif;
+  margin: auto;
+
+  font-size: 12pt;
+  padding-top: 5rem;
+  width: 70rem;
+  max-width: 95%;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+div.title-block {
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 2.5pt solid;
+
+  h1 {
+    font-size: 175%;
+  }
+
+  p {
+    font-size: 125%;
+  }
+}
+
+div.did {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 2.5pt solid;
+}
+
+table {
+  table-layout: fixed; // fix to prevent firefox from trying to distribute columns evenly
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  font-size: 100%; // required to override some user agent stylesheets
+
+  thead {
+    vertical-align: top; // required to override some user agent stylesheets
+    font-weight: bold;
+  }
+
+  tbody {
+    vertical-align: top; // required to override some user agent stylesheets
+  }
+
+  td {
+    min-width: 15%;
+  }
+}
+
+table.overview {
+  width: 100%;
+  td {
+    padding-top: .25rem;
+  }
+
+  td.did-label {
+    font-weight: bold;
+    vertical-align: text-top;
+    width: 8.5rem;
+  }
+
+  td.did-value {
+    font-weight: normal;
+  }
+}
+
+table.chronlist {
+  td.date {
+    width: 8rem;
+  }
+  h4 {
+    margin-block-end: 0.25rem;
+  }
+}
+
+div.archdesc-section {
+  border-bottom: 1.5pt solid;
+
+  h3 {
+    margin-block-end: 0.5rem;
+  }
+
+  p {
+    margin-block-start: 0.25rem;
+  }
+
+  ul.subject-headings {
+    list-style-type: none;
+    margin: 0;
+    padding-inline-start: 0; // required to override some user agent stylesheets
+
+    h5 {
+      font-size: 100%;
+      margin-block-start: 0;
+      margin-block-end: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+  }
+
+  li.subj-label {
+    margin-bottom: 0.75rem;
+    display: flex;
+
+    ul {
+      margin-top: 0;
+    }
+
+    .label, h5 {
+      width: 9rem;
+      text-align: right;
+      margin-right: 1rem;
+    }
+  }
+}
+
+div.archdesc-section.restrict {
+  h4 {
+    display: inline;
+    margin-right: .5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: left;
+  }
+}
+
+div.archdesc-section.admininfo {
+  .subhead-1 {
+    font-weight: bold;
+    display: inline;
+  }
+}
+ul.bibliography {
+  margin-block-start: 0.5rem;
+}
+
+// Banding
+.component:nth-of-type(odd) {
+  background-color: #edebeb;
+  margin-left: -4pt;
+  padding-left: 4pt;
+}
+
+// Every component level has this class plus a separate class with the component name
+// components are nested inside one another, but take up the full printable with
+div.component {
+  display: flex;
+
+  p, ol, ul {
+    margin-block-start: 0.25rem;
+    margin-block-end: 0.25rem;
+  }
+
+  .label {
+    //font-family: GeorgiaProBold, Georgia, "Times New Roman", Times, serif;
+    //font-weight: bold;
+
+    text-transform: uppercase;
+    color: #4A3C31; //#7D6F64;
+  }
+
+  // The box-folder class contains any identifying info for the physical container
+  div.box-folder {
+    margin-bottom: 6pt;
+    padding-top: 5.5pt; // should match height of the rule above .container-info to keep things aligned
+    font-family: BentonSansCondBold, "Arial Narrow", "Helvetica Neue Condensed Bold", sans-serif;
+    font-weight: bold;
+    vertical-align: top;
+    width: 6rem; // fixed-width to accommodate the largest "Box X, Folder Y" string expected
+  }
+
+  // The component-info contains descriptive text about the container
+  div.component-info{
+    border-top: 1.25pt solid dimgrey;
+    padding-top: 4pt;
+    padding-left: 4pt;
+    margin-bottom: 6pt;
+    width: 100%;
+
+    h4, h5 {
+      display: inline;
+      color: #4A3C31; //#7D6F64;
+      text-transform: uppercase;
+      margin-right: .5rem;
+      margin-top: 4pt;
+      margin-bottom: 0;
+    }
+
+    h5 {
+      font-size: initial;
+    }
+  }
+
+  .unittitle {
+    display: inline;
+    font-family: GeorgiaProBold, Georgia, "Times New Roman", Times, serif;
+    margin-bottom: 6pt;
+  }
+}
+
+.unittitle.series, .unittitle.subseries {
+  font-size: 115%;
+  font-weight: bold;
+}
+
+// Container level-specific formatting, primarily indentation
+
+.c01 div.component-info,
+.c   div.component-info {
+  margin-left: 0;  // Using 0 margin-left to make the rest of the math easier, set the margin-right on .box-folder instead
+}
+
+.c02 div.component-info {
+  margin-left: $component-indent;
+}
+
+.c03 div.component-info {
+  margin-left: $component-indent * 2;
+}
+
+.c04 div.component-info {
+  margin-left: $component-indent * 3;
+}
+
+.c05 div.component-info {
+  margin-left: $component-indent * 4;
+}
+
+.c06 div.component-info {
+  margin-left: $component-indent * 5;
+}
+
+.c07 div.component-info {
+  margin-left: $component-indent * 6;
+}
+
+.c08 div.component-info {
+  margin-left: $component-indent * 7;
+}
+
+.c09 div.component-info {
+  margin-left: $component-indent * 8;
+}
+
+.c10 div.component-info {
+  margin-left: $component-indent * 9;
+}
+.c11 div.component-info {
+  margin-left: $component-indent * 10;
+}
+
+.c12 div.component-info {
+  margin-left: $component-indent * 11;
+}
+
+
+// Colorful debugging, remove or comment out for production
+//div.component.c01 {
+//  margin: 2px;
+//  border: 1px solid red;
+//}
+//
+//div.component.c02 {
+//  margin: 2px;
+//  border: 1px solid darkorange;
+//}
+//
+//div.component.c03 {
+//  margin: 2px;
+//  border: 1px solid gold;
+//}
+//
+//div.component.c04 {
+//  margin: 2px;
+//  border: 1px solid green;
+//}
+//
+//div.component.c05 {
+//  margin: 2px;
+//  border: 1px solid blue;
+//}
+//
+//div.component.c06 {
+//  margin: 2px;
+//  border: 1px solid indigo;
+//}
+//
+//div.component.c07 {
+//  margin: 2px;
+//  border: 1px solid violet;
+//}
