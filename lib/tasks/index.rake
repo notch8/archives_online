@@ -29,6 +29,7 @@ namespace :arclight do
     elapsed_time = Benchmark.realtime do
       `bundle exec traject -u #{solr_url} -i xml -c #{Rails.root}/lib/arclight/traject/ead2_config.rb #{file}`
       EadProcessor.convert_ead_to_html(file)
+      EadProcessor.save_ead_for_downloading(file)
     end
     print "Indexed #{file} (in #{elapsed_time.round(3)} secs).\n"
   end
@@ -41,6 +42,7 @@ namespace :arclight do
     Dir.glob(File.join(dir, '*.xml')).each do |file|
       system("rake arclight:index FILE=#{file}")
       EadProcessor.convert_ead_to_html(file)
+      EadProcessor.save_ead_for_downloading(file)
     end
   end
 
