@@ -1,7 +1,7 @@
 iupuigeneral:
   campus: 'US-iniu'
   name: 'Indiana University Indianapolis General Collections'
-  visit_note: ''
+  visit_note:
   description: 'The General Collections include the records and papers of organizations and individuals with ties to the University and/or Indianapolis.'
   contact_html: |
     <div class="al-repository-contact-info"><a href="mailto:speccoll@iupui.edu">speccoll@iupui.edu</a></div>
@@ -16,7 +16,7 @@ iupuigeneral:
 iupuiga:
   campus: 'US-iniu'
   name: 'Indiana University Indianapolis German-American Archives'
-  visit_note: ''
+  visit_note:
   description: 'The German-American Collections include the records of national and local social, cultural, economic, and athletic organizations started by German immigrants. Particularly significant are the national and local records of the American Turners, a social organization of German origin whose is physical fitness, sports, and the propagation of German culture.'
   contact_html: |
     <div class="al-repository-contact-info"><a href="mailto:speccoll@iupui.edu">speccoll@iupui.edu</a></div>
@@ -31,7 +31,7 @@ iupuiga:
 iupuipsa:
   campus: 'US-iniu'
   name: 'Indiana University Indianapolis Philanthropic Studies Archives'
-  visit_note: ''
+  visit_note:
   description: 'The Philanthropic Studies Archives documents the history of the philanthropic tradition, including the historical records of nonprofit organizations, advocates for the nonprofit sector, fundraising firms, private foundations, individual philanthropists, and organizations and individuals involved in national service theory and practice.'
   contact_html: |
     <div class="al-repository-contact-info"><a href="mailto:speccoll@iupui.edu">speccoll@iupui.edu</a></div>
@@ -46,7 +46,7 @@ iupuipsa:
 iupuiua:
   campus: 'US-iniu'
   name: 'Indiana University Indianapolis University Archives'
-  visit_note: ''
+  visit_note:
   description: 'The University Archives at Indiana University Purdue University Indianapolis (Indiana University Indianapolis) was created in April, 1975 by Vice President and Chancellor Glenn W. Irwin, Jr. to serve as the official repository for University records that have long-term historical, administrative, legal, and/or fiscal value. It accessions such records by authority of the University’s administration, preserves them for future use, and organizes them for controlled access. Its primary purpose is to serve the administrative, teaching, research, and public service needs of the University and other user communities. In order to fulfill this purpose, the University Archives collects as comprehensively as possible those records that have enduring value to documenting the history of Indiana University Indianapolis, its administration, and the schools, programs, and services that it administers.'
   contact_html: |
     <div class="al-repository-contact-info"><a href="mailto:speccoll@iupui.edu">speccoll@iupui.edu</a></div>
@@ -61,7 +61,7 @@ iupuiua:
 lilly:
   campus: 'US-InU'
   name: 'Lilly Library'
-  visit_note: ''
+  visit_note:
   description: 'The Lilly Library is the rare books, manuscripts, and special collections library of the Indiana University Libraries, Bloomington. Its collections represent a diversity of subjects, including literature; children’s literature; history; folklore; science; radio, film and television; book collecting and bookselling; journalism; and translation.'
   contact_html: |
     <div class="al-repository-contact-phone">(812) 855-2452</div>
@@ -79,7 +79,7 @@ lilly:
 wyliehouse:
   campus: 'US-InU'
   name: 'Wylie House Museum'
-  visit_note: ''
+  visit_note:
   description: 'Built in 1835 by Indiana University’s first president, Wylie House Museum is now part of the IU Libraries and is open to the public for guided tours. A rich archival collection contains thousands of Wylie letters that span more than a century, hundreds of photographs, and ephemera.'
   contact_html: |
     <div class="al-repository-contact-phone">812-855-6224</div>
@@ -93,7 +93,7 @@ wyliehouse:
 wmi:
   campus: 'US-InU'
   name: 'Working Men’s Institute'
-  visit_note: ''
+  visit_note:
   description: 'Established by philanthropist William Maclure in 1838, the Working Men’s Institute (WMI) is devoted to the dissemination of useful knowledge. The WMI’s Branigin Archive houses manuscripts and artifacts from New Harmony’s two communal societies (Harmonist and Owenite) and the after glow period (1825-1890) when New Harmony was known as the Athens on the Wabash.'
   contact_html: |
     <div class="al-repository-contact-phone">812-682-4806</div>
@@ -107,7 +107,7 @@ wmi:
 archives:
   campus: 'US-InU'
   name: 'University Archives'
-  visit_note: ''
+  visit_note:
   description: 'The Indiana University Archives is the largest and most comprehensive source of information on the history and culture of IU. This site includes finding aids for the records of university and campus organizations as well as the personal papers of IU faculty, staff, and alumni.'
   contact_html: |
     <div class="al-repository-contact-phone">812-855-1127</div>
@@ -136,7 +136,7 @@ africanstudies:
 iuse:
   campus: 'US-InU-Se'
   name: 'Archives and Special Collections, Indiana University Southeast'
-  visit_note: ''
+  visit_note:
   description: 'Archives and Special Collections, Indiana University Southeast'
   contact_html: |
     <div class="al-repository-contact-phone">812-941-2489</div>
@@ -151,7 +151,7 @@ iuse:
 aaamc:
   campus: 'US-InU'
   name: 'Archives of African American Music and Culture'
-  visit_note: ''
+  visit_note:
   description: 'The Archives of African American Music and Culture (AAAMC) is a repository for materials covering a wide range of African American musical idioms and cultural expressions from the post-World War II era. Highlights include interviews, researcher documentation, and publicity materials featuring Black performers, artists, radio personalities, and music industry executives.'
   contact_html: |
     <div class="al-repository-contact-phone">812-855-8547</div>
@@ -166,7 +166,7 @@ aaamc:
 atm:
   campus: 'US-InU'
   name: 'Archives of Traditional Music'
-  visit_note: ''
+  visit_note:
   description: 'The Archives of Traditional Music is an audiovisual archive that documents music and culture from all over the world. With over 100,000 recordings that include more than 2,700 field collections, it is one of the largest university-based ethnographic sound archives in the United States.'
   contact_html: |
     <div class="al-repository-contact-phone">812-855-4679</div>
@@ -181,7 +181,7 @@ atm:
 bfca:
   campus: 'US-InU'
   name: 'Black Film Center & Archive'
-  visit_note: ''
+  visit_note:
   description: 'Founded in 1981, the Black Film Center & Archive (BFCA) is a repository of films and related materials made by, about, and featuring African Americans, the people of Africa, and the African diaspora.  Holdings date from 1895 to the present and include films, personal papers, posters, photographs, press kits, pressbooks, and interviews with filmmakers and actors.'
   contact_html: |
     <div class="al-repository-contact-phone">812-855-6041</div>
@@ -196,7 +196,7 @@ bfca:
 cshm:
   campus: 'US-InU'
   name: 'Center for Documentary Research and Practice'
-  visit_note: ''
+  visit_note:
   description: 'The Oral History Archive began in 1968 gathering interviews for the IU sesquicentennial. The archive expanded with other projects, mostly focused on the history of Indiana and the Midwest such as labor, politics, medicine, immigration, and social history. The archive contains over 2,000 interviews--audio files, transcripts, and some video. The archive is now housed in the Center for Documentary Research and Practice, a unit of the Media School.'
   contact_html: |
     <div class="al-repository-contact-phone">812-855-2856</div>
@@ -211,7 +211,7 @@ cshm:
 ewv:
   campus: 'US-InU'
   name: 'Indiana University Museum of Archaeology and Anthropology'
-  visit_note: ''
+  visit_note:
   description: 'The Indiana University Museum of Archaeology and Anthropology Repository works towards providing historical and archaeological information about the peoples of Indiana and the Midwest. Holdings include the Great Lakes/Ohio Valley Ethnohistory Collection, as well as the institutional records of the Glenn A. Black Laboratory of Archaeology and the manuscripts of prominent regional archaeologists.'
   contact_html: |
     <div class="al-repository-contact-phone">812-855-9544</div>
@@ -226,7 +226,7 @@ ewv:
 folklore:
   campus: 'US-InU'
   name: 'Folklore Collection'
-  visit_note: ''
+  visit_note:
   description: 'The IU Libraries’ Folklore Collection is the largest single library collection of its type in North America. This site includes an inventory of approximately 6,500 items from the Henri Gaidoz collection, pamphlets, booklets, and offprints compiled by this French folklorist. Subjects for these items include folklore, mythology, Celtic Studies, saints, Catholicism, and comparative religion.'
   contact_html: |
     <div class="al-repository-contact-phone">812-855-1550</div>
@@ -241,7 +241,7 @@ folklore:
 gimms:
   campus: 'US-InU'
   name: 'Government Information, Maps, & Microform Services'
-  visit_note: ''
+  visit_note:
   description: 'Government Information, Maps, and Microform Services provides access to United States Federal, State of Indiana, and Local information. The repository primarily contains the finding aid for the public collection of documents related to the PCB contamination and cleanup of Monroe County, Indiana.'
   contact_html: |
     <div class="al-repository-contact-phone">812-855-6924</div>
@@ -256,7 +256,7 @@ gimms:
 iueast:
   campus: 'US-inrmiue'
   name: 'Indiana University East Archives'
-  visit_note: ''
+  visit_note:
   description: 'The Indiana University East Campus Archives collects, organizes, preserves, and provides access to print and electronic resources that document the history and continuing activities of Indiana University East faculty, staff, students, alumni and benefactors. Materials span from 1946, when Indiana University East started as the Earlham College Indiana University Extension Center, to the present.'
   contact_html: |
     <div class="al-repository-contact-phone">765-973-8311</div>
@@ -272,7 +272,7 @@ iueast:
 music:
   campus: 'US-InU'
   name: 'Indiana University Jacobs School of Music'
-  visit_note: ''
+  visit_note:
   description: 'The William and Gayle Cook Music Library, recognized as one of the largest academic music libraries in the world, serves the world-renowned Jacobs School of Music and the Bloomington Campus of Indiana University. The collection comprises over 700,000 catalogued items on 56,733 linear-feet of shelves. It occupies a four-floor, 55,000 square-foot facility in the Bess Meshulam Simon Music Library and Recital Center, dedicated in November 1995.'
   contact_html: |
     <div class="al-repository-contact-phone">812-855-2970</div>
@@ -287,7 +287,7 @@ music:
 iukokomo:
   campus: 'US-InU-K'
   name: 'Indiana University Kokomo Campus Archives'
-  visit_note: ''
+  visit_note:
   description: 'The IU Kokomo Campus Archives collects, preserves, and provides access to resources created by or about the Kokomo campus since its establishment in 1945. Highlights include photographs, scrapbooks, campus publications, and select special collections relevant to the history of Kokomo, Indiana.'
   contact_html: |
     <div class="al-repository-contact-phone">765-455-9412</div>
@@ -302,7 +302,7 @@ iukokomo:
 iusb:
   campus: 'US-InU-Sb'
   name: 'Indiana University South Bend Archives and Special Collections'
-  visit_note: ''
+  visit_note:
   description: 'The Indiana University South Bend Archives and Special Collections is the official home for records that document IU South Bend’s origins and development, as well as the activities of its officers, faculty, students, and alumni. In addition to university records, the IU South Bend Archives is home to the collections of the Civil Rights Heritage Center, documenting Michiana’s civil rights history with an emphasis on African American, LGBTQ and Latinx experiences; as well as rare books, special collections, and collections documenting the history of the Michiana area.'
   contact_html: |
     <div class="al-repository-contact-phone">574-520-4392</div>
@@ -318,7 +318,7 @@ iusb:
 iulmia:
   campus: 'US-InU'
   name: 'IU Libraries Moving Image Archive'
-  visit_note: ''
+  visit_note:
   description: 'The Indiana University Libraries Moving Image Archive (IULMIA) is one of the world’s largest educational film and video collections. The archive contains more than 86,000 items spanning nearly 80 years of film and television production, including many rare and last-remaining copies of influential 20th-century films. IULMIA is a member of the distinguished International Federation of Film Archives, the leading association for film preservation.'
   contact_html: |
     <div class="al-repository-contact-phone">812-856-7086</div>
@@ -333,7 +333,7 @@ iulmia:
 lamc:
   campus: 'US-InU'
   name: 'Latin American Music Center'
-  visit_note: ''
+  visit_note:
   description: 'The Latin American Music Center fosters the academic study, performance, and research of Latin American art, popular, and traditional musics. In partnership with the Cook Music Library, the center helps to manage one of the largest archives of 20th century Latin American art music in the world.'
   contact_html: |
     <div class="al-repository-contact-phone">812-855-2991</div>
@@ -362,7 +362,7 @@ lcp:
 politicalpapers:
   campus: 'US-InU'
   name: 'Modern Political Papers Collection'
-  visit_note: ''
+  visit_note:
   description: 'The Political Papers collections consist of papers created by the offices of members representing Indiana in the U.S. Congress from World War II to the present.  Collections document the development of legislation, building relationships with constituents, and the conduct of campaigns in local and national contexts, with a focus on insights into the functioning of Congress. Photograph by Architect of the Capitol.'
   contact_html: |
     <div class="al-repository-contact-phone">812-855-1538</div>
@@ -377,7 +377,7 @@ politicalpapers:
 paleontology:
   campus: 'US-InU'
   name: 'Paleontology Collection'
-  visit_note: ''
+  visit_note:
   description: 'The IU Paleontology Collection was formally established as a public trust research repository for fossil material in 1903. The Collection is available for study by the international scientific community and it contains more than a thousand nomenclatorial type specimens, 1.3 million fossil specimen lots, and thousands of photographs, negatives, 35mm slides, manuscripts, and field notebooks detailing the history of paleobiological research at Indiana University.'
   contact_html: |
     <div class="al-repository-contact-phone">812-856-3500</div>
@@ -391,7 +391,7 @@ paleontology:
 ruthlillymedical:
   campus: 'US-iniu'
   name: 'Ruth Lilly Medical Library'
-  visit_note: ''
+  visit_note:
   description: 'The History of Medicine Collection at the Ruth Lilly Medical Library includes rare books, journals, manuscripts, artifacts, and other unique materials documenting the history of medicine; medical education, training, research, and practice; and health and disease treatment and prevention in the state of Indiana and beyond. The purpose of the collection is to support the research, learning, and success of Indiana University students, faculty, and the general public.'
   contact_html: |
     <div class="al-repository-contact-phone">317-274-7182</div>
@@ -406,7 +406,7 @@ ruthlillymedical:
 kinsey:
   campus: 'US-InU'
   name: 'The Kinsey Institute for Research in Sex, Gender and Reproduction'
-  visit_note: ''
+  visit_note:
   description: 'Established in 1947, The Kinsey Institute works towards advancing sexual health and knowledge worldwide.  The archival collections include the papers of Dr. Alfred Kinsey, the Institute research data and codebooks, media response to The Kinsey Report, and materials of other research scholars and institutes.'
   contact_html: |
     <div class="al-repository-contact-phone">812-855-7686</div>
@@ -421,7 +421,7 @@ kinsey:
 mediaschool:
   campus: 'US-InU'
   name: 'The Media School Archive'
-  visit_note: ''
+  visit_note:
   description: 'The Media School Archive is a repository of artifacts from some of the most significant voices in Indiana journalism and beyond. Collection highlights include personal papers of media mogul Roy W. Howard, historic newspapers and photographs from the archives from the Indiana Journalism Hall of Fame, and memorabilia from Ernie Pyle and other key media figures.'
   contact_html: |
     <div class="al-repository-contact-phone">812-855-9247</div>
@@ -436,7 +436,7 @@ mediaschool:
 iunw:
   campus: 'US-InU-N'
   name: 'Indiana University Northwest Archives and Special Collections'
-  visit_note: ''
+  visit_note:
   description: 'The IUN Archives and Special Collections include two main collecting bodies:  The Calumet Regional Archives (regional history) and University Records (campus history). Founded in 1973, the Calumet Regional Archives collects and preserves records relating to the Calumet region of Indiana including Lake and Porter Counties. It includes over 500 collections. In addition, the campus archive documents the history of IU Northwest, including materials related to faculty, staff, students, and alumni. Both archival collections are housed in the John W. Anderson Library and serve as a unique community resource documenting and preserving the history of IU Northwest, the City of Gary, and the Calumet region.'
   contact_html: |
     <div class="al-repository-contact-phone">219-980-6547</div>
@@ -451,7 +451,7 @@ iunw:
 rbc:
   campus: 'US-iniu'
   name: 'Ray Bradbury Center Archives'
-  visit_note: ''
+  visit_note:
   description: 'The Ray Bradbury Center Archives includes personal and professional correspondence, published and unpublished literary works, manuscripts, typescripts, screenplay and teleplay drafts, story concepts, photographs, scrapbooks, and other ephemera he collected. The Ray Bradbury Center is working on processing the collection, in the meantime please feel free to reach out to the Archives with any questions.'
   contact_html: |
     <div class="al-repository-contact-phone">317-274-1451</div>
@@ -467,7 +467,7 @@ rbc:
 sseasian:
   campus: 'US-InU'
   name: 'South and Southeast Asian Collections'
-  visit_note: ''
+  visit_note:
   description: 'This repository contains niche and archival collections relating to South and Southeast Asia. These include images, ephemera, rare and unpublished works, and media recordings.'
   contact_html: |
     <div class="al-repository-contact-phone">812-856-2178</div>
