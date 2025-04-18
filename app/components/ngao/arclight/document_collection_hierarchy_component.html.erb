@@ -1,5 +1,6 @@
 <%#
   OVERRIDE Arclight v1.4.0 to prepend "Series: " and "Subseries: " to the hierarchy list
+  OVERRIDE Arclight v1.4.0 to render link to document if extra metadata exists, and to render the title as a span if no extra metadata exists
 %>
 
 <%= content_tag :li,
@@ -28,10 +29,17 @@
       %>
     <% end %>
     <div class="index_title document-title-heading" data-turbo="false">
+      <%# OVERRIDE - conditionally render link to document if extra metadata exists - start%>
       <% if current_target? %>
-        <%= level_label(document.normalized_title) %> <%# OVERRIDE here %>
+        <span class="al-collection-context-item-title"><%= level_label(document.normalized_title) %></span>
       <% else %>
-        <%= level_label(helpers.link_to_document document, counter: @counter) %> <%# OVERRIDE here %>
+        <% has_extra_metadata = helpers.component_has_extra_metadata?(document, helpers.blacklight_config) %>
+        <% if has_extra_metadata %>
+          <%= level_label(helpers.link_to_document document, counter: @counter) %>
+        <% else %>
+          <span class="al-collection-context-item-title"><%= level_label(document.normalized_title) %></span>
+        <% end %>
+        <%# OVERRIDE end %>
       <% end %>
       <% if document.children? %>
         <span class="badge badge-pill bg-secondary badge-secondary al-number-of-children-badge"><%= document.number_of_children %><span class="sr-only visually-hidden"><%= t(:'arclight.views.index.number_of_components', count: document.number_of_children) %></span></span>

@@ -6,6 +6,7 @@ class CatalogController < ApplicationController
   include BlacklightRangeLimit::ControllerOverride
   include Arclight::Catalog
   include Arclight::FieldConfigHelpers
+  include Ngao::ComponentMetadataHelper
 
   configure_blacklight do |config|
     ## Class for sending and receiving requests from a search index
