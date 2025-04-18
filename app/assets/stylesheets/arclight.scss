@@ -80,3 +80,13 @@ body {
     }
   }
 }
+
+// Style the title of the currently selected hierarchy item to look like a link
+.al-hierarchy-highlight {
+  .documentHeader {
+    .al-collection-context-item-title {
+      color: var(--link-color, $link-color);
+      text-decoration: underline;
+    }
+  }
+}
