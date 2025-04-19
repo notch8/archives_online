@@ -60,7 +60,6 @@ spec:
             periodSeconds: 120
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
-          {{- with .Values.volumeMounts }}
           volumeMounts:
             {{- toYaml . | nindent 12 }}
             - mountPath: /home/app/webapp/public/assets-new
@@ -78,7 +77,6 @@ spec:
             - mountPath: /home/app/webapp/public/ead
               name: shared
               subPath: ead
-          {{- end }}
           envFrom:
             - configMapRef:
                 name: {{ template "chart.fullname" . }}-env
