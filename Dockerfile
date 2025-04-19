@@ -49,6 +49,8 @@ RUN /sbin/setuser app bash -l -c " \
     cd /home/app/webapp && \
     yarn install && \
     NODE_ENV=production DB_ADAPTER=nulldb bundle exec rake assets:precompile"
-RUN cp ./app/assets/stylesheets/print.scss ./public/assets/print.scss
+
+RUN mkdir -p ./public/assets
+RUN bundle exec sass ./app/assets/stylesheets/print.scss ./public/assets/print.scss
 
 CMD ["/sbin/my_init"]
