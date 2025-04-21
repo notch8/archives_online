@@ -13,10 +13,15 @@ RUN echo 'Downloading Packages' && \
       pv \
       rsync \
       tzdata \
-      mysql-client && \
+      mysql-client \
+      curl && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
     echo 'Packages Downloaded'
+
+RUN echo 'Installing Dart Sass' && \
+    curl -L https://github.com/sass/dart-sass/releases/download/1.69.5/dart-sass-1.69.5-linux-x64.tar.gz \
+    | tar -xz -C /usr/local --strip-components=1
 
 RUN rm /etc/nginx/sites-enabled/default
 
@@ -45,12 +50,11 @@ COPY --chown=app:app Gemfile* $APP_HOME/
 RUN /sbin/setuser app bash -l -c "bundle check || bundle install"
 
 COPY --chown=app:app . $APP_HOME
+
 RUN /sbin/setuser app bash -l -c " \
     cd /home/app/webapp && \
     yarn install && \
-    NODE_ENV=production DB_ADAPTER=nulldb bundle exec rake assets:precompile"
-
-RUN mkdir -p ./public/assets
-RUN bundle exec ruby -rsassc -e "puts SassC::Engine.new(File.read('./app/assets/stylesheets/print.scss'), syntax: :scss).render" > ./public/assets/print.css
+    NODE_ENV=production DB_ADAPTER=nulldb bundle exec rake assets:precompile && \
+    sass ./app/assets/stylesheets/print.scss ./public/assets/print.css"
 
 CMD ["/sbin/my_init"]
