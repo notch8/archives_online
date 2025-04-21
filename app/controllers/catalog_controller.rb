@@ -172,7 +172,7 @@ class CatalogController < ApplicationController
     config.add_index_field 'campus_unit_ssm', label: 'Campus', helper_method: :render_campus_name
     config.add_index_field 'repository_ssm', label: 'Repository'
     config.add_index_field 'collection_ssm', label: 'Collection Title'
-    config.add_index_field 'unitid_ssm', label: 'Unit ID'
+    config.add_index_field 'unitid_ssm', label: 'Collection ID'
     config.add_index_field 'normalized_date_ssm', label: 'Date'
     config.add_index_field 'creator_ssm', label: 'Creator'
     config.add_index_field 'language_ssm', label: 'Language'
@@ -265,7 +265,7 @@ class CatalogController < ApplicationController
         pf: '${pf_container}'
       }
     end
-    config.add_search_field 'unitid', label: 'Unit ID' do |field|
+    config.add_search_field 'unitid', label: 'Collection ID' do |field|
       field.qt = 'search'
       field.solr_parameters = {
         qf: '${qf_unitid}',
