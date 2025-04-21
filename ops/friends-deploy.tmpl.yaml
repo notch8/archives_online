@@ -54,6 +54,11 @@ ingress:
         - archives-online-friends.notch8.cloud
       secretName: archives-online-tls
 
+volumes:
+  - name: shared
+    persistentVolumeClaim:
+      claimName: chart-shared
+
 env:
   configmap:
     CONFDIR: /home/app/webapp/solr/conf
