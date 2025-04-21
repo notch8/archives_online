@@ -25,6 +25,16 @@ body {
   }
 }
 
+// OVERRIDE Blacklight v8.9.0 to allow sidebar to scroll independently of the finding aid content
+#sidebar {
+  @media (min-width: 992px) {
+    position: sticky;
+    top: 0;
+    height: calc(100vh - 5rem);
+    overflow-y: auto;
+  }
+}
+
 // OVERRIDE Arclight v1.4.0 to remove padding on the left of the header
 .al-masthead .h1 {
   padding-left: 0;
