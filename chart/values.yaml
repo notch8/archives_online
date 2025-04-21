@@ -86,7 +86,22 @@ volumes: []
 #     optional: false
 
 # Additional volumeMounts on the output Deployment definition.
-volumeMounts: []
+volumeMounts: 
+  - mountPath: /home/app/webapp/public/assets-new
+    name: shared
+    subPath: assets
+  - mountPath: /home/app/webapp/public/packs
+    name: shared
+    subPath: packs
+  - mountPath: /home/app/webapp/public/system
+    name: shared
+    subPath: system
+  - mountPath: /home/app/webapp/public/html
+    name: shared
+    subPath: html
+  - mountPath: /home/app/webapp/public/ead
+    name: shared
+    subPath: ead
 # - name: foo
 #   mountPath: "/etc/foo"
 #   readOnly: true
