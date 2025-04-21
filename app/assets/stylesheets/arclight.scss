@@ -100,3 +100,16 @@ body {
     }
   }
 }
+
+// OVERRIDE Arclight v1.4.0 to add the container information to the collection context
+#collection-context .al-document-container {
+  display: block;
+}
+
+.document.al-collection-context {
+  .documentHeader {
+    .document-title-heading {
+      width: 100%;
+    }
+  }
+}
