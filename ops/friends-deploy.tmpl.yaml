@@ -17,6 +17,12 @@
 
 replicaCount: 1
 
+podSecurityContext:
+  runAsUser: 1001
+  runAsGroup: 101
+  fsGroup: 101
+  fsGroupChangePolicy: "OnRootMismatch"
+
 image:
   repository: ghcr.io/notch8/archives_online:latest
   pullPolicy: IfNotPresent
