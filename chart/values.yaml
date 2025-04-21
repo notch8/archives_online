@@ -79,7 +79,10 @@ autoscaling:
   # targetMemoryUtilizationPercentage: 80
 
 # Additional volumes on the output Deployment definition.
-volumes: []
+volumes:
+  - name: shared
+    persistentVolumeClaim:
+      claimName: chart-shared
 # - name: foo
 #   secret:
 #     secretName: mysecret
