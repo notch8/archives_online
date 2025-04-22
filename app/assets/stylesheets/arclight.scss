@@ -95,8 +95,25 @@ body {
 .al-hierarchy-highlight {
   .documentHeader {
     .al-collection-context-item-title {
-      color: var(--link-color, $link-color);
+      color: #006298;
       text-decoration: underline;
+    }
+  }
+}
+
+li:not(.al-hierarchy-highlight) {
+  .documentHeader {
+    .al-hierarchy-parent-title {
+      color: #006298;
+      text-decoration: underline;
+    }
+  }
+}
+
+li:not(.al-hierarchy-highlight) {
+  .documentHeader {
+    a {
+      color: #006298;
     }
   }
 }
