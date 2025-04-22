@@ -3,6 +3,7 @@
   @see: Ngao::Arclight::DocumentComponent
 
   Also to, render normlized_html_title
+  Also to, remove Aeon request button
 %>
 
 <div class='d-md-flex justify-content-between al-show'>
@@ -17,7 +18,7 @@
   <%= content_tag :h1 do %>
     <%= helpers.render_html_tags({ value: document.normalized_title_html }) || document.normalized_title %>
   <% end %>
-  <%= render 'arclight/requests', document: document %>
+  <%#= render 'arclight/requests', document: document %> <%# OVERRIDE, moving it to collection context%>
   <%#= render Arclight::BookmarkComponent.new document: document, action: bookmark_config %>
   <%= toggle_sidebar %>
   <%= online_filter %>
