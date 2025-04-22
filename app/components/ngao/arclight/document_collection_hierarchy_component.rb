@@ -9,7 +9,7 @@ module Ngao
         return content unless %w[Series Subseries].include?(document.level)
 
         level = "#{document.level}: "
-        level_html = "<span class=\"text-nowrap text-muted\">#{level}</span>"
+        level_html = "<span class=\"text-nowrap\">#{level}</span>"
         return "#{level_html}#{content}".html_safe unless content.start_with?('<a')
 
         doc = Nokogiri::HTML.fragment(content)
