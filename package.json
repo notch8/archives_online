@@ -6,13 +6,15 @@
     "@babel/plugin-external-helpers": "^7.12.13",
     "@babel/plugin-transform-modules-umd": "^7.12.13",
     "@babel/preset-env": "^7.12.13",
+    "sass": "^1.87.0",
     "universalviewer": "^3.0.16"
   },
   "scripts": {
     "preinstall": "rm -rf ./public/uv",
-    "postinstall": "yarn run uv-install && yarn run uv-config",
+    "postinstall": "yarn run uv-install && yarn run uv-config && yarn run compile-print-css",
     "uv-install": "shx cp -r ./node_modules/universalviewer/dist ./public/uv",
-    "uv-config": "shx cp ./config/uv/uv.html ./public/uv/uv.html & shx cp ./config/uv/uv-config.json ./public/uv/"
+    "uv-config": "shx cp ./config/uv/uv.html ./public/uv/uv.html & shx cp ./config/uv/uv-config.json ./public/uv/",
+    "compile-print-css": "mkdir -p ./public/assets && sass ./app/assets/stylesheets/print.scss ./public/assets/print.scss"
   },
   "devDependencies": {
     "shx": "^0.3.2"
