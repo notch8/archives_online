@@ -36,7 +36,7 @@ spec:
         {{- toYaml . | nindent 8 }}
         - name: shared
           persistentVolumeClaim:
-            claimName: {{ template "chart.fullname" . }}-shared
+            claimName: {{ template "chart.fullname" $ }}-shared
       {{- end }}
       containers:
         - name: {{ .Chart.Name }}
