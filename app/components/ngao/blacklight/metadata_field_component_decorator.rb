@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# OVERRIDE Blacklight v8.3.0 to render custom labels when they exist
+# OVERRIDE Blacklight MetadataFieldComponentDecorator v8.3.0 to render custom labels when they exist
 module Ngao
   module Blacklight
     module MetadataFieldComponentDecorator
