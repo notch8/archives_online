@@ -34,7 +34,7 @@ spec:
       volumes:
         - name: shared
           persistentVolumeClaim:
-            claimName: {{ template "chart.fullname" . }}-shared
+            claimName: chart-shared
       containers:
         - name: {{ .Chart.Name }}
           securityContext:
