@@ -63,15 +63,15 @@ spec:
           {{- with .Values.volumeMounts }}
           volumeMounts:
             {{- toYaml . | nindent 12 }}
-            - mountPath: /home/app/webapp/public/assets-new
-              name: shared
-              subPath: assets
-            - mountPath: /home/app/webapp/public/packs
-              name: shared
-              subPath: packs
-            - mountPath: /home/app/webapp/public/system
-              name: shared
-              subPath: system
+            # - mountPath: /home/app/webapp/public/assets-new
+            #   name: shared
+            #   subPath: assets
+            # - mountPath: /home/app/webapp/public/packs
+            #   name: shared
+            #   subPath: packs
+            # - mountPath: /home/app/webapp/public/system
+            #   name: shared
+            #   subPath: system
             - mountPath: /home/app/webapp/public/html
               name: shared
               subPath: html
