@@ -79,32 +79,14 @@ autoscaling:
   # targetMemoryUtilizationPercentage: 80
 
 # Additional volumes on the output Deployment definition.
-volumes:
-  - name: shared
-    persistentVolumeClaim:
-      claimName: chart-shared
+volumes: []
 # - name: foo
 #   secret:
 #     secretName: mysecret
 #     optional: false
 
 # Additional volumeMounts on the output Deployment definition.
-volumeMounts: 
-  - mountPath: /home/app/webapp/public/assets-new
-    name: shared
-    subPath: assets
-  - mountPath: /home/app/webapp/public/packs
-    name: shared
-    subPath: packs
-  - mountPath: /home/app/webapp/public/system
-    name: shared
-    subPath: system
-  - mountPath: /home/app/webapp/public/html
-    name: shared
-    subPath: html
-  - mountPath: /home/app/webapp/public/ead
-    name: shared
-    subPath: ead
+volumeMounts: []
 # - name: foo
 #   mountPath: "/etc/foo"
 #   readOnly: true
