@@ -33,6 +33,10 @@ body {
     height: calc(100vh - 5rem);
     overflow-y: auto;
   }
+
+  .al-request-button {
+    height: 35px;
+  }
 }
 
 // OVERRIDE Arclight v1.4.0 to remove padding on the left of the header
@@ -95,21 +99,39 @@ body {
 .al-hierarchy-highlight {
   .documentHeader {
     .al-collection-context-item-title {
-      color: var(--link-color, $link-color);
+      color: #006298;
       text-decoration: underline;
     }
   }
 }
 
-// OVERRIDE Arclight v1.4.0 to add the container information to the collection context
+// OVERRIDE Arclight v1.4.0 to add the physical container information to the collection context sidebar
 #collection-context .al-document-container {
   display: block;
 }
 
+// OVERRIDE Arclight v1.4.0 to add the physical container information to the collection context sidebar
 .document.al-collection-context {
   .documentHeader {
     .document-title-heading {
       width: 100%;
+    }
+  }
+}
+
+li:not(.al-hierarchy-highlight) {
+  .documentHeader {
+    .al-hierarchy-parent-title {
+      color: #006298;
+      text-decoration: underline;
+    }
+  }
+}
+
+li:not(.al-hierarchy-highlight) {
+  .documentHeader {
+    a {
+      color: #006298;
     }
   }
 }
