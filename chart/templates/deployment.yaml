@@ -34,9 +34,6 @@ spec:
       {{- with .Values.volumes }}
       volumes:
         {{- toYaml . | nindent 8 }}
-        - name: shared
-          persistentVolumeClaim:
-            claimName: {{ template "chart.fullname" $ }}-shared
       {{- end }}
       containers:
         - name: {{ .Chart.Name }}
