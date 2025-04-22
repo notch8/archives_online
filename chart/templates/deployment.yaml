@@ -31,13 +31,10 @@ spec:
       serviceAccountName: {{ include "chart.serviceAccountName" . }}
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
-      {{- with .Values.volumes }}
       volumes:
-        {{- toYaml . | nindent 8 }}
         - name: shared
           persistentVolumeClaim:
             claimName: {{ template "chart.fullname" . }}-shared
-      {{- end }}
       containers:
         - name: {{ .Chart.Name }}
           securityContext:
@@ -60,9 +57,7 @@ spec:
             periodSeconds: 120
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
-          {{- with .Values.volumeMounts }}
-          volumeMounts:
-            {{- toYaml . | nindent 12 }}
+          volumeMounts: 
             - mountPath: /home/app/webapp/public/assets-new
               name: shared
               subPath: assets
@@ -78,7 +73,6 @@ spec:
             - mountPath: /home/app/webapp/public/ead
               name: shared
               subPath: ead
-          {{- end }}
           envFrom:
             - configMapRef:
                 name: {{ template "chart.fullname" . }}-env
