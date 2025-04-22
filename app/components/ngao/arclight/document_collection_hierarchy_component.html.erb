@@ -34,11 +34,8 @@
         <span class="al-collection-context-item-title"><%= level_label(document.normalized_title) %></span>
       <% else %>
         <% has_extra_metadata = helpers.component_has_extra_metadata?(document, helpers.blacklight_config) %>
-        <% has_children = document.children? %>
         <% if has_extra_metadata %>
           <%= level_label(helpers.link_to_document document, counter: @counter) %>
-        <% elsif has_children %>
-          <span class="al-collection-context-item-title al-hierarchy-parent-title"><%= level_label(document.normalized_title) %></span>
         <% else %>
           <span class="al-collection-context-item-title"><%= level_label(document.normalized_title) %></span>
         <% end %>
