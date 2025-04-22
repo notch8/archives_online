@@ -105,6 +105,20 @@ body {
   }
 }
 
+// OVERRIDE Arclight v1.4.0 to add the physical container information to the collection context sidebar
+#collection-context .al-document-container {
+  display: block;
+}
+
+// OVERRIDE Arclight v1.4.0 to add the physical container information to the collection context sidebar
+.document.al-collection-context {
+  .documentHeader {
+    .document-title-heading {
+      width: 100%;
+    }
+  }
+}
+
 li:not(.al-hierarchy-highlight) {
   .documentHeader {
     .al-hierarchy-parent-title {
