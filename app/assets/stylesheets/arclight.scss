@@ -33,6 +33,10 @@ body {
     height: calc(100vh - 5rem);
     overflow-y: auto;
   }
+
+  .al-request-button {
+    height: 35px;
+  }
 }
 
 // OVERRIDE Arclight v1.4.0 to remove padding on the left of the header
