@@ -33,13 +33,16 @@ export default class ExpandCollapseController extends Controller {
   expandAll(container) {
     this.toggleElements(container, el => !el.classList.contains('show'))
     
-    // Second pass: After a short delay, click any newly loaded collapsed items
+    // Second pass: After a delay, click any newly loaded collapsed items
     setTimeout(() => {
       this.toggleElements(container, el => !el.classList.contains('show'))
-    }, 500)
+      // Scroll the top of the controlled element into view after expanding
+      this.element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 1000)
   }
 
   collapseAll(container) {
+    this.element.scrollIntoView({ behavior: "smooth", block: "start" });
     this.toggleElements(container, el => el.classList.contains('show'))
   }
 
