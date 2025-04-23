@@ -177,7 +177,15 @@
          title_tesim^2
          normalized_title_teim^2
        </str>
-
+       <str name="qf_unitid">
+         unitid_ssm
+         unitid_identifier_match
+       </str>
+       <str name="pf_unitid">
+         unitid_ssm^2
+         unitid_identifier_match^2
+       </str>
+         
        <int name="ps">3</int>
        <float name="tie">0.01</float>
 
