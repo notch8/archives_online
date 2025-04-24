@@ -18,5 +18,11 @@
     </div>
     <%# OVERRIDE end %>
     <%= turbo_frame_tag "al-hierarchy-#{document.root}", loading: 'lazy', src: hierarchy_solr_document_path(id: document.root, nest_path: @document.nest_path, hierarchy: true), data: { expand_collapse_target: "hierarchy" } %>
+    
+    <%# Sticky indicator for ongoing expansion %>
+    <div class="expansion-indicator" data-expand-collapse-target="indicator">
+      <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+      Expanding...
+    </div>
   </div>
 </div>

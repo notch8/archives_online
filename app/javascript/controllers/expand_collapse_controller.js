@@ -1,7 +1,7 @@
 import { Controller } from "@hotwired/stimulus"
 
 export default class ExpandCollapseController extends Controller {
-  static targets = ["button", "hierarchy"]
+  static targets = ["button", "hierarchy", "indicator"]
   static values = {
     expanded: { type: Boolean, default: false }
   }
@@ -12,11 +12,14 @@ export default class ExpandCollapseController extends Controller {
     this.boundFrameLoadHandler = this.handleFrameLoad.bind(this);
     this.element.addEventListener("turbo:frame-load", this.boundFrameLoadHandler)
     this.safetyInterval = null;
+    this.hideIndicator();
+    this.consecutiveEmptyPasses = 0;
   }
 
   disconnect() {
     this.element.removeEventListener("turbo:frame-load", this.boundFrameLoadHandler)
     this.clearSafetyInterval();
+    this.hideIndicator();
   }
 
   handleFrameLoad(event) {
@@ -43,15 +46,23 @@ export default class ExpandCollapseController extends Controller {
     if (this.expandedValue) {
       this.isExpandingAll = true
       this.setBusyState(true)
+      this.showIndicator();
       this.expandAll(hierarchyContainer)
       this.safetyInterval = setInterval(() => {
         this.continueExpanding();
       }, 750);
+      setTimeout(() => {
+        if (this.hasHierarchyTarget) {
+          this.hierarchyTarget.classList.remove("is-expanding");
+        }
+      }, 750);
 
     } else {
       this.isExpandingAll = false 
-      this.setBusyState(false) 
+      this.clearSafetyInterval();
+      this.setBusyState(false)
       this.updateButtonText() 
+      this.hideIndicator();
       this.collapseAll(hierarchyContainer)
     }
   }
@@ -66,7 +77,8 @@ export default class ExpandCollapseController extends Controller {
   continueExpanding() {
     if (!this.isExpandingAll) {
       this.clearSafetyInterval();
-      return; 
+      this.hideIndicator();
+      return;
     }
     const container = this.getHierarchyContainer()
     if (!container) {
@@ -75,18 +87,22 @@ export default class ExpandCollapseController extends Controller {
 
     const clickedItemsCount = this.performExpansionPass(container)
 
-    if (clickedItemsCount === 0) {
+    if (clickedItemsCount > 0) {
+      this.consecutiveEmptyPasses = 0;
+    } else {
+      this.consecutiveEmptyPasses++;
       const remainingToggles = container.querySelectorAll('a.al-toggle-view-children.collapsed').length;
       let remainingPaginators = 0;
       container.querySelectorAll('a.btn[href*="/hierarchy?"]').forEach(paginator => {
         if (paginator.offsetParent !== null) { remainingPaginators++; }
       });
-      
-      if (remainingToggles === 0 && remainingPaginators === 0) {
+
+      if (this.consecutiveEmptyPasses >= 2 && remainingToggles === 0 && remainingPaginators === 0) {
         this.isExpandingAll = false
         this.clearSafetyInterval();
         this.setBusyState(false);
-        this.updateButtonText(); 
+        this.updateButtonText();
+        this.hideIndicator();
         this.element.scrollIntoView({ behavior: "smooth", block: "start" })
       }
     }
@@ -107,9 +123,10 @@ export default class ExpandCollapseController extends Controller {
         clickCount++
       }
     })
-    const paginators = container.querySelectorAll('a.btn[href*="/hierarchy?"]')
+    const paginators = container.querySelectorAll('a.btn[href*="/hierarchy?"]:not(.is-loading)')
     paginators.forEach(paginator => {
-      if (paginator.offsetParent !== null) { 
+      if (paginator.offsetParent !== null) {
+        paginator.classList.add('is-loading');
         paginator.click()
         clickCount++
       }
@@ -118,9 +135,9 @@ export default class ExpandCollapseController extends Controller {
   }
 
   collapseAll(container) {
-    this.isExpandingAll = false
     this.setBusyState(false)
     this.updateButtonText()
+    this.hideIndicator();
     this.element.scrollIntoView({ behavior: "smooth", block: "start" });
     this.toggleElements(container, el => el.classList.contains('show'))
   }
@@ -158,6 +175,18 @@ export default class ExpandCollapseController extends Controller {
     if (this.safetyInterval) {
       clearInterval(this.safetyInterval);
       this.safetyInterval = null;
+    }
+  }
+
+  showIndicator() {
+    if (this.hasIndicatorTarget) {
+      this.indicatorTarget.classList.add("expansion-indicator--visible");
+    }
+  }
+
+  hideIndicator() {
+    if (this.hasIndicatorTarget) {
+      this.indicatorTarget.classList.remove("expansion-indicator--visible");
     }
   }
 }

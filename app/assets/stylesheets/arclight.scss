@@ -125,3 +125,25 @@ body {
   pointer-events: none;
   cursor: wait;
 }
+
+// Sticky expansion indicator
+.expansion-indicator {
+  display: none;
+  position: sticky;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 1000;
+  background-color: var(--bs-secondary-bg);
+  color: var(--bs-secondary-color);
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  pointer-events: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.expansion-indicator--visible {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
