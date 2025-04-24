@@ -1,6 +1,8 @@
 <%#
   OVERRIDE Arclight v1.4.0 to add the collection unitid
   @see: Ngao::Arclight::CollectionContextComponent
+
+  Also to add the Aeon request button
 %>
 
 <div class="al-show-actions-box mb-3">
@@ -15,6 +17,7 @@
     <div class="al-collection-context-actions d-flex flex-wrap gap-1">
       <%= document_download %>
       <%= collection_info %>
+      <%= render 'arclight/requests', document: collection %>
     </div>
   </div>
 </div>

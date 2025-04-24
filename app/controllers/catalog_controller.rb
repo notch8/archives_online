@@ -50,7 +50,7 @@ class CatalogController < ApplicationController
       'collection.rows': 1
     }
 
-    config.header_component = Arclight::HeaderComponent
+    config.header_component = Ngao::Arclight::HeaderComponent
     config.add_results_document_tool(:online, component: Arclight::OnlineStatusIndicatorComponent)
     ##### REMOVE BOOKMARK #####
     # config.add_results_document_tool(:arclight_bookmark_control, component: Arclight::BookmarkComponent)

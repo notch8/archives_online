@@ -22,4 +22,4 @@ default:
   printable_view:
     template: '/html/%{eadid}.html'
   ead:
-    template: '/ead/%{eadid}.xml'
+    template: 'https://archives.iu.edu/ead/%{eadid}.xml'
