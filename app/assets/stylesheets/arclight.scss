@@ -117,3 +117,10 @@ li:not(.al-hierarchy-highlight) {
     }
   }
 }
+
+// Styling for expand/collapse feedback
+.is-expanding {
+  opacity: 0.6;
+  pointer-events: none;
+  cursor: wait;
+}

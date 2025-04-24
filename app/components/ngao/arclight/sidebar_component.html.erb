@@ -12,11 +12,11 @@
   <div id="collection-context" class="sidebar-section" data-controller="expand-collapse">
     <div class="d-flex justify-content-between align-items-center mb-2">
       <h2 class="mb-0"><%= t('arclight.views.show.has_content') %></h2>
-      <button type="button" class="btn btn-sm btn-secondary me-2" data-expand-collapse-target="button" data-action="click->expand-collapse#toggleAll">
+      <button type="button" class="btn btn-sm btn-secondary me-3" data-expand-collapse-target="button" data-action="click->expand-collapse#toggleAll">
         Expand All
       </button>
     </div>
     <%# OVERRIDE end %>
-    <%= turbo_frame_tag "al-hierarchy-#{document.root}", loading: 'lazy', src: hierarchy_solr_document_path(id: document.root, nest_path: @document.nest_path, hierarchy: true) %>
+    <%= turbo_frame_tag "al-hierarchy-#{document.root}", loading: 'lazy', src: hierarchy_solr_document_path(id: document.root, nest_path: @document.nest_path, hierarchy: true), data: { expand_collapse_target: "hierarchy" } %>
   </div>
 </div>
