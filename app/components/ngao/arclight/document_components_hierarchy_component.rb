@@ -13,7 +13,6 @@ module Ngao
       # rubocop:disable Metrics/ParameterLists
       def initialize(document: nil, target_index: -1, minimum_pagination_size: 20, left_outer_window: 3,
                      maximum_left_gap: 10, window: 10, expand_all: false)
-        puts "Received expand_all keyword arg: #{expand_all.inspect}"
 
         super(
           document: document,
