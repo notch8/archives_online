@@ -11,10 +11,6 @@ export default class ExpandCollapseController extends Controller {
     console.log("ExpandCollapse (Frame Reload Mode) controller connected")
   }
 
-  disconnect() {
-    // No listeners to remove
-  }
-
   toggleAll(event) {
     event.preventDefault()
 
@@ -30,11 +26,9 @@ export default class ExpandCollapseController extends Controller {
       return
     }
 
-    // Determine the *new* desired state
     const expand = !this.expandedValue
-    let newSrc = currentSrc.replace(/[?&]expand_all=[^&]+/, "") // Remove existing param
+    let newSrc = currentSrc.replace(/[?&]expand_all=[^&]+/, "")
 
-    // Construct new URL
     const separator = newSrc.includes("?") ? "&" : "?"
     if (expand) {
       newSrc += `${separator}expand_all=true`
@@ -42,13 +36,10 @@ export default class ExpandCollapseController extends Controller {
 
     console.log(`Setting frame src to: ${newSrc}`)
 
-    // Set the new src to trigger Turbo Frame reload
     frame.src = newSrc
 
-    // Update internal state and button text immediately
     this.expandedValue = expand
-    this.updateButtonText() 
-    // No need to disable button or wait for frame load for this simpler version
+    this.updateButtonText()
   }
 
   updateButtonText() {

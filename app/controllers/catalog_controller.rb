@@ -20,12 +20,9 @@ class CatalogController < ApplicationController
     if @expand_all
       # Set a very large number for rows. Adjust if needed, but should be >= max possible components.
       # Using params directly influences the SearchState used by search_service.
-      params[:rows] = 1_000_000 
-      # Alternatively, if SearchBuilder modification is preferred later:
-      # search_params_logic_context[:fetch_all_components] = true 
+      params[:rows] = 1_000_000
     end
 
-    # Call search_results WITHOUT the context argument
     @response = search_service.search_results
   end
 

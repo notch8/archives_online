@@ -7,13 +7,12 @@ module Ngao
     class DocumentCollectionHierarchyComponent < ::Arclight::DocumentCollectionHierarchyComponent
       # OVERRIDE: Check for @expand_all from controller, otherwise use default behavior
       def show_expanded?
-        # Check if the controller action set the @expand_all flag
         controller_wants_expanded = @view_context.instance_variable_get(:@expand_all) == true
 
         if controller_wants_expanded
-          true # Force expanded if @expand_all is true
+          true
         else
-          super # Use the original Arclight logic for default cases
+          super
         end
       end
 

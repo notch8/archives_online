@@ -1,7 +1,7 @@
-<%# OVERRIDE Arclight v1.4.0 - Restore original template content %>
+<%# OVERRIDE Arclight v1.4.0 - Template for Ngao::Arclight::DocumentComponentsHierarchyComponent override %>
 <% if paginate? && @target_index >= 0 && @target_index >= @maximum_left_gap %>
   <%# render the hierarchy as: outer (left) window ... window ... because our current document hierarchy is so far down the list it'd be buried %>
-  <%= helpers.turbo_frame_tag "al-hierarchy-#{@document.id}-left", loading: 'lazy', src: hierarchy_path(limit: @left_outer_window, key: '-left') %>
+  <%= turbo_frame_tag "al-hierarchy-#{@document.id}-left", loading: 'lazy', src: hierarchy_path(limit: @left_outer_window, key: '-left') %>
   <%= tag.turbo_frame id: "al-hierarchy-#{@document.id}-gap" do %>
     <ul>
       <li>
@@ -9,7 +9,7 @@
       </li>
     </ul>
   <% end %>
-  <%= helpers.turbo_frame_tag "al-hierarchy-#{@document.id}-window", src: hierarchy_path(offset: @target_index - (@window / 2), limit: @window, key: '-window') %>
+  <%= turbo_frame_tag "al-hierarchy-#{@document.id}-window", src: hierarchy_path(offset: @target_index - (@window / 2), limit: @window, key: '-window') %>
   <%= tag.turbo_frame id: "al-hierarchy-#{@document.id}-right" do %>
     <ul>
       <li>
@@ -19,7 +19,7 @@
   <% end %>
 <% elsif paginate? %>
   <%# render the first N documents, and let the user expand the remaining if desired %>
-  <%= helpers.turbo_frame_tag "al-hierarchy-#{@document.id}-sidebar", loading: ('lazy' unless @target_index >= 0), src: hierarchy_path(limit: @maximum_left_gap, key: '-sidebar') %>
+  <%= turbo_frame_tag "al-hierarchy-#{@document.id}-sidebar", loading: ('lazy' unless @target_index >= 0), src: hierarchy_path(limit: @maximum_left_gap, key: '-sidebar') %>
   <%= tag.turbo_frame id: "al-hierarchy-#{@document.id}-right" do %>
     <ul>
       <li>
@@ -28,6 +28,5 @@
     </ul>
   <% end %>
 <% else %>
-  <%# there aren't enough to bother paginating (OR expand_all is true), so load them all at once via frame %>
-  <%= helpers.turbo_frame_tag "al-hierarchy-#{@document.id}-sidebar", loading: ('lazy' unless @target_index >= 0), src: hierarchy_path(key: '-sidebar') %>
+  <%= turbo_frame_tag "al-hierarchy-#{@document.id}-sidebar", loading: ('lazy' unless @target_index >= 0), src: hierarchy_path(key: '-sidebar') %>
 <% end %> 
