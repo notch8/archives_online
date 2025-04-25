@@ -1,10 +1,22 @@
 # frozen_string_literal: true
 
-# OVERRIDE Arclight v1.4.0 to add Series and Subseries to the title
+# OVERRIDE Arclight v1.4.0 to add Series and Subseries to the title and handle expand all
 
 module Ngao
   module Arclight
     class DocumentCollectionHierarchyComponent < ::Arclight::DocumentCollectionHierarchyComponent
+      # OVERRIDE: Check for @expand_all from controller, otherwise use default behavior
+      def show_expanded?
+        # Check if the controller action set the @expand_all flag
+        controller_wants_expanded = @view_context.instance_variable_get(:@expand_all) == true
+
+        if controller_wants_expanded
+          true # Force expanded if @expand_all is true
+        else
+          super # Use the original Arclight logic for default cases
+        end
+      end
+
       def level_label(content)
         return content unless %w[Series Subseries].include?(document.level)
 
