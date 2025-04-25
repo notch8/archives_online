@@ -1,0 +1,9 @@
+<%# duplicate of MetadataFieldComponent to allow customized Creator Role Rendering %>
+<%= render(@layout.new(field: @field)) do |component| %>
+  <% component.with_label do %>
+    <%= label %>
+  <% end %>
+  <% component.with_value do %>
+  <%= @field.render %>
+  <% end %>
+<% end %>

@@ -12,6 +12,16 @@ module ArclightHelperDecorator
       group: true
     )
   end
+
+  def render_creator_links(field)
+    # values is an array containing a JSON string with one or more hash elements
+    # with multiple values possible for each role.
+    # ["[{\"Interviewer\":[\"Stahlman, Joseph\"]}]"]
+    values = field[:value]
+    creators_with_roles = JSON.parse(values.first)
+    creators = creators_with_roles.map(&:values).flatten
+    link_to_name_facet({ config: config, value: creators })
+  end
 end
 
 ArclightHelper.prepend(ArclightHelperDecorator)
