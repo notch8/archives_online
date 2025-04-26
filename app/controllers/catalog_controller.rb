@@ -302,7 +302,10 @@ class CatalogController < ApplicationController
     # ===========================
 
     # Collection Show Page - Summary Section
-    config.add_summary_field 'creators', field: 'creator_role_ssim', label: 'Creator', component: Ngao::Blacklight::CreatorRoleComponent, helper_method: :render_creator_links
+    config.add_summary_field 'creators', field: 'creator_role_ssim',
+                                         label: 'Creator',
+                                         component: Ngao::Blacklight::CreatorRoleComponent,
+                                         helper_method: :render_creator_links
     config.add_summary_field 'abstract', field: 'abstract_html_tesm', helper_method: :render_html_tags
     config.add_summary_field 'extent', field: 'extent_ssm'
     config.add_summary_field 'language', field: 'language_ssim'
@@ -373,7 +376,9 @@ class CatalogController < ApplicationController
       document.containers.present?
     }
     config.add_component_field 'unitid_ssm', label: 'Component Identifier', helper_method: :render_html_tags
-    config.add_component_field 'creators', field: 'creator_role_ssim', component: Ngao::Blacklight::CreatorRoleComponent, helper_method: :render_creator_links
+    config.add_component_field 'creators', field: 'creator_role_ssim',
+                                           component: Ngao::Blacklight::CreatorRoleComponent,
+                                           helper_method: :render_creator_links
     config.add_component_field 'abstract', field: 'abstract_html_tesm', helper_method: :render_html_tags
     config.add_component_field 'extent', field: 'extent_ssm'
     config.add_component_field 'scopecontent', field: 'scopecontent_html_tesm', helper_method: :render_html_tags

@@ -225,10 +225,13 @@ to_field 'creator_role_ssim' do |record, accumulator|
   CREATOR_ELEMENTS.map do |selector|
     creator = record.at_xpath("./did/origination/#{selector}")
     next unless creator
+
     role = creator&.attribute('role')&.value
-    roles_array << { creator: creator&.text.strip, role: role }
+    roles_array << { creator: creator&.text&.strip, role: role }
   end
-  accumulator << settings['creator_roles_normalizer'].constantize.new(creator_roles: roles_array, logger: settings['logger']).to_s if roles_array.present?
+  if roles_array.present?
+    accumulator << settings['creator_roles_normalizer'].constantize.new(creator_roles: roles_array, logger: settings['logger']).to_s
+  end
 end
 
 to_field 'has_online_content_ssim', extract_xpath('.//dao') do |_record, accumulator|

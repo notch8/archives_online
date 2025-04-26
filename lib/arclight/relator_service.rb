@@ -9,6 +9,7 @@ module Arclight
 
     def self.for(code)
       return nil if code.blank?
+
       @instance ||= new
       @instance.get_authoritative_label(code)
     end
@@ -20,14 +21,14 @@ module Arclight
     # Method to get the authoritativeLabel for a given code
     def get_authoritative_label(code)
       subject = RDF::URI("http://id.loc.gov/vocabulary/relators/#{code}")
-      predicate = RDF::URI("http://www.loc.gov/mads/rdf/v1#authoritativeLabel")
+      predicate = RDF::URI('http://www.loc.gov/mads/rdf/v1#authoritativeLabel')
 
       # Return the authoritativeLabel for the subject
       label = @graph.query([subject, predicate, nil]).first&.object
       return nil unless label
+
       label.to_s
     end
-
 
     private
 

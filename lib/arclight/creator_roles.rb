@@ -25,16 +25,12 @@ module Arclight
     attr_reader :creator_roles, :result, :logger
 
     def normalize
-      @logger&.debug("👻👻 Formatting creator roles: #{@creator_roles}") if logger
       @creator_roles.each do |creator_role|
         creator = creator_role[:creator]
         role = creator_role[:role] || 'creator'
         combine_roles(creator, role)
       end
-      results = translate_roles(@result)
-      @logger&.debug("✅✅ Creator roles: #{results}") if logger
-      @logger&.debug("🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫🚫") if logger
-      results
+      translate_roles(@result)
     end
 
     def combine_roles(creator, role)
