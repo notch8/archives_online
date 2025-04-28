@@ -200,20 +200,28 @@
               <unitid audience="internal" identifier="12-1" type="shelf">12-1</unitid>
               <unitid audience="internal" identifier="13-4" type="Shelf No">13-4</unitid>
               <abstract id="aspace_f41a679e1cada1a9bc664866ab51dd8a">abstract note</abstract>
-              <physdesc><dimensions id="aspace_e19700279b741200f321e863b4369285">dimensions
-                  note</dimensions></physdesc>
+              <physdesc>
+                <dimensions id="aspace_e19700279b741200f321e863b4369285">
+                  <title render="bold">dimensions</title> text
+                </dimensions>
+              </physdesc>
               <materialspec id="aspace_8ed54a0e19fe1ea5e7117ed2821eedad">materials specific details
                 note</materialspec>
-              <physdesc id="aspace_b616f8d050840a17f4c5997032436af1">physdesc note</physdesc>
-              <physdesc><physfacet id="aspace_8bd9b95412c7bfa947d443f5daeba71c">physfacet
-                  note</physfacet></physdesc>
+              <physdesc id="aspace_b616f8d050840a17f4c5997032436af1">
+                <title render="bold">physdesc</title> note
+              </physdesc>
+              <physdesc>
+                <physfacet id="aspace_8bd9b95412c7bfa947d443f5daeba71c">
+                  <emph render="underline">physical facet</emph> text
+                </physfacet>
+              </physdesc>
               <physloc id="aspace_3daa2f08c0d8b897c3964f22697d5beb">physloc note</physloc>
               <container id="aspace_7c951de13a3ab938bb8a54e5823f5cb0" label="box on file cabinet"
                 type="loose-drawer">1</container>
             </did>
             <accruals id="aspace_42740409835e51df6e24ff19d67d8c8c">
               <head>Accruals</head>
-              <p><title render="bold">Accruals text</title></p>
+              <p><title render="bold">Accruals</title> text</p>
             </accruals>
             <appraisal id="aspace_c20314540cbd765d0d1965e184613eae">
               <head>Appraisal</head>
@@ -263,7 +271,7 @@
             </odd>
             <acqinfo id="aspace_e37d1578dcc6da44b9e4ab3e73f6fb93">
               <head>Immediate Source of Acquisition</head>
-              <p>immediate source of acquisition</p>
+              <p><title render="underline">immediate source of</title> acquisition</p>
             </acqinfo>
             <accessrestrict>
               <legalstatus id="aspace_93b7ca263a9bf4201fbb0c5aca146396">legal status
@@ -303,7 +311,7 @@
               <bibref>www.google.com</bibref>
             </bibliography>
             <index id="aspace_7678bca991f87ddba6b56a8cca7d0ad0">
-              <p>index note</p>
+              <p><title render="bold">index</title> note</p>
             </index>
           </c03>
           <c03 id="aspace_201a7c594d3d33a910c097d4eb92dfe8" level="file">

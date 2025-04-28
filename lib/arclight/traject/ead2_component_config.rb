@@ -16,9 +16,12 @@ require 'arclight/digital_object'
 require 'arclight/year_range'
 require 'arclight/missing_id_strategy'
 require 'arclight/traject/nokogiri_namespaceless_reader'
+# Formatting module to handle text formatting in render attributes in EAD
+require_relative './render_formatting'
 
 # rubocop:disable Style/MixinUsage
 extend TrajectPlus::Macros
+extend Arclight::Traject::RenderFormatting
 # rubocop:enable Style/MixinUsage
 
 settings do
@@ -180,18 +183,7 @@ to_field 'collection_ssim' do |_record, accumulator, _context|
   accumulator.concat settings[:root].output_hash['normalized_title_ssm']
 end
 
-# This accumulates direct text from a physdesc, ignoring child elements handled elsewhere
-to_field 'physdesc_tesim', extract_xpath('./did/physdesc', to_text: false) do |_record, accumulator|
-  accumulator.map! do |element|
-    physdesc = []
-    element.children.map do |child|
-      next if child.instance_of?(Nokogiri::XML::Element)
-
-      physdesc << child.text&.strip unless child.text&.strip&.empty?
-    end.flatten
-    physdesc.join(' ') unless physdesc.empty?
-  end
-end
+to_field 'physdesc_tesim', render_formatted_text('./did/physdesc')
 
 to_field 'extent_ssm' do |record, accumulator|
   physdescs = record.xpath('./did/physdesc')
@@ -209,8 +201,9 @@ to_field 'extent_tesim' do |_record, accumulator, context|
   accumulator.concat context.output_hash['extent_ssm'] || []
 end
 
-to_field 'physfacet_tesim', extract_xpath('./did/physdesc/physfacet')
-to_field 'dimensions_tesim', extract_xpath('./did/physdesc/dimensions')
+# render_formatted_text extracts the XML and applies formatting to the text
+to_field 'physfacet_tesim', render_formatted_text('./did/physdesc/physfacet')
+to_field 'dimensions_tesim', render_formatted_text('./did/physdesc/dimensions')
 
 to_field 'indexes_html_tesm', extract_xpath('./index', to_text: false)
 to_field 'indexes_tesim', extract_xpath('./index')
@@ -314,8 +307,8 @@ to_field 'access_subjects_ssm' do |_record, accumulator, context|
   accumulator.concat(context.output_hash.fetch('access_subjects_ssim', []))
 end
 
-to_field 'acqinfo_ssim', extract_xpath('./acqinfo/*[local-name()!="head"]')
-to_field 'acqinfo_ssim', extract_xpath('./descgrp/acqinfo/*[local-name()!="head"]')
+to_field 'acqinfo_ssim', render_formatted_text('./acqinfo/*[local-name()!="head"]')
+to_field 'acqinfo_ssim', render_formatted_text('./descgrp/acqinfo/*[local-name()!="head"]')
 
 to_field 'language_ssim', extract_xpath('./did/langmaterial')
 to_field 'containers_ssim' do |record, accumulator|
