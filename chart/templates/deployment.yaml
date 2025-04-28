@@ -31,6 +31,27 @@ spec:
       serviceAccountName: {{ include "chart.serviceAccountName" . }}
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
+      {{- if .Values.loadSolrConfigSet }}
+      initContainers:
+        - name: solr-upload-and-assign-configset
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          envFrom:
+            - configMapRef:
+                name: {{ include "chart.fullname" . }}-env
+            - secretRef:
+                name: {{ include "chart.fullname" . }}
+            {{- if .Values.solrExistingSecret }}
+            - secretRef:
+                name: {{ .Values.solrExistingSecret }}
+            {{- end }}
+          command:
+            - sh
+            - -c
+            - >
+              solrcloud-upload-configset.sh $CONFDIR &&
+              solrcloud-assign-configset.sh
+      {{- end }}
       volumes:
         - name: shared
           persistentVolumeClaim:
@@ -57,7 +78,7 @@ spec:
             periodSeconds: 120
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
-          volumeMounts: 
+          volumeMounts:
             # - mountPath: /home/app/webapp/public/assets-new
             #   name: shared
             #   subPath: assets
