@@ -1,5 +1,6 @@
 <%#
   OVERRIDE Arclight v1.4.0 to remove the tools section from the sidebar
+  and add the expand/collapse controller and button
 %>
 
 <div class="offcanvas-lg offcanvas-start p-3 p-lg-1" tabindex="-1" id="sidebar">
@@ -7,8 +8,14 @@
   <%# OVERRIDE remove the tools section %>
   <%#= render (blacklight_config.show.show_tools_component || Blacklight::Document::ShowToolsComponent).new(document: document) %>
   <%= collection_sidebar %>
-  <div id="collection-context" class="sidebar-section">
-    <h2><%= t('arclight.views.show.has_content') %></h2>
-    <%= turbo_frame_tag "al-hierarchy-#{document.root}", loading: 'lazy', src: hierarchy_solr_document_path(id: document.root, nest_path: @document.nest_path, hierarchy: true) %>
+  <%# Override to add the expand/collapse controller and button %>
+  <div id="collection-context" class="sidebar-section" data-controller="expand-collapse">
+    <div class="d-flex justify-content-between align-items-center mb-2">
+      <h2 class="mb-0"><%= t('arclight.views.show.has_content') %></h2>
+      <button type="button" class="btn btn-sm btn-secondary me-3" data-expand-collapse-target="button" data-action="click->expand-collapse#toggleAll">
+        Expand All
+      </button>
+    </div>
+    <%= turbo_frame_tag "al-hierarchy-#{document.root}", loading: 'lazy', src: hierarchy_solr_document_path(id: document.root, nest_path: @document.nest_path, hierarchy: true), data: { expand_collapse_target: "hierarchy" } %>
   </div>
 </div>

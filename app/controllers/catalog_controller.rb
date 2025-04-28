@@ -8,6 +8,20 @@ class CatalogController < ApplicationController
   include Arclight::FieldConfigHelpers
   include Ngao::ComponentMetadataHelper
 
+  # OVERRIDE v1.4.0 Arclight::Catalog#hierarchy to force large row count for expand_all
+  def hierarchy
+    @expand_all = params[:expand_all] == 'true'
+
+    # Force retrieval of all components when expanding all
+    if @expand_all
+      # Set a very large number for rows. Adjust if needed, but should be >= max possible components.
+      # Using params directly influences the SearchState used by search_service.
+      params[:rows] = 1_000_000
+    end
+
+    @response = search_service.search_results
+  end
+
   configure_blacklight do |config|
     ## Class for sending and receiving requests from a search index
     # config.repository_class = Blacklight::Solr::Repository
@@ -276,6 +290,7 @@ class CatalogController < ApplicationController
     # These are the parameters passed through in search_state.params_for_search
     config.search_state_fields += %i[id group hierarchy_context original_document]
     config.search_state_fields << { original_parents: [] }
+    config.search_state_fields << :expand_all
 
     # "sort results by" select (pulldown)
     # label in pulldown is followed by the name of the SOLR field to sort by and
