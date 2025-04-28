@@ -12,10 +12,6 @@ class CatalogController < ApplicationController
   def hierarchy
     @expand_all = params[:expand_all] == 'true'
 
-    # search_params_logic_context = {
-    #   expand_all: @expand_all
-    # }
-
     # Force retrieval of all components when expanding all
     if @expand_all
       # Set a very large number for rows. Adjust if needed, but should be >= max possible components.
