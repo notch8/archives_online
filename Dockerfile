@@ -55,8 +55,8 @@ RUN /sbin/setuser app bash -l -c "bundle check || bundle install"
 COPY --chown=app:app . $APP_HOME
 
 # ** ADD SOLR SCRIPTS INTO IMAGE **
-COPY ops/solrcloud-upload-configset.sh /usr/local/bin/solrcloud-upload-configset.sh
-COPY ops/solrcloud-assign-configset.sh /usr/local/bin/solrcloud-assign-configset.sh
+COPY bin/solrcloud-upload-configset.sh /usr/local/bin/solrcloud-upload-configset.sh
+COPY bin/solrcloud-assign-configset.sh /usr/local/bin/solrcloud-assign-configset.sh
 RUN chmod +x /usr/local/bin/solrcloud-upload-configset.sh
 RUN chmod +x /usr/local/bin/solrcloud-assign-configset.sh
 
