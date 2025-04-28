@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 https://www.loc.gov/ead/ead.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511">
+    <eadid countrycode="US" mainagencycode="US-InU">ohrc117</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>
+          Coming Together: An Oral History of the Ostroms and their Scholarly Impact on Problem Solving, 2014
+          <num>ohrc117</num>
+        </titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Center for Documentary Research and Practice</publisher>
+        <p id="logostmt">
+          <extref xlink:actuate="onLoad" xlink:href="http://webapp1.dlib.indiana.edu/archivesOnline/repositoryImages/cshm.jpg" xlink:show="embed" xlink:type="simple"/>
+        </p>
+        <address>
+          <addressline>Franklin Hall 0030B</addressline>
+          <addressline>601 E. Kirkwood Avenue</addressline>
+          <addressline>Bloomington, Indiana 47405</addressline>
+          <addressline>Business Number: 812-855-2856</addressline>
+          <addressline>ohrc@iu.edu</addressline>
+          <addressline>
+            URL:
+            <extptr xlink:href="https://cdrp.mediaschool.indiana.edu/" xlink:show="new" xlink:title="https://cdrp.mediaschool.indiana.edu/" xlink:type="simple"/>
+          </addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        This finding aid was produced using ArchivesSpace on
+        <date>2025-04-20 23:46:43 -0400</date>
+        .
+      </creation>
+      <langusage>
+        Description is written in:
+        <language langcode="eng" scriptcode="Latn">English, Latin script</language>
+        .
+      </langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>03-01-2021</date>
+        <item>ArchiveSpace Resource Created by Anna Wilson</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <repository>
+        <corpname>Center for Documentary Research and Practice</corpname>
+      </repository>
+      <unittitle>Coming Together: An Oral History of the Ostroms and their Scholarly Impact on Problem Solving</unittitle>
+      <origination label="Creator">
+        <corpname role="his" source="lcnaf">Indiana University Center for the Study of History and Memory</corpname>
+      </origination>
+      <unitid>ohrc117</unitid>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">32 Interviews</extent>
+        <physfacet>Audio files and transcripts</physfacet>
+      </physdesc>
+      <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014/2014">2014</unitdate>
+      <physdesc audience="internal" id="aspace_3247a8ba5eaeb5e21bd2f2d5429a6526">Contains interviews consisting of audio .wav files and transcripts.</physdesc>
+      <abstract audience="internal" id="aspace_0575cb92949f9e3fa0eec177c7637901" label="Scope and Content Note">This project centers around interviews with professional and/or personal acquaintances of Elinor and Vincent Ostrom. Every interview explores a unique relationship with the Ostroms and the continuing impact of the Ostrom Workshop at Indiana University. Elinor (Lin) and Vincent Ostrom founded the Workshop in Political Theory and Policy Analysis in 1973.The Ostrom Workshop has been the catalyst for worldwide collaboration in the field of public policy and environmental issues. "Coming Together" is an interdisciplinary exploration of the legacy and impact of Elinor (Lin) and Vincent Ostrom. Major topics include; academia, "the commons", cross-disciplinary collaboration, Elinor Ostrom's Nobel Prize, the Ostrom Workshop, political science, political theory, and the Workshop on the Ostrom Workshop (WOW) conference. The project was created to assist in the dissertation research of Sara Catherine Clark, who was a doctoral candidate within the School of Education, pursing a Ph.D. in History, Philosophy, and Policy in Education, at Indiana University Bloomington. Sara Catherine Clark's dissertation was completed in 2019 and is cited as follows: Clark, S. C. (2019).
+        <title render="italic">Elinor ostrom: A biography of interdisciplinary life.</title>
+      </abstract>
+      <physloc id="aspace_fb52b7ff7a5a06d4a912a92580cc0bdf" label="Physical Location">Interviews are housed in Franklin Hall, Room 0030A. Contact ohrc@indiana.edu for more information. Copies of interview transcripts are also held by the IU Libraries University Archives. For other locations housing the interviews from this project, please contact the Center for Documentary Research and Practice office.</physloc>
+      <langmaterial>
+        <language langcode="eng" scriptcode="Latn">English</language>
+        .
+      </langmaterial>
+    </did>
+    <accessrestrict audience="internal" id="aspace_b0a1f983695e8d0c7a090e755ebfeba0">
+      <head>Access Status</head>
+      <p>Access varies by interview.</p>
+    </accessrestrict>
+    <userestrict id="aspace_853c849baab55962a4bc8bfa0180ef75">
+      <head>Usage Restrictions</head>
+      <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+    </userestrict>
+    <prefercite id="aspace_19d6d783c2fd59dcfff14d2a78681ea6">
+      <head>Preferred Citation</head>
+      <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+    </prefercite>
+    <dsc>
+      <c01 audience="internal" id="aspace_15dbd244db1d8522681ccc586bb85973" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Aligica, Paul Dragos</unittitle>
+          <unitid>14-010</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Stahlman, Joseph</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-18/2014-06-18">June 18, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_4c8647d7d0bf0b080b520b1e8157762c" label="Physical Description">20 pages; 3 .wav files, 56 minutes; index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_980387bc38e008851f4a0412f518b07e">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_700813a5abf406c51d0489d6f5f470c6">
+          <head>Scope Note</head>
+          <p>Dr. Paul Dragos Aligica is a professor in the Economics Department in Politics and Economics at Mercatus Center at George Mason University. Dragos Aligica first met Elinor and Vincent Ostrom at the Workshop but was familiar with their work before arriving there. He discusses the way academic institutions work and the way the Ostroms didn't conform to those rules. Later he discusses collaborating with the Ostroms through the Ostrom Workshop. Dragos Aligica also recalls Elinor Ostrom as a teacher and her humor. He goes on to discuss how the Ostroms intellectual lineage will be looked at in the future. The interview concludes with talk about the Workshop on the Ostrom Workshop (WOW) Conference and a more in-depth talk about the Ostrom Workshop.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_6327461968924a1f0f633ca7ed257106">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_6853d023bbf4dd88a515b0fd42476e7a">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">Workshop on the Ostrom Workshop Conference (WOW)</subject>
+          <subject source="local">Academia</subject>
+          <subject source="local">institutional theory</subject>
+          <subject source="local">Institutional Analysis and Development Framework (IAD)</subject>
+          <occupation source="local">professor</occupation>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <persname audience="internal">Ostrom, Vincent, 1919-2012</persname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_7308b3db3cc4a992a7a3834b20394808" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Anonymous</unittitle>
+          <unitid>14-024</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Stahlman, Joseph</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-26/2014-06-26">June 26, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_54b6838168a4a00c4087199321fab61a" label="Physical Description">17 pages; no audio files; no index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_397125dd919a69abb41130c620f1087d">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_aef805b1359661d2ee335e84e5abe612">
+          <head>Scope Note</head>
+          <p>Anonymous begins the interview by explaining their connection to Elinor Ostrom as a student in the political science department. This leads to discussion of Ostrom as a teacher, working with her on the Health Commons Research Project, and experiences with her at the Ostrom Workshop. They speak of the Occupy Movement as an important part of their academic career and the connection to Ostrom's work. Anonymous goes on to discuss how they would tell the Ostroms' story which includes discussion of the Nobel Prize in Economics. Then Anonymous is asked to discuss lingering research questions, those questions deal with power and the colonial experience within the commons. The interview closes discussing the Ostrom Workshop and Elinor Ostrom's work on language.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_140f2ddd43e12b11c4deca41032e1810">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_21449738d93e9568002efab6770bbb1a">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">health commons</subject>
+          <subject source="local">Midnight Notes Collective</subject>
+          <subject source="local">Occupy Movement</subject>
+          <subject source="local">social movements as commons</subject>
+          <occupation source="ingest">student</occupation>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_d25a4b5089d7d99e68eace6db842224c" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Bal, Mansee</unittitle>
+          <unitid>14-022</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Clark, Sara</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-21/2014-06-21">June 21, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_82da4834189b9209bd0d9abd8a97e2bb" label="Physical Description">21 pages; 1 .wav files, 55 minutes; no index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_a2ef2bc06f6f6d249e588b1efec6dcae">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_431310f2e8ee6d0ca931af4c55881746">
+          <head>Scope Note</head>
+          <p>Mansee Bal is a Research Entrepreneur with the Environmental Design Consultants in India. Bal first discovered Elinor Ostrom when she began reading for her PhD program at Erasmus University. Bal's research focused on urban lakes, mainly in India with a multidisciplinary focus. After this initial introduction Bal had the opportunity to work with Ostrom at the Ostrom Workshop. Throughout the interview she fondly recalls having Elinor Ostrom as a teacher, Ostrom winning the Nobel Prize, Workshop on the Ostrom Workshop (WOW) Conference and personal memories with Ostrom.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_9bd08cb747e70730591d1b0db5a30ba3">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_4596fe1ad5c1417e89c40a22c29d2453">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <geogname source="ingest">India</geogname>
+          <subject source="local">Nobel Prize</subject>
+          <subject source="local">"Planet Under Pressure" Conference</subject>
+          <occupation source="local">Research Entrepreneur</occupation>
+          <subject source="local">Workshop on the Ostrom Workshop Conference (WOW)</subject>
+          <subject source="local">Urban Lakes System</subject>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_9036dc52560abc11cbc34a3a983957a2" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Basurto, Xavier</unittitle>
+          <unitid>14-029</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Stahlman, Joseph</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-07-17/2014-07-17">July 17, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_7e2b25937c606432ce8484acb34689b3" label="Physical Description">17 pages; 1 .wav file, 81 minutes; index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_6e3631a6915cc067b1fe56f5e43161f6">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_fd64b72b19489f4db361b402a3ed1bd2">
+          <head>Scope Note</head>
+          <p>Xavier Basurto is an Associate Professor of Sustainability Science within the division of Marine Science & Conservation at Duke University. Basurto met Elinor Ostrom through Edella Schlager, a professor at University of Arizona. After finished his PhD he applied for a postdoc position at the Ostrom Workshop, which he was accepted to. Basurto later talks about Elinor Ostrom's influence and his participation in the Workshop on the Ostrom Workshop (WOW) Conferences.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_66240d6712a8ee2e5b826955ee01f197">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_fd3c083c68c02d68cb7f739dcb7cc310">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">Duke University</subject>
+          <subject source="local">Fisheries</subject>
+          <subject source="local">Nobel Prize</subject>
+          <occupation source="local">professor</occupation>
+          <subject source="local">Workshop on the Ostrom Workshop Conference (WOW)</subject>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_b7876d9c1d0f691746d1e8317243727d" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Bish, Robert</unittitle>
+          <unitid>14-003</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Guerrero, Paulina</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-13/2014-06-13">June 13, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_69c5b8607eb103df26ff6438c56fe7ad" label="Physical Description">23 pages; 1 .wav file, 67 minutes; no index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_005269ad20a9b9cfa3a9d3713a33cdf5">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_077a0c874e2a380813e8c65cf8a3125c">
+          <head>Scope Note</head>
+          <p>Robert Bish is Professor Emeritus in the School of Public Administration at the University of Victoria. Bish first met Vincent Ostrom when he enrolled in Ostrom's PhD class, public administration. Later, Bish met Elinor Ostrom when she visited a class taught by Vincent Ostrom. Later Bish discusses the both Elinor and Vincent's research, their generosity and the Public Choice Society.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_6f42e289723451aa9c9cd73f74b5075a">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_adca970f5600fdeee81bb22cc6e01bd7">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject authfilenumber="sh85040850" source="lcsh">economics</subject>
+          <subject source="lcnaf">Markets</subject>
+          <subject source="local">political economy research</subject>
+          <subject source="ingest">political science</subject>
+          <occupation source="local">professor</occupation>
+          <subject source="local">water resource research</subject>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <persname audience="internal">Ostrom, Vincent, 1919-2012</persname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_552d3c4039adcfa09ac39ea9e0c75d01" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Bower-Bir, Jacob</unittitle>
+          <unitid>14-007</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Colom, Gloria</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-17/2014-06-17">June 17, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_1b1b5c0a6431a861bc61ab9057a94f02" label="Physical Description">22 pages; 1 .wav files, 79 minutes; no index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_3875282a82eb4804269d01de08b5cfe1">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_e67145eb8f044281fb97631b137883ba">
+          <head>Scope Note</head>
+          <p>Jacob Bower-Bir is an Assistant Professor at the American University in Cairo. He first met Elinor Ostrom as a student where she was his mentor for five years and chair of his committee. Bower-Bir recalls how fortunate he was to work with Elinor Ostrom before and after the Nobel prize. He also discusses the Ostrom Workshop, the Workshop on the Ostrom Workshop and questions both the Ostroms were pursing answers to. The interview closes with Bower-Bir reflecting on the ways Elinor and Vincent Ostrom influenced him.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_5825f4f7f29e86b98c18b880f6248680">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_0c3fcab6ad4fc06bc34220a67b487905">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">Nobel Prize</subject>
+          <subject source="local">Workshop on the Ostrom Workshop Conference (WOW)</subject>
+          <occupation source="ingest">professor</occupation>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <persname audience="internal">Ostrom, Vincent, 1919-2012</persname>
+          <corpname rules="rda" source="local">Ostrom Workshop</corpname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_91d331e34c92742304df4ad2f69d282a" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Brondizio, Eduardo</unittitle>
+          <unitid>14-011</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Guerrero, Paulina</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-20/2014-06-20">June 20, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_3e04d06742e5cfa4af59a4a91bf28697" label="Physical Description">13 pages; 1 .wav files, 61 minutes; no index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_4be03fdc31c36c9a0fc743a8c08a682c">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_c78f79dfef2e272d765629a173e8a447">
+          <head>Scope Note</head>
+          <p>Eduardo Brondizio is a professor of Anthropology at Indiana University. He met Elinor Ostrom while developing a proposal for a Center of excellence on the study of population, institutions, and environmental change (CIPEC). He discusses the way the Ostroms built teams by creating a space where common language was upheld above discipline specific language and the overarching idea of research around problems, not disciplines. He goes on to describe how he began working at the Ostrom Workshop and what he does there now. Personal and last memories of Elinor Ostrom are also shared.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_266d738c8b3f4de15023d8818141107b">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_ad2ea4fbed615b9ee5389ffd888d5c04">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">collaborative learning</subject>
+          <subject source="local">cross-disciplinary teamwork</subject>
+          <geogname source="ingest">France</geogname>
+          <subject source="local">interdisciplinary research</subject>
+          <occupation source="ingest">professor</occupation>
+          <corpname rules="rda" source="local">Center of Excellence of the Study of Population, Institutions, and Environmental Change (CIPEC)</corpname>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <corpname rules="rda" source="local">Ostrom Workshop</corpname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_1896d01712dd2fd08f20cb9802cc27d5" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Bruns, Bryan</unittitle>
+          <unitid>14-023</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Clark, Sara</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="bce" normal="2014-06-21/2014-06-21">June 21, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_b72253a9fb91a0df0b9040f56505c536" label="Physical Description">18 pages; 2 .wav files; 51 minutes; no index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_626ae126b3b2824016b72d4e34f0e1cd">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_58bf5506f806e0f9a72e8d2d05f9988e">
+          <head>Scope Note</head>
+          <p>Bryan Bruns is an Independent Consultant Sociologist. Bruns was exposed to the work of Elinor and Vincent Ostrom through mutual colleagues, conferences, and their writing. In 2009 Bruns became a Visiting Scholar at the Ostrom Workshop. He discusses what it was like to be a part of the Ostrom Workshop and the way Elinor Ostrom taught. Later he discusses his own work, Workshop on the Ostrom Workshop, and the Nobel Prize.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_63607d70ee2aa04bc613556d57b53c26">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_a6be7c2ad6c37b6b4394988099b2b431">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">irrigation</subject>
+          <subject source="local">Nobel Prize</subject>
+          <occupation source="local">sociologist</occupation>
+          <subject source="local">"The Federalist Papers"</subject>
+          <subject source="local">Workshop on the Ostrom Workshop Conference (WOW)</subject>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <persname audience="internal">Ostrom, Vincent, 1919-2012</persname>
+          <corpname rules="rda" source="local">Ostrom Workshop</corpname>
+          <persname rules="rda" source="local">Coward, Walt</persname>
+          <corpname rules="rda" source="local">International Association for Study of the Commons (IASC)</corpname>
+          <persname role="aut" rules="rda" source="lcnaf">de Tocqueville, Alexis, 1805-1859</persname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_f1dfa268f09dab878ec638f0e19c74ad" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Castle, Emily</unittitle>
+          <unitid>14-028</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Clark, Sara</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-07-15/2014-07-15">July 15, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_c5787156860efe96686a4360d0f51cb4" label="Physical Description">21 pages; 1 .wav file, 65 minutes; no index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_26dd1cc38fc034154fb4c08bdb0b61cb">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_0313940f5b54c44ba1f19637a8830009">
+          <head>Scope Note</head>
+          <p>Emily Castle is the Assistant Director and Librarian at the Ostrom Workshop. She first met Elinor Ostrom at a staff meeting and Elinor was a supervisor of Castle. Castle describes the Ostrom Workshop Library and her typical day as a Librarian. She later discusses preparing and planning the Workshop on the Ostrom Workshop conference. In time she discusses the physical space at the Ostrom Workshop and the community. Castle finishes her interview discussing Elinor Ostrom as a Supervisor, the Nobel Prize, and the Ostrom Workshop without the Ostroms.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_fe9b941543a6a8f87850a211eabb4005">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_06a73b39eff5340ca533d6937eabca9a">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">library profession</subject>
+          <occupation source="ingest">librarian</occupation>
+          <occupation source="ingest">library director</occupation>
+          <subject source="local">Nobel Prize</subject>
+          <subject source="local">Workshop on the Ostrom Workshop Conference (WOW)</subject>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <corpname rules="rda" source="local">Ostrom Workshop</corpname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_12fb543018fdb3d20c628c53303dd16f" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Cole, Daniel</unittitle>
+          <unitid>14-002</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Stahlman, Joseph</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-03/2014-06-03">June 03, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_26cd8753e15ffe0cf22ed2323266bc77" label="Physical Description">15 pages; 1 .wav file, 63 minutes; index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+          .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_f345cd9d94b1428b48eeea8cf5a91bf8">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_a03ed8e9bf24179852bab09935a9d2aa">
+          <head>Scope Note</head>
+          <p>Daniel Cole is a professor of Law and Public and Environment Health at the Maurer School of Law at Indiana University. The interview begins with Cole explaining how he first met Elinor Ostrom at the Ostrom Workshop and became more familiar with her through a cooperative forestry group and conferences which eventually led to Cole joining the Workshop Advisory Council. He speaks of Elinor Ostrom as a teacher, personal and professional experiences with the Ostroms, and team building in the Ostrom Workshop. Cole tells of the personal conversations he had with Elinor Ostrom in the hospital and how humorous and warm she was. He discusses what he think Ostrom's favorite time of the week was, the Workshop colloquium. The discussion ends with Cole talking about the book he and Elinor Ostrom wrote titled "Property in Land and Other Resources".</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_cbf165298d5f8171eb477c23c2ec0c1d">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_4c2946e7811d76f50675a23d2ad69ce9">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">environmental law</subject>
+          <geogname authfilenumber="n79055094" source="lcsh">Indianapolis (Ind.)</geogname>
+          <occupation source="ingest">professor</occupation>
+          <subject source="local">"Property in Land and Other Resources"</subject>
+          <subject source="ingest">teaching</subject>
+          <subject source="local">team building</subject>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <corpname rules="rda" source="local">Ostrom Workshop</corpname>
+          <corpname rules="rda" source="local">Lincoln Institute of Land Policy</corpname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_e39cbe5fb343191742d72cc7209ef507" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>DeCaro, Daniel</unittitle>
+          <unitid>14-016</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Clark, Sara</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-20/2014-06-20">June 20, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_6c21e7adf6325a852011dd61a43d23db" label="Physical Description">21 pages; 1 .wav file, 56 minutes; index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_e056c20a9e8fb28225d0c1b120f491df">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_55d884497e240dd26c8216949a0295e7">
+          <head>Scope Note</head>
+          <p>Daniel DeCaro is an Assistant Professor winthin the Department of Psychological and Brain Sciences at the University of Louisville. He first met Elinor and Vincent Ostrom when he applied to the Ostrom Workshop for a visiting scholar position, which he started in August 2010. With a background in psychology, DeCaro has a unique perspective in the Ostrom Workshop and the classes he was enrolled in. DeCaro was a visiting scholar for three years which he reflects on by sharing his interactions with Elinor Ostrom and the project he has been working on which has been presented at the Workshop on the Ostrom Workshop. DeCaro closes the interview by discussing challenges to interdisciplinary research.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_a64a493a6cf26d68df6555cb5fe509e0">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_161e9d3f674d3637891c25ac70e62e81">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">interdisciplinary research</subject>
+          <subject source="local">interdisciplinary social science research </subject>
+          <subject source="ingest">Psychology</subject>
+          <subject source="local">self-governance</subject>
+          <subject source="local">Workshop on the Ostrom Workshop Conference (WOW)</subject>
+          <occupation source="ingest">professor</occupation>
+          <occupation source="local">visiting scholar</occupation>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <persname audience="internal">Ostrom, Vincent, 1919-2012</persname>
+          <corpname rules="rda" source="local">Ostrom Workshop</corpname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_784a1aedb4a702882b91a16aac4a1cab" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>DeMoor, Martina (Tine)</unittitle>
+          <unitid>14-015</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Clark, Sara</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-20/2014-06-20">June 20, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_7d303ea1e2b9a6629d1f25c433296aa6" label="Physical Description">14 pages; 1 .wav file, 43 minutes; index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_c1650c6a843071d36af51700bad78a59">
+          <head>Access Status </head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_6e9c6d09ae025eee479ea49a0c9bffa0">
+          <head>Scope Note</head>
+          <p>Martina (Tine) DeMoor is a Professor of Institutions for Collective Action in Historical Perspective and a research leader at the Economic and Social History research group, Faculty of Humanities at Utrecht University. In this interview she discusses how she first knew of Elinor (Lin) Ostrom by reading her book Governing the Commons which resulted in her reaching out to Ostrom. The rest of the interview discusses the founding of the International Journal of the Commons, the 2014 Workshop on the Ostrom Workshop (WOW) Conference, and DeMoor's European tribute to Lin Ostrom.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_c4c812fd6d4357e21a19ca9c2d6c361c">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_1375856d5bce17de2098f1e8384cc0dd">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">"Governing the Commons"</subject>
+          <subject source="local">International Journal of the Commons</subject>
+          <subject source="local">leadership</subject>
+          <subject source="local">Nobel Prize</subject>
+          <subject source="local">Workshop on the Ostrom Workshop Conference (WOW)</subject>
+          <occupation source="ingest">professor</occupation>
+          <occupation source="local">historian</occupation>
+          <occupation source="local">research leader</occupation>
+          <geogname source="ingest">Chicago, Illiniois</geogname>
+          <geogname source="local">Netherlands</geogname>
+          <persname rules="rda" source="local">van Laerhoeven, Frank</persname>
+          <corpname rules="rda" source="local">International Association for Study of the Commons (IASC)</corpname>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <persname audience="internal">Ostrom, Vincent, 1919-2012</persname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_1c1c3c4f133139966be4687609024f40" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>England, Julie</unittitle>
+          <unitid>14-030</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Colom, Gloria</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-07-23/2014-07-23">July 23, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_262115e57e4ed256438c67deb11931d5" label="Physical Description">16 pages; 2 .wav files, 78 minutes; index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+          .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_96ecbb54df8a8bc44ef714f523c24361">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_50bd4c172249c07ea40c8ca13332af33">
+          <head>Scope Note</head>
+          <p>Julie England is an adjunct instructor in the School of Public and Environmental Affairs at Indiana University Bloomington. England discusses her work on databases that began with the common-pool resources (CPR) database and evolved with new projects in the Ostrom Workshop. She also discusses the technological changes in the Ostrom Workshop, the creation of the Center for the Study of Institutions, Populations and Environmental Change, and the Workshop on the Workshop Conference. The interview then discusses the Ostroms on a personal level including Manitoulin Island and the Ostrom Workshop after the Ostroms.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_0783fc09070af6502d6c262f07a6faeb">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_c83402e3c32e8d602005535c11c73317">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">information technology (IT)</subject>
+          <subject source="local">common-pool resources (CPR)</subject>
+          <occupation source="local">adjunct instructor</occupation>
+          <geogname source="local">Manitoulin Island, Ontario, Canada</geogname>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <persname audience="internal">Ostrom, Vincent, 1919-2012</persname>
+          <corpname rules="rda" source="local">Food and Agricultural Organization of the United Nations (FAO),</corpname>
+          <corpname rules="rda" source="local">International Forestry Resources and Institutions (IFRI)</corpname>
+          <corpname rules="rda" source="local">Ostrom Workshop</corpname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_8c84acc64f023be65d31163e1f443b0b" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Evans, Tom</unittitle>
+          <unitid>14-032</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Clark, Sara</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-07-23/2014-07-23">July 23, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_72f3e6d927e9b810d8abb64a37c34f0e" label="Physical Description">20 pages; 2 .wav files, 60 minutes; no index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+          .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_57b2fe7501d96daa9a5f09377176f216">
+          <head>Access Status </head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_d0d2431d4b204f865cab0b84a3410c7b">
+          <head>Scope Note</head>
+          <p>Tom Evans is a professor at the University of Arizona in the School of Geography and Development. Evans was hired by Elinor Ostrom and Emilio Moran in 1998 as a post-doctoral scholar at the Center for the Study of Institutions, Population, and Environmental Change (CIPEC). During his post-doc he was a co-principle investigator with Elinor Ostrom, working on a biocomplexity Nation Science Foundation grant. Later, Evans became co-director of CIPEC and co-director of the Ostrom Workshop which he discusses at length. He also discusses some of the core research that was going on at the Ostrom Workshop such as the social-ecological system (SES) framework. Evans closes the interview by discussing the Workshop on the Ostrom Workshop Conference and the 2009 Nobel Prize in Economic Sciences.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_43f1e0bec8a551d50e73fbc3208b2a93">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_1f9a5edaf8dcb8352d7bd38823e7aa22">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <occupation source="ingest">professor</occupation>
+          <subject source="local">Nobel Prize</subject>
+          <subject source="local"> Social-Ecological System (SES) framework</subject>
+          <subject source="local">Workshop on the Ostrom Workshop Conference (WOW)</subject>
+          <corpname rules="rda" source="local">Center of Excellence of the Study of Population, Institutions, and Environmental Change (CIPEC)</corpname>
+          <corpname authfilenumber="n79005681" rules="rda" source="lcnaf">National Science Foundation (U.S.)</corpname>
+          <corpname rules="rda" source="local">Ostrom Workshop</corpname>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <persname rules="rda" source="local">Moran, Emilio</persname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_eb72ecb655a71eee1caf05182c680b90" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Fischer, Burnell</unittitle>
+          <unitid>14-008</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Clark, Sara</persname>
+          </origination>
+          <origination label="Creator">
+            <corpname authfilenumber="n79005681" rules="rda" source="lcnaf">National Science Foundation (U.S.)</corpname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-18/2014-06-18">June 18, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_9ce0eb311b098f56c46cf7a32fb482e2" label="Physical Description">20 pages; 1 .wav file, 60 minutes; index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+          .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_9d3c468ebb2a705996c79a1c1354e0b8">
+          <head>Access Status </head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_c8b79fbbb56c21595263f87b9073981b">
+          <head>Scope Note</head>
+          <p>Burnell Fischer is the Clinical Professor Emeritus in the School of Public and Environmental Affairs. Fischer discusses his time as the State Forester of Indiana. Fischer wanted more collaboration with a greater variety of stakeholders and he discusses how he made that work. While he was working at the State Forester of Indiana Elinor Ostrom contacted him to come down and speak to her and her graduate students. During this time a collaborative was formed between Indiana University, Purdue University, The Nature Conservancy, and Professor Dan Cole of IUPUI (now Indiana University Bloomington). Fischer then began working at Indiana University where he assisted Elinor Ostrom in teaching. His position moved from work at the Ostrom Workshop to his position as the undergraduate program director at the School of Public and Environmental Affairs. Fischer recalls his time at the Nobel ceremony and why he was there. The interview concludes discussing the Workshop on the Ostrom Workshop (WOW) and the Ostrom Workshops future.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_2e5b6b4d9f642ad9bbf8bdc7c9e24938">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_87511d27aec92a33be6f8a65913df44d">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">Workshop on the Ostrom Workshop Conference (WOW)</subject>
+          <subject source="ingest">forestry</subject>
+          <subject source="ingest">teaching</subject>
+          <subject source="local">Nobel Prize</subject>
+          <persname rules="rda" source="local">Cole, Daniel</persname>
+          <corpname rules="rda" source="local">International Forestry Resources and Institutions (IFRI)</corpname>
+          <persname rules="rda" source="local">McGinnis, Michael</persname>
+          <corpname rules="rda" source="local">State (IN) Forestry Agency</corpname>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <corpname rules="rda" source="local">Ostrom Workshop</corpname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_80ad01f0dd817ad84f18484b0621bad9" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Frischmann, Brett</unittitle>
+          <unitid>14-0202</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Guerrero, Paulina</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-20/2014-06-20">June 20, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_6d0a44423e03600a776a8e2c04c8438b" label="Physical Description">18 pages; 1 .wav file, 52 minutes; no index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+          .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_b0442f2135d71a995f3c1f6eee922009">
+          <head>Access Status </head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_6419c5b4b10f0f7a5d38cf640727720d">
+          <head>Scope Note</head>
+          <p>Brett Frischmann is a law professor at Villanova University. Frischmann met Elinor Ostrom in Chicago where she gave a guest lecture at the Illinois Institute of Technology. He reflects how Elinor Ostrom influenced his research and her strengths as a mentor. He then discusses how Ostrom's work with the commons and methodologies will be looked at in the future. As an affiliate faculty member of the Ostrom Workshop, Frischmann is able to discuss his vision for the Ostrom Workshop going forward.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_f5aba23ba41bde40e4584b116f3eaeae">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_56da63544bee3d36c6dc74bd659473b3">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">the commons</subject>
+          <geogname source="ingest">Chicago Illinois</geogname>
+          <subject authfilenumber="sh85040850" source="lcsh">economics</subject>
+          <subject source="local">Institutional Analysis and Development Framework (IAD)</subject>
+          <subject source="lcsh">Law</subject>
+          <occupation source="ingest">law professor</occupation>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <corpname rules="rda" source="local">Ostrom Workshop</corpname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_4a9adbcba21d2ee517f53ece939968d8" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Hart, Jeffrey</unittitle>
+          <unitid>14-014</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Guerrero, Paulina</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-19/2014-06-19">June 19, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_9333e53f27cc3c8fa6e94c3b1c3d3dc8" label="Physical Description">13 pages; 1 .wav file, 39 minutes; index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+          .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_3378c7af7e782dadaa6282b6ef0ed864">
+          <head>Access Status </head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_0def83a97198e122ce7f01413f9570bc">
+          <head>Scope Note</head>
+          <p>Jeffrey Hart is a Professor Emeritus of Political Science at Indiana University Bloomington. Hart opens the interview by discussing his initial meeting with Elinor Ostrom, he was interviewing to teach at Indiana University and Elinor Ostrom was about to become the chair of the Department of Political Science. He is also connected to the Vincent Ostrom through a family connection on his wife's side, Joan Hart. He goes onto discuss the way Elinor Ostrom interacted with her graduate students and the influence she had. Hart discusses more of his own research on international political economy and the way that did or did not intertwine with the Ostrom Workshop. This discussion eventually leads to conversation of the future of political science. The interview ends with Hart recalling the Ostrom legacy including the intellectual community the Ostrom Workshop fostered.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_a45cda66825365d97323f43089f43dd6">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_9a30ee2aab71fe1f1a512026024f651e">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">art collections</subject>
+          <subject source="local">intellectual community</subject>
+          <subject source="ingest">political science</subject>
+          <occupation source="local">Professor Emeritus</occupation>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <persname audience="internal">Ostrom, Vincent, 1919-2012</persname>
+          <corpname rules="rda" source="local">Ostrom Workshop</corpname>
+          <corpname rules="rda" source="local">University of Oregon</corpname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_0cec922c82015cc8c198c132965654ef" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Hart, Joan</unittitle>
+          <unitid>14-012</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Colom, Gloria</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-19/2014-06-19">June 19, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_ff976a23eddc1b63344f23bc480d2d53" label="Physical Description">12 pages; 2 .wav files, 49 minutes; no index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+          .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_135d3077975806af42725c7e45bb49e6">
+          <head>Access Status </head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_fb743beceb48c61ef85f601e59eb75d0">
+          <head>Scope Note</head>
+          <p>Joan Hart is an art historian and textile specialist. Hart first met Vincent and Elinor Ostrom in Bloomington through political science department parties. Soon after meeting Vincent Ostrom, recognized a connection to Hart through Hart's uncle while they were both at the University of Oregon. Throughout the interview there is discussion of the Ostroms' hobbies such as collecting Native American artifacts like baskets, some of these baskets went on exhibit at the Mathers Museum. Hart goes into detail about the Ostroms' hobby of woodworking, how they were taught, their architectural influence and the pieces the Ostroms' had built which were used throughout the house. This leads to a discussion about the functions of the Ostrom house and the parties they liked to host. Further on Hart describes her time on the schoolboard, how Elinor Ostrom was helpful throughout her campaign. This leads to a discussion about Elinor's recognition for the Nobel Prize and the disparities between men and women in the academic setting. The interview concludes with Hart discussing many examples of Elinor Ostrom's generosity.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_fe287215477e9fd110c689e64ad03a20">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_a8b7a2045892cea762f31f5c94df5945">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="ingest">family history</subject>
+          <subject source="local">Native American art collections</subject>
+          <subject source="local">Nobel Prize</subject>
+          <subject source="ingest">political science</subject>
+          <subject source="ingest">school board</subject>
+          <subject source="ingest">women in academia</subject>
+          <subject source="local">woodworking</subject>
+          <occupation source="local">art historian</occupation>
+          <corpname rules="rda" source="local">Mathers Museum -- Indiana University</corpname>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <persname audience="internal">Ostrom, Vincent, 1919-2012</persname>
+          <corpname rules="rda" source="local">University of Oregon</corpname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_1ac45d73507cbbc76849e21177cc19f3" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Hess, Charlotte</unittitle>
+          <unitid>14-031</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Stahlman, Joseph</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-07-15/2014-07-15">July 15, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_fa4b0bd7d121d7f2e4b97cdc510ac8f5" label="Physical Description">19 pages; 1 .wav file, 63 minutes; no index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+          .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_5b5d0b073f3f91c430fdbc8a85840532">
+          <head>Access Status </head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_6dc09a0d969dfad55458fca0ef4eb948">
+          <head>Scope Note</head>
+          <p>
+Charlotte Hess was the Director of the Library and Information at the Ostrom Workshop from 1989 to 2008. Hess begins by recounting the way the library started and the way it developed, including what it was like to create the library catalog for the Workshop. Hess also talks about connecting the Ostroms' work and the International Association of Common Property. Later, she discusses editing Vincent Ostrom's book
+            <i>The Meaning of Democracy and the Vulnerability of Democracies: A Response to Tocqueville's Challenge</i>
+(1997) and Vincent Ostrom himself.
+          </p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_8dcc07134c4492f1c1f76ae1d7ab0c0d">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_3f885df9309b19804da522f1f772eacd">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">Digital Library of the Commons</subject>
+          <occupation source="local">Director of research</occupation>
+          <occupation source="local">Director of library and information</occupation>
+          <subject source="local">library profession</subject>
+          <subject source="ingest">research</subject>
+          <subject source="local">self-governance</subject>
+          <subject source="local">the commons</subject>
+          <subject source="local"> "The Meaning of Democracy and the Vulnerability of Democracies: A Response to Tocqueville's Challenge" (1997</subject>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <persname audience="internal">Ostrom, Vincent, 1919-2012</persname>
+          <corpname rules="rda" source="local">Ostrom Workshop</corpname>
+          <corpname rules="rda" source="local">International Association for Study of the Commons (IASC)</corpname>
+          <corpname rules="rda" source="local">The International Association for the Study of Common Property (IASCP)</corpname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_c3e43e37dbe4656eb89033e32fdf4667" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Kashwan, Prakash</unittitle>
+          <unitid>14-019</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Colom, Gloria</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-21/2014-06-21">June 21, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_988629ae1ff510b0735f15dd5dd0b294" label="Physical Description">10 pages; 1 .wav file, 46 minutes; no index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_703e4805020b37230b08e571acfd4131">
+          <head>Access Status </head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_b10a7c01e670dae4fcd2b94a25e9bd4b">
+          <head>Scope Note</head>
+          <p>Prakash Kashwan is an Associate Professor in the Department of Political Science and Co-Director of the Economic and Social Rights Research Group at the Human Rights Institute, at the University of Connecticut, Storrs. Kashwan first met the Ostroms when he came to Indiana University to work on his PhD. He recalls memories with Elinor and Vincent Ostrom. The interview moves on to discuss the Workshop on the Ostrom Workshop (WOW) conference and its future along with the Ostroms intellectual legacy. Kashwan ends by discussing Vincent Ostrom and Elinor Ostrom's teaching.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_3da8f28de58bfd21a9e08c1ab8e75354">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_1eaa00439280edbd6638daee9d2f9037">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="ingest">forestry</subject>
+          <subject source="local">methodological individualism</subject>
+          <subject source="ingest">teaching</subject>
+          <subject source="local">Workshop on the Ostrom Workshop Conference (WOW)</subject>
+          <occupation source="ingest">professor</occupation>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <persname audience="internal">Ostrom, Vincent, 1919-2012</persname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_c61832605ba061348d9d2e601fd4f8d9" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Lykens, Kristine</unittitle>
+          <unitid>14-009</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Stahlman, Joseph</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-17/2014-06-17">June 17, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_16483e7c4b9176ae56212cbe00394938" label="Physical Description">20 pages; 1 .wav file, 57 minutes; no index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_7724d9bf600f16434f27912d64727c98">
+          <head>Access Status </head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_d2d2536de29bb20c7d1c3f262a19502f">
+          <head>Scope Note</head>
+          <p>Kristine Lykens is an Associate Professor in the Department of Health Behavior and Health Systems at the University of North Texas. As an undergraduate student at Indiana University she was a student of Elinor and Vincent Ostrom. She discusses her experiences as a student, working with the Ostroms on several projects, and as a teaching intern for the Vincent Ostrom. She also discusses her personal life, her reconnection with Elinor, and her aspirations for her future research that was inspired by her studies under the Ostroms. Kristine Lykens finished her interview discussing the origins of the Ostrom Workshop as well as the Workshop on the Ostrom Workshop (WOW).</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_4cb549624592cf7d9456395cc1cb39f8">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_baa845381afa0012a13cc8b856b31891">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <occupation source="local">associate professor</occupation>
+          <subject source="local">constitutional theory</subject>
+          <subject source="local">health planning agency</subject>
+          <subject source="local">mentorship</subject>
+          <subject source="local">municipalities</subject>
+          <subject source="local">police services</subject>
+          <subject source="local">"Polycentric Circles"</subject>
+          <geogname source="ingest">St. Louis, Missouri</geogname>
+          <occupation source="local">teaching intern</occupation>
+          <geogname source="local">West Africa -- Ghana</geogname>
+          <geogname source="local">West Africa -- Nigeria</geogname>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <persname audience="internal">Ostrom, Vincent, 1919-2012</persname>
+          <corpname rules="rda" source="local">Ostrom Workshop</corpname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_62a647a860c05714acc56095800bf4c4" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>MacKinnon, Anne</unittitle>
+          <unitid>14-018</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Stahlman, Joseph</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-19/2014-06-19">June 19, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_f3eebaf9cb8697f89d18c77484240860" label="Physical Description">19 pages; 1 .wav file, 63 minutes; no index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_90f566f5ac8a441c24078ea6693e52b4">
+          <head>Access Status </head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_ffcb2089c957eacc0a76dd9a6427a2c3">
+          <head>Scope Note</head>
+          <p>Anne MacKinnon is an Independent Environmental Services Professional. MacKinnon briefly met the Ostroms when she went to a Workshop on the Workshop 3 conference. After this, she applied and became a visiting scholar fall semester of 2005. She discusses her time at the Ostrom Workshop and how she got her Ph.D. MacKinnon explains the Ostrom Workshop community, the Workshop itself and Elinor Ostrom as a teacher.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_bf1b0aac83423c4acc3a9f1ea58cb357">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_e5496d32675014ba2330a18fe03e7734">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <occupation source="local">Environmental Services Professional</occupation>
+          <geogname source="ingest">Berlin, Germany</geogname>
+          <subject source="local">water law</subject>
+          <subject source="local">Workshop on the Ostrom Workshop Conference (WOW)</subject>
+          <occupation source="local">visiting scholar</occupation>
+          <geogname source="ingest">Wyoming</geogname>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <corpname rules="rda" source="local">Ostrom Workshop</corpname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_3a889f524e60fc5adc7366e14a94ad33" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>McGinnis, Michael</unittitle>
+          <unitid>14-004</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Clark, Sara</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-16/2014-06-16">June 16, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_c8c5ee79aa1bf4b502a0330a2d631257" label="Physical Description">24 pages;1 .wav file, 87 minutes; index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_4aa86a4473d48ef4d2239ac1d53d1063">
+          <head>Access Status </head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_460738743620fbb72268f8db0521ae2c">
+          <head>Scope Note</head>
+          <p>Michael McGinnis is a Professor Emeritus in the Department of Political Science at Indiana University. McGinnis begins by discussing his interview with the Ostroms for an assistant professor position. He then discusses working with the Ostroms and Political Theory and Policy Analysis within the Ostrom Workshop. McGinnis reflects on his collaboration with Vincent Ostrom while teaching together and Elinor Ostrom through research. The interview closes with McGinnis recounting going to the Nobel Prize ceremony with Elinor Ostrom and working with Elinor Ostrom after the Nobel.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_1c0b60b19e9405ebf8dd8f3871ac0616">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_aa4cf6cb12bafb38085a5f7f0e4603fc">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">Nobel Prize</subject>
+          <subject source="local">political analysis</subject>
+          <subject source="ingest">political science</subject>
+          <subject source="local">political theory</subject>
+          <occupation source="local">Professor Emeritus</occupation>
+          <subject source="local">public administration</subject>
+          <subject source="local">self-governance</subject>
+          <subject source="local">Workshop on the Ostrom Workshop Conference (WOW)</subject>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <persname audience="internal">Ostrom, Vincent, 1919-2012</persname>
+          <corpname rules="rda" source="local">Ostrom Workshop</corpname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_1520041be3cfcb96b5d1279ddb0f66cd" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Meinzen-Dick, Ruth</unittitle>
+          <unitid>14-013</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Colom, Gloria</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-20/2014-06-20">June 20, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_55baf02fcb3aed50f919b63ea00852ce" label="Physical Description">11 pages; 1 .wav file, 54 minutes; no index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_427973db2b431ae04214dd4da1e34315">
+          <head>Access Status </head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_e049a4370a0d6ad742a486864b147e63">
+          <head>Scope Note</head>
+          <p>In this interview Meinzen-Dick discusses her relationship with Elinor (Lin) Ostrom and how they met, through the International Food Policy Research Institute and the International Association for Study of the Commons (IASC). She goes on to discuss collaboration through the Consultative Group on International Agricultural Research (CIGAR), avoiding hagiography, the IASC conferences, the Ostrom Workshop, and Elinor Ostrom's influence as a role model for women faculty.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_4a8488a9f17832402fa3fa8264bfab43">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_069d6bb5fc8f484e16a0229d87541da8">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <geogname source="ingest">England</geogname>
+          <subject source="local">"Governing the Commons"</subject>
+          <geogname source="ingest">India</geogname>
+          <subject source="local">irrigation</subject>
+          <subject source="local">Institutional Analysis and Development Framework (IAD)</subject>
+          <subject source="local">Nobel Prize</subject>
+          <geogname source="ingest">Philippines</geogname>
+          <occupation source="local">senior research fellow</occupation>
+          <subject source="local">water management</subject>
+          <corpname rules="rda" source="local"> Consultative Group on International Agricultural Research (CGIAR)</corpname>
+          <corpname rules="rda" source="local">International Association for Study of the Commons (IASC)</corpname>
+          <corpname rules="rda" source="local">International Food Policy Research Institute (IFPRI)</corpname>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <corpname rules="rda" source="local">Ostrom Workshop</corpname>
+          <persname rules="rda" source="local">von Benda-Beckmann, Franz</persname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_6c6d675eb9e0cd3dd2f83fe4c528f2e1" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Merino, Leticia</unittitle>
+          <unitid>14-021</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Guerrero, Paulina</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-20/2014-06-20">June 20, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_642ea5233b97a118cb1ad0e011dfcff9" label="Physical Description">17 pages; 1 .wav file, 54 minutes; no index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_0211c5093e0156c0cdb4eabd9ffa04db">
+          <head>Access Status </head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_11af82dc10b9b9663bf4d05c40e26dbd">
+          <head>Scope Note</head>
+          <p>Leticia Merino is a researcher with a Doctorate of Anthropology specializing in agrarian studies. Merino opens the interview by discussing her personal background and how her background in forestry led her to Elinor Ostrom's book
+            <i> Governing the Commons </i>. Merino met Ostrom in Mexico through Gustavo Gordillo, a mutual colleague. Merino was asked to go through the International Forestry Resources and Institutions (IFRI) program at the Ostrom Workshop, which she did, and became more involved after taking the course. Merino goes onto discuss collaborating with Ostrom through IFRI and the International Association for the Study of the Commons (IASC). She reflects on her friendship with Ostrom through a discussion of Ostrom's visit to a climate change conference in Mexico. The interview closes with a discussion on the 2012 Planet Under Pressure Conference in London where Ostrom was a keynote speaker.
+          </p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_ea4b7247046ef96c6a8ac1c5b8ce683d">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_b8b7f4f3f1bdf4de2d68fed25e9a72f1">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">conferences</subject>
+          <subject source="ingest">forestry</subject>
+          <subject source="local">"Governing the Commons"</subject>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <corpname rules="rda" source="local">International Association for Study of the Commons (IASC)</corpname>
+          <corpname rules="rda" source="local">International Forestry Resources and Institutions (IFRI)</corpname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_1ef680f43094dc14f61c7679f375a3aa" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Nagendra, Harini</unittitle>
+          <unitid>14-026</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Colom, Gloria</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-07-02/2014-07-02">July 02, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_a2801810ce2c0865ec3d51c5e7c1fea4" label="Physical Description">18 pages; 2 .wav files, 66 minutes; no index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_d0cfca244a11d3731f551ce29eae1583">
+          <head>Access Status </head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_7a95c5672fd94e3e675c466fe4c85c59">
+          <head>Scope Note</head>
+          <p>Harini Nagendra is a professor of sustainability and coordinator of the Centre for Urban Sustainability at Azim Premji University in Bangalore India. Nagendra describes her personal background that lead her to contact Elinor Ostrom while pursing postdoctoral opportunities. She received a research position at the Center for the Study of Institutions, Populations and Environmental Change (CIPEC) focusing on human-nature interactions in Asia. Furthermore, she discusses her research in collaboration with Ostrom on Bangalore urban villages and their connections to lakes such as Lake Kaikondrahhalli. Later on Nagendra discusses Elinor Ostrom's Nobel Prize and her impact on future research. There is also discussion of Elinor Ostrom and Vincent Ostrom and Nagendra's connect with them. She goes onto describe their personalities and generosity, last memories, and the Ostroms' as collectors.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_3f1b46fa1c6e7fa58946d73f67bdd1d6">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_449e99e577f63d1d2ed9d23b091eda8f">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <geogname source="ingest">Bangalore, India</geogname>
+          <subject source="ingest">ecology</subject>
+          <subject source="ingest">biodiversity</subject>
+          <geogname source="local">Lake Kaikondrahalli, India</geogname>
+          <geogname source="ingest">Nepal</geogname>
+          <subject source="local">Nobel Prize</subject>
+          <subject source="local">Social-Ecological Systems Framework</subject>
+          <corpname rules="rda" source="local">Center of Excellence of the Study of Population, Institutions, and Environmental Change (CIPEC)</corpname>
+          <corpname rules="rda" source="local">Foundation for Ecological Security</corpname>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <persname audience="internal">Ostrom, Vincent, 1919-2012</persname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_552e726d59297c800c67803dc572e45b" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Parks, Carol</unittitle>
+          <unitid>14-005</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Colom, Gloria</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-11/2014-06-11">June 11, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_b32a4ced84978120c17a12e925fdb543" label="Physical Description">14 pages; 1 .wav file, 126 minutes; index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_a5290e78ab7b2266f11acf65b7226c15">
+          <head>Access Status</head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_ed0249f12c10faae7c3a9fe5d0be7484">
+          <head>Scope Note</head>
+          <p>Carol Parks is the spouse of Roger Parks and friend of the Ostroms'. Roger Parks is a former student of Elinor Ostrom's, which is how they initially met. Carol Parks built a stronger relationship with Elinor Ostrom while cataloging the artwork in the Ostrom house. During this cataloging project Elinor Ostrom and Parks consulted many different people and agencies including the Mathers Museum. This leads to a discussion about the construction of the Ostrom house, which was built like a Native American longhouse. She further discusses the Ostroms' collection of Native American work while they were at their Manitoulin Island house in Ontario, Canada. Roger and Carol Parks had the opportunity to go to this house on the island which is discussed. Parks then discusses the impact of Elinor Ostrom's Nobel Prize in Economics and the changes in the Ostrom Workshop over the years. The interview concludes with personal antecedents about the Ostroms.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_6729cdc1590c5fcafb488db473aa3449">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_1370f28fa857d81a361208d45b55c650">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="ingest">architecture</subject>
+          <subject source="local">art collections</subject>
+          <subject source="ingest">Native Americans</subject>
+          <subject source="local">Nobel Prize</subject>
+          <geogname source="local">Manitoulin Island, Ontario, Canada</geogname>
+          <corpname rules="rda" source="local">Mathers Museum -- Indiana University</corpname>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <persname audience="internal">Ostrom, Vincent, 1919-2012</persname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_f8e3d8694cf16da494b7ce34069bafd2" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Parks, Roger</unittitle>
+          <unitid>14-001</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Clark, Sara</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-04/2014-06-04">June 04. 2014</unitdate>
+          <physdesc audience="internal" id="aspace_5e773a50e29de0b9bed9543db28a0f8d" label="Physical Description">21 pages; 1 .wav file, 76 mintues; index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_3c3151d60cfad4e23df1bcaf7b7442f3">
+          <head>Access Status </head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_52a0c724327ce31835d07fba48eae7d1">
+          <head>Scope Note</head>
+          <p>Roger Parks is an Professor Emeritus of Public and Environmental Affairs at Indiana University. He was a student, co-worker, and friend of Elinor (Lin) Ostrom and Vincent Ostrom. In this interview Parks discusses his relationship with the Ostroms', projects he worked on and his role at the Ostrom Workshop where he was a graduate student worker and later became the Associate Director.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_279a6dc3b531b4a82d40eee5e2727b16">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_c8a0277fc0fbccc017aad216d582526f">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <geogname source="ingest">Indianapolis, Indiana</geogname>
+          <subject source="local">Measure Project</subject>
+          <subject source="local">Nobel Prize</subject>
+          <occupation source="local">Professor Emeritus</occupation>
+          <subject source="local">police studies</subject>
+          <subject source="ingest">research</subject>
+          <geogname source="ingest">St. Louis, Missouri</geogname>
+          <corpname source="ingest">American Political Science Association</corpname>
+          <persname rules="rda" source="local">Guarasci, Richard</persname>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <persname audience="internal">Ostrom, Vincent, 1919-2012</persname>
+          <corpname rules="rda" source="local">National Institute of Justice</corpname>
+          <corpname authfilenumber="n79005681" rules="rda" source="lcnaf">National Science Foundation (U.S.)</corpname>
+          <corpname source="ingest">National Institute of Mental Health</corpname>
+          <persname rules="rda" source="local">Smith, Dennis</persname>
+          <corpname rules="rda" source="local">University of North Carolina</corpname>
+          <persname rules="rda" source="local">Whitaker, Gordon</persname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_7596b195ea733cb29967fb949e976994" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Pradhan, Prachanda</unittitle>
+          <unitid>14-025</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Guerrero, Paulina</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-25/2014-06-25">June 25, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_3d3322f0cdec9b2bc2d5e60ccb88314a" label="Physical Description">10 pages; 1 .wav file, 44 minutes; no index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_36e22b69db12d5b03fbe7f98e5064428">
+          <head>Access Status </head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_045b45d8f945fc5cf5577a61df1ef54a">
+          <head>Scope Note</head>
+          <p>Dr. Prachanda Pradhan is a leading scholar who has been promoting values and benefits of farmer managed irrigation system in Nepal and other developing countries. Pradhan begins the interview by discussing how he met Elinor Ostrom, her visit to Nepal and their roles in the Farmer Managed Irrigation Systems Promotion Trust. He further discusses his working relationship and personal relationship with Elinor Ostrom while collaboratively writing Improving Irrigation in Asia. Also mentioned is how Pradhan learned from Elinor Ostrom and Vincent Ostrom through the Ostrom Workshop and other methods.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_59bc55384b116b9698f158f41b5f618a">
+          <head>Conditions Governing Use</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_0a05abb73305e0ffdbc4a843e8d4e257">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">farmer-managed irrigation systems</subject>
+          <subject source="local">"Improving Irrigation in Asia"</subject>
+          <geogname source="ingest">Nepal</geogname>
+          <occupation source="local">scholar</occupation>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <persname audience="internal">Ostrom, Vincent, 1919-2012</persname>
+          <corpname rules="rda" source="local">Ostrom Workshop</corpname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_6d1db689a47f58b94715431af2042789" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Swindell, David</unittitle>
+          <unitid>14-017</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Stahlman, Joseph</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="2014-06-21/2014-06-21">June 21, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_1018289a4fa9be3f88d698639860aad4" label="Physical Description">21 pages; 1 .wav file, 74 minutes; index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_745707b38153a8677c1b11f537b4baed">
+          <head>Access Status </head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_877f58161c03f054f0b5a0cbc5f4deba">
+          <head>Scope Note</head>
+          <p>David Swindell is the Director of the Center for Urban Innovation at Arizona State University. The interview begins with Swindell recounting how he got to know Elinor and Vincent Ostrom and his graduate research at the Ostrom Workshop. Discussion of research at the Ostrom Workshop leads to a discussion of the application of polycentricity of applied research. Swindell closes with his personal memories of Elinor and Vincent Ostrom and their legacy.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_6bbac495d8452a82ee8b1d657c064668">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_0f99be4758c02ffd3396bccfcd8aee60">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">American Political Science Review</subject>
+          <occupation source="local">Director</occupation>
+          <geogname source="ingest">Indianapolis, Indiana</geogname>
+          <subject source="local">municipal federalism</subject>
+          <geogname source="ingest">Phoenix, Arizona</geogname>
+          <subject source="local">Polycentricity</subject>
+          <corpname rules="rda" source="local">Arizona State University Center for Urban Innovation</corpname>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <persname audience="internal">Ostrom, Vincent, 1919-2012</persname>
+          <persname rules="rda" source="local">Parks, Roger</persname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_055daec7327829cc600e23ece8826551" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Tucker, Catherine</unittitle>
+          <unitid>14-027</unitid>
+          <origination label="Creator">
+            <persname role="ivr" rules="rda" source="local">Guerrero, Paulina</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce">July 09, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_ebb486ddb752625958c66451cd0a6410" label="Physical Description">18 pages; 2 .wav files, 62 minutes; no index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+            .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_adaaad3160a79316c432fa9ff02953cc">
+          <head>Access Status </head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_e69a1686dc28473b6933c6d787ea8ddc">
+          <head>Scope Note</head>
+          <p>Catherine Tucker has a joint appointment with the Department of Anthropology and the Center for Latin American Studies at the University of Florida. Tucker begins her interview by recounting how she met Elinor Ostrom and her experiences with her at the Center for the Study of Institutions, Population, and Environmental Change (CIPEC). She goes on to discuss Ostrom as a mentor and her own teaching. Tucker then talks about her work at the Ostrom Workshop which includes her teaching with the International Forestry Research and Institutions Research Program (IFRI). The interview concludes with Tucker reflecting on Elinor Ostrom and Vincent Ostrom and how they, especially Elinor Ostrom, would want to be remembered.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_a7370bf422ff595038f0c10204ab47bd">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_107240cd38155956ab62dc8c21847068">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">cooperation</subject>
+          <subject source="local">forest management</subject>
+          <geogname source="ingest">Mexico</geogname>
+          <occupation source="ingest">professor</occupation>
+          <corpname rules="rda" source="local">Center of Excellence of the Study of Population, Institutions, and Environmental Change (CIPEC)</corpname>
+          <corpname rules="rda" source="local">International Forestry Resources and Institutions (IFRI)</corpname>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <persname audience="internal">Ostrom, Vincent, 1919-2012</persname>
+          <corpname rules="rda" source="local">Ostrom Workshop</corpname>
+        </controlaccess>
+      </c01>
+      <c01 audience="internal" id="aspace_6a1c5202d0a2337273cf362fd04bf0ae" level="otherlevel" otherlevel="Interview">
+        <did>
+          <unittitle>Walker, James</unittitle>
+          <unitid>14-006</unitid>
+          <origination label="Creator">
+            <persname rules="rda" source="local">Clark, Sara</persname>
+          </origination>
+          <unitdate calendar="gregorian" datechar="creation" era="ce" normal="214-06-11/214-06-11">June 11, 2014</unitdate>
+          <physdesc audience="internal" id="aspace_c603874922a8934e4d2cc2d453fc8fc7" label="Physical Description">26 pages; 1 .wav file, 88 minutes; index</physdesc>
+          <langmaterial>
+            <language langcode="eng" scriptcode="Latn">English</language>
+          .
+          </langmaterial>
+        </did>
+        <accessrestrict audience="internal" id="aspace_f640a4d86acf46e0d1eb4df17c894764">
+          <head>Access Status </head>
+          <p>Open</p>
+        </accessrestrict>
+        <scopecontent audience="internal" id="aspace_9d00f759e7bbb2f028846a0b3b221f2b">
+          <head>Scope Note</head>
+          <p>James Walker is a Professor of Economics at Indiana University. Walker first worked with Elinor Ostrom on a National Science Foundation proposal with Roy Gardner which is discussed in detail. After years of collaboration with the Ostroms, Walker became closer to them which led to him going with Elinor Ostrom to the Nobel Prize ceremony and he became executor of their estate. Walker also discusses the history of the Ostrom Workshop and the way it evolved over the years.</p>
+        </scopecontent>
+        <userestrict audience="internal" id="aspace_da3f0bf524dc9c8c02224eb12e618906">
+          <head>Usage Restrictions</head>
+          <p>The archive of the Center for Documentary Research and Practice at Indiana University is open to the use of researchers. Copies of transcript pages are available only when such copies are permitted by the deed of gift. Scholars must honor any restrictions the interviewee placed on the use of the interview. Since some of our earlier (pre-computer) transcripts do not exist in final form, any editing marks in a transcript (deletions, additions, corrections) are to be quoted as marked. Audio files may not be copied for patrons unless the deed of gift permits it, and a transcript is unavailable for that interview. The same rules of use that apply to a transcript apply to the audio interview. Interviews may not be reproduced in full for any public use, but excerpted quotes may be used as long as researchers fully cite the data in their research, including accession number, interview date, interviewee's and interviewer's name, and page(s).</p>
+        </userestrict>
+        <prefercite audience="internal" id="aspace_d7820743ebd84378bc584ea20cd8e86b">
+          <head>Preferred Citation</head>
+          <p>[interviewee first name last name] interview, by [interviewer first name last name], [interview date(s)], [call number], [project name], Center for Documentary Research and Practice, Indiana University, Bloomington, [page number(s) or tape number and side if no transcript; if digital audio and no transcript, cite time when quote occurs].</p>
+        </prefercite>
+        <controlaccess>
+          <subject source="local">executor</subject>
+          <subject source="local">experiments</subject>
+          <subject source="local">experimental economics</subject>
+          <subject source="local">game theory</subject>
+          <subject source="local">Nobel Prize</subject>
+          <subject source="local">political theory</subject>
+          <subject source="local">policy analysis</subject>
+          <persname audience="internal" rules="rda" source="lcnaf">Ostrom, Elinor</persname>
+          <corpname rules="rda" source="local">Ostrom Workshop</corpname>
+          <persname rules="rda" source="local">Gardner, Roy</persname>
+        </controlaccess>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

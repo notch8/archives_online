@@ -9,6 +9,8 @@ require 'arclight/level_label'
 require 'arclight/normalized_id'
 require 'arclight/normalized_date'
 require 'arclight/normalized_title'
+# IU customization: index creator roles with names
+require_relative '../creator_roles'
 require 'active_model/conversion' ## Needed for Arclight::Repository
 require 'active_support/core_ext/array/wrap'
 require 'arclight/digital_object'
@@ -23,6 +25,8 @@ extend TrajectPlus::Macros
 # rubocop:enable Style/MixinUsage
 
 NAME_ELEMENTS = %w[corpname famname name persname].freeze
+
+CREATOR_ELEMENTS = %w[corpname famname persname].freeze
 
 SEARCHABLE_NOTES_FIELDS = %w[
   accessrestrict
@@ -59,6 +63,7 @@ settings do
   provide 'id_normalizer', 'Arclight::NormalizedId'
   provide 'date_normalizer', 'Arclight::NormalizedDate'
   provide 'title_normalizer', 'Arclight::NormalizedTitle'
+  provide 'creator_roles_normalizer', 'Arclight::CreatorRoles'
   provide 'reader_class_name', 'Arclight::Traject::NokogiriNamespacelessReader'
   provide 'solr_writer.commit_on_close', 'true'
   provide 'repository', ENV.fetch('REPOSITORY_ID', nil)
@@ -159,6 +164,20 @@ to_field 'creator_ssm', extract_xpath('/ead/archdesc/did/origination')
 to_field 'creator_ssim', extract_xpath('/ead/archdesc/did/origination')
 to_field 'creator_sort' do |record, accumulator|
   accumulator << record.xpath('/ead/archdesc/did/origination').map { |c| c.text.strip }.join(', ')
+end
+
+to_field 'creator_role_ssim' do |record, accumulator|
+  roles_array = []
+  CREATOR_ELEMENTS.map do |selector|
+    creator = record.at_xpath("/ead/archdesc/did/origination/#{selector}")
+    next unless creator
+
+    role = creator&.attribute('role')&.value
+    roles_array << { creator: creator&.text&.strip, role: role }
+  end
+  if roles_array.present?
+    accumulator << settings['creator_roles_normalizer'].constantize.new(creator_roles: roles_array, logger: settings['logger']).to_s
+  end
 end
 
 to_field 'creator_persname_ssim', extract_xpath('/ead/archdesc/did/origination/persname')
