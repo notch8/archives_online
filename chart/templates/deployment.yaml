@@ -39,8 +39,6 @@ spec:
           envFrom:
             - configMapRef:
                 name: {{ include "chart.fullname" . }}-env
-            - secretRef:
-                name: {{ include "chart.fullname" . }}
             {{- if .Values.solrExistingSecret }}
             - secretRef:
                 name: {{ .Values.solrExistingSecret }}
