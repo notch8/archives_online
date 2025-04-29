@@ -39,6 +39,9 @@ NAME_ELEMENTS = %w[corpname famname name persname].freeze
 
 CREATOR_ELEMENTS = %w[corpname famname persname].freeze
 
+# EAD tags nested in the <physdesc> element that are indexed on their own
+PHYSDESC_FIELDS = %w[physfacet dimensions].freeze
+
 SEARCHABLE_NOTES_FIELDS = %w[
   accessrestrict
   accruals
@@ -180,19 +183,6 @@ to_field 'collection_ssim' do |_record, accumulator, _context|
   accumulator.concat settings[:root].output_hash['normalized_title_ssm']
 end
 
-# This accumulates direct text from a physdesc, ignoring child elements handled elsewhere
-to_field 'physdesc_tesim', extract_xpath('./did/physdesc', to_text: false) do |_record, accumulator|
-  accumulator.map! do |element|
-    physdesc = []
-    element.children.map do |child|
-      next if child.instance_of?(Nokogiri::XML::Element)
-
-      physdesc << child.text&.strip unless child.text&.strip&.empty?
-    end.flatten
-    physdesc.join(' ') unless physdesc.empty?
-  end
-end
-
 to_field 'extent_ssm' do |record, accumulator|
   physdescs = record.xpath('./did/physdesc')
   extents_per_physdesc = physdescs.map do |physdesc|
@@ -209,8 +199,16 @@ to_field 'extent_tesim' do |_record, accumulator, context|
   accumulator.concat context.output_hash['extent_ssm'] || []
 end
 
-to_field 'physfacet_tesim', extract_xpath('./did/physdesc/physfacet')
-to_field 'dimensions_tesim', extract_xpath('./did/physdesc/dimensions')
+# Adds each element that is nested in <physdesc>
+PHYSDESC_FIELDS.map do |selector|
+  to_field "#{selector}_html_tesm", extract_xpath("./did/physdesc/#{selector}", to_text: false)
+end
+
+# Get text and formatted text from <physdesc> EADs that do not have additional nested elements
+skip_nested_elements = PHYSDESC_FIELDS.map do |selector|
+  "not(#{selector})"
+end.join(' and ')
+to_field 'physdesc_html_tesm', extract_xpath("./did/physdesc[#{skip_nested_elements}]", to_text: false)
 
 to_field 'indexes_html_tesm', extract_xpath('./index', to_text: false)
 to_field 'indexes_tesim', extract_xpath('./index')
@@ -314,7 +312,7 @@ to_field 'access_subjects_ssm' do |_record, accumulator, context|
   accumulator.concat(context.output_hash.fetch('access_subjects_ssim', []))
 end
 
-to_field 'acqinfo_ssim', extract_xpath('./acqinfo/*[local-name()!="head"]')
+to_field 'acqinfo_html_tesm', extract_xpath('./acqinfo/*[local-name()!="head"]', to_text: false)
 to_field 'acqinfo_ssim', extract_xpath('./descgrp/acqinfo/*[local-name()!="head"]')
 
 to_field 'language_ssim', extract_xpath('./did/langmaterial')
