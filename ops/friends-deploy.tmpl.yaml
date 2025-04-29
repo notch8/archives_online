@@ -39,19 +39,18 @@ service:
 
 ingress:
   enabled: true
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    nginx.ingress.kubernetes.io/proxy-body-size: "0"
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
   hosts:
-      host: archives-online-friends.notch8.cloud
+    - host: archives-online-friends.notch8.cloud
       paths:
-          path: /
+        - path: /
           pathType: ImplementationSpecific
-  annotations: {
-    kubernetes.io/ingress.class: "nginx",
-    nginx.ingress.kubernetes.io/proxy-body-size: "0",
-    cert-manager.io/cluster-issuer: letsencrypt-prod
-  }
   tls:
-      hosts:
-          archives-online-friends.notch8.cloud
+    - hosts:
+        - archives-online-friends.notch8.cloud
       secretName: archives-online-tls
 
 env:
@@ -86,6 +85,7 @@ env:
     SOLR_ENABLE_CLOUD_MODE: yes
     SOLR_CLOUD_BOOTSTRAP: no
     ZK_HOST: "solr-zookeeper-0.solr-zookeeper-headless.solr.svc.cluster.local:2181,solr-zookeeper-1.solr-zookeeper-headless.solr.svc.cluster.local:2181,solr-zookeeper-2.solr-zookeeper-headless.solr.svc.cluster.local:2181"
+
 mysql:
   image:
     registry: docker.io
