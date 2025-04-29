@@ -9,6 +9,7 @@ RUN echo 'Downloading Packages' && \
       build-essential \
       gettext \
       libsasl2-dev \
+      netcat \
       nodejs \
       pv \
       rsync \
