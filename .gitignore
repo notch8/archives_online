@@ -72,3 +72,4 @@ yarn-debug.log*
 /public/html
 /public/ead
 .sass-cache
+.env.*

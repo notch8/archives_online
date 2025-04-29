@@ -117,7 +117,7 @@ DIR=data rake arclight:index_dir
 ### Creating solr collections in k8 env with zookeeper
 
 ```
-curl -X POST "http://admin:$SOLR_ADMIN_PASSWORD@solr.staging-solr:8983/solr/admin/collections?action=CREATE&name=archives-online&numShards=1&collection.configName=archives-online"
+curl -X POST "http://admin:$SOLR_ADMIN_PASSWORD@solr.solr:8983/solr/admin/collections?action=CREATE&name=archives-online&numShards=2&collection.configName=archives-online"
 ```
 
 ## Debugging
@@ -193,7 +193,7 @@ Call the Ruby file in the `catalog_controller.rb` file to instantiate the class.
 config.show.bookmark_component = Ngao::Arclight::BookmarkComponent
 ```
 
-Please note the Arclight version and what is being added or removed in the override in the file. This allows for clear communication and to more easily manage Arclight gem updates. 
+Please note the Arclight version and what is being added or removed in the override in the file. This allows for clear communication and to more easily manage Arclight gem updates.
 
 ```
 # OVERRIDE Arclight v1.4.0 to <your change here>

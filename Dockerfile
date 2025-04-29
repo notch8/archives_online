@@ -14,7 +14,8 @@ RUN echo 'Downloading Packages' && \
       pv \
       rsync \
       tzdata \
-      mysql-client && \
+      mysql-client \
+      zip && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
     echo 'Packages Downloaded'
@@ -69,3 +70,10 @@ RUN /sbin/setuser app bash -l -c " \
 
 # Entrypoint
 CMD ["/sbin/my_init"]
+
+FROM solr:8.3 AS solr
+ENV SOLR_USER="solr" \
+    SOLR_GROUP="solr"
+USER root
+COPY --chown=solr:solr solr/security.json /var/solr/data/security.json
+USER $SOLR_USER

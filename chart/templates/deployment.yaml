@@ -36,6 +36,9 @@ spec:
         - name: solr-upload-and-assign-configset
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
+          volumeMounts:
+            - mountPath: /home/app/webapp/solr/conf
+              name: solr-config
           envFrom:
             - configMapRef:
                 name: {{ include "chart.fullname" . }}-env
@@ -54,6 +57,9 @@ spec:
         - name: shared
           persistentVolumeClaim:
             claimName: chart-shared
+        - name: solr-config
+          configMap:
+            name: {{ include "chart.fullname" . }}-solr-config
       containers:
         - name: {{ .Chart.Name }}
           securityContext:
