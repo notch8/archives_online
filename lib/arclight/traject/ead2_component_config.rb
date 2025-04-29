@@ -16,12 +16,9 @@ require 'arclight/digital_object'
 require 'arclight/year_range'
 require 'arclight/missing_id_strategy'
 require 'arclight/traject/nokogiri_namespaceless_reader'
-# Formatting module to handle text formatting in render attributes in EAD
-require_relative './render_formatting'
 
 # rubocop:disable Style/MixinUsage
 extend TrajectPlus::Macros
-extend Arclight::Traject::RenderFormatting
 # rubocop:enable Style/MixinUsage
 
 settings do
@@ -41,6 +38,9 @@ end
 NAME_ELEMENTS = %w[corpname famname name persname].freeze
 
 CREATOR_ELEMENTS = %w[corpname famname persname].freeze
+
+# EAD tags nested in the <physdesc> element that are indexed on their own
+PHYSDESC_FIELDS = %w[physfacet dimensions].freeze
 
 SEARCHABLE_NOTES_FIELDS = %w[
   accessrestrict
@@ -183,8 +183,6 @@ to_field 'collection_ssim' do |_record, accumulator, _context|
   accumulator.concat settings[:root].output_hash['normalized_title_ssm']
 end
 
-to_field 'physdesc_tesim', render_formatted_text('./did/physdesc')
-
 to_field 'extent_ssm' do |record, accumulator|
   physdescs = record.xpath('./did/physdesc')
   extents_per_physdesc = physdescs.map do |physdesc|
@@ -201,9 +199,16 @@ to_field 'extent_tesim' do |_record, accumulator, context|
   accumulator.concat context.output_hash['extent_ssm'] || []
 end
 
-# render_formatted_text extracts the XML and applies formatting to the text
-to_field 'physfacet_tesim', render_formatted_text('./did/physdesc/physfacet')
-to_field 'dimensions_tesim', render_formatted_text('./did/physdesc/dimensions')
+# Adds each element that is nested in <physdesc>
+PHYSDESC_FIELDS.map do |selector|
+  to_field "#{selector}_html_tesm", extract_xpath("./did/physdesc/#{selector}", to_text: false)
+end
+
+# Get text and formatted text from <physdesc> EADs that do not have additional nested elements
+skip_nested_elements = PHYSDESC_FIELDS.map do |selector|
+  "not(#{selector})"
+end.join(' and ')
+to_field 'physdesc_html_tesm', extract_xpath("./did/physdesc[#{skip_nested_elements}]", to_text: false)
 
 to_field 'indexes_html_tesm', extract_xpath('./index', to_text: false)
 to_field 'indexes_tesim', extract_xpath('./index')
@@ -307,8 +312,8 @@ to_field 'access_subjects_ssm' do |_record, accumulator, context|
   accumulator.concat(context.output_hash.fetch('access_subjects_ssim', []))
 end
 
-to_field 'acqinfo_ssim', render_formatted_text('./acqinfo/*[local-name()!="head"]')
-to_field 'acqinfo_ssim', render_formatted_text('./descgrp/acqinfo/*[local-name()!="head"]')
+to_field 'acqinfo_html_tesm', extract_xpath('./acqinfo/*[local-name()!="head"]', to_text: false)
+to_field 'acqinfo_ssim', extract_xpath('./descgrp/acqinfo/*[local-name()!="head"]')
 
 to_field 'language_ssim', extract_xpath('./did/langmaterial')
 to_field 'containers_ssim' do |record, accumulator|

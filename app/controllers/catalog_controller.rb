@@ -398,7 +398,7 @@ class CatalogController < ApplicationController
     config.add_component_field 'extent', field: 'extent_ssm'
     config.add_component_field 'scopecontent', field: 'scopecontent_html_tesm', helper_method: :render_html_tags
     config.add_component_field 'language', field: 'language_ssim'
-    config.add_component_field 'acqinfo', field: 'acqinfo_ssim', helper_method: :render_html_tags
+    config.add_component_field 'acqinfo', field: 'acqinfo_html_tesm', helper_method: :render_html_tags
     config.add_component_field 'bioghist', field: 'bioghist_html_tesm', helper_method: :render_html_tags
     config.add_component_field 'appraisal', field: 'appraisal_html_tesm', helper_method: :render_html_tags
     config.add_component_field 'custodhist', field: 'custodhist_html_tesm', helper_method: :render_html_tags
@@ -408,9 +408,9 @@ class CatalogController < ApplicationController
     config.add_component_field 'phystech', field: 'phystech_html_tesm', helper_method: :render_html_tags
     config.add_component_field 'materialspec', field: 'materialspec_html_tesm', helper_method: :render_html_tags
     config.add_component_field 'physloc', field: 'physloc_html_tesm', helper_method: :render_html_tags
-    config.add_component_field 'physdesc', field: 'physdesc_tesim', helper_method: :render_html_tags
-    config.add_component_field 'physfacet', field: 'physfacet_tesim', helper_method: :render_html_tags
-    config.add_component_field 'dimensions', field: 'dimensions_tesim', helper_method: :render_html_tags
+    config.add_component_field 'physdesc', field: 'physdesc_html_tesm', helper_method: :render_html_tags
+    config.add_component_field 'physfacet', field: 'physfacet_html_tesm', helper_method: :render_html_tags
+    config.add_component_field 'dimensions', field: 'dimensions_html_tesm', helper_method: :render_html_tags
     config.add_component_field 'fileplan', field: 'fileplan_html_tesm', helper_method: :render_html_tags
     config.add_component_field 'altformavail', field: 'altformavail_html_tesm', helper_method: :render_html_tags
     config.add_component_field 'otherfindaid', field: 'otherfindaid_html_tesm', helper_method: :render_html_tags
