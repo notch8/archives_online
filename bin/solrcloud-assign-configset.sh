@@ -5,8 +5,8 @@ if [ "$SOLR_ADMIN_USER" ]; then
   solr_user_settings="--user $SOLR_ADMIN_USER:$SOLR_ADMIN_PASSWORD"
 fi
 
-solr_config_name="${SOLR_CONFIGSET_NAME:-solrconfig}"
-solr_collection_name="${SOLR_COLLECTION_NAME:-hyrax}"
+solr_config_name="${SOLR_CONFIGSET_NAME:-archives-online}"
+solr_collection_name="${SOLR_COLLECTION_NAME:-archives-online}"
 
 # Solr Cloud Collection API URLs
 solr_collection_list_url="$SOLR_HOST:$SOLR_PORT/solr/admin/collections?action=LIST"

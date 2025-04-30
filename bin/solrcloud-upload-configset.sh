@@ -8,7 +8,7 @@ if [ "$SOLR_ADMIN_USER" ]; then
   solr_user_settings="--user $SOLR_ADMIN_USER:$SOLR_ADMIN_PASSWORD"
 fi
 
-solr_config_name="${SOLR_CONFIGSET_NAME:-solrconfig}"
+solr_config_name="${SOLR_CONFIGSET_NAME:-archives-online}"
 
 # Solr Cloud ConfigSet API URLs
 solr_config_list_url="http://$SOLR_HOST:$SOLR_PORT/api/cluster/configs?omitHeader=true"
