@@ -25,7 +25,7 @@ while [ $COUNTER -lt 30 ]; do
         echo "-- ConfigSet already exists; skipping creation ...";
       else
         echo "-- ConfigSet for ${CONFDIR} does not exist; creating ..."
-        (cd "$CONFDIR" && zip -r - *) | curl -X POST $solr_user_settings --header "Content-Type:application/octet-stream" --data-binary @- "$solr_config_upload_url"
+        (cd "$CONFDIR" && zip -r -0 - .) | curl -X POST $solr_user_settings --header "Content-Type:application/octet-stream" --data-binary @- "$solr_config_upload_url"
       fi
       exit
     else
