@@ -1,45 +1,42 @@
 #!/usr/bin/env sh
 
-set -e
-
-COUNTER=0
-TIMEOUT=30
-
-# Defaults
-solr_config_name="${SOLR_CONFIGSET_NAME:-archives-online}"
-solr_host="${SOLR_HOST:-solr}"
-solr_port="${SOLR_PORT:-8983}"
-confdir="${CONFDIR:-/opt/solr/server/solr/configsets/$solr_config_name}"
+COUNTER=0;
+# /home/app/webapp/solr/conf
+CONFDIR="${1}"
 
 if [ "$SOLR_ADMIN_USER" ]; then
   solr_user_settings="--user $SOLR_ADMIN_USER:$SOLR_ADMIN_PASSWORD"
 fi
 
-solr_config_list_url="http://${solr_host}:${solr_port}/api/cluster/configs?omitHeader=true"
-solr_config_upload_url="http://${solr_host}:${solr_port}/solr/admin/configs?action=UPLOAD&name=${solr_config_name}"
+solr_config_name="${SOLR_CONFIGSET_NAME:-solrconfig}"
 
-while [ $COUNTER -lt $TIMEOUT ]; do
-  echo "-- Looking for Solr at ${solr_host}:${solr_port}..."
-  if nc -z "${solr_host}" "${solr_port}"; then
-    echo "-- Solr is up"
+# Solr Cloud ConfigSet API URLs
+solr_config_list_url="http://$SOLR_HOST:$SOLR_PORT/api/cluster/configs?omitHeader=true"
+solr_config_upload_url="http://$SOLR_HOST:$SOLR_PORT/solr/admin/configs?action=UPLOAD&name=${solr_config_name}"
 
-    if curl --silent $solr_user_settings "$solr_config_list_url" | grep -q "\"$solr_config_name\""; then
-      echo "-- ConfigSet '$solr_config_name' already exists; skipping upload."
+while [ $COUNTER -lt 30 ]; do
+  echo "-- Looking for Solr (${SOLR_HOST}:${SOLR_PORT})..."
+  if nc -z "${SOLR_HOST}" "${SOLR_PORT}"; then
+    # shellcheck disable=SC2143,SC2086
+    if curl --silent --user 'fake:fake' "$solr_config_list_url" | grep -q '401'; then
+      # the solr pods come up and report available before they are ready to accept trusted configs
+      # only try to upload the config if auth is on.
+      if curl --silent $solr_user_settings "$solr_config_list_url" | grep -q "$solr_config_name"; then
+        echo "-- ConfigSet already exists; skipping creation ...";
+      else
+        echo "-- ConfigSet for ${CONFDIR} does not exist; creating ..."
+        (cd "$CONFDIR" && zip -r - *) | curl -X POST $solr_user_settings --header "Content-Type:application/octet-stream" --data-binary @- "$solr_config_upload_url"
+      fi
+      exit
     else
-      echo "-- ConfigSet '$solr_config_name' not found; uploading from $confdir..."
-      (cd "$confdir" && zip -r - .) | curl -X POST $solr_user_settings \
-        --header "Content-Type:application/octet-stream" \
-        --data-binary @- "$solr_config_upload_url"
-      echo "-- Upload complete"
+      echo "-- Solr at $solr_config_list_url is accepting unauthorized connections; we can't upload a trusted ConfigSet."
+      echo "--   It's possible SolrCloud is bootstrapping its configuration, so this process will retry."
+      echo "--   see: https://solr.apache.org/guide/8_6/configsets-api.html#configsets-upload"
     fi
-
-    exit 0
   fi
-
-  echo "-- Waiting for Solr..."
-  COUNTER=$((COUNTER + 1))
+  COUNTER=$(( COUNTER+1 ));
   sleep 5s
 done
 
-echo "--- ERROR: Failed to connect to Solr at ${solr_host}:${solr_port} after $((TIMEOUT * 5)) seconds."
+echo "--- ERROR: failed to create Solr ConfigSet after 5 minutes";
 exit 1
