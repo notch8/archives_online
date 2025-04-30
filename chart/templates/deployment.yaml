@@ -57,9 +57,6 @@ spec:
         - name: shared
           persistentVolumeClaim:
             claimName: chart-shared
-        - name: solr-config
-          configMap:
-            name: {{ include "chart.fullname" . }}-solr-config
       containers:
         - name: {{ .Chart.Name }}
           securityContext:
